@@ -1,1 +1,3 @@
 # curriculum-kg
+* `schema/`
+* `scripts/`
