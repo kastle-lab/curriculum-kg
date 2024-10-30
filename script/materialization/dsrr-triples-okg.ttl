@@ -1,0 +1,2361 @@
+@prefix edu-ont: <https://edugate.cs.wright.edu/lod/resource> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+edu-ont:Author1 a edu-ont:Author ;
+    edu-ont:asString "GPT4o"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author10 a edu-ont:Author ;
+    edu-ont:asString "Megan Noble"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author11 a edu-ont:Author ;
+    edu-ont:asString "Ryan Miller"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author2 a edu-ont:Author ;
+    edu-ont:asString "Mistral"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author3 a edu-ont:Author ;
+    edu-ont:asString "Claude"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author4 a edu-ont:Author ;
+    edu-ont:asString "Jehan Fernando"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author5 a edu-ont:Author ;
+    edu-ont:asString "Christopher Menart"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author6 a edu-ont:Author ;
+    edu-ont:asString "Alexander Moore"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author7 a edu-ont:Author ;
+    edu-ont:asString "Cogan Shimizu"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author8 a edu-ont:Author ;
+    edu-ont:asString "Rakesh Kandula"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Author9 a edu-ont:Author ;
+    edu-ont:asString "Brandon Dave"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Curriculum1 a edu-ont:Curriculum ;
+    edu-ont:asString "Open Knowledge Graph"^^xsd:string ;
+    edu-ont:hasModule edu-ont:Module1,
+        edu-ont:Module10,
+        edu-ont:Module11,
+        edu-ont:Module12,
+        edu-ont:Module13,
+        edu-ont:Module14,
+        edu-ont:Module15,
+        edu-ont:Module16,
+        edu-ont:Module17,
+        edu-ont:Module18,
+        edu-ont:Module19,
+        edu-ont:Module2,
+        edu-ont:Module20,
+        edu-ont:Module22,
+        edu-ont:Module23,
+        edu-ont:Module24,
+        edu-ont:Module25,
+        edu-ont:Module26,
+        edu-ont:Module27,
+        edu-ont:Module28,
+        edu-ont:Module29,
+        edu-ont:Module3,
+        edu-ont:Module30,
+        edu-ont:Module31,
+        edu-ont:Module32,
+        edu-ont:Module33,
+        edu-ont:Module34,
+        edu-ont:Module35,
+        edu-ont:Module36,
+        edu-ont:Module37,
+        edu-ont:Module38,
+        edu-ont:Module39,
+        edu-ont:Module4,
+        edu-ont:Module40,
+        edu-ont:Module41,
+        edu-ont:Module42,
+        edu-ont:Module43,
+        edu-ont:Module44,
+        edu-ont:Module45,
+        edu-ont:Module46,
+        edu-ont:Module47,
+        edu-ont:Module5,
+        edu-ont:Module6,
+        edu-ont:Module7,
+        edu-ont:Module8,
+        edu-ont:Module9 .
+
+edu-ont:Category10 a edu-ont:Category ;
+    edu-ont:asString "History/Context"^^xsd:string .
+
+edu-ont:Category9 a edu-ont:Category ;
+    edu-ont:asString "Visualization"^^xsd:string .
+
+edu-ont:Media1 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is Metadata?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic1 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/1.%20What%20is%20Metadata.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media10 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Rules"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/10.%20Rules.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media100 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Rules"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/10.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media101 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Set Theory"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic13,
+        edu-ont:Topic15,
+        edu-ont:Topic16,
+        edu-ont:Topic17,
+        edu-ont:Topic18,
+        edu-ont:Topic19,
+        edu-ont:Topic20 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/11.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media102 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Discrete Mathematics"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic21,
+        edu-ont:Topic22,
+        edu-ont:Topic23,
+        edu-ont:Topic24,
+        edu-ont:Topic25,
+        edu-ont:Topic26 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/12.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media103 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Open World Assumption vs Closed World Assumption"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/13.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media104 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic27,
+        edu-ont:Topic28,
+        edu-ont:Topic29,
+        edu-ont:Topic30,
+        edu-ont:Topic31,
+        edu-ont:Topic32,
+        edu-ont:Topic33,
+        edu-ont:Topic34,
+        edu-ont:Topic35,
+        edu-ont:Topic7 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/14.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media105 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDFS"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic36,
+        edu-ont:Topic37,
+        edu-ont:Topic38,
+        edu-ont:Topic39 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/15.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media106 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF Serializations"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic40,
+        edu-ont:Topic41,
+        edu-ont:Topic42 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/16.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media107 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF Star"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/17.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media108 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SPARQL"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic43,
+        edu-ont:Topic44,
+        edu-ont:Topic45,
+        edu-ont:Topic46,
+        edu-ont:Topic47,
+        edu-ont:Topic48,
+        edu-ont:Topic49 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/18.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media109 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SWRL"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/19.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media11 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Set Theory"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic13,
+        edu-ont:Topic15,
+        edu-ont:Topic16,
+        edu-ont:Topic17,
+        edu-ont:Topic18,
+        edu-ont:Topic19,
+        edu-ont:Topic20 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/11.%20Introduction%20to%20Set%20Theory.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media110 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "OWL"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic50,
+        edu-ont:Topic51,
+        edu-ont:Topic52,
+        edu-ont:Topic53,
+        edu-ont:Topic54,
+        edu-ont:Topic55,
+        edu-ont:Topic56,
+        edu-ont:Topic57,
+        edu-ont:Topic58 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/20.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media111 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "OWL Dialects"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic59,
+        edu-ont:Topic60,
+        edu-ont:Topic61,
+        edu-ont:Topic62,
+        edu-ont:Topic63,
+        edu-ont:Topic64 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/21.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media112 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Manchester Syntax"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/22.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media113 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SHACL"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/23.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media114 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Schema.org"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic65,
+        edu-ont:Topic66 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/24.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media115 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Dublin Core"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/25.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media116 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SOSA & SSN"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/26.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media117 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "PROV-O"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic67,
+        edu-ont:Topic68 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/27.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media118 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SKOS"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/28.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media119 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Modeling Tools"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic69,
+        edu-ont:Topic70,
+        edu-ont:Topic71,
+        edu-ont:Topic72 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/29.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media12 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Discrete Mathematics"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic21,
+        edu-ont:Topic22,
+        edu-ont:Topic23,
+        edu-ont:Topic24,
+        edu-ont:Topic25,
+        edu-ont:Topic26 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/12.%20Introduction%20to%20Discrete%20Mathematics.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media120 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Protege"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/30.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media121 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Deploying a Knowledge Graph"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/31.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media122 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Knowledge Engineering"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/32.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media123 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Reification"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic73,
+        edu-ont:Topic74 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/33.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media124 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "GraphQL"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/34.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media125 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Documentation Practices"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/35.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media126 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Visualization Tools"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/36.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media127 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Upper Ontologies"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/37.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media128 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Modular Ontologies"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/38.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media129 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Triplestores"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/40.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media13 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Open World Assumption vs Closed World Assumption"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/13.%20Open%20World%20Assumption%20vs%20Closed%20World%20Assumption.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media130 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "History of the Semantic Web"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic75,
+        edu-ont:Topic76 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/41.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media131 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Property Graphs"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/42.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media132 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Nanopublications"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/43.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media133 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Reasoners"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic77,
+        edu-ont:Topic78 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/44.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media134 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Entailment Regimes"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic78 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/45.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media135 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF Plus"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic35 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/46.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media136 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Open Graph Protocol"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/47.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media137 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is Metadata?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic1 ;
+    edu-ont:hasLink "https://github.com/chrisdavisj/open-kg-curriculum/blob/master/curriculum/modules/What_is_Metadata/What_is_Metadata.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media138 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is an Ontology?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6,
+        edu-ont:Topic7 ;
+    edu-ont:hasLink "https://github.com/chrisdavisj/open-kg-curriculum/blob/master/curriculum/modules/What_is_an_Ontology/What_is_an_Ontology.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media139 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is a Knowledge Graph?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic5,
+        edu-ont:Topic7,
+        edu-ont:Topic8 ;
+    edu-ont:hasLink "https://github.com/chrisdavisj/open-kg-curriculum/blob/master/curriculum/modules/What_is_a_Knowledge_Graph/What_is_a_Knowledge_Graph.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media14 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic27,
+        edu-ont:Topic28,
+        edu-ont:Topic29,
+        edu-ont:Topic30,
+        edu-ont:Topic31,
+        edu-ont:Topic32,
+        edu-ont:Topic33,
+        edu-ont:Topic34,
+        edu-ont:Topic35,
+        edu-ont:Topic7 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/14.%20RDF.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media15 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDFS"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic36,
+        edu-ont:Topic37,
+        edu-ont:Topic38,
+        edu-ont:Topic39 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/15.%20RDFS.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media16 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF Serializations"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic40,
+        edu-ont:Topic41,
+        edu-ont:Topic42 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/16.%20RDF%20Serializations.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media17 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF Star"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/17.%20RDF%20Star.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media18 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SPARQL"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic43,
+        edu-ont:Topic44,
+        edu-ont:Topic45,
+        edu-ont:Topic46,
+        edu-ont:Topic47,
+        edu-ont:Topic48,
+        edu-ont:Topic49 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/18.%20SPARQL.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media19 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SWRL"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/19.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media2 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is an Ontology?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6,
+        edu-ont:Topic7 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/2.%20What%20is%20Ontology.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media20 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "OWL"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic50,
+        edu-ont:Topic51,
+        edu-ont:Topic52,
+        edu-ont:Topic53,
+        edu-ont:Topic54,
+        edu-ont:Topic55,
+        edu-ont:Topic56,
+        edu-ont:Topic57,
+        edu-ont:Topic58 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/20.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media21 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "OWL Dialects"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic59,
+        edu-ont:Topic60,
+        edu-ont:Topic61,
+        edu-ont:Topic62,
+        edu-ont:Topic63,
+        edu-ont:Topic64 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/21.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media22 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Manchester Syntax"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/22.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media23 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SHACL"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/23.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media24 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Schema.org"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic65,
+        edu-ont:Topic66 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/24.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media25 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Dublin Core"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/25.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media26 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SOSA & SSN"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/26.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media27 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "PROV-O"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic67,
+        edu-ont:Topic68 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/27.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media28 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SKOS"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/28.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media29 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Modeling Tools"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic69,
+        edu-ont:Topic70,
+        edu-ont:Topic71,
+        edu-ont:Topic72 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/29.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media3 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is a Knowledge Graph?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic5,
+        edu-ont:Topic7,
+        edu-ont:Topic8 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/3.%20What%20is%20a%20Knowledge%20Graph.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media30 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Protege"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/30.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media31 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Deploying a Knowledge Graph"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/31.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media32 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Knowledge Engineering"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/32.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media33 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Reification"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic73,
+        edu-ont:Topic74 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/33.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media34 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "GraphQL"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/34.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media35 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Documentation Practices"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/35.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media36 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Visualization Tools"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/36.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media37 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Upper Ontologies"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/37.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media38 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Modular Ontologies"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/38.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media39 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Triplestores"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/40.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media4 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is an Identifier?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic10,
+        edu-ont:Topic11,
+        edu-ont:Topic9 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/4.%20What%20is%20an%20Identifier.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media40 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "History of the Semantic Web"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic75,
+        edu-ont:Topic76 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/41.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media41 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Property Graphs"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/42.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media42 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Nanopublications"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/43.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media43 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Reasoners"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic77,
+        edu-ont:Topic78 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/44.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media44 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Entailment Regimes"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic78 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/45.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media45 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF Plus"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic35 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/46.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media46 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Open Graph Protocol"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/47.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media47 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is Metadata?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic1 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/1.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media48 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is an Ontology?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6,
+        edu-ont:Topic7 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/2.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media49 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is a Knowledge Graph?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic5,
+        edu-ont:Topic7,
+        edu-ont:Topic8 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/3.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media5 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Logic"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic12,
+        edu-ont:Topic13,
+        edu-ont:Topic14 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/5.%20Introduction%20to%20Logic.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media50 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is an Identifier?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic10,
+        edu-ont:Topic11,
+        edu-ont:Topic9 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/4.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media51 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Logic"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic12,
+        edu-ont:Topic13,
+        edu-ont:Topic14 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/5.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media52 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Propositional Logic"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/6.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media53 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Datalog"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/7.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media54 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Predicate Logic"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/8.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media55 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Description Logic"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/9.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media56 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Rules"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/10.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media57 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Set Theory"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic13,
+        edu-ont:Topic15,
+        edu-ont:Topic16,
+        edu-ont:Topic17,
+        edu-ont:Topic18,
+        edu-ont:Topic19,
+        edu-ont:Topic20 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/11.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media58 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Discrete Mathematics"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic21,
+        edu-ont:Topic22,
+        edu-ont:Topic23,
+        edu-ont:Topic24,
+        edu-ont:Topic25,
+        edu-ont:Topic26 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/12.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media59 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Open World Assumption vs Closed World Assumption"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/13.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media6 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Propositional Logic"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/6.%20Propositional%20Logic.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media60 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic27,
+        edu-ont:Topic28,
+        edu-ont:Topic29,
+        edu-ont:Topic30,
+        edu-ont:Topic31,
+        edu-ont:Topic32,
+        edu-ont:Topic33,
+        edu-ont:Topic34,
+        edu-ont:Topic35,
+        edu-ont:Topic7 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/14.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media61 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDFS"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic36,
+        edu-ont:Topic37,
+        edu-ont:Topic38,
+        edu-ont:Topic39 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/15.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media62 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF Serializations"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic40,
+        edu-ont:Topic41,
+        edu-ont:Topic42 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/16.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media63 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SPARQL"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic43,
+        edu-ont:Topic44,
+        edu-ont:Topic45,
+        edu-ont:Topic46,
+        edu-ont:Topic47,
+        edu-ont:Topic48,
+        edu-ont:Topic49 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/18.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media64 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SWRL"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/19.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media65 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "OWL"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic50,
+        edu-ont:Topic51,
+        edu-ont:Topic52,
+        edu-ont:Topic53,
+        edu-ont:Topic54,
+        edu-ont:Topic55,
+        edu-ont:Topic56,
+        edu-ont:Topic57,
+        edu-ont:Topic58 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/20.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media66 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "OWL Dialects"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic59,
+        edu-ont:Topic60,
+        edu-ont:Topic61,
+        edu-ont:Topic62,
+        edu-ont:Topic63,
+        edu-ont:Topic64 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/21.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media67 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Manchester Syntax"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/22.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media68 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SHACL"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/23.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media69 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Schema.org"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic65,
+        edu-ont:Topic66 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/24.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media7 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Datalog"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/7.%20Datalog.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media70 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Dublin Core"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/25.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media71 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SOSA & SSN"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/26.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media72 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "PROV-O"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic67,
+        edu-ont:Topic68 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/27.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media73 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "SKOS"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/28.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media74 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Modeling Tools"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic69,
+        edu-ont:Topic70,
+        edu-ont:Topic71,
+        edu-ont:Topic72 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/29.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media75 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Deploying a Knowledge Graph"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/31.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media76 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Knowledge Engineering"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/32.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media77 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Reification"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic73,
+        edu-ont:Topic74 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/33.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media78 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "GraphQL"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/34.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media79 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Documentation Practices"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/35.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media8 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Predicate Logic"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/8.%20Predicate%20Logic.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media80 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Visualization Tools"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/36.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media81 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Upper Ontologies"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/37.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media82 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Modular Ontologies"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/38.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media83 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Triplestores"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/40.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media84 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "History of the Semantic Web"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic75,
+        edu-ont:Topic76 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/41.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media85 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Property Graphs"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/42.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media86 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Nanopublications"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/43.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media87 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Survey of Reasoners"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic77,
+        edu-ont:Topic78 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/44.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media88 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Entailment Regimes"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic78 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/45.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media89 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "RDF Plus"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic35 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/46.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media9 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Description Logic"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/GPT/9.%20Description%20Logic.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media90 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Open Graph Protocol"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/47.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media91 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is Metadata?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic1 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/1.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media92 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is an Ontology?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6,
+        edu-ont:Topic7 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/2.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media93 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is a Knowledge Graph?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic5,
+        edu-ont:Topic7,
+        edu-ont:Topic8 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/3.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media94 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "What is an Identifier?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic10,
+        edu-ont:Topic11,
+        edu-ont:Topic9 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/4.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media95 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Introduction to Logic"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic12,
+        edu-ont:Topic13,
+        edu-ont:Topic14 ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/5.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media96 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Propositional Logic"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/6.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media97 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Datalog"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/7.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media98 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Predicate Logic"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/8.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media99 a edu-ont:Article,
+        edu-ont:Media ;
+    edu-ont:asString "Description Logic"^^xsd:string ;
+    edu-ont:hasLink "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Claude/9.%20module.md"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Module10 a edu-ont:Module ;
+    edu-ont:asString "Rules"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module8 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2 ;
+    edu-ont:references edu-ont:Media10,
+        edu-ont:Media100,
+        edu-ont:Media56 .
+
+edu-ont:Module12 a edu-ont:Module ;
+    edu-ont:asString "Introduction to Discrete Mathematics"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic21,
+        edu-ont:Topic22,
+        edu-ont:Topic23,
+        edu-ont:Topic24,
+        edu-ont:Topic25,
+        edu-ont:Topic26 ;
+    edu-ont:hasPrerequisite edu-ont:Module11 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2 ;
+    edu-ont:references edu-ont:Media102,
+        edu-ont:Media12,
+        edu-ont:Media58 .
+
+edu-ont:Module13 a edu-ont:Module ;
+    edu-ont:asString "Open World Assumption vs Closed World Assumption"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module5 ;
+    edu-ont:isInCategory edu-ont:Category2 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media103,
+        edu-ont:Media13,
+        edu-ont:Media59 .
+
+edu-ont:Module19 a edu-ont:Module ;
+    edu-ont:asString "SWRL"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module18 ;
+    edu-ont:isInCategory edu-ont:Category3 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media109,
+        edu-ont:Media19,
+        edu-ont:Media64 .
+
+edu-ont:Module2 a edu-ont:Module ;
+    edu-ont:asString "What is an Ontology?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6,
+        edu-ont:Topic7 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:references edu-ont:Media138,
+        edu-ont:Media2,
+        edu-ont:Media48,
+        edu-ont:Media92 .
+
+edu-ont:Module22 a edu-ont:Module ;
+    edu-ont:asString "OWL Dialects"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic59,
+        edu-ont:Topic60,
+        edu-ont:Topic61,
+        edu-ont:Topic62,
+        edu-ont:Topic63,
+        edu-ont:Topic64 ;
+    edu-ont:hasPrerequisite edu-ont:Module20 ;
+    edu-ont:isInCategory edu-ont:Category3 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media111,
+        edu-ont:Media21,
+        edu-ont:Media66 .
+
+edu-ont:Module26 a edu-ont:Module ;
+    edu-ont:asString "Dublin Core"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module15 ;
+    edu-ont:isInCategory edu-ont:Category6 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media115,
+        edu-ont:Media25,
+        edu-ont:Media70 .
+
+edu-ont:Module27 a edu-ont:Module ;
+    edu-ont:asString "SOSA & SSN"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module20,
+        edu-ont:Module25 ;
+    edu-ont:isInCategory edu-ont:Category3,
+        edu-ont:Category6 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media116,
+        edu-ont:Media26,
+        edu-ont:Media71 .
+
+edu-ont:Module28 a edu-ont:Module ;
+    edu-ont:asString "PROV-O"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic67,
+        edu-ont:Topic68 ;
+    edu-ont:isInCategory edu-ont:Category3,
+        edu-ont:Category6 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media117,
+        edu-ont:Media27,
+        edu-ont:Media72 .
+
+edu-ont:Module29 a edu-ont:Module ;
+    edu-ont:asString "SKOS"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module14 ;
+    edu-ont:isInCategory edu-ont:Category3,
+        edu-ont:Category6 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media118,
+        edu-ont:Media28,
+        edu-ont:Media73 .
+
+edu-ont:Module3 a edu-ont:Module ;
+    edu-ont:asString "What is a Knowledge Graph?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic5,
+        edu-ont:Topic7,
+        edu-ont:Topic8 ;
+    edu-ont:hasPrerequisite edu-ont:Module1 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media139,
+        edu-ont:Media3,
+        edu-ont:Media49,
+        edu-ont:Media93 .
+
+edu-ont:Module30 a edu-ont:Module ;
+    edu-ont:asString "Survey of Modeling Tools"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic69,
+        edu-ont:Topic70,
+        edu-ont:Topic71,
+        edu-ont:Topic72 ;
+    edu-ont:hasPrerequisite edu-ont:Module20,
+        edu-ont:Module24 ;
+    edu-ont:isInCategory edu-ont:Category7 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media119,
+        edu-ont:Media29,
+        edu-ont:Media74 .
+
+edu-ont:Module34 a edu-ont:Module ;
+    edu-ont:asString "Reification"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic73,
+        edu-ont:Topic74 ;
+    edu-ont:hasPrerequisite edu-ont:Module33 ;
+    edu-ont:isInCategory edu-ont:Category2 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media123,
+        edu-ont:Media33,
+        edu-ont:Media77 .
+
+edu-ont:Module35 a edu-ont:Module ;
+    edu-ont:asString "GraphQL"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module36 ;
+    edu-ont:isInCategory edu-ont:Category5 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media124,
+        edu-ont:Media34,
+        edu-ont:Media78 .
+
+edu-ont:Module37 a edu-ont:Module ;
+    edu-ont:asString "Survey of Documentation Practices"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module33 ;
+    edu-ont:isInCategory edu-ont:Category2,
+        edu-ont:Category8 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media125,
+        edu-ont:Media35,
+        edu-ont:Media79 .
+
+edu-ont:Module38 a edu-ont:Module ;
+    edu-ont:asString "Survey of Visualization Tools"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module33 ;
+    edu-ont:isInCategory edu-ont:Category7,
+        edu-ont:Category8,
+        edu-ont:Category9 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media126,
+        edu-ont:Media36,
+        edu-ont:Media80 .
+
+edu-ont:Module39 a edu-ont:Module ;
+    edu-ont:asString "Introduction to Upper Ontologies"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module33 ;
+    edu-ont:isInCategory edu-ont:Category2 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media127,
+        edu-ont:Media37,
+        edu-ont:Media81 .
+
+edu-ont:Module4 a edu-ont:Module ;
+    edu-ont:asString "What is an Identifier?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic10,
+        edu-ont:Topic11,
+        edu-ont:Topic9 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media4,
+        edu-ont:Media50,
+        edu-ont:Media94 .
+
+edu-ont:Module40 a edu-ont:Module ;
+    edu-ont:asString "Introduction to Modular Ontologies"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module33 ;
+    edu-ont:isInCategory edu-ont:Category2 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media128,
+        edu-ont:Media38,
+        edu-ont:Media82 .
+
+edu-ont:Module41 a edu-ont:Module ;
+    edu-ont:asString "Survey of Triplestores"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module32 ;
+    edu-ont:isInCategory edu-ont:Category7,
+        edu-ont:Category8 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media129,
+        edu-ont:Media39,
+        edu-ont:Media83 .
+
+edu-ont:Module42 a edu-ont:Module ;
+    edu-ont:asString "History of the Semantic Web"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic75,
+        edu-ont:Topic76 ;
+    edu-ont:isInCategory edu-ont:Category10 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media130,
+        edu-ont:Media40,
+        edu-ont:Media84 .
+
+edu-ont:Module44 a edu-ont:Module ;
+    edu-ont:asString "Nanopublications"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module14,
+        edu-ont:Module15,
+        edu-ont:Module16,
+        edu-ont:Module17,
+        edu-ont:Module43 ;
+    edu-ont:isInCategory edu-ont:Category2 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media132,
+        edu-ont:Media42,
+        edu-ont:Media86 .
+
+edu-ont:Module45 a edu-ont:Module ;
+    edu-ont:asString "Survey of Reasoners"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic77,
+        edu-ont:Topic78 ;
+    edu-ont:hasPrerequisite edu-ont:Module46 ;
+    edu-ont:isInCategory edu-ont:Category7,
+        edu-ont:Category8 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media133,
+        edu-ont:Media43,
+        edu-ont:Media87 .
+
+edu-ont:Module47 a edu-ont:Module ;
+    edu-ont:asString "Open Graph Protocol"^^xsd:string ;
+    edu-ont:isInCategory edu-ont:Category4 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media136,
+        edu-ont:Media46,
+        edu-ont:Media90 .
+
+edu-ont:Topic79 a edu-ont:Topic ;
+    edu-ont:asString "Equivalence"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic55 .
+
+edu-ont:Category5 a edu-ont:Category ;
+    edu-ont:asString "Query Language"^^xsd:string .
+
+edu-ont:Module1 a edu-ont:Module ;
+    edu-ont:asString "What is Metadata?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic1 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media1,
+        edu-ont:Media137,
+        edu-ont:Media47,
+        edu-ont:Media91 .
+
+edu-ont:Module11 a edu-ont:Module ;
+    edu-ont:asString "Introduction to Set Theory"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic13,
+        edu-ont:Topic15,
+        edu-ont:Topic16,
+        edu-ont:Topic17,
+        edu-ont:Topic18,
+        edu-ont:Topic19,
+        edu-ont:Topic20 ;
+    edu-ont:hasPrerequisite edu-ont:Module5 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2 ;
+    edu-ont:references edu-ont:Media101,
+        edu-ont:Media11,
+        edu-ont:Media57 .
+
+edu-ont:Module18 a edu-ont:Module ;
+    edu-ont:asString "SPARQL"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic43,
+        edu-ont:Topic44,
+        edu-ont:Topic45,
+        edu-ont:Topic46,
+        edu-ont:Topic47,
+        edu-ont:Topic48,
+        edu-ont:Topic49 ;
+    edu-ont:hasPrerequisite edu-ont:Module16 ;
+    edu-ont:isInCategory edu-ont:Category3,
+        edu-ont:Category5 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media108,
+        edu-ont:Media18,
+        edu-ont:Media63 .
+
+edu-ont:Module23 a edu-ont:Module ;
+    edu-ont:asString "Manchester Syntax"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module20 ;
+    edu-ont:isInCategory edu-ont:Category3 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media112,
+        edu-ont:Media22,
+        edu-ont:Media67 .
+
+edu-ont:Module25 a edu-ont:Module ;
+    edu-ont:asString "Schema.org"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic65,
+        edu-ont:Topic66 ;
+    edu-ont:hasPrerequisite edu-ont:Module15 ;
+    edu-ont:isInCategory edu-ont:Category6 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media114,
+        edu-ont:Media24,
+        edu-ont:Media69 .
+
+edu-ont:Module31 a edu-ont:Module ;
+    edu-ont:asString "Protege"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module23 ;
+    edu-ont:isInCategory edu-ont:Category7 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media120,
+        edu-ont:Media30 .
+
+edu-ont:Module32 a edu-ont:Module ;
+    edu-ont:asString "Deploying a Knowledge Graph"^^xsd:string ;
+    edu-ont:isInCategory edu-ont:Category2,
+        edu-ont:Category7 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media121,
+        edu-ont:Media31,
+        edu-ont:Media75 .
+
+edu-ont:Module36 a edu-ont:Module ;
+    edu-ont:asString "Property Graphs"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module14,
+        edu-ont:Module15,
+        edu-ont:Module16,
+        edu-ont:Module17,
+        edu-ont:Module43 ;
+    edu-ont:isInCategory edu-ont:Category2 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media131,
+        edu-ont:Media41,
+        edu-ont:Media85 .
+
+edu-ont:Module46 a edu-ont:Module ;
+    edu-ont:asString "Entailment Regimes"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic78 ;
+    edu-ont:hasPrerequisite edu-ont:Module20 ;
+    edu-ont:isInCategory edu-ont:Category2,
+        edu-ont:Category7 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media134,
+        edu-ont:Media44,
+        edu-ont:Media88 .
+
+edu-ont:Module7 a edu-ont:Module ;
+    edu-ont:asString "Datalog"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module6 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2 ;
+    edu-ont:references edu-ont:Media53,
+        edu-ont:Media7,
+        edu-ont:Media97 .
+
+edu-ont:Module9 a edu-ont:Module ;
+    edu-ont:asString "Description Logic"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module8 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2 ;
+    edu-ont:references edu-ont:Media55,
+        edu-ont:Media9,
+        edu-ont:Media99 .
+
+edu-ont:Module17 a edu-ont:Module ;
+    edu-ont:asString "RDF Star"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module14 ;
+    edu-ont:isInCategory edu-ont:Category4 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media107,
+        edu-ont:Media17 .
+
+edu-ont:Module24 a edu-ont:Module ;
+    edu-ont:asString "SHACL"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module16 ;
+    edu-ont:isInCategory edu-ont:Category3 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media113,
+        edu-ont:Media23,
+        edu-ont:Media68 .
+
+edu-ont:Module43 a edu-ont:Module ;
+    edu-ont:asString "RDF Plus"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic35 ;
+    edu-ont:hasPrerequisite edu-ont:Module14,
+        edu-ont:Module20 ;
+    edu-ont:isInCategory edu-ont:Category3,
+        edu-ont:Category4 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media135,
+        edu-ont:Media45,
+        edu-ont:Media89 .
+
+edu-ont:Module6 a edu-ont:Module ;
+    edu-ont:asString "Propositional Logic"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module5 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media52,
+        edu-ont:Media6,
+        edu-ont:Media96 .
+
+edu-ont:Module8 a edu-ont:Module ;
+    edu-ont:asString "Predicate Logic"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module6,
+        edu-ont:Module7 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2 ;
+    edu-ont:references edu-ont:Media54,
+        edu-ont:Media8,
+        edu-ont:Media98 .
+
+edu-ont:Category8 a edu-ont:Category ;
+    edu-ont:asString "Survey"^^xsd:string .
+
+edu-ont:Module5 a edu-ont:Module ;
+    edu-ont:asString "Introduction to Logic"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic12,
+        edu-ont:Topic13,
+        edu-ont:Topic14 ;
+    edu-ont:isInCategory edu-ont:Category1 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media5,
+        edu-ont:Media51,
+        edu-ont:Media95 .
+
+edu-ont:Topic19 a edu-ont:Topic ;
+    edu-ont:asString "Tuple"^^xsd:string .
+
+edu-ont:Topic32 a edu-ont:Topic ;
+    edu-ont:asString "Namespaces"^^xsd:string .
+
+edu-ont:Topic33 a edu-ont:Topic ;
+    edu-ont:asString "Literals"^^xsd:string .
+
+edu-ont:Topic34 a edu-ont:Topic ;
+    edu-ont:asString "Blank Node"^^xsd:string .
+
+edu-ont:Topic52 a edu-ont:Topic ;
+    edu-ont:asString "Datatypes"^^xsd:string .
+
+edu-ont:Topic56 a edu-ont:Topic ;
+    edu-ont:asString "Equiavalence"^^xsd:string .
+
+edu-ont:Topic69 a edu-ont:Topic ;
+    edu-ont:asString "Protege"^^xsd:string .
+
+edu-ont:Topic70 a edu-ont:Topic ;
+    edu-ont:asString "TopBraid Composer"^^xsd:string .
+
+edu-ont:Topic71 a edu-ont:Topic ;
+    edu-ont:asString "PoolParty"^^xsd:string .
+
+edu-ont:Topic72 a edu-ont:Topic ;
+    edu-ont:asString "DataWorld"^^xsd:string .
+
+edu-ont:Topic74 a edu-ont:Topic ;
+    edu-ont:asString "Blank Nodes"^^xsd:string .
+
+edu-ont:Category6 a edu-ont:Category ;
+    edu-ont:asString "Resources"^^xsd:string .
+
+edu-ont:Topic10 a edu-ont:Topic ;
+    edu-ont:asString "Hash or Slash"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic9 .
+
+edu-ont:Topic11 a edu-ont:Topic ;
+    edu-ont:asString "Namespace"^^xsd:string .
+
+edu-ont:Topic12 a edu-ont:Topic ;
+    edu-ont:asString "Conjunction"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic14 .
+
+edu-ont:Topic15 a edu-ont:Topic ;
+    edu-ont:asString "Union"^^xsd:string .
+
+edu-ont:Topic16 a edu-ont:Topic ;
+    edu-ont:asString "Disjointness"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic55 .
+
+edu-ont:Topic17 a edu-ont:Topic ;
+    edu-ont:asString "Intersection"^^xsd:string .
+
+edu-ont:Topic18 a edu-ont:Topic ;
+    edu-ont:asString "Cardinality"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic55 .
+
+edu-ont:Topic21 a edu-ont:Topic ;
+    edu-ont:asString "Functionality"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic55 .
+
+edu-ont:Topic22 a edu-ont:Topic ;
+    edu-ont:asString "Reflexivity"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic55 .
+
+edu-ont:Topic23 a edu-ont:Topic ;
+    edu-ont:asString "Transitivity"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic55 .
+
+edu-ont:Topic24 a edu-ont:Topic ;
+    edu-ont:asString "Inverse"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic55 .
+
+edu-ont:Topic27 a edu-ont:Topic ;
+    edu-ont:asString "Subject"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic7 .
+
+edu-ont:Topic28 a edu-ont:Topic ;
+    edu-ont:asString "Object"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic7 .
+
+edu-ont:Topic29 a edu-ont:Topic ;
+    edu-ont:asString "Predicate"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic7 .
+
+edu-ont:Topic31 a edu-ont:Topic ;
+    edu-ont:asString "Type"^^xsd:string .
+
+edu-ont:Topic36 a edu-ont:Topic ;
+    edu-ont:asString "Subclass"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic30,
+        edu-ont:Topic4 .
+
+edu-ont:Topic37 a edu-ont:Topic ;
+    edu-ont:asString "Subproperty"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic35,
+        edu-ont:Topic4 .
+
+edu-ont:Topic38 a edu-ont:Topic ;
+    edu-ont:asString "Domain Restrictions"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic25,
+        edu-ont:Topic5 .
+
+edu-ont:Topic39 a edu-ont:Topic ;
+    edu-ont:asString "Range Restrictions"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic26,
+        edu-ont:Topic5 .
+
+edu-ont:Topic40 a edu-ont:Topic ;
+    edu-ont:asString "RDF/XML"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic3,
+        edu-ont:Topic75 .
+
+edu-ont:Topic41 a edu-ont:Topic ;
+    edu-ont:asString "JSON-LD"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic3,
+        edu-ont:Topic75 .
+
+edu-ont:Topic42 a edu-ont:Topic ;
+    edu-ont:asString "Turtle"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic3,
+        edu-ont:Topic75 .
+
+edu-ont:Topic44 a edu-ont:Topic ;
+    edu-ont:asString "Select"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic43 .
+
+edu-ont:Topic45 a edu-ont:Topic ;
+    edu-ont:asString "Update"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic43 .
+
+edu-ont:Topic46 a edu-ont:Topic ;
+    edu-ont:asString "Delete"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic43 .
+
+edu-ont:Topic47 a edu-ont:Topic ;
+    edu-ont:asString "Insert"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic43 .
+
+edu-ont:Topic48 a edu-ont:Topic ;
+    edu-ont:asString "Construct"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic43 .
+
+edu-ont:Topic49 a edu-ont:Topic ;
+    edu-ont:asString "Explain"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic43 .
+
+edu-ont:Topic51 a edu-ont:Topic ;
+    edu-ont:asString "OWL2"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic60,
+        edu-ont:Topic61,
+        edu-ont:Topic62 ;
+    edu-ont:narrowerThan edu-ont:Topic50 .
+
+edu-ont:Topic53 a edu-ont:Topic ;
+    edu-ont:asString "Data Properties"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic35 .
+
+edu-ont:Topic54 a edu-ont:Topic ;
+    edu-ont:asString "Object Properties"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic35 .
+
+edu-ont:Topic57 a edu-ont:Topic ;
+    edu-ont:asString "Anonymous Class"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic30 .
+
+edu-ont:Topic58 a edu-ont:Topic ;
+    edu-ont:asString "Annotations"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic50 .
+
+edu-ont:Topic59 a edu-ont:Topic ;
+    edu-ont:asString "Expressivity"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic50 .
+
+edu-ont:Topic60 a edu-ont:Topic ;
+    edu-ont:asString "OWL EL"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic50 .
+
+edu-ont:Topic61 a edu-ont:Topic ;
+    edu-ont:asString "OWL QL"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic50 .
+
+edu-ont:Topic62 a edu-ont:Topic ;
+    edu-ont:asString "OWL RL"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic50 .
+
+edu-ont:Topic63 a edu-ont:Topic ;
+    edu-ont:asString "OWL DL"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic50 .
+
+edu-ont:Topic64 a edu-ont:Topic ;
+    edu-ont:asString "OWL Full"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic50 .
+
+edu-ont:Topic65 a edu-ont:Topic ;
+    edu-ont:asString "rangeIncludes"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic35 .
+
+edu-ont:Topic66 a edu-ont:Topic ;
+    edu-ont:asString "domainIncludes"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic35 .
+
+edu-ont:Topic68 a edu-ont:Topic ;
+    edu-ont:asString "Lineage"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic67 .
+
+edu-ont:Topic73 a edu-ont:Topic ;
+    edu-ont:asString "N-ary Relations"^^xsd:string .
+
+edu-ont:Topic77 a edu-ont:Topic ;
+    edu-ont:asString "Complexity"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic78 .
+
+edu-ont:Topic8 a edu-ont:Topic ;
+    edu-ont:asString "Statements"^^xsd:string .
+
+edu-ont:Category4 a edu-ont:Category ;
+    edu-ont:asString "Markup Languages"^^xsd:string .
+
+edu-ont:Module16 a edu-ont:Module ;
+    edu-ont:asString "RDF Serializations"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic40,
+        edu-ont:Topic41,
+        edu-ont:Topic42 ;
+    edu-ont:hasPrerequisite edu-ont:Module15 ;
+    edu-ont:isInCategory edu-ont:Category3,
+        edu-ont:Category4 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media106,
+        edu-ont:Media16,
+        edu-ont:Media62 .
+
+edu-ont:Module33 a edu-ont:Module ;
+    edu-ont:asString "Introduction to Knowledge Engineering"^^xsd:string ;
+    edu-ont:hasPrerequisite edu-ont:Module15,
+        edu-ont:Module20,
+        edu-ont:Module24,
+        edu-ont:Module31 ;
+    edu-ont:isInCategory edu-ont:Category2 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience1 ;
+    edu-ont:references edu-ont:Media122,
+        edu-ont:Media32,
+        edu-ont:Media76 .
+
+edu-ont:Topic1 a edu-ont:Topic ;
+    edu-ont:asString "Metadata"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic67 .
+
+edu-ont:Topic14 a edu-ont:Topic ;
+    edu-ont:asString "Boolean Arithmetic"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic12,
+        edu-ont:Topic13 .
+
+edu-ont:Topic20 a edu-ont:Topic ;
+    edu-ont:asString "Graph"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic7 ;
+    edu-ont:narrowerThan edu-ont:Topic76 .
+
+edu-ont:Topic25 a edu-ont:Topic ;
+    edu-ont:asString "Domain"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic38 ;
+    edu-ont:narrowerThan edu-ont:Topic35,
+        edu-ont:Topic5 .
+
+edu-ont:Topic26 a edu-ont:Topic ;
+    edu-ont:asString "Range"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic39 ;
+    edu-ont:narrowerThan edu-ont:Topic35,
+        edu-ont:Topic5 .
+
+edu-ont:Topic6 a edu-ont:Topic ;
+    edu-ont:asString "Statement"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic7 .
+
+edu-ont:Topic67 a edu-ont:Topic ;
+    edu-ont:asString "Provenance"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic68 ;
+    edu-ont:narrowerThan edu-ont:Topic1 .
+
+edu-ont:Topic9 a edu-ont:Topic ;
+    edu-ont:asString "URI"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic10,
+        edu-ont:Topic11 ;
+    edu-ont:narrowerThan edu-ont:Topic3 .
+
+edu-ont:Category7 a edu-ont:Category ;
+    edu-ont:asString "Technology"^^xsd:string .
+
+edu-ont:Module14 a edu-ont:Module ;
+    edu-ont:asString "RDF"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic27,
+        edu-ont:Topic28,
+        edu-ont:Topic29,
+        edu-ont:Topic30,
+        edu-ont:Topic31,
+        edu-ont:Topic32,
+        edu-ont:Topic33,
+        edu-ont:Topic34,
+        edu-ont:Topic35,
+        edu-ont:Topic7 ;
+    edu-ont:isInCategory edu-ont:Category3,
+        edu-ont:Category4 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media104,
+        edu-ont:Media14,
+        edu-ont:Media60 .
+
+edu-ont:Module15 a edu-ont:Module ;
+    edu-ont:asString "RDFS"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic36,
+        edu-ont:Topic37,
+        edu-ont:Topic38,
+        edu-ont:Topic39 ;
+    edu-ont:hasPrerequisite edu-ont:Module14 ;
+    edu-ont:isInCategory edu-ont:Category3,
+        edu-ont:Category4 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media105,
+        edu-ont:Media15,
+        edu-ont:Media61 .
+
+edu-ont:Topic30 a edu-ont:Topic ;
+    edu-ont:asString "Class"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic36,
+        edu-ont:Topic57 ;
+    edu-ont:narrowerThan edu-ont:Topic2 .
+
+edu-ont:Module20 a edu-ont:Module ;
+    edu-ont:asString "OWL"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic50,
+        edu-ont:Topic51,
+        edu-ont:Topic52,
+        edu-ont:Topic53,
+        edu-ont:Topic54,
+        edu-ont:Topic55,
+        edu-ont:Topic56,
+        edu-ont:Topic57,
+        edu-ont:Topic58 ;
+    edu-ont:hasPrerequisite edu-ont:Module16,
+        edu-ont:Module21,
+        edu-ont:Module9 ;
+    edu-ont:isInCategory edu-ont:Category3 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:recommendedAudience edu-ont:Audience2,
+        edu-ont:Audience3 ;
+    edu-ont:references edu-ont:Media110,
+        edu-ont:Media20,
+        edu-ont:Media65 .
+
+edu-ont:Topic13 a edu-ont:Topic ;
+    edu-ont:asString "Disjunction"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic14 .
+
+edu-ont:Topic76 a edu-ont:Topic ;
+    edu-ont:asString "Knowledge Graph"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic2,
+        edu-ont:Topic20,
+        edu-ont:Topic3 ;
+    edu-ont:narrowerThan edu-ont:Topic75 .
+
+edu-ont:Category2 a edu-ont:Category ;
+    edu-ont:asString "Methods"^^xsd:string .
+
+edu-ont:Topic43 a edu-ont:Topic ;
+    edu-ont:asString "Query"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic44,
+        edu-ont:Topic45,
+        edu-ont:Topic46,
+        edu-ont:Topic47,
+        edu-ont:Topic48,
+        edu-ont:Topic49 .
+
+edu-ont:Topic75 a edu-ont:Topic ;
+    edu-ont:asString "Semantic Web"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic40,
+        edu-ont:Topic41,
+        edu-ont:Topic42,
+        edu-ont:Topic76 .
+
+edu-ont:Topic78 a edu-ont:Topic ;
+    edu-ont:asString "Inference"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic77 .
+
+edu-ont:Category1 a edu-ont:Category ;
+    edu-ont:asString "Foundational"^^xsd:string .
+
+edu-ont:SpeakerRole a edu-ont:ParticipantRole .
+
+edu-ont:Topic4 a edu-ont:Topic ;
+    edu-ont:asString "Taxonomy"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic2,
+        edu-ont:Topic76 .
+
+edu-ont:Topic55 a edu-ont:Topic ;
+    edu-ont:asString "Axiom"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic16,
+        edu-ont:Topic18,
+        edu-ont:Topic21,
+        edu-ont:Topic22,
+        edu-ont:Topic23,
+        edu-ont:Topic24,
+        edu-ont:Topic79 ;
+    edu-ont:narrowerThan edu-ont:Topic2,
+        edu-ont:Topic50 .
+
+edu-ont:Category3 a edu-ont:Category ;
+    edu-ont:asString "Standards"^^xsd:string .
+
+edu-ont:Topic50 a edu-ont:Topic ;
+    edu-ont:asString "OWL"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic15,
+        edu-ont:Topic17,
+        edu-ont:Topic51,
+        edu-ont:Topic58,
+        edu-ont:Topic59,
+        edu-ont:Topic63,
+        edu-ont:Topic64,
+        edu-ont:Topic73,
+        edu-ont:Topic78 ;
+    edu-ont:narrowerThan edu-ont:Topic2 .
+
+edu-ont:Topic3 a edu-ont:Topic ;
+    edu-ont:asString "Linked Data"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic9 ;
+    edu-ont:narrowerThan edu-ont:Topic75,
+        edu-ont:Topic76 .
+
+edu-ont:Topic5 a edu-ont:Topic ;
+    edu-ont:asString "Schema"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic2 .
+
+edu-ont:Audience1 a edu-ont:Audience ;
+    edu-ont:asString "Any"^^xsd:string .
+
+edu-ont:Topic35 a edu-ont:Topic ;
+    edu-ont:asString "Property"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic25,
+        edu-ont:Topic26,
+        edu-ont:Topic31,
+        edu-ont:Topic37,
+        edu-ont:Topic53,
+        edu-ont:Topic54,
+        edu-ont:Topic65,
+        edu-ont:Topic66 ;
+    edu-ont:narrowerThan edu-ont:Topic2 .
+
+edu-ont:Topic2 a edu-ont:Topic ;
+    edu-ont:asString "Ontology"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic30,
+        edu-ont:Topic35,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic50,
+        edu-ont:Topic55 ;
+    edu-ont:narrowerThan edu-ont:Topic75,
+        edu-ont:Topic76 .
+
+edu-ont:Topic7 a edu-ont:Topic ;
+    edu-ont:asString "Triple"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic27,
+        edu-ont:Topic28,
+        edu-ont:Topic29 ;
+    edu-ont:narrowerThan edu-ont:Topic20,
+        edu-ont:Topic6 .
+
+edu-ont:Audience3 a edu-ont:Audience ;
+    edu-ont:asString "Developer"^^xsd:string .
+
+edu-ont:Audience2 a edu-ont:Audience ;
+    edu-ont:asString "Student"^^xsd:string .
+
+edu-ont:Language1 a edu-ont:Language ;
+    edu-ont:asString "English"^^xsd:string .
+
+edu-ont:ContributorRole a edu-ont:ParticipantRole .
+

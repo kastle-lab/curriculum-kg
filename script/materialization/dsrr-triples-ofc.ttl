@@ -1,0 +1,160 @@
+@prefix edu-ont: <https://edugate.cs.wright.edu/lod/resource> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+edu-ont:Author1 a edu-ont:Author ;
+    edu-ont:asString "Northeast Big Data Innovation Hub"^^xsd:string ;
+    edu-ont:assumesRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole .
+
+edu-ont:Module1 a edu-ont:Module ;
+    edu-ont:asString "NSDC Flashcards: Ontologies"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic1,
+        edu-ont:Topic10,
+        edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6,
+        edu-ont:Topic7,
+        edu-ont:Topic8,
+        edu-ont:Topic9 ;
+    edu-ont:hasPrerequisite edu-ont:Module2,
+        edu-ont:Module3,
+        edu-ont:Module4 ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole ;
+    edu-ont:references edu-ont:Media1,
+        edu-ont:Media2,
+        edu-ont:Media3,
+        edu-ont:Media4,
+        edu-ont:Media5 .
+
+edu-ont:Media1 a edu-ont:Media,
+        edu-ont:Video ;
+    edu-ont:asString "Ontology Flashcard #1: What is a Project Ontology?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic1,
+        edu-ont:Topic2 ;
+    edu-ont:hasLink "https://www.youtube.com/watch?v=5Lj76uJwL3c&list=PLNs9ZO9jGtUBe9WASWcIEe1KA7x9Yxrsc&index=1&pp=iAQB"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media2 a edu-ont:Media,
+        edu-ont:Video ;
+    edu-ont:asString "Ontology Flashcard #2: How is an Ontology Designed?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6 ;
+    edu-ont:hasLink "https://www.youtube.com/watch?v=pcAGVno_kYA&list=PLNs9ZO9jGtUBe9WASWcIEe1KA7x9Yxrsc&index=2&pp=iAQB"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media3 a edu-ont:Media,
+        edu-ont:Video ;
+    edu-ont:asString "Ontology Flashcard #3: How do we use Ontologies?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic7,
+        edu-ont:Topic8 ;
+    edu-ont:hasLink "https://www.youtube.com/watch?v=mmbdmo_GG48&list=PLNs9ZO9jGtUBe9WASWcIEe1KA7x9Yxrsc&index=3&pp=iAQB"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media4 a edu-ont:Media,
+        edu-ont:Video ;
+    edu-ont:asString "Ontology Flashcard #4: What is Semantic Entity Matching?"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic10,
+        edu-ont:Topic9 ;
+    edu-ont:hasLink "https://www.youtube.com/watch?v=ahgAFEyymBw&list=PLNs9ZO9jGtUBe9WASWcIEe1KA7x9Yxrsc&index=4&pp=iAQB"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole,
+        edu-ont:SpeakerRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Media5 a edu-ont:Media,
+        edu-ont:Transcript ;
+    edu-ont:asString "NSDC Flashcards: Project Ontology Collection"^^xsd:string ;
+    edu-ont:coversTopic edu-ont:Topic1,
+        edu-ont:Topic10,
+        edu-ont:Topic2,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6,
+        edu-ont:Topic7,
+        edu-ont:Topic8,
+        edu-ont:Topic9 ;
+    edu-ont:hasLink "https://docs.google.com/document/d/1y5JcPxrYRAVKLiPkC8O1P-mjK1Dq_60CpWdqi50GGuA/edit?tab=t.0"^^xsd:string ;
+    edu-ont:providesParticipantRole edu-ont:ContributorRole ;
+    edu-ont:supportsLanguage edu-ont:Language1 .
+
+edu-ont:Language1 a edu-ont:Language ;
+    edu-ont:asString "English"^^xsd:string .
+
+edu-ont:Topic10 a edu-ont:Topic ;
+    edu-ont:asString "Semantic Entity Matching"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic8,
+        edu-ont:Topic9 .
+
+edu-ont:Topic7 a edu-ont:Topic ;
+    edu-ont:asString "Ontology Usecase"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic8 ;
+    edu-ont:narrowerThan edu-ont:Topic2 .
+
+edu-ont:SpeakerRole a edu-ont:ParticipantRole .
+
+edu-ont:Topic4 a edu-ont:Topic ;
+    edu-ont:asString "Classes"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic1,
+        edu-ont:Topic3 .
+
+edu-ont:Topic5 a edu-ont:Topic ;
+    edu-ont:asString "Properties"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic1,
+        edu-ont:Topic3 .
+
+edu-ont:Topic6 a edu-ont:Topic ;
+    edu-ont:asString "Relationships"^^xsd:string ;
+    edu-ont:narrowerThan edu-ont:Topic1,
+        edu-ont:Topic3 .
+
+edu-ont:Topic8 a edu-ont:Topic ;
+    edu-ont:asString "Data Tagging"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic10 ;
+    edu-ont:narrowerThan edu-ont:Topic7,
+        edu-ont:Topic9 .
+
+edu-ont:Topic9 a edu-ont:Topic ;
+    edu-ont:asString "Semantics"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic10,
+        edu-ont:Topic2,
+        edu-ont:Topic8 .
+
+edu-ont:ContributorRole a edu-ont:ParticipantRole .
+
+edu-ont:Topic2 a edu-ont:Topic ;
+    edu-ont:asString "Ontology"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic1,
+        edu-ont:Topic3,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6,
+        edu-ont:Topic7 ;
+    edu-ont:narrowerThan edu-ont:Topic9 .
+
+edu-ont:Topic1 a edu-ont:Topic ;
+    edu-ont:asString "Project Ontology"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6 ;
+    edu-ont:narrowerThan edu-ont:Topic2,
+        edu-ont:Topic3 .
+
+edu-ont:Topic3 a edu-ont:Topic ;
+    edu-ont:asString "Ontology Design"^^xsd:string ;
+    edu-ont:broaderThan edu-ont:Topic1,
+        edu-ont:Topic4,
+        edu-ont:Topic5,
+        edu-ont:Topic6 ;
+    edu-ont:narrowerThan edu-ont:Topic2 .
+
