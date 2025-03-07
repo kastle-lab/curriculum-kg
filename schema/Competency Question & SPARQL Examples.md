@@ -119,8 +119,7 @@ SELECT ?media ?mediaName WHERE {
 
 ## Question 7
 
-**Competency Question:** What learning steps exist in a learning path?
-_(I might have messed up the code or something now that I look at it. Come back to this)_
+**Competency Question:** Which persona is associated with which learning path, and what are the learning steps within that path?
 
 **SPARQL Query:**
 
@@ -131,12 +130,14 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT DISTINCT ?learningPath ?learningPathName ?step ?stepName ?nextStep ?nextStepName WHERE {
+SELECT DISTINCT ?persona ?personaName ?learningPath ?learningStep ?learningStepName ?nextStep ?nextStepName WHERE {
+    ?persona edugate:determines ?learningPath .
+    ?persona rdf:type edugate:Persona ;
+             edugate:asString ?personaName .
     ?learningPath rdf:type edugate:Learning_Path ;
                   edugate:asString ?learningPathName ;
-                  edugate:hasLearningSteps ?step .
-
-    ?step edugate:asString ?stepName ;
+                  edugate:hasLearningSteps ?learningStep .
+    ?learningStep edugate:asString ?learningStepName ;
           edugate:hasNextLearningStep ?nextStep .
 
     ?nextStep edugate:asString ?nextStepName .
@@ -282,7 +283,7 @@ PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
 
 SELECT ?author ?authorName (COUNT(?media) AS ?count) WHERE {
-    ?media rdf:type edugate:Media ;  # Ensure only media resources are counted
+    ?media rdf:type edugate:Media ;
            edugate:hasAuthor ?author .
 
     ?author edugate:hasName ?authorName .
