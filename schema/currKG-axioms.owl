@@ -108,12 +108,12 @@
 #    Data properties
 #################################################################
 
-###  https://edugate.cs.wright.edu/lod/resource/currKG/hasTitle
-:hasTitle rdf:type owl:DatatypeProperty .
-
-
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/asString
 <https://edugate.cs.wright.edu/lod/resource/currKG/asString> rdf:type owl:DatatypeProperty .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/currKGhasTitle
+:hasTitle rdf:type owl:DatatypeProperty .
 
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/hasMediaSourceLink
@@ -243,7 +243,8 @@
 <https://edugate.cs.wright.edu/lod/resource/currKG/Event> rdf:type owl:Class ;
                                                           rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                                             owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/hasSubEvent> ;
-                                                                            owl:allValuesFrom <https://edugate.cs.wright.edu/lod/resource/currKG/Event>
+                                                                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                            owl:onClass <https://edugate.cs.wright.edu/lod/resource/currKG/Event>
                                                                           ] ;
                                                           <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "222.95598092682775"^^xsd:double ;
                                                                                                                        <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "20.29786947182403"^^xsd:double ;
@@ -358,10 +359,6 @@
                                                                           [ rdf:type owl:Restriction ;
                                                                             owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/hasMediaSourceLink> ;
                                                                             owl:someValuesFrom xsd:string
-                                                                          ] ,
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/hasMediaSourceLink> ;
-                                                                            owl:allValuesFrom xsd:string
                                                                           ] ;
                                                           <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "56.22964736735543"^^xsd:double ;
                                                                                                                        <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "192.4576250484204"^^xsd:double ;
@@ -411,11 +408,6 @@
                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                                              owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/assumesRole> ;
                                                                              owl:someValuesFrom <https://edugate.cs.wright.edu/lod/resource/currKG/Persona>
-                                                                           ] ,
-                                                                           [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/assumesRole> ;
-                                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                             owl:onClass <https://edugate.cs.wright.edu/lod/resource/currKG/Persona>
                                                                            ] ;
                                                            <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "67.71024379246852"^^xsd:double ;
                                                                                                                         <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "93.39558214157489"^^xsd:double ;
@@ -481,10 +473,6 @@
                                                                           [ rdf:type owl:Restriction ;
                                                                             owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/narrowerThan> ;
                                                                             owl:someValuesFrom <https://edugate.cs.wright.edu/lod/resource/currKG/Topic>
-                                                                          ] ,
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/broaderThan> ;
-                                                                            owl:allValuesFrom <https://edugate.cs.wright.edu/lod/resource/currKG/Topic>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
                                                                             owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/asString> ;
