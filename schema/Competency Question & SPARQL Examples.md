@@ -372,3 +372,47 @@ SELECT ?prerequisiteStep ?prerequisiteStepName ?nextStep ?nextStepName WHERE {
     ?nextStep edugate:asString ?nextStepName .
 }
 ```
+
+## Question 19
+
+**Competency Question:** What events are available, and what are their types? (Presentation, Tutorial, Workshop etc)
+
+**SPARQL Query:**
+
+```sparql
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
+
+SELECT DISTINCT ?event ?eventName ?eventType ?eventTypeName WHERE {
+    ?event rdf:type edugate:Event ;
+           edugate:asString ?eventName ;
+           rdf:type ?eventType .
+
+    ?eventType edugate:asString ?eventTypeName .
+}
+```
+
+## Question 20
+
+**Competency Question:** What levels are assigned to each module?
+
+**SPARQL Query:**
+
+```sparql
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
+
+SELECT DISTINCT ?module ?moduleName ?level ?levelName WHERE {
+    ?module rdf:type edugate:Module ;
+            edugate:hasTitle ?moduleName ;
+            edugate:hasLevel ?level .
+
+    ?level edugate:asString ?levelName .
+}
+```
