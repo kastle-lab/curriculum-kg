@@ -1,4 +1,3 @@
-			
 Persona Name	Persona Type	Role	Learning Path
 Ethan	Enthusiast	Graduate Student	What is a knowledge graph. The fundamentals of a knowledge graph. How to design and implement a knowledge graph.
 Debbie	Developer	Data Scientist / Engineer	What is a Knowledge Graph. RDF and RDFS familiarization along with what a Schema is. What is an Ontology. What is an Identifier. What is Protege/ Yed. OWL Syntax. How to deploy a KG: rdflib starter code - Go through it, understand it, work with examples. What is a TTL file, how to read it?. SPARQL query language, when and how to use it?. Validation of the KG through Apache Jena Fuseki.
