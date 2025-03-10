@@ -1,8 +1,7 @@
 import re
 import os
 import pandas as pd
-import rdflib
-from rdflib import URIRef, Graph, Namespace, Literal
+from rdflib import Graph, Namespace, Literal
 from rdflib import OWL, RDF, RDFS, XSD, TIME
 
 '''

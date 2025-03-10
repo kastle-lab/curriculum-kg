@@ -1,5 +1,7 @@
-@prefix edu-ont: <https://edugate.cs.wright.edu/lod/resource/> .
+@prefix edu-ont: <https://edugate.cs.wright.edu/lod/ontology/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 
 <https://edugate.cs.wright.edu/lod/resource/Category/Learn_X_Teach> a edu-ont:Category ;
     edu-ont:asString "Learn & Teach"^^xsd:string .
@@ -10989,11 +10991,90 @@ Elastic Net con Python"""^^xsd:string ;
     edu-ont:hasTitle "eScience Institute Hackweek Archive"^^xsd:string ;
     edu-ont:supportsLanguage <https://edugate.cs.wright.edu/lod/resource/Language/English> .
 
-edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
+<https://edugate.cs.wright.edu/lod/resource/Persona/Cameron> a edu-ont:Persona ;
+    edu-ont:asString "Cameron"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Background_information_in_Set_Theory_and_Axiom_understandingX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWL> ;
+    edu-ont:hasType "Curriculum Developer"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Carla> a edu-ont:Persona ;
+    edu-ont:asString "Carla"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_Knowledge_GraphX_What_is_a_TTL_fileX_how_to_read_it_XX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki> ;
+    edu-ont:hasType "Collaborator"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Chris> a edu-ont:Persona ;
+    edu-ont:asString "Chris"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Why_are_the_benefits_of_using_KGsXX_What_is_the_end_goalX_tool_and_how_is_it_going_to_be_usedX> ;
+    edu-ont:hasType "Consultant"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Connie> a edu-ont:Persona ;
+    edu-ont:asString "Connie"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Modeling_FundamentalsX_Survey_of_Modeling_ToolsX_Understanding_KGs_narrativeXuseXcase_and_CQsX_How_do_these_elements_constrain_the_development_and_set_boundariesXX_SchemaXdiagramming_toolsX_Axiomatizations_through_ProtegeX_Survey_of_Documentation_PracticesX_Documentation_of_KGXs_useXcase_and_CQsX_Standardization_of_diagram_syntax_with_respective_diagram_filesX_Axiom_descriptions_from_ManchesterXtoXNatural_LanguageX_Modeling_TechnologiesX_Deploying_a_Knowledge_GraphX_Data_integration_tools_XrdfXlib_starterXX_Modular_Ontology_ModelingX_Introduction_to_Modular_OntologiesX_MO_reasoning_and_applicabilityX_Patterns_for_higher_concepts_representationX_What_libraries_already_existX_XMODLX_and_How_can_someone_adopt_from_thisX> ;
+    edu-ont:hasType "Contributor"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Courtney> a edu-ont:Persona ;
+    edu-ont:asString "Courtney"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Understanding_of_triples_XnodeXedgeXnodeXX_What_are_properties_in_triples_or_KGsXX_Knowledge_Base_vs_Database_differencesX_What_is_an_OntologyXX_Entity_representation_with_relationship_connectionsX_ReificationX_What_are_axiomsXX_Open_World_Assumption_vs_Closed_World_AssumptionX_Cardinality_AxiomsX_DomainXRange_RestrictionX_Manchester_SyntaxX_Survey_of_Modeling_ToolsX_SchemaXdiagramming_toolsX_Axiomatizations_through_ProtegeX_Data_integration_tools_XrdfXlib_starterXX_Survey_of_TriplestoresX_Uploading_of_KG_files_XTTLX_OWLXX_Querying_from_KGs_with_SPARQL> ;
+    edu-ont:hasType "Contributor"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Darwin> a edu-ont:Persona ;
+    edu-ont:asString "Darwin"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Introduction_to_Set_TheoryX_Description_LogicX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_itXX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki> ;
+    edu-ont:hasType "Darwin"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Debbie> a edu-ont:Persona ;
+    edu-ont:asString "Debbie"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_itXX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki> ;
+    edu-ont:hasType "Developer"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Edward> a edu-ont:Persona ;
+    edu-ont:asString "Edward"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Why_is_using_a_KG_different_and_better_than_other_traditional_database_managementXX_Look_into_real_world_KG_end_tools> ;
+    edu-ont:hasType "Executive"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Elias> a edu-ont:Persona ;
+    edu-ont:asString "Elias"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_it_XX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki> ;
+    edu-ont:hasType "Educational Facilitator"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Ella> a edu-ont:Persona ;
+    edu-ont:asString "Ella"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Understanding_Digital_TwinsX_Highlight_how_KGs_can_act_as_digital_twinsX_providing_a_comprehensive_and_realXtime_representation_of_data_and_processesX_which_is_a_concept_many_executives_are_familiar_with_X_OutcomeXDriven_LearningX_Provide_materials_XeXgXX_videosX_infographicsX_that_focus_on_the_business_outcomes_of_using_KGsX_such_as_improved_decisionXmakingX_strategic_insightsX_and_operational_efficienciesX_Unified_Interface_for_Data_InteractionX_Explain_the_importance_of_a_unified_interface_for_executives_to_easily_explore_and_interact_with_the_data_within_the_KG> ;
+    edu-ont:hasType "Executive Engagement Specialist"^^xsd:string .
 
 <https://edugate.cs.wright.edu/lod/resource/Persona/Ethan> a edu-ont:Persona ;
     edu-ont:asString "Ethan"^^xsd:string ;
-    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_MetadataXX_What_is_an_OntologyXX_What_is_a_Knowledge_GraphXX_What_is_an_IdentifierXX_Introduction_to_LogicX_Propositional_LogicX_DatalogX_Predicate_LogicX_Description_LogicX_RulesX_Introduction_to_Set_TheoryX_Introduction_to_Discrete_MathematicsX_Open_World_Assumption_vs_Closed_World_AssumptionX_RDFX_RDFSX_RDF_SerializationsX_RDF_StarX_SPARQLX_SWRLX_OWLX_OWL_DialectsX_Manchester_SyntaxX_SHACLX_SchemaXorgX_Dublin_CoreX_SOSA_X_SSNX_PROVXOX_SKOSX_Survey_of_Modeling_ToolsX_ProtegeX_Deploying_a_Knowledge_GraphX_Introduction_to_Knowledge_EngineeringX_ReificationX_GraphQLX_Survey_of_Documentation_PracticesX_Survey_of_Visualization_ToolsX_Introduction_to_Upper_OntologiesX_Introduction_to_Modular_OntologiesX_Survey_of_TriplestoresX_History_of_the_Semantic_WebX_Property_GraphsX_NanopublicationsX_Survey_of_ReasonersX_Entailment_RegimesX_RDF_PlusX_Open_Graph_Protocol> .
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_The_fundamentals_of_a_knowledge_graphX_How_to_design_and_implement_a_knowledge_graph> ;
+    edu-ont:hasType "Enthusiast"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Kai> a edu-ont:Persona ;
+    edu-ont:asString "Kai"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Introduction_to_Knowledge_Graphs_and_their_applications_in_dataXcentric_fieldsX_Using_Apache_Jena_Fuseki_for_validation_of_KGsX_Understanding_why_KGs_provide_more_value_over_traditional_databasesX_Showcasing_KG_tools_like_Neo4J_for_data_exploration_and_interaction> ;
+    edu-ont:hasType "KG Researcher"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Oratius> a edu-ont:Persona ;
+    edu-ont:asString "Oratius"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_IdentifierXX_ProtegeX_OWL> ;
+    edu-ont:hasType "Ontology/Vocabulary Expert"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Ronnie> a edu-ont:Persona ;
+    edu-ont:asString "Ronnie"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_it_XX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki> ;
+    edu-ont:hasType "Resource Developer"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Silas> a edu-ont:Persona ;
+    edu-ont:asString "Silas"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Validation_of_the_KG_through_Apache_Jena_FusekiX_Why_using_a_KG_on_top_of_a_simple_DatabaseX> ;
+    edu-ont:hasType "Supply Chain Engagement Specialist"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Stella> a edu-ont:Persona ;
+    edu-ont:asString "Stella"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_it_XX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_FusekiX_Showcase_the_tool> ;
+    edu-ont:hasType "Security Analyst/Developer Trainer"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Persona/Usman> a edu-ont:Persona ;
+    edu-ont:asString "Usman"^^xsd:string ;
+    edu-ont:determines <https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_it_XX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_FusekiX_Showcasing_the_tool> ;
+    edu-ont:hasType "User Engagement Facilitator"^^xsd:string .
 
 <https://edugate.cs.wright.edu/lod/resource/Author/AARNetXs_Health> a edu-ont:Author ;
     edu-ont:hasName "AARNet’s Health"^^xsd:string .
@@ -14109,55 +14190,6 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Category/Visualization> a edu-ont:Category ;
     edu-ont:asString "Visualization"^^xsd:string .
 
-<https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> a edu-ont:Curriculum ;
-    edu-ont:hasModule <https://edugate.cs.wright.edu/lod/resource/Module/Datalog>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Deploying_a_Knowledge_Graph>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Description_Logic>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Dublin_Core>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Entailment_Regimes>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/GraphQL>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/History_of_the_Semantic_Web>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Discrete_Mathematics>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Knowledge_Engineering>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Logic>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Modular_Ontologies>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Set_Theory>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Upper_Ontologies>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Manchester_Syntax>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Nanopublications>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/OWL>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/OWL_Dialects>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Open_Graph_Protocol>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Open_World_Assumption_vs_Closed_World_Assumption>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/PROVXO>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Predicate_Logic>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Property_Graphs>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Propositional_Logic>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Protege>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/RDF>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/RDFS>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/RDF_Plus>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/RDF_Serializations>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/RDF_Star>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Reification>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Rules>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/SHACL>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/SKOS>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/SOSA_X_SSN>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/SPARQL>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/SWRL>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/SchemaXorg>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Documentation_Practices>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Modeling_Tools>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Reasoners>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Triplestores>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Visualization_Tools>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/What_is_MetadataX>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/What_is_a_Knowledge_GraphX>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/What_is_an_IdentifierX>,
-        <https://edugate.cs.wright.edu/lod/resource/Module/What_is_an_OntologyX> ;
-    edu-ont:hasTitle "Open Knowledge Graph"^^xsd:string .
-
 <https://edugate.cs.wright.edu/lod/resource/Language/British_Sign_Language> a edu-ont:Language ;
     edu-ont:asString "British Sign Language"^^xsd:string .
 
@@ -14176,54 +14208,206 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Language/Turkish> a edu-ont:Language ;
     edu-ont:asString "Turkish"^^xsd:string .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_MetadataXX_What_is_an_OntologyXX_What_is_a_Knowledge_GraphXX_What_is_an_IdentifierXX_Introduction_to_LogicX_Propositional_LogicX_DatalogX_Predicate_LogicX_Description_LogicX_RulesX_Introduction_to_Set_TheoryX_Introduction_to_Discrete_MathematicsX_Open_World_Assumption_vs_Closed_World_AssumptionX_RDFX_RDFSX_RDF_SerializationsX_RDF_StarX_SPARQLX_SWRLX_OWLX_OWL_DialectsX_Manchester_SyntaxX_SHACLX_SchemaXorgX_Dublin_CoreX_SOSA_X_SSNX_PROVXOX_SKOSX_Survey_of_Modeling_ToolsX_ProtegeX_Deploying_a_Knowledge_GraphX_Introduction_to_Knowledge_EngineeringX_ReificationX_GraphQLX_Survey_of_Documentation_PracticesX_Survey_of_Visualization_ToolsX_Introduction_to_Upper_OntologiesX_Introduction_to_Modular_OntologiesX_Survey_of_TriplestoresX_History_of_the_Semantic_WebX_Property_GraphsX_NanopublicationsX_Survey_of_ReasonersX_Entailment_RegimesX_RDF_PlusX_Open_Graph_Protocol> a edu-ont:Learning_Path ;
-    edu-ont:asString "What is Metadata?, What is an Ontology?, What is a Knowledge Graph?, What is an Identifier?, Introduction to Logic, Propositional Logic, Datalog, Predicate Logic, Description Logic, Rules, Introduction to Set Theory, Introduction to Discrete Mathematics, Open World Assumption vs Closed World Assumption, RDF, RDFS, RDF Serializations, RDF Star, SPARQL, SWRL, OWL, OWL Dialects, Manchester Syntax, SHACL, Schema.org, Dublin Core, SOSA & SSN, PROV-O, SKOS, Survey of Modeling Tools, Protege, Deploying a Knowledge Graph, Introduction to Knowledge Engineering, Reification, GraphQL, Survey of Documentation Practices, Survey of Visualization Tools, Introduction to Upper Ontologies, Introduction to Modular Ontologies, Survey of Triplestores, History of the Semantic Web, Property Graphs, Nanopublications, Survey of Reasoners, Entailment Regimes, RDF Plus, Open Graph Protocol"^^xsd:string ;
-    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Datalog>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Deploying_a_Knowledge_Graph>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Description_Logic>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Dublin_Core>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Entailment_Regimes>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/GraphQL>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/History_of_the_Semantic_Web>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Discrete_Mathematics>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Knowledge_Engineering>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Logic>,
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Introduction_to_Knowledge_Graphs_and_their_applications_in_dataXcentric_fieldsX_Using_Apache_Jena_Fuseki_for_validation_of_KGsX_Understanding_why_KGs_provide_more_value_over_traditional_databasesX_Showcasing_KG_tools_like_Neo4J_for_data_exploration_and_interaction> a edu-ont:Learning_Path ;
+    edu-ont:asString "Introduction to Knowledge Graphs and their applications in data-centric fields, Using Apache Jena Fuseki for validation of KGs, Understanding why KGs provide more value over traditional databases, Showcasing KG tools like Neo4J for data exploration and interaction"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Knowledge_Graphs_and_their_applications_in_dataXcentric_fields>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Showcasing_KG_tools_like_Neo4J_for_data_exploration_and_interaction>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_why_KGs_provide_more_value_over_traditional_databases>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Using_Apache_Jena_Fuseki_for_validation_of_KGs> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Modeling_FundamentalsX_Survey_of_Modeling_ToolsX_Understanding_KGs_narrativeXuseXcase_and_CQsX_How_do_these_elements_constrain_the_development_and_set_boundariesXX_SchemaXdiagramming_toolsX_Axiomatizations_through_ProtegeX_Survey_of_Documentation_PracticesX_Documentation_of_KGXs_useXcase_and_CQsX_Standardization_of_diagram_syntax_with_respective_diagram_filesX_Axiom_descriptions_from_ManchesterXtoXNatural_LanguageX_Modeling_TechnologiesX_Deploying_a_Knowledge_GraphX_Data_integration_tools_XrdfXlib_starterXX_Modular_Ontology_ModelingX_Introduction_to_Modular_OntologiesX_MO_reasoning_and_applicabilityX_Patterns_for_higher_concepts_representationX_What_libraries_already_existX_XMODLX_and_How_can_someone_adopt_from_thisX> a edu-ont:Learning_Path ;
+    edu-ont:asString "Modeling Fundamentals, Survey of Modeling Tools, Understanding KGs narrative/use-case and CQs, How do these elements constrain the development and set boundaries?, Schema-diagramming tools, Axiomatizations through Protege, Survey of Documentation Practices, Documentation of KG’s use-case and CQs, Standardization of diagram syntax with respective diagram files, Axiom descriptions from Manchester-to-Natural Language, Modeling Technologies: Deploying a Knowledge Graph, Data integration tools (rdf-lib starter), Modular Ontology Modeling, Introduction to Modular Ontologies, MO reasoning and applicability, Patterns for higher concepts representation, What libraries already exist? (MODL) and How can someone adopt from this?"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiom_descriptions_from_ManchesterXtoXNatural_Language>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiomatizations_through_Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Data_integration_tools_XrdfXlib_starterX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Documentation_of_KGXs_useXcase_and_CQs>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_do_these_elements_constrain_the_development_and_set_boundariesX>,
         <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Modular_Ontologies>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Set_Theory>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Upper_Ontologies>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Manchester_Syntax>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Nanopublications>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL_Dialects>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_Graph_Protocol>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_World_Assumption_vs_Closed_World_Assumption>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/PROVXO>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Predicate_Logic>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Property_Graphs>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Propositional_Logic>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDFS>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Plus>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Serializations>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Star>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Reification>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Rules>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SHACL>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SKOS>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SOSA_X_SSN>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SWRL>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXorg>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/MO_reasoning_and_applicability>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modeling_Fundamentals>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modeling_TechnologiesX_Deploying_a_Knowledge_Graph>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modular_Ontology_Modeling>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Patterns_for_higher_concepts_representation>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXdiagramming_tools>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Standardization_of_diagram_syntax_with_respective_diagram_files>,
         <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Documentation_Practices>,
         <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Reasoners>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Triplestores>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Visualization_Tools>,
-        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_MetadataX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_KGs_narrativeXuseXcase_and_CQs>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_libraries_already_existX_XMODLX_and_How_can_someone_adopt_from_thisX> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Understanding_Digital_TwinsX_Highlight_how_KGs_can_act_as_digital_twinsX_providing_a_comprehensive_and_realXtime_representation_of_data_and_processesX_which_is_a_concept_many_executives_are_familiar_with_X_OutcomeXDriven_LearningX_Provide_materials_XeXgXX_videosX_infographicsX_that_focus_on_the_business_outcomes_of_using_KGsX_such_as_improved_decisionXmakingX_strategic_insightsX_and_operational_efficienciesX_Unified_Interface_for_Data_InteractionX_Explain_the_importance_of_a_unified_interface_for_executives_to_easily_explore_and_interact_with_the_data_within_the_KG> a edu-ont:Learning_Path ;
+    edu-ont:asString "Understanding Digital Twins: Highlight how KGs can act as digital twins, providing a comprehensive and real-time representation of data and processes, which is a concept many executives are familiar with , Outcome-Driven Learning: Provide materials (e.g., videos, infographics) that focus on the business outcomes of using KGs, such as improved decision-making, strategic insights, and operational efficiencies, Unified Interface for Data Interaction: Explain the importance of a unified interface for executives to easily explore and interact with the data within the KG"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OutcomeXDriven_LearningX_Provide_materials_XeXgX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_Digital_TwinsX_Highlight_how_KGs_can_act_as_digital_twins>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Unified_Interface_for_Data_InteractionX_Explain_the_importance_of_a_unified_interface_for_executives_to_easily_explore_and_interact_with_the_data_within_the_KG>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/and_operational_efficiencies>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/infographicsX_that_focus_on_the_business_outcomes_of_using_KGs>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/providing_a_comprehensive_and_realXtime_representation_of_data_and_processes>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/strategic_insights>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/such_as_improved_decisionXmaking>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/videos>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/which_is_a_concept_many_executives_are_familiar_with> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Background_information_in_Set_Theory_and_Axiom_understandingX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWL> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, Background information in Set Theory and Axiom understanding, RDF and RDFS familiarization along with what a Schema is, What is an Ontology?, What is an Identifier?, Protege, OWL"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Background_information_in_Set_Theory_and_Axiom_understanding>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
         <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
         <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX>,
         <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Introduction_to_Set_TheoryX_Description_LogicX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_itXX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, Introduction to Set Theory, Description Logic, RDF and RDFS familiarization along with what a Schema is, What is an Ontology?, What is an Identifier?, Protege, OWL, How to deploy a KG: rdflib starter code - Go through it, understand it, work with examples, What is a TTL file, how to read it?, SPARQL, Validation of the KG through Apache Jena Fuseki"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Description_Logic>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Set_Theory>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_itX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/understand_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/work_with_examples> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_IdentifierXX_ProtegeX_OWL> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, RDF and RDFS familiarization along with what a Schema is, What is an Identifier?, Protege, OWL"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_itXX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, RDF and RDFS familiarization along with what a Schema is, What is an Ontology?, What is an Identifier?, Protege, OWL, How to deploy a KG: rdflib starter code - Go through it, understand it, work with examples, What is a TTL file, how to read it?, SPARQL, Validation of the KG through Apache Jena Fuseki"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_itX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/understand_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/work_with_examples> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_it_XX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_FusekiX_Showcase_the_tool> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, RDF and RDFS familiarization along with what a Schema is, What is an Ontology?, What is an Identifier?, Protege, OWL, How to deploy a KG : rdflib starter code - Go through it, understand it, work with examples, What is a TTL file, how to read it ?, SPARQL, Validation of the KG through Apache Jena Fuseki, Showcase the tool"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Showcase_the_tool>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_it_X>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/understand_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/work_with_examples> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_it_XX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_FusekiX_Showcasing_the_tool> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, RDF and RDFS familiarization along with what a Schema is, What is an Ontology?, What is an Identifier?, Protege, OWL, How to deploy a KG : rdflib starter code - Go through it, understand it, work with examples, What is a TTL file, how to read it ?, SPARQL, Validation of the KG through Apache Jena Fuseki, Showcasing the tool"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Showcasing_the_tool>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_it_X>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/understand_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/work_with_examples> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_Knowledge_GraphX_What_is_a_TTL_fileX_how_to_read_it_XX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, RDF and RDFS familiarization along with what a Schema is, What is an Ontology?, What is an Identifier?, Protege, OWL, How to deploy a Knowledge Graph, What is a TTL file, how to read it ?, SPARQL, Validation of the KG through Apache Jena Fuseki"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_Knowledge_Graph>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_it_X> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_The_fundamentals_of_a_knowledge_graphX_How_to_design_and_implement_a_knowledge_graph> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, The fundamentals of a knowledge graph, How to design and implement a knowledge graph"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_design_and_implement_a_knowledge_graph>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/The_fundamentals_of_a_knowledge_graph>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Understanding_of_triples_XnodeXedgeXnodeXX_What_are_properties_in_triples_or_KGsXX_Knowledge_Base_vs_Database_differencesX_What_is_an_OntologyXX_Entity_representation_with_relationship_connectionsX_ReificationX_What_are_axiomsXX_Open_World_Assumption_vs_Closed_World_AssumptionX_Cardinality_AxiomsX_DomainXRange_RestrictionX_Manchester_SyntaxX_Survey_of_Modeling_ToolsX_SchemaXdiagramming_toolsX_Axiomatizations_through_ProtegeX_Data_integration_tools_XrdfXlib_starterXX_Survey_of_TriplestoresX_Uploading_of_KG_files_XTTLX_OWLXX_Querying_from_KGs_with_SPARQL> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, Understanding of triples (node-edge-node), What are properties in triples or KGs?, Knowledge Base vs Database differences, What is an Ontology?, Entity representation with relationship connections, Reification, What are axioms?, Open World Assumption vs Closed World Assumption, Cardinality Axioms, Domain-Range Restriction, Manchester Syntax, Survey of Modeling Tools, Schema-diagramming tools, Axiomatizations through Protege, Data integration tools (rdf-lib starter), Survey of Triplestores, Uploading of KG files (TTL, OWL), Querying from KGs with SPARQL"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiomatizations_through_Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Cardinality_Axioms>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Data_integration_tools_XrdfXlib_starterX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/DomainXRange_Restriction>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Entity_representation_with_relationship_connections>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Knowledge_Base_vs_Database_differences>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Manchester_Syntax>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWLX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_World_Assumption_vs_Closed_World_Assumption>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Querying_from_KGs_with_SPARQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Reification>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXdiagramming_tools>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Triplestores>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_of_triples_XnodeXedgeXnodeX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Uploading_of_KG_files_XTTL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_are_axiomsX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_are_properties_in_triples_or_KGsX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Validation_of_the_KG_through_Apache_Jena_FusekiX_Why_using_a_KG_on_top_of_a_simple_DatabaseX> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, Validation of the KG through Apache Jena Fuseki, Why using a KG on top of a simple Database?"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_using_a_KG_on_top_of_a_simple_DatabaseX> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Why_are_the_benefits_of_using_KGsXX_What_is_the_end_goalX_tool_and_how_is_it_going_to_be_usedX> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, Why are the benefits of using KGs?, What is the end goal/ tool and how is it going to be used?"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_the_end_goalX_tool_and_how_is_it_going_to_be_usedX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_are_the_benefits_of_using_KGsX> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_Why_is_using_a_KG_different_and_better_than_other_traditional_database_managementXX_Look_into_real_world_KG_end_tools> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, Why is using a KG different and better than other traditional database management?, Look into real world KG end tools"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Look_into_real_world_KG_end_tools>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_is_using_a_KG_different_and_better_than_other_traditional_database_managementX> ;
     edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
 
 <https://edugate.cs.wright.edu/lod/resource/Media/Datalog> a edu-ont:Article,
@@ -14831,6 +15015,250 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
         "https://github.com/kastle-lab/Educational-Content-Generation-using-LLMs/blob/master/First%20Pass/Mistral/2.%20module.md"^^xsd:string ;
     edu-ont:hasTitle "What is an Ontology?"^^xsd:string ;
     edu-ont:supportsLanguage <https://edugate.cs.wright.edu/lod/resource/Language/English> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Datalog> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "Datalog"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Datalog> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Deploying_a_Knowledge_Graph> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Technology> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "Deploying a Knowledge Graph"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Deploying_a_Knowledge_Graph> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Dublin_Core> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "Dublin Core"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Dublin_Core> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Entailment_Regimes> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Technology> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Inference> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "Entailment Regimes"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Entailment_Regimes> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/GraphQL> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Query_Language> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "GraphQL"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/GraphQL> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/History_of_the_Semantic_Web> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/HistoryXContext> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Knowledge_Graph>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Linked_Data>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Ontology>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Semantic_Web>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Taxonomy> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "History of the Semantic Web"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/History_of_the_Semantic_Web> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Discrete_Mathematics> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Domain>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Functionality>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Inverse>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Range>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Reflexivity>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Transitivity> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "Introduction to Discrete Mathematics"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Introduction_to_Discrete_Mathematics> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Knowledge_Engineering> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "Introduction to Knowledge Engineering"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Introduction_to_Knowledge_Engineering> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Logic> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Boolean_Arithmetic>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Conjunction>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Disjunction> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "Introduction to Logic"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Introduction_to_Logic> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Upper_Ontologies> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Advanced> ;
+    edu-ont:hasTitle "Introduction to Upper Ontologies"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Introduction_to_Upper_Ontologies> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Nanopublications> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "Nanopublications"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Nanopublications> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/OWL_Dialects> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Expressivity>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_DL>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_EL>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_Full>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_QL>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_RL> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "OWL Dialects"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/OWL_Dialects> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Open_Graph_Protocol> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "Open Graph Protocol"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Open_Graph_Protocol> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/PROVXO> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Lineage>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Provenance> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "PROV-O"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/PROVXO> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Predicate_Logic> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "Predicate Logic"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Predicate_Logic> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Property_Graphs> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "Property Graphs"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Property_Graphs> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Propositional_Logic> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "Propositional Logic"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Propositional_Logic> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/RDF> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Blank_Node>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Class>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Literals>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Namespaces>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Object>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Predicate>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Property>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Subject>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Triple>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Type> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "RDF"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDF> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/RDFS> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Domain_Restrictions>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Range_Restrictions>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Subclass>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Subproperty> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "RDFS"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDFS> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/RDF_Plus> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Property> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "RDF Plus"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDF_Plus> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/RDF_Serializations> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/JSONXLD>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/RDFXXML>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Turtle> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "RDF Serializations"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDF_Serializations> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/RDF_Star> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "RDF Star"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDF_Star> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Rules> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "Rules"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Rules> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/SHACL> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "SHACL"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SHACL> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/SKOS> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "SKOS"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SKOS> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/SOSA_X_SSN> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "SOSA & SSN"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SOSA_X_SSN> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/SWRL> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "SWRL"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SWRL> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/SchemaXorg> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/domainIncludes>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/rangeIncludes> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "Schema.org"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SchemaXorg> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Reasoners> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Survey>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Technology> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Complexity>,
+        <https://edugate.cs.wright.edu/lod/resource/Topic/Inference> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "Survey of Reasoners"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Survey_of_Reasoners> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Visualization_Tools> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Survey>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Technology>,
+        <https://edugate.cs.wright.edu/lod/resource/Category/Visualization> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
+    edu-ont:hasTitle "Survey of Visualization Tools"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Survey_of_Visualization_Tools> .
+
+<https://edugate.cs.wright.edu/lod/resource/Module/What_is_MetadataX> a edu-ont:Module ;
+    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
+    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Metadata> ;
+    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
+    edu-ont:hasTitle "What is Metadata?"^^xsd:string ;
+    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/What_is_MetadataX> .
 
 <https://edugate.cs.wright.edu/lod/resource/Topic/Algorithmic_Audit> a edu-ont:Topic ;
     edu-ont:asString "Algorithmic Audit"^^xsd:string .
@@ -15484,94 +15912,106 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Category/Query_Language> a edu-ont:Category ;
     edu-ont:asString "Query Language"^^xsd:string .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_Graph_Protocol> a edu-ont:Last_Learning_Step,
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_design_and_implement_a_knowledge_graph> a edu-ont:Last_Learning_Step,
         edu-ont:Learning_Step ;
-    edu-ont:asString "Open Graph Protocol"^^xsd:string ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Plus> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Open_Graph_Protocol> .
+    edu-ont:asString "How to design and implement a knowledge graph"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/The_fundamentals_of_a_knowledge_graph> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/How_to_design_and_implement_a_knowledge_graph> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_MetadataX> a edu-ont:First_Learning_Step,
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Knowledge_Graphs_and_their_applications_in_dataXcentric_fields> a edu-ont:First_Learning_Step,
         edu-ont:Learning_Step ;
-    edu-ont:asString "What is Metadata?"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_is_MetadataX> .
+    edu-ont:asString "Introduction to Knowledge Graphs and their applications in data-centric fields"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Using_Apache_Jena_Fuseki_for_validation_of_KGs> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Knowledge_Graphs_and_their_applications_in_dataXcentric_fields> .
 
-<https://edugate.cs.wright.edu/lod/resource/Module/Datalog> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "Datalog"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Datalog> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Look_into_real_world_KG_end_tools> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Look into real world KG end tools"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_is_using_a_KG_different_and_better_than_other_traditional_database_managementX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Look_into_real_world_KG_end_tools> .
 
-<https://edugate.cs.wright.edu/lod/resource/Module/Deploying_a_Knowledge_Graph> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Technology> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "Deploying a Knowledge Graph"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Deploying_a_Knowledge_Graph> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modeling_Fundamentals> a edu-ont:First_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Modeling Fundamentals"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Modeling_Fundamentals> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Querying_from_KGs_with_SPARQL> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Querying from KGs with SPARQL"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWLX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Querying_from_KGs_with_SPARQL> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Showcase_the_tool> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Showcase the tool"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Showcase_the_tool> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Showcasing_KG_tools_like_Neo4J_for_data_exploration_and_interaction> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Showcasing KG tools like Neo4J for data exploration and interaction"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_why_KGs_provide_more_value_over_traditional_databases> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Showcasing_KG_tools_like_Neo4J_for_data_exploration_and_interaction> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Showcasing_the_tool> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Showcasing the tool"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Showcasing_the_tool> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_Digital_TwinsX_Highlight_how_KGs_can_act_as_digital_twins> a edu-ont:First_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Understanding Digital Twins: Highlight how KGs can act as digital twins"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/providing_a_comprehensive_and_realXtime_representation_of_data_and_processes> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Understanding_Digital_TwinsX_Highlight_how_KGs_can_act_as_digital_twins> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Unified_Interface_for_Data_InteractionX_Explain_the_importance_of_a_unified_interface_for_executives_to_easily_explore_and_interact_with_the_data_within_the_KG> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Unified Interface for Data Interaction: Explain the importance of a unified interface for executives to easily explore and interact with the data within the KG"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/and_operational_efficiencies> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Unified_Interface_for_Data_InteractionX_Explain_the_importance_of_a_unified_interface_for_executives_to_easily_explore_and_interact_with_the_data_within_the_KG> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_the_end_goalX_tool_and_how_is_it_going_to_be_usedX> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "What is the end goal/ tool and how is it going to be used?"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_are_the_benefits_of_using_KGsX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_is_the_end_goalX_tool_and_how_is_it_going_to_be_usedX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_libraries_already_existX_XMODLX_and_How_can_someone_adopt_from_thisX> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "What libraries already exist? (MODL) and How can someone adopt from this?"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Patterns_for_higher_concepts_representation> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_libraries_already_existX_XMODLX_and_How_can_someone_adopt_from_thisX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_using_a_KG_on_top_of_a_simple_DatabaseX> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Why using a KG on top of a simple Database?"^^xsd:string ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Why_using_a_KG_on_top_of_a_simple_DatabaseX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/What_is_a_Knowledge_GraphXX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_it_XX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki> a edu-ont:Learning_Path ;
+    edu-ont:asString "What is a Knowledge Graph?, RDF and RDFS familiarization along with what a Schema is, What is an Ontology?, What is an Identifier?, Protege, OWL, How to deploy a KG : rdflib starter code - Go through it, understand it, work with examples, What is a TTL file, how to read it ?, SPARQL, Validation of the KG through Apache Jena Fuseki"^^xsd:string ;
+    edu-ont:hasLearningSteps <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_it_X>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/understand_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/work_with_examples> ;
+    edu-ont:scopedBy <https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> .
 
 <https://edugate.cs.wright.edu/lod/resource/Module/Description_Logic> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
     edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Advanced> ;
     edu-ont:hasTitle "Description Logic"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Description_Logic> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Dublin_Core> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "Dublin Core"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Dublin_Core> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Entailment_Regimes> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Technology> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Inference> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "Entailment Regimes"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Entailment_Regimes> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/GraphQL> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Query_Language> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "GraphQL"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/GraphQL> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/History_of_the_Semantic_Web> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/HistoryXContext> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Knowledge_Graph>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Linked_Data>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Ontology>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Semantic_Web>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Taxonomy> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "History of the Semantic Web"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/History_of_the_Semantic_Web> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Discrete_Mathematics> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Domain>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Functionality>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Inverse>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Range>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Reflexivity>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Transitivity> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "Introduction to Discrete Mathematics"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Introduction_to_Discrete_Mathematics> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Knowledge_Engineering> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "Introduction to Knowledge Engineering"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Introduction_to_Knowledge_Engineering> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Logic> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Boolean_Arithmetic>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Conjunction>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Disjunction> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "Introduction to Logic"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Introduction_to_Logic> .
 
 <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Modular_Ontologies> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
@@ -15592,23 +16032,11 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
     edu-ont:hasTitle "Introduction to Set Theory"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Introduction_to_Set_Theory> .
 
-<https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Upper_Ontologies> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Advanced> ;
-    edu-ont:hasTitle "Introduction to Upper Ontologies"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Introduction_to_Upper_Ontologies> .
-
 <https://edugate.cs.wright.edu/lod/resource/Module/Manchester_Syntax> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
     edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
     edu-ont:hasTitle "Manchester Syntax"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Manchester_Syntax> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Nanopublications> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "Nanopublications"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Nanopublications> .
 
 <https://edugate.cs.wright.edu/lod/resource/Module/OWL> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
@@ -15625,114 +16053,17 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
     edu-ont:hasTitle "OWL"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/OWL> .
 
-<https://edugate.cs.wright.edu/lod/resource/Module/OWL_Dialects> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Expressivity>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_DL>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_EL>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_Full>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_QL>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/OWL_RL> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "OWL Dialects"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/OWL_Dialects> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Open_Graph_Protocol> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "Open Graph Protocol"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Open_Graph_Protocol> .
-
 <https://edugate.cs.wright.edu/lod/resource/Module/Open_World_Assumption_vs_Closed_World_Assumption> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
     edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
     edu-ont:hasTitle "Open World Assumption vs Closed World Assumption"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Open_World_Assumption_vs_Closed_World_Assumption> .
 
-<https://edugate.cs.wright.edu/lod/resource/Module/PROVXO> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Lineage>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Provenance> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "PROV-O"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/PROVXO> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Predicate_Logic> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "Predicate Logic"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Predicate_Logic> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Property_Graphs> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "Property Graphs"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Property_Graphs> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Propositional_Logic> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "Propositional Logic"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Propositional_Logic> .
-
 <https://edugate.cs.wright.edu/lod/resource/Module/Protege> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Technology> ;
     edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
     edu-ont:hasTitle "Protege"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Protege> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/RDF> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Blank_Node>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Class>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Literals>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Namespaces>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Object>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Predicate>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Property>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Subject>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Triple>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Type> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "RDF"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDF> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/RDFS> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Domain_Restrictions>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Range_Restrictions>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Subclass>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Subproperty> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "RDFS"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDFS> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/RDF_Plus> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Property> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "RDF Plus"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDF_Plus> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/RDF_Serializations> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/JSONXLD>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/RDFXXML>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Turtle> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "RDF Serializations"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDF_Serializations> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/RDF_Star> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "RDF Star"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/RDF_Star> .
 
 <https://edugate.cs.wright.edu/lod/resource/Module/Reification> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods> ;
@@ -15741,32 +16072,6 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
     edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
     edu-ont:hasTitle "Reification"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Reification> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Rules> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "Rules"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Rules> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/SHACL> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "SHACL"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SHACL> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/SKOS> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "SKOS"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SKOS> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/SOSA_X_SSN> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "SOSA & SSN"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SOSA_X_SSN> .
 
 <https://edugate.cs.wright.edu/lod/resource/Module/SPARQL> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Query_Language>,
@@ -15781,20 +16086,6 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
     edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
     edu-ont:hasTitle "SPARQL"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SPARQL> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/SWRL> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Standards> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "SWRL"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SWRL> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/SchemaXorg> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Resources> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/domainIncludes>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/rangeIncludes> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "Schema.org"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/SchemaXorg> .
 
 <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Documentation_Practices> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Methods>,
@@ -15813,36 +16104,12 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
     edu-ont:hasTitle "Survey of Modeling Tools"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Survey_of_Modeling_Tools> .
 
-<https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Reasoners> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Survey>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Technology> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Complexity>,
-        <https://edugate.cs.wright.edu/lod/resource/Topic/Inference> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "Survey of Reasoners"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Survey_of_Reasoners> .
-
 <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Triplestores> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Survey>,
         <https://edugate.cs.wright.edu/lod/resource/Category/Technology> ;
     edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
     edu-ont:hasTitle "Survey of Triplestores"^^xsd:string ;
     edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Survey_of_Triplestores> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Visualization_Tools> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Survey>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Technology>,
-        <https://edugate.cs.wright.edu/lod/resource/Category/Visualization> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Intermediate> ;
-    edu-ont:hasTitle "Survey of Visualization Tools"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/Survey_of_Visualization_Tools> .
-
-<https://edugate.cs.wright.edu/lod/resource/Module/What_is_MetadataX> a edu-ont:Module ;
-    edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
-    edu-ont:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Metadata> ;
-    edu-ont:hasLevel <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> ;
-    edu-ont:hasTitle "What is Metadata?"^^xsd:string ;
-    edu-ont:references <https://edugate.cs.wright.edu/lod/resource/Media/What_is_MetadataX> .
 
 <https://edugate.cs.wright.edu/lod/resource/Module/What_is_a_Knowledge_GraphX> a edu-ont:Module ;
     edu-ont:belongsToCategory <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> ;
@@ -15989,269 +16256,251 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Author/XDan_OXBrien> a edu-ont:Author ;
     edu-ont:hasName "\"Dan O'Brien"^^xsd:string .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Datalog> a edu-ont:Learning_Step ;
-    edu-ont:asString "Datalog"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Predicate_Logic> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Propositional_Logic> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Datalog> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiom_descriptions_from_ManchesterXtoXNatural_Language> a edu-ont:Learning_Step ;
+    edu-ont:asString "Axiom descriptions from Manchester-to-Natural Language"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modeling_TechnologiesX_Deploying_a_Knowledge_Graph> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Standardization_of_diagram_syntax_with_respective_diagram_files> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Axiom_descriptions_from_ManchesterXtoXNatural_Language> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Deploying_a_Knowledge_Graph> a edu-ont:Learning_Step ;
-    edu-ont:asString "Deploying a Knowledge Graph"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Knowledge_Engineering> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Deploying_a_Knowledge_Graph> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Background_information_in_Set_Theory_and_Axiom_understanding> a edu-ont:Learning_Step ;
+    edu-ont:asString "Background information in Set Theory and Axiom understanding"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Background_information_in_Set_Theory_and_Axiom_understanding> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Cardinality_Axioms> a edu-ont:Learning_Step ;
+    edu-ont:asString "Cardinality Axioms"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/DomainXRange_Restriction> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_World_Assumption_vs_Closed_World_Assumption> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Cardinality_Axioms> .
 
 <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Description_Logic> a edu-ont:Learning_Step ;
     edu-ont:asString "Description Logic"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Rules> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Predicate_Logic> ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Set_Theory> ;
     edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Description_Logic> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Dublin_Core> a edu-ont:Learning_Step ;
-    edu-ont:asString "Dublin Core"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SOSA_X_SSN> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXorg> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Dublin_Core> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Documentation_of_KGXs_useXcase_and_CQs> a edu-ont:Learning_Step ;
+    edu-ont:asString "Documentation of KG’s use-case and CQs"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Standardization_of_diagram_syntax_with_respective_diagram_files> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Documentation_Practices> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Documentation_of_KGXs_useXcase_and_CQs> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Entailment_Regimes> a edu-ont:Learning_Step ;
-    edu-ont:asString "Entailment Regimes"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Plus> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Reasoners> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Entailment_Regimes> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/DomainXRange_Restriction> a edu-ont:Learning_Step ;
+    edu-ont:asString "Domain-Range Restriction"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Manchester_Syntax> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Cardinality_Axioms> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/DomainXRange_Restriction> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/GraphQL> a edu-ont:Learning_Step ;
-    edu-ont:asString "GraphQL"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Documentation_Practices> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Reification> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/GraphQL> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/History_of_the_Semantic_Web> a edu-ont:Learning_Step ;
-    edu-ont:asString "History of the Semantic Web"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Property_Graphs> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Triplestores> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/History_of_the_Semantic_Web> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Discrete_Mathematics> a edu-ont:Learning_Step ;
-    edu-ont:asString "Introduction to Discrete Mathematics"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_World_Assumption_vs_Closed_World_Assumption> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Set_Theory> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Discrete_Mathematics> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Knowledge_Engineering> a edu-ont:Learning_Step ;
-    edu-ont:asString "Introduction to Knowledge Engineering"^^xsd:string ;
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Entity_representation_with_relationship_connections> a edu-ont:Learning_Step ;
+    edu-ont:asString "Entity representation with relationship connections"^^xsd:string ;
     edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Reification> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Deploying_a_Knowledge_Graph> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Knowledge_Engineering> .
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Entity_representation_with_relationship_connections> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Logic> a edu-ont:Learning_Step ;
-    edu-ont:asString "Introduction to Logic"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Propositional_Logic> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Logic> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_do_these_elements_constrain_the_development_and_set_boundariesX> a edu-ont:Learning_Step ;
+    edu-ont:asString "How do these elements constrain the development and set boundaries?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXdiagramming_tools> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_KGs_narrativeXuseXcase_and_CQs> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/How_do_these_elements_constrain_the_development_and_set_boundariesX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_Knowledge_Graph> a edu-ont:Learning_Step ;
+    edu-ont:asString "How to deploy a Knowledge Graph"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/How_to_deploy_a_Knowledge_Graph> .
 
 <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Modular_Ontologies> a edu-ont:Learning_Step ;
     edu-ont:asString "Introduction to Modular Ontologies"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Triplestores> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Upper_Ontologies> ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/MO_reasoning_and_applicability> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modular_Ontology_Modeling> ;
     edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Modular_Ontologies> .
 
 <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Set_Theory> a edu-ont:Learning_Step ;
     edu-ont:asString "Introduction to Set Theory"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Discrete_Mathematics> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Rules> ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Description_Logic> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
     edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Set_Theory> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Upper_Ontologies> a edu-ont:Learning_Step ;
-    edu-ont:asString "Introduction to Upper Ontologies"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Modular_Ontologies> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Visualization_Tools> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Upper_Ontologies> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Knowledge_Base_vs_Database_differences> a edu-ont:Learning_Step ;
+    edu-ont:asString "Knowledge Base vs Database differences"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_are_properties_in_triples_or_KGsX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Knowledge_Base_vs_Database_differences> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/MO_reasoning_and_applicability> a edu-ont:Learning_Step ;
+    edu-ont:asString "MO reasoning and applicability"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Patterns_for_higher_concepts_representation> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Modular_Ontologies> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/MO_reasoning_and_applicability> .
 
 <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Manchester_Syntax> a edu-ont:Learning_Step ;
     edu-ont:asString "Manchester Syntax"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SHACL> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL_Dialects> ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/DomainXRange_Restriction> ;
     edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Manchester_Syntax> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Nanopublications> a edu-ont:Learning_Step ;
-    edu-ont:asString "Nanopublications"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Reasoners> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Property_Graphs> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Nanopublications> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modeling_TechnologiesX_Deploying_a_Knowledge_Graph> a edu-ont:Learning_Step ;
+    edu-ont:asString "Modeling Technologies: Deploying a Knowledge Graph"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Data_integration_tools_XrdfXlib_starterX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiom_descriptions_from_ManchesterXtoXNatural_Language> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Modeling_TechnologiesX_Deploying_a_Knowledge_Graph> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL> a edu-ont:Learning_Step ;
-    edu-ont:asString "OWL"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL_Dialects> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SWRL> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/OWL> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modular_Ontology_Modeling> a edu-ont:Learning_Step ;
+    edu-ont:asString "Modular Ontology Modeling"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Modular_Ontologies> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Data_integration_tools_XrdfXlib_starterX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Modular_Ontology_Modeling> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL_Dialects> a edu-ont:Learning_Step ;
-    edu-ont:asString "OWL Dialects"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Manchester_Syntax> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/OWL_Dialects> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWLX> a edu-ont:Learning_Step ;
+    edu-ont:asString "OWL)"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Querying_from_KGs_with_SPARQL> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Uploading_of_KG_files_XTTL> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/OWLX> .
 
 <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_World_Assumption_vs_Closed_World_Assumption> a edu-ont:Learning_Step ;
     edu-ont:asString "Open World Assumption vs Closed World Assumption"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Discrete_Mathematics> ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Cardinality_Axioms> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_are_axiomsX> ;
     edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Open_World_Assumption_vs_Closed_World_Assumption> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/PROVXO> a edu-ont:Learning_Step ;
-    edu-ont:asString "PROV-O"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SKOS> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SOSA_X_SSN> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/PROVXO> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OutcomeXDriven_LearningX_Provide_materials_XeXgX> a edu-ont:Learning_Step ;
+    edu-ont:asString "Outcome-Driven Learning: Provide materials (e.g."^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/videos> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/which_is_a_concept_many_executives_are_familiar_with> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/OutcomeXDriven_LearningX_Provide_materials_XeXgX> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Predicate_Logic> a edu-ont:Learning_Step ;
-    edu-ont:asString "Predicate Logic"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Description_Logic> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Datalog> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Predicate_Logic> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Property_Graphs> a edu-ont:Learning_Step ;
-    edu-ont:asString "Property Graphs"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Nanopublications> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/History_of_the_Semantic_Web> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Property_Graphs> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Propositional_Logic> a edu-ont:Learning_Step ;
-    edu-ont:asString "Propositional Logic"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Datalog> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Logic> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Propositional_Logic> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege> a edu-ont:Learning_Step ;
-    edu-ont:asString "Protege"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Deploying_a_Knowledge_Graph> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Protege> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF> a edu-ont:Learning_Step ;
-    edu-ont:asString "RDF"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDFS> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_World_Assumption_vs_Closed_World_Assumption> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/RDF> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDFS> a edu-ont:Learning_Step ;
-    edu-ont:asString "RDFS"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Serializations> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/RDFS> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Plus> a edu-ont:Learning_Step ;
-    edu-ont:asString "RDF Plus"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_Graph_Protocol> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Entailment_Regimes> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/RDF_Plus> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Serializations> a edu-ont:Learning_Step ;
-    edu-ont:asString "RDF Serializations"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Star> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDFS> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/RDF_Serializations> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Star> a edu-ont:Learning_Step ;
-    edu-ont:asString "RDF Star"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Serializations> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/RDF_Star> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Patterns_for_higher_concepts_representation> a edu-ont:Learning_Step ;
+    edu-ont:asString "Patterns for higher concepts representation"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_libraries_already_existX_XMODLX_and_How_can_someone_adopt_from_thisX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/MO_reasoning_and_applicability> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Patterns_for_higher_concepts_representation> .
 
 <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Reification> a edu-ont:Learning_Step ;
     edu-ont:asString "Reification"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/GraphQL> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Knowledge_Engineering> ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_are_axiomsX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Entity_representation_with_relationship_connections> ;
     edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Reification> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Rules> a edu-ont:Learning_Step ;
-    edu-ont:asString "Rules"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Set_Theory> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Description_Logic> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Rules> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SHACL> a edu-ont:Learning_Step ;
-    edu-ont:asString "SHACL"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXorg> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Manchester_Syntax> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/SHACL> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SKOS> a edu-ont:Learning_Step ;
-    edu-ont:asString "SKOS"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/PROVXO> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/SKOS> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SOSA_X_SSN> a edu-ont:Learning_Step ;
-    edu-ont:asString "SOSA & SSN"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/PROVXO> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Dublin_Core> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/SOSA_X_SSN> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL> a edu-ont:Learning_Step ;
-    edu-ont:asString "SPARQL"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SWRL> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_Star> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/SPARQL> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SWRL> a edu-ont:Learning_Step ;
-    edu-ont:asString "SWRL"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/SWRL> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXorg> a edu-ont:Learning_Step ;
-    edu-ont:asString "Schema.org"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Dublin_Core> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SHACL> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/SchemaXorg> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Standardization_of_diagram_syntax_with_respective_diagram_files> a edu-ont:Learning_Step ;
+    edu-ont:asString "Standardization of diagram syntax with respective diagram files"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiom_descriptions_from_ManchesterXtoXNatural_Language> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Documentation_of_KGXs_useXcase_and_CQs> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Standardization_of_diagram_syntax_with_respective_diagram_files> .
 
 <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Documentation_Practices> a edu-ont:Learning_Step ;
     edu-ont:asString "Survey of Documentation Practices"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Visualization_Tools> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/GraphQL> ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Documentation_of_KGXs_useXcase_and_CQs> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiomatizations_through_Protege> ;
     edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Documentation_Practices> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools> a edu-ont:Learning_Step ;
-    edu-ont:asString "Survey of Modeling Tools"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SKOS> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Modeling_Tools> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Reasoners> a edu-ont:Learning_Step ;
-    edu-ont:asString "Survey of Reasoners"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Entailment_Regimes> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Nanopublications> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Reasoners> .
 
 <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Triplestores> a edu-ont:Learning_Step ;
     edu-ont:asString "Survey of Triplestores"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/History_of_the_Semantic_Web> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Modular_Ontologies> ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Uploading_of_KG_files_XTTL> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Data_integration_tools_XrdfXlib_starterX> ;
     edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Triplestores> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Visualization_Tools> a edu-ont:Learning_Step ;
-    edu-ont:asString "Survey of Visualization Tools"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Upper_Ontologies> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Documentation_Practices> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Visualization_Tools> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> a edu-ont:Learning_Step ;
-    edu-ont:asString "What is a Knowledge Graph?"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_is_a_Knowledge_GraphX> .
-
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX> a edu-ont:Learning_Step ;
-    edu-ont:asString "What is an Identifier?"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Logic> ;
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/The_fundamentals_of_a_knowledge_graph> a edu-ont:Learning_Step ;
+    edu-ont:asString "The fundamentals of a knowledge graph"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_design_and_implement_a_knowledge_graph> ;
     edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_is_an_IdentifierX> .
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/The_fundamentals_of_a_knowledge_graph> .
 
-<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> a edu-ont:Learning_Step ;
-    edu-ont:asString "What is an Ontology?"^^xsd:string ;
-    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
-    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_MetadataX> ;
-    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_is_an_OntologyX> .
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_KGs_narrativeXuseXcase_and_CQs> a edu-ont:Learning_Step ;
+    edu-ont:asString "Understanding KGs narrative/use-case and CQs"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_do_these_elements_constrain_the_development_and_set_boundariesX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Understanding_KGs_narrativeXuseXcase_and_CQs> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_of_triples_XnodeXedgeXnodeX> a edu-ont:Learning_Step ;
+    edu-ont:asString "Understanding of triples (node-edge-node)"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_are_properties_in_triples_or_KGsX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Understanding_of_triples_XnodeXedgeXnodeX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_why_KGs_provide_more_value_over_traditional_databases> a edu-ont:Learning_Step ;
+    edu-ont:asString "Understanding why KGs provide more value over traditional databases"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Showcasing_KG_tools_like_Neo4J_for_data_exploration_and_interaction> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Using_Apache_Jena_Fuseki_for_validation_of_KGs> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Understanding_why_KGs_provide_more_value_over_traditional_databases> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Uploading_of_KG_files_XTTL> a edu-ont:Learning_Step ;
+    edu-ont:asString "Uploading of KG files (TTL"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWLX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Triplestores> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Uploading_of_KG_files_XTTL> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Using_Apache_Jena_Fuseki_for_validation_of_KGs> a edu-ont:Learning_Step ;
+    edu-ont:asString "Using Apache Jena Fuseki for validation of KGs"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_why_KGs_provide_more_value_over_traditional_databases> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Knowledge_Graphs_and_their_applications_in_dataXcentric_fields> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Using_Apache_Jena_Fuseki_for_validation_of_KGs> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_are_axiomsX> a edu-ont:Learning_Step ;
+    edu-ont:asString "What are axioms?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Open_World_Assumption_vs_Closed_World_Assumption> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Reification> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_are_axiomsX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_are_properties_in_triples_or_KGsX> a edu-ont:Learning_Step ;
+    edu-ont:asString "What are properties in triples or KGs?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Knowledge_Base_vs_Database_differences> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_of_triples_XnodeXedgeXnodeX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_are_properties_in_triples_or_KGsX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_are_the_benefits_of_using_KGsX> a edu-ont:Learning_Step ;
+    edu-ont:asString "Why are the benefits of using KGs?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_the_end_goalX_tool_and_how_is_it_going_to_be_usedX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Why_are_the_benefits_of_using_KGsX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_is_using_a_KG_different_and_better_than_other_traditional_database_managementX> a edu-ont:Learning_Step ;
+    edu-ont:asString "Why is using a KG different and better than other traditional database management?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Look_into_real_world_KG_end_tools> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Why_is_using_a_KG_different_and_better_than_other_traditional_database_managementX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/and_operational_efficiencies> a edu-ont:Learning_Step ;
+    edu-ont:asString "and operational efficiencies"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Unified_Interface_for_Data_InteractionX_Explain_the_importance_of_a_unified_interface_for_executives_to_easily_explore_and_interact_with_the_data_within_the_KG> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/strategic_insights> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/and_operational_efficiencies> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/infographicsX_that_focus_on_the_business_outcomes_of_using_KGs> a edu-ont:Learning_Step ;
+    edu-ont:asString "infographics) that focus on the business outcomes of using KGs"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/such_as_improved_decisionXmaking> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/videos> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/infographicsX_that_focus_on_the_business_outcomes_of_using_KGs> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/providing_a_comprehensive_and_realXtime_representation_of_data_and_processes> a edu-ont:Learning_Step ;
+    edu-ont:asString "providing a comprehensive and real-time representation of data and processes"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/which_is_a_concept_many_executives_are_familiar_with> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_Digital_TwinsX_Highlight_how_KGs_can_act_as_digital_twins> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/providing_a_comprehensive_and_realXtime_representation_of_data_and_processes> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/strategic_insights> a edu-ont:Learning_Step ;
+    edu-ont:asString "strategic insights"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/and_operational_efficiencies> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/such_as_improved_decisionXmaking> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/strategic_insights> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/such_as_improved_decisionXmaking> a edu-ont:Learning_Step ;
+    edu-ont:asString "such as improved decision-making"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/strategic_insights> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/infographicsX_that_focus_on_the_business_outcomes_of_using_KGs> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/such_as_improved_decisionXmaking> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/videos> a edu-ont:Learning_Step ;
+    edu-ont:asString "videos"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/infographicsX_that_focus_on_the_business_outcomes_of_using_KGs> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OutcomeXDriven_LearningX_Provide_materials_XeXgX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/videos> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/which_is_a_concept_many_executives_are_familiar_with> a edu-ont:Learning_Step ;
+    edu-ont:asString "which is a concept many executives are familiar with"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OutcomeXDriven_LearningX_Provide_materials_XeXgX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/providing_a_comprehensive_and_realXtime_representation_of_data_and_processes> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/which_is_a_concept_many_executives_are_familiar_with> .
 
 <https://edugate.cs.wright.edu/lod/resource/Level/Advanced> a edu-ont:Level ;
     edu-ont:asString "Advanced"^^xsd:string .
@@ -16517,6 +16766,18 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Category/Survey> a edu-ont:Category ;
     edu-ont:asString "Survey"^^xsd:string .
 
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_it> a edu-ont:Learning_Step ;
+    edu-ont:asString "How to deploy a KG: rdflib starter code - Go through it"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/understand_it> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_it> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_itX> a edu-ont:Learning_Step ;
+    edu-ont:asString "how to read it?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/how_to_read_itX> .
+
 <https://edugate.cs.wright.edu/lod/resource/Topic/Algorithms> a edu-ont:Topic ;
     edu-ont:asString "Algorithms"^^xsd:string .
 
@@ -16611,6 +16872,26 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Category/Resources> a edu-ont:Category ;
     edu-ont:asString "Resources"^^xsd:string .
 
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiomatizations_through_Protege> a edu-ont:Learning_Step ;
+    edu-ont:asString "Axiomatizations through Protege"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Data_integration_tools_XrdfXlib_starterX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Documentation_Practices> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXdiagramming_tools> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Axiomatizations_through_Protege> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_it> a edu-ont:Learning_Step ;
+    edu-ont:asString "How to deploy a KG : rdflib starter code - Go through it"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/understand_it> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_it> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXdiagramming_tools> a edu-ont:Learning_Step ;
+    edu-ont:asString "Schema-diagramming tools"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiomatizations_through_Protege> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_do_these_elements_constrain_the_development_and_set_boundariesX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/SchemaXdiagramming_tools> .
+
 <https://edugate.cs.wright.edu/lod/resource/Topic/Class> a edu-ont:Topic ;
     edu-ont:asString "Class"^^xsd:string ;
     edu-ont:broaderThan <https://edugate.cs.wright.edu/lod/resource/Topic/Anonymous_Class>,
@@ -16669,6 +16950,28 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Category/Markup_Languages> a edu-ont:Category ;
     edu-ont:asString "Markup Languages"^^xsd:string .
 
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Data_integration_tools_XrdfXlib_starterX> a edu-ont:Learning_Step ;
+    edu-ont:asString "Data integration tools (rdf-lib starter)"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modular_Ontology_Modeling>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Triplestores> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Axiomatizations_through_Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modeling_TechnologiesX_Deploying_a_Knowledge_Graph> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Data_integration_tools_XrdfXlib_starterX> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Survey_of_Modeling_Tools> a edu-ont:Learning_Step ;
+    edu-ont:asString "Survey of Modeling Tools"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SchemaXdiagramming_tools>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_KGs_narrativeXuseXcase_and_CQs> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Manchester_Syntax>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Modeling_Fundamentals> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Modeling_Tools> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_it_X> a edu-ont:Learning_Step ;
+    edu-ont:asString "how to read it ?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/how_to_read_it_X> .
+
 <https://edugate.cs.wright.edu/lod/resource/Topic/Cities> a edu-ont:Topic ;
     edu-ont:asString "Cities"^^xsd:string .
 
@@ -16693,6 +16996,12 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 
 <https://edugate.cs.wright.edu/lod/resource/Language/American_Sign_Language> a edu-ont:Language ;
     edu-ont:asString "American Sign Language"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/work_with_examples> a edu-ont:Learning_Step ;
+    edu-ont:asString "work with examples"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/understand_it> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/work_with_examples> .
 
 <https://edugate.cs.wright.edu/lod/resource/Topic/Knowledge_Graph> a edu-ont:Topic ;
     edu-ont:asString "Knowledge Graph"^^xsd:string ;
@@ -16734,6 +17043,13 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Author/Towards_Data_Science> a edu-ont:Author ;
     edu-ont:hasName "Towards Data Science"^^xsd:string .
 
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/understand_it> a edu-ont:Learning_Step ;
+    edu-ont:asString "understand it"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/work_with_examples> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_it> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/understand_it> .
+
 <https://edugate.cs.wright.edu/lod/resource/Topic/Query> a edu-ont:Topic ;
     edu-ont:asString "Query"^^xsd:string ;
     edu-ont:broaderThan <https://edugate.cs.wright.edu/lod/resource/Topic/Construct>,
@@ -16752,6 +17068,13 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Author/Universitat_Oberta_de_Catalunya> a edu-ont:Author ;
     edu-ont:hasName "Universitat Oberta de Catalunya"^^xsd:string .
 
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL> a edu-ont:Learning_Step ;
+    edu-ont:asString "SPARQL"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_itX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_it_X> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/SPARQL> .
+
 <https://edugate.cs.wright.edu/lod/resource/Topic/Schema> a edu-ont:Topic ;
     edu-ont:asString "Schema"^^xsd:string ;
     edu-ont:narrowerThan <https://edugate.cs.wright.edu/lod/resource/Topic/Ontology> .
@@ -16767,6 +17090,20 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 
 <https://edugate.cs.wright.edu/lod/resource/Category/Methods> a edu-ont:Category ;
     edu-ont:asString "Methods"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege> a edu-ont:Learning_Step ;
+    edu-ont:asString "Protege"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Protege> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_TTL_file> a edu-ont:Learning_Step ;
+    edu-ont:asString "What is a TTL file"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_itX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/how_to_read_it_X> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_Knowledge_Graph>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/work_with_examples> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_is_a_TTL_file> .
 
 <https://edugate.cs.wright.edu/lod/resource/Topic/Axiom> a edu-ont:Topic ;
     edu-ont:asString "Axiom"^^xsd:string ;
@@ -16798,6 +17135,13 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Category/Foundational> a edu-ont:Category ;
     edu-ont:asString "Foundational"^^xsd:string .
 
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX> a edu-ont:Learning_Step ;
+    edu-ont:asString "What is an Identifier?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_is_an_IdentifierX> .
+
 <https://edugate.cs.wright.edu/lod/resource/Topic/Triple> a edu-ont:Topic ;
     edu-ont:asString "Triple"^^xsd:string ;
     edu-ont:broaderThan <https://edugate.cs.wright.edu/lod/resource/Topic/Object>,
@@ -16808,6 +17152,33 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 
 <https://edugate.cs.wright.edu/lod/resource/Author/Stanford_University> a edu-ont:Author ;
     edu-ont:hasName "Stanford University"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/OWL> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "OWL"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_KG_X_rdflib_starter_code_X_Go_through_it>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/How_to_deploy_a_Knowledge_Graph> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Protege> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/OWL> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki> a edu-ont:Last_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "Validation of the KG through Apache Jena Fuseki"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Showcase_the_tool>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Showcasing_the_tool>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_using_a_KG_on_top_of_a_simple_DatabaseX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/SPARQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/Validation_of_the_KG_through_Apache_Jena_Fuseki> .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> a edu-ont:Learning_Step ;
+    edu-ont:asString "What is an Ontology?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Entity_representation_with_relationship_connections>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Knowledge_Base_vs_Database_differences>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_is_an_OntologyX> .
 
 <https://edugate.cs.wright.edu/lod/resource/Topic/OWL> a edu-ont:Topic ;
     edu-ont:asString "OWL"^^xsd:string ;
@@ -16846,6 +17217,15 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Category/Standards> a edu-ont:Category ;
     edu-ont:asString "Standards"^^xsd:string .
 
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is> a edu-ont:Learning_Step ;
+    edu-ont:asString "RDF and RDFS familiarization along with what a Schema is"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_IdentifierX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_an_OntologyX> ;
+    edu-ont:hasPreviousLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Background_information_in_Set_Theory_and_Axiom_understanding>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Description_Logic>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is> .
+
 <https://edugate.cs.wright.edu/lod/resource/Topic/Big_Data> a edu-ont:Topic ;
     edu-ont:asString "Big Data"^^xsd:string .
 
@@ -16858,6 +17238,55 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 <https://edugate.cs.wright.edu/lod/resource/Topic/Bioinformatics> a edu-ont:Topic ;
     edu-ont:asString "Bioinformatics"^^xsd:string .
 
+<https://edugate.cs.wright.edu/lod/resource/Curriculum/Open_Knowledge_Graph> a edu-ont:Curriculum ;
+    edu-ont:hasModule <https://edugate.cs.wright.edu/lod/resource/Module/Datalog>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Deploying_a_Knowledge_Graph>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Description_Logic>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Dublin_Core>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Entailment_Regimes>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/GraphQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/History_of_the_Semantic_Web>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Discrete_Mathematics>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Knowledge_Engineering>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Logic>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Modular_Ontologies>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Set_Theory>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Introduction_to_Upper_Ontologies>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Manchester_Syntax>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Nanopublications>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/OWL>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/OWL_Dialects>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Open_Graph_Protocol>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Open_World_Assumption_vs_Closed_World_Assumption>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/PROVXO>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Predicate_Logic>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Property_Graphs>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Propositional_Logic>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Protege>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/RDF>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/RDFS>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/RDF_Plus>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/RDF_Serializations>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/RDF_Star>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Reification>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Rules>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/SHACL>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/SKOS>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/SOSA_X_SSN>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/SPARQL>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/SWRL>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/SchemaXorg>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Documentation_Practices>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Modeling_Tools>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Reasoners>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Triplestores>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/Survey_of_Visualization_Tools>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/What_is_MetadataX>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/What_is_a_Knowledge_GraphX>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/What_is_an_IdentifierX>,
+        <https://edugate.cs.wright.edu/lod/resource/Module/What_is_an_OntologyX> ;
+    edu-ont:hasTitle "Open Knowledge Graph"^^xsd:string .
+
 <https://edugate.cs.wright.edu/lod/resource/Author/ResponsiblyX> a edu-ont:Author ;
     edu-ont:hasName "Responsibly\""^^xsd:string .
 
@@ -16869,6 +17298,19 @@ edu-ont:Person edu-ont:assumesRole edu-ont:Persona .
 
 <https://edugate.cs.wright.edu/lod/resource/Level/Beginner> a edu-ont:Level ;
     edu-ont:asString "Beginner"^^xsd:string .
+
+<https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/What_is_a_Knowledge_GraphX> a edu-ont:First_Learning_Step,
+        edu-ont:Learning_Step ;
+    edu-ont:asString "What is a Knowledge Graph?"^^xsd:string ;
+    edu-ont:hasNextLearningStep <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Background_information_in_Set_Theory_and_Axiom_understanding>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Set_Theory>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/RDF_and_RDFS_familiarization_along_with_what_a_Schema_is>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/The_fundamentals_of_a_knowledge_graph>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Understanding_of_triples_XnodeXedgeXnodeX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Validation_of_the_KG_through_Apache_Jena_Fuseki>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_are_the_benefits_of_using_KGsX>,
+        <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Why_is_using_a_KG_different_and_better_than_other_traditional_database_managementX> ;
+    edu-ont:refersTo <https://edugate.cs.wright.edu/lod/resource/Module/What_is_a_Knowledge_GraphX> .
 
 <https://edugate.cs.wright.edu/lod/resource/Topic/Public_Policy> a edu-ont:Topic ;
     edu-ont:asString "Public Policy"^^xsd:string .

@@ -2,7 +2,7 @@
 
 ## Question 1
 
-**Competency Question:** What are all the topics covered?
+**Competency Question:** What are all the covered topics?
 
 **SPARQL Query:**
 
@@ -21,7 +21,7 @@ SELECT DISTINCT ?topic ?topicName WHERE {
 
 ## Question 2
 
-**Competency Question:** What are all the learning media available?
+**Competency Question:** What are all the available learning media?
 
 **SPARQL Query:**
 
@@ -59,7 +59,7 @@ SELECT DISTINCT ?type WHERE {
 
 ## Question 4
 
-**Competency Question:** Who are all the authors available?
+**Competency Question:** Who are all the available authors?
 
 **SPARQL Query:**
 
@@ -100,7 +100,7 @@ SELECT DISTINCT ?media ?mediaName ?author ?authorName WHERE {
 
 ## Question 6
 
-**Competency Question:** What media resources are linked to the topic "Data Science Basics"?
+**Competency Question:** What media resources are linked to a specific topic?
 
 **SPARQL Query:**
 
@@ -112,7 +112,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
 SELECT ?media ?mediaName WHERE {
-    ?media edugate:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/Data_Science_Basics> ;
+    ?media edugate:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/A_Specific_Topic> ;
            edugate:hasTitle ?mediaName .
 }
 ```
@@ -146,7 +146,7 @@ SELECT DISTINCT ?persona ?personaName ?learningPath ?learningStep ?learningStepN
 
 ## Question 8
 
-**Competency Question:** Which media resources belong to the "Research Guide" category?
+**Competency Question:** Which media resources belong to a specific category?
 
 **SPARQL Query:**
 
@@ -158,7 +158,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
 SELECT ?media ?mediaName WHERE {
-    ?media rdf:type edugate:Research_Guide ;
+    ?media rdf:type edugate:A_Specific_Category ;
            edugate:hasTitle ?mediaName
 }
 ```
@@ -187,7 +187,7 @@ LIMIT 10
 
 ## Question 10
 
-**Competency Question:** What is the next learning step after "Introduction to Set Theory"?
+**Competency Question:** What is the next learning step after a specific learning step?
 
 **SPARQL Query:**
 
@@ -199,7 +199,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
 SELECT ?nextStep ?nextStepName WHERE {
-    <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/Introduction_to_Set_Theory>
+    <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/A_Specifc_Learning_Step>
         edugate:hasNextLearningStep ?nextStep ;
         edugate:asString ?nextStepName
 }
@@ -228,7 +228,7 @@ LIMIT 10
 
 ## Question 12
 
-**Competency Question:** Which topics are broader than "Complexity"?
+**Competency Question:** Which topics are broader than a specific topic?
 
 **SPARQL Query:**
 
@@ -240,7 +240,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
 SELECT ?broaderTopic ?broaderTopicName WHERE {
-    <https://edugate.cs.wright.edu/lod/resource/Topic/Complexity> edugate:broaderThan ?broaderTopic .
+    <https://edugate.cs.wright.edu/lod/resource/Topic/A_Specific_Topic> edugate:broaderThan ?broaderTopic .
     ?broaderTopic edugate:asString ?broaderTopicName .
 }
 
