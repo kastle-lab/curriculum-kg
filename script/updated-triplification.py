@@ -43,7 +43,7 @@ def infer_format(file_path):
 name_space = "https://edugate.cs.wright.edu/"
 pfs = {
     "edu-r": Namespace(f"{name_space}lod/resource/"),
-    "edu-ont": Namespace(f"{name_space}lod/resource/"),
+    "edu-ont": Namespace(f"{name_space}lod/ontology/"),
     "dbo": Namespace("http://dbpedia.org/ontology/"),
     "time": Namespace("http://www.w3.org/2006/time#"),
     "ssn": Namespace("http://www.w3.org/ns/ssn/"),
@@ -203,6 +203,17 @@ def init_triplify():
             triplify(persona_uri, isA, pfs["edu-ont"]["Persona"])
             triplify(persona_uri, asString, Literal(
                 persona_title, datatype=XSD.string))
+            persona_type = get_column_value(row, 'Persona Type')
+
+            if persona_type:
+                triplify(persona_uri, pfs["edu-ont"]["hasType"],
+                         Literal(persona_type, datatype=XSD.string))
+            persona_role = get_column_value(row, 'Persona Role')
+
+            if persona_role:
+                triplify(persona_uri, pfs["edu-ont"]["hasRole"],
+                         Literal(persona_role, datatype=XSD.string))
+
         else:
             print(f"Row {i}: Missing or null 'Persona'")
 
