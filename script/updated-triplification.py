@@ -1,8 +1,7 @@
 import re
 import os
 import pandas as pd
-import rdflib
-from rdflib import URIRef, Graph, Namespace, Literal
+from rdflib import Graph, Namespace, Literal
 from rdflib import OWL, RDF, RDFS, XSD, TIME
 
 '''
@@ -43,9 +42,8 @@ def infer_format(file_path):
 name_space = "https://edugate.cs.wright.edu/"
 pfs = {
     "edu-r": Namespace(f"{name_space}lod/resource/"),
-    "edu-ont": Namespace(f"{name_space}lod/resource/"),
+    "edu-ont": Namespace(f"{name_space}lod/ontology/"),
     "dbo": Namespace("http://dbpedia.org/ontology/"),
-    "time": Namespace("http://www.w3.org/2006/time#"),
     "ssn": Namespace("http://www.w3.org/ns/ssn/"),
     "sosa": Namespace("http://www.w3.org/ns/sosa/"),
     "provo": Namespace("http://www.w3.org/ns/prov#"),
@@ -157,7 +155,7 @@ def dictionary_triples(elements, type, subject_uri, predicate):
     for el in elements:
         el = el.strip()
         el_str = sanitize_string(el)
-        el_uri = pfs["edu-r"][f"{type}/{el_str}"]
+        el_uri = pfs["edu-r"][f"{type}.{el_str}"]
         triplify(el_uri, isA, pfs["edu-ont"][f"{type}"])
         triplify(el_uri, asString, Literal(f"{el}", datatype=XSD.string))
         triplify(subject_uri, pfs["edu-ont"][f"{predicate}"], el_uri)
@@ -174,7 +172,7 @@ def init_triplify():
         # Curriculum base information
         curriculum_title = get_column_value(row, 'Curriculum')
         if curriculum_title:
-            curriculum_uri = pfs["edu-r"][f"Curriculum/{sanitize_string(curriculum_title)}"]
+            curriculum_uri = pfs["edu-r"][f"Curriculum.{sanitize_string(curriculum_title)}"]
             triplify(curriculum_uri, isA, pfs["edu-ont"]["Curriculum"])
             triplify(curriculum_uri, hasTitle, Literal(
                 curriculum_title, datatype=XSD.string))
@@ -184,7 +182,7 @@ def init_triplify():
         # Module Base Information
         module_title = get_column_value(row, 'Module Title')
         if module_title:
-            module_uri = pfs["edu-r"][f"Module/{sanitize_string(module_title)}"]
+            module_uri = pfs["edu-r"][f"Module.{sanitize_string(module_title)}"]
             triplify(module_uri, isA, pfs["edu-ont"]["Module"])
             triplify(module_uri, hasTitle, Literal(
                 module_title, datatype=XSD.string))
@@ -199,17 +197,28 @@ def init_triplify():
         # Persona Base Information
         persona_title = get_column_value(row, 'Persona')
         if persona_title:
-            persona_uri = pfs["edu-r"][f"Persona/{sanitize_string(persona_title)}"]
+            persona_uri = pfs["edu-r"][f"Persona.{sanitize_string(persona_title)}"]
             triplify(persona_uri, isA, pfs["edu-ont"]["Persona"])
             triplify(persona_uri, asString, Literal(
                 persona_title, datatype=XSD.string))
+            persona_type = get_column_value(row, 'Persona Type')
+
+            if persona_type:
+                triplify(persona_uri, pfs["edu-ont"]["hasType"],
+                         Literal(persona_type, datatype=XSD.string))
+            persona_role = get_column_value(row, 'Persona Role')
+
+            if persona_role:
+                triplify(persona_uri, pfs["edu-ont"]["hasRole"],
+                         Literal(persona_role, datatype=XSD.string))
+
         else:
             print(f"Row {i}: Missing or null 'Persona'")
 
         # Learning Path Base Information
         learning_path = get_column_value(row, 'Learning Path')
         if learning_path:
-            learning_path_uri = pfs["edu-r"][f"Learning_Path/{sanitize_string(learning_path)}"]
+            learning_path_uri = pfs["edu-r"][f"Learning_Path.{sanitize_string(learning_path)}"]
             triplify(learning_path_uri, isA, pfs["edu-ont"]["Learning_Path"])
             triplify(learning_path_uri, asString, Literal(
                 learning_path, datatype=XSD.string))
@@ -227,17 +236,17 @@ def init_triplify():
                 steps = [s.strip() for s in learning_steps.split(',')]
                 for index, step in enumerate(steps):
                     step_uri = pfs[
-                        "edu-r"][f"Learning_Path/Learning_Step/{sanitize_string(step)}"]
+                        "edu-r"][f"Learning_Path.{sanitize_string(learning_path)}.Learning_Step.{sanitize_string(step)}"]
                     triplify(step_uri, isA, pfs["edu-ont"]["Learning_Step"])
                     triplify(step_uri, asString, Literal(
                         step, datatype=XSD.string))
-                    referencing_module_uri = pfs["edu-r"][f"Module/{sanitize_string(step)}"]
+                    referencing_module_uri = pfs["edu-r"][f"Module.{sanitize_string(step)}"]
                     triplify(step_uri, pfs["edu-ont"]
                              ["refersTo"], referencing_module_uri)
 
                     if index != 0:
                         prev_step_uri = pfs[
-                            "edu-r"][f"Learning_Path/Learning_Step/{sanitize_string(steps[index-1])}"]
+                            "edu-r"][f"Learning_Path.{sanitize_string(learning_path)}.Learning_Step.{sanitize_string(steps[index-1])}"]
                         triplify(step_uri, pfs["edu-ont"]
                                  ["hasPreviousLearningStep"], prev_step_uri)
                     else:
@@ -246,7 +255,7 @@ def init_triplify():
 
                     if index != len(steps) - 1:
                         next_step_uri = pfs[
-                            "edu-r"][f"Learning_Path/Learning_Step/{sanitize_string(steps[index+1])}"]
+                            "edu-r"][f"Learning_Path.{sanitize_string(learning_path)}.Learning_Step.{sanitize_string(steps[index+1])}"]
                         triplify(step_uri, pfs["edu-ont"]
                                  ["hasNextLearningStep"], next_step_uri)
                     else:
@@ -268,7 +277,7 @@ def init_triplify():
         elif category_str:
             module_categories = [c.strip() for c in category_str.split(',')]
             for mc in module_categories:
-                mc_uri = pfs["edu-r"][f"Category/{sanitize_string(mc)}"]
+                mc_uri = pfs["edu-r"][f"Category.{sanitize_string(mc)}"]
                 triplify(mc_uri, isA, pfs["edu-ont"]["Category"])
                 triplify(mc_uri, asString, Literal(
                     f"{mc}", datatype=XSD.string))
@@ -288,7 +297,7 @@ def init_triplify():
         media_title = get_column_value(row, 'Media Title')
         media_link = get_column_value(row, 'Media Link')
         if media_title and media_link:
-            media_uri = pfs["edu-r"][f"Media/{sanitize_string(media_title)}"]
+            media_uri = pfs["edu-r"][f"Media.{sanitize_string(media_title)}"]
             triplify(media_uri, isA, pfs["edu-ont"]["Media"])
             triplify(media_uri, hasTitle, Literal(
                 media_title, datatype=XSD.string))
@@ -305,7 +314,7 @@ def init_triplify():
         if authors_str:
             authors = [author.strip() for author in authors_str.split(',')]
             for author in authors:
-                author_uri = pfs["edu-r"][f"Author/{sanitize_string(author)}"]
+                author_uri = pfs["edu-r"][f"Author.{sanitize_string(author)}"]
                 triplify(author_uri, isA, pfs["edu-ont"]["Author"])
                 triplify(author_uri, pfs["edu-ont"]["hasName"], Literal(
                     author, datatype=XSD.string))
@@ -320,7 +329,7 @@ def init_triplify():
         # Event Base Information
         event_title = get_column_value(row, 'Event')
         if event_title:
-            event_uri = pfs["edu-r"][f"Event/{sanitize_string(event_title)}"]
+            event_uri = pfs["edu-r"][f"Event.{sanitize_string(event_title)}"]
             triplify(event_uri, isA, pfs["edu-ont"]["Event"])
             triplify(event_uri, asString, Literal(
                 event_title, datatype=XSD.string))
@@ -340,7 +349,7 @@ def init_triplify():
             if sub_events_str:
                 sub_events = [s.strip() for s in sub_events_str.split(',')]
                 for sub_event in sub_events:
-                    sub_event_uri = pfs["edu-r"][f"Event/{sanitize_string(sub_event)}"]
+                    sub_event_uri = pfs["edu-r"][f"Event.{sanitize_string(sub_event)}"]
                     triplify(sub_event_uri, isA, pfs["edu-ont"]["Event"])
                     triplify(sub_event_uri, asString, Literal(
                         sub_event, datatype=XSD.string))
@@ -355,6 +364,8 @@ def init_triplify():
                 type = sanitize_string(type)
                 type_uri = pfs["edu-ont"][type]
                 triplify(media_uri, isA, type_uri)
+                triplify(type_uri, asString, Literal(
+                    format_str, datatype=XSD.string))
         else:
             print(f"Row {i}: Missing or null 'Media Type' or 'Media'")
 
@@ -379,7 +390,7 @@ def init_triplify():
         # Topic Relations
         topic = get_column_value(row, 'Topic')
         if topic:
-            topic_uri = pfs["edu-r"][f"Topic/{sanitize_string(topic)}"]
+            topic_uri = pfs["edu-r"][f"Topic.{sanitize_string(topic)}"]
             triplify(topic_uri, isA, pfs["edu-ont"]["Topic"])
             triplify(topic_uri, asString, Literal(topic, datatype=XSD.string))
 
@@ -389,7 +400,7 @@ def init_triplify():
                 broader_topics = [t.strip()
                                   for t in broader_topics_str.split(',')]
                 for broader_topic in broader_topics:
-                    broader_topic_uri = pfs["edu-r"][f"Topic/{sanitize_string(broader_topic)}"]
+                    broader_topic_uri = pfs["edu-r"][f"Topic.{sanitize_string(broader_topic)}"]
                     triplify(broader_topic_uri, isA, pfs["edu-ont"]["Topic"])
                     triplify(broader_topic_uri, asString, Literal(
                         broader_topic, datatype=XSD.string))
@@ -402,7 +413,7 @@ def init_triplify():
                 narrower_topics = [t.strip()
                                    for t in narrower_topics_str.split(',')]
                 for narrower_topic in narrower_topics:
-                    narrower_topic_uri = pfs["edu-r"][f"Topic/{sanitize_string(narrower_topic)}"]
+                    narrower_topic_uri = pfs["edu-r"][f"Topic.{sanitize_string(narrower_topic)}"]
                     triplify(narrower_topic_uri, isA, pfs["edu-ont"]["Topic"])
                     triplify(narrower_topic_uri, asString, Literal(
                         narrower_topic, datatype=XSD.string))
