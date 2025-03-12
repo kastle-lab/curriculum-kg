@@ -7,15 +7,15 @@
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT DISTINCT ?topic ?topicName WHERE {
-    ?topic rdf:type edugate:Topic ;
-           edugate:asString ?topicName .
+SELECT DISTINCT ?topic ?topicName
+WHERE {
+  ?topic rdf:type edu-ont:Topic ;
+         edu-ont:asString ?topicName .
 }
 ```
 
@@ -26,16 +26,15 @@ SELECT DISTINCT ?topic ?topicName WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT DISTINCT ?resource ?mediaName WHERE {
-    ?resource rdf:type edugate:Media ;
-              edugate:hasTitle ?mediaName .
-}
+SELECT DISTINCT ?media ?title
+WHERE {
+    ?media a edu-ont:Media ;
+           edu-ont:hasTitle ?title .
+}mediaTmediaTitle
 ```
 
 ## Question 3
@@ -45,16 +44,16 @@ SELECT DISTINCT ?resource ?mediaName WHERE {
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT DISTINCT ?type WHERE {
-    ?resource rdf:type ?type .
-    FILTER(CONTAINS(STR(?type), "Media"))
+SELECT DISTINCT ?mediaType 
+WHERE {
+    ?media rdf:type edu-ont:Media .
+    ?media rdf:type ?mediaType .
 }
+
 ```
 
 ## Question 4
@@ -64,15 +63,14 @@ SELECT DISTINCT ?type WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT DISTINCT ?author ?authorName WHERE {
-    ?author rdf:type edugate:Author ;
-            edugate:hasName ?authorName .
+SELECT DISTINCT ?author ?authorName
+WHERE {
+    ?author a edu-ont:Author ;
+            edu-ont:hasName ?authorName .
 }
 ```
 
@@ -83,18 +81,19 @@ SELECT DISTINCT ?author ?authorName WHERE {
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT DISTINCT ?media ?mediaName ?author ?authorName WHERE {
-    ?media rdf:type edugate:Media ;
-           edugate:hasAuthor ?author ;
-           edugate:hasTitle ?mediaName .
+SELECT ?media ?mediaTitle ?author ?authorName
+WHERE {
+    ?media rdf:type edu-ont:Media ;
+           edu-ont:hasTitle ?mediaTitle ;
+           edu-ont:hasAuthor ?author .
 
-    ?author edugate:hasName ?authorName .
+    ?author rdf:type edu-ont:Author ;
+            edu-ont:hasName ?authorName .
 }
 ```
 
@@ -105,15 +104,20 @@ SELECT DISTINCT ?media ?mediaName ?author ?authorName WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT ?media ?mediaName WHERE {
-    ?media edugate:coversTopic <https://edugate.cs.wright.edu/lod/resource/Topic/A_Specific_Topic> ;
-           edugate:hasTitle ?mediaName .
+SELECT ?media ?mediaTitle
+WHERE {
+    ?media a edu-ont:Media ;
+           edu-ont:hasTitle ?mediaTitle ;
+           edu-ont:coversTopic ?topic .
+           
+    ?topic a edu-ont:Topic ;
+           edu-ont:asString ?topicTitle .
+
+    FILTER regex(?topicTitle, "A Specific Topic", "i")
 }
 ```
 
@@ -124,42 +128,50 @@ SELECT ?media ?mediaName WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT DISTINCT ?persona ?personaName ?learningPath ?learningStep ?learningStepName ?nextStep ?nextStepName WHERE {
-    ?persona edugate:determines ?learningPath .
-    ?persona rdf:type edugate:Persona ;
-             edugate:asString ?personaName .
-    ?learningPath rdf:type edugate:Learning_Path ;
-                  edugate:asString ?learningPathName ;
-                  edugate:hasLearningSteps ?learningStep .
-    ?learningStep edugate:asString ?learningStepName ;
-          edugate:hasNextLearningStep ?nextStep .
+SELECT ?persona ?personaName ?learningPath ?learningStep ?learningStepName ?prevStep ?prevStepName ?nextStep ?nextStepName
+WHERE {
+    ?persona a edu-ont:Persona ;
+             edu-ont:determines ?learningPath ;
+             edu-ont:asString ?personaName.
 
-    ?nextStep edugate:asString ?nextStepName .
+    ?learningPath edu-ont:hasLearningSteps ?learningStep .
+    
+    ?learningStep edu-ont:asString ?learningStepName.
+
+    OPTIONAL {
+        ?learningStep edu-ont:hasPreviousLearningStep ?prevStep .
+        ?prevStep edu-ont:asString ?prevStepName.
+    }
+    OPTIONAL {
+        ?learningStep edu-ont:hasNextLearningStep ?nextStep .
+        ?nextStep edu-ont:asString ?nextStepName.
+    }
 }
 ```
 
 ## Question 8
 
-**Competency Question:** Which media resources belong to a specific category?
+**Competency Question:** Which media resources belong to a specific type?
 
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT ?media ?mediaName WHERE {
-    ?media rdf:type edugate:A_Specific_Category ;
-           edugate:hasTitle ?mediaName
+SELECT ?media ?title ?type ?typeName
+WHERE {
+    ?media rdf:type edu-ont:Media ;
+           edu-ont:hasTitle ?title ;
+           rdf:type ?type .
+    ?type edu-ont:asString ?typeName.
+    
+    FILTER regex(?typeName, "A Specific Type", "i")
 }
 ```
 
@@ -170,17 +182,17 @@ SELECT ?media ?mediaName WHERE {
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT ?media ?mediaName (COUNT(?ref) AS ?referenceCount) WHERE {
-    ?ref ?p ?media .
-    ?media rdf:type edugate:Media ;
-           edugate:hasTitle ?mediaName .
-} GROUP BY ?media ?mediaName
+SELECT ?media ?mediaTitle (COUNT(?referencingEntity) AS ?referenceCount)
+WHERE {
+    ?referencingEntity edu-ont:references ?media .
+    ?media edu-ont:hasTitle ?mediaTitle.
+}
+GROUP BY ?media ?mediaTitle
 ORDER BY DESC(?referenceCount)
 LIMIT 10
 ```
@@ -192,16 +204,17 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT ?nextStep ?nextStepName WHERE {
-    <https://edugate.cs.wright.edu/lod/resource/Learning_Path/Learning_Step/A_Specifc_Learning_Step>
-        edugate:hasNextLearningStep ?nextStep ;
-        edugate:asString ?nextStepName
+SELECT ?nextStep ?nextStepLabel
+WHERE {
+    ?learningStep a edu-ont:Learning_Step ;
+                  edu-ont:asString "Specific Learning Step Name" ;
+                  edu-ont:hasNextLearningStep ?nextStep .
+    
+    OPTIONAL { ?nextStep edu-ont:asString ?nextStepLabel }
 }
 ```
 
@@ -212,17 +225,19 @@ SELECT ?nextStep ?nextStepName WHERE {
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT ?topic ?topicName (COUNT(?media) AS ?count) WHERE {
-    ?media edugate:coversTopic ?topic .
-    ?topic edugate:asString ?topicName .
-} GROUP BY ?topic ?topicName
-ORDER BY DESC(?count)
+SELECT ?topic ?topicName (COUNT(?media) AS ?mediaCount)
+WHERE {
+    ?media rdf:type edu-ont:Media .
+    ?media edu-ont:coversTopic ?topic .
+    ?topic edu-ont:asString ?topicName .
+}
+GROUP BY ?topic ?topicName
+ORDER BY DESC(?mediaCount)
 LIMIT 10
 ```
 
@@ -233,17 +248,18 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT ?broaderTopic ?broaderTopicName WHERE {
-    <https://edugate.cs.wright.edu/lod/resource/Topic/A_Specific_Topic> edugate:broaderThan ?broaderTopic .
-    ?broaderTopic edugate:asString ?broaderTopicName .
+SELECT ?broaderTopic ?broaderTopicName
+WHERE {
+    ?specificTopic a edu-ont:Topic ;
+                   edu-ont:asString "A Specific Topic" ;
+                   edu-ont:broaderThan ?broaderTopic .
+    
+    ?broaderTopic edu-ont:asString ?broaderTopicName .
 }
-
 ```
 
 ## Question 13
@@ -253,17 +269,18 @@ SELECT ?broaderTopic ?broaderTopicName WHERE {
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT ?media ?mediaName (COUNT(?topic) AS ?count) WHERE {
-    ?media rdf:type edugate:Media ;
-           edugate:coversTopic ?topic ;
-           edugate:hasTitle ?mediaName .
-} GROUP BY ?media ?mediaName
+SELECT ?media ?mediaName(COUNT(?topic) AS ?count)
+WHERE {
+    ?media rdf:type edu-ont:Media ;
+           edu-ont:hasTitle ?mediaName .
+    ?media edu-ont:coversTopic ?topic .
+}
+GROUP BY ?media ?mediaName
 HAVING (COUNT(?topic) > 1)
 ORDER BY DESC(?count)
 ```
@@ -275,19 +292,18 @@ ORDER BY DESC(?count)
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-
-SELECT ?author ?authorName (COUNT(?media) AS ?count) WHERE {
-    ?media rdf:type edugate:Media ;
-           edugate:hasAuthor ?author .
-
-    ?author edugate:hasName ?authorName .
-} GROUP BY ?author ?authorName
+SELECT ?author ?authorName (COUNT(?media) AS ?count)
+WHERE {
+    ?media rdf:type edu-ont:Media .
+    ?media edu-ont:hasAuthor ?author .
+    ?author edu-ont:hasName ?authorName .
+}
+GROUP BY ?author ?authorName
 HAVING (COUNT(?media) > 1)
 ORDER BY DESC(?count)
 ```
@@ -299,9 +315,12 @@ ORDER BY DESC(?count)
 **SPARQL Query:**
 
 ```sparql
-SELECT ?predicate (COUNT(*) AS ?count) WHERE {
+SELECT ?predicate (COUNT(?predicate) AS ?count)
+WHERE {
     ?s ?predicate ?o .
-} GROUP BY ?predicate ORDER BY DESC(?count)
+}
+GROUP BY ?predicate
+ORDER BY DESC(?count)
 ```
 
 ## Question 16
@@ -311,24 +330,19 @@ SELECT ?predicate (COUNT(*) AS ?count) WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 
-SELECT ?author1 ?author1Name ?author2 ?author2Name (COUNT(?media) AS ?sharedPublications) WHERE {
-    ?media rdf:type edugate:Media ;  # Ensure only media resources are counted
-           edugate:hasAuthor ?author1, ?author2 .
-
-    FILTER(?author1 != ?author2)  # Exclude self-pairs
-
-    ?author1 edugate:hasName ?author1Name .
-    ?author2 edugate:hasName ?author2Name .
-} GROUP BY ?author1 ?author1Name ?author2 ?author2Name
-ORDER BY DESC(?sharedPublications)
+SELECT ?author1 ?author2 (COUNT(DISTINCT ?media) AS ?coAuthoredMediaCount)
+WHERE {
+    ?media a edu-ont:Media .
+    ?media edu-ont:hasAuthor ?author1 .
+    ?media edu-ont:hasAuthor ?author2 .
+    FILTER(?author1 != ?author2)
+}
+GROUP BY ?author1 ?author2
+ORDER BY DESC(?coAuthoredMediaCount)
 LIMIT 10
-
 ```
 
 ## Question 17
@@ -338,17 +352,20 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT ?topic ?topicName (COUNT(?relatedTopic) AS ?crossReferences) WHERE {
-    ?topic edugate:broaderThan|edugate:relatedTo ?relatedTopic .
-    ?topic edugate:asString ?topicName .
-} GROUP BY ?topic ?topicName
-ORDER BY DESC(?crossReferences)
+SELECT ?topic ?topicName (COUNT(?ref) AS ?count)
+WHERE {
+  ?topic rdf:type edu-ont:Topic ;
+         edu-ont:asString ?topicName .
+  { ?topic edu-ont:broaderThan ?ref } 
+  UNION 
+  { ?topic edu-ont:narrowerThan ?ref }
+}
+GROUP BY ?topic ?topicName
+ORDER BY DESC(?count)
 LIMIT 10
 ```
 
@@ -359,17 +376,25 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT ?prerequisiteStep ?prerequisiteStepName ?nextStep ?nextStepName WHERE {
-    ?prerequisiteStep edugate:hasNextLearningStep+ ?nextStep .
+SELECT ?learningPath ?learningStep ?learningStepName ?prevStep ?prevStepName ?nextStep ?nextStepName 
+WHERE {
+    ?learningPath a edu-ont:Learning_Path .
+    ?learningPath edu-ont:hasLearningSteps ?learningStep .
+    ?learningStep edu-ont:asString ?learningStepName .
+    
+    OPTIONAL {
+        ?learningStep edu-ont:hasNextLearningStep ?nextStep .
+        ?nextStep edu-ont:asString ?nextStepName .
+    }
 
-    ?prerequisiteStep edugate:asString ?prerequisiteStepName .
-    ?nextStep edugate:asString ?nextStepName .
+    OPTIONAL {
+        ?learningStep edu-ont:hasPreviousLearningStep ?prevStep .
+        ?prevStep edu-ont:asString ?prevStepName .
+    }
 }
 ```
 
@@ -380,18 +405,17 @@ SELECT ?prerequisiteStep ?prerequisiteStepName ?nextStep ?nextStepName WHERE {
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
 
-SELECT DISTINCT ?event ?eventName ?eventType ?eventTypeName WHERE {
-    ?event rdf:type edugate:Event ;
-           edugate:asString ?eventName ;
-           rdf:type ?eventType .
-
-    ?eventType edugate:asString ?eventTypeName .
+SELECT DISTINCT ?event ?eventTitle ?eventType
+WHERE {
+    ?event rdf:type edu-ont:Event .
+    ?event edu-ont:asString ?eventTitle .
+    
+    OPTIONAL {
+        ?event edu-ont:hasEventType ?eventType .
+    }
 }
 ```
 
@@ -402,17 +426,14 @@ SELECT DISTINCT ?event ?eventName ?eventType ?eventTypeName WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX edugate: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
 
-SELECT DISTINCT ?module ?moduleName ?level ?levelName WHERE {
-    ?module rdf:type edugate:Module ;
-            edugate:hasTitle ?moduleName ;
-            edugate:hasLevel ?level .
-
-    ?level edugate:asString ?levelName .
+SELECT ?module ?moduleTitle ?level ?levelName
+WHERE {
+    ?module a edu-ont:Module ;
+            edu-ont:hasTitle ?moduleTitle ;
+            edu-ont:hasLevel ?level .
+    
+    ?level edu-ont:asString ?levelName .
 }
 ```
