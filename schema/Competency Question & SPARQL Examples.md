@@ -199,23 +199,25 @@ LIMIT 10
 
 ## Question 10
 
-**Competency Question:** What is the next learning step after a specific learning step?
+**Competency Question:** Are there Personas that have overlapping Learning Paths?
 
 **SPARQL Query:**
 
 ```sparql
 PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
 PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?nextStep ?nextStepLabel
+SELECT DISTINCT ?learningPath ?learningPathName (GROUP_CONCAT(DISTINCT ?persona; separator=", ") AS ?personas)
 WHERE {
-    ?learningStep a edu-ont:Learning_Step ;
-                  edu-ont:asString "Specific Learning Step Name" ;
-                  edu-ont:hasNextLearningStep ?nextStep .
+    ?persona rdf:type edu-ont:Persona ;
+             edu-ont:determines ?learningPath .
     
-    OPTIONAL { ?nextStep edu-ont:asString ?nextStepLabel }
+    ?learningPath edu-ont:asString ?learningPathName .
 }
+GROUP BY ?learningPath ?learningPathName
+HAVING (COUNT(?persona) > 1)  
+
 ```
 
 ## Question 11
@@ -400,23 +402,22 @@ WHERE {
 
 ## Question 19
 
-**Competency Question:** What events are available, and what are their types? (Presentation, Tutorial, Workshop etc)
-
+**Competency Question:** How many modules belong to each category?
 **SPARQL Query:**
 
 ```sparql
+PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
 PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT DISTINCT ?event ?eventTitle ?eventType
+SELECT ?categoryName (COUNT(?module) AS ?moduleCount)
 WHERE {
-    ?event rdf:type edu-ont:Event .
-    ?event edu-ont:asString ?eventTitle .
-    
-    OPTIONAL {
-        ?event edu-ont:hasEventType ?eventType .
-    }
+  ?module a edu-ont:Module ;
+          edu-ont:belongsToCategory ?category .
+  ?category edu-ont:asString ?categoryName .
 }
+GROUP BY ?categoryName
+ORDER BY DESC(?moduleCount)
 ```
 
 ## Question 20
