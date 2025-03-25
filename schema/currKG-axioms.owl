@@ -28,12 +28,21 @@
 #    Object Properties
 #################################################################
 
-###  https://edugate.cs.wright.edu/lod/resource/currKG#hasProfession
+###  https://edugate.cs.wright.edu/lod/resource/currKG/hasNextLearningStep
+:hasNextLearningStep rdf:type owl:ObjectProperty .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/hasPreviousLearningStep
+:hasPreviousLearningStep rdf:type owl:ObjectProperty .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/hasProfession
 :hasProfession rdf:type owl:ObjectProperty .
 
 
-###  https://edugate.cs.wright.edu/lod/resource/currKG#hasType
-:hasType rdf:type owl:ObjectProperty .
+###  https://edugate.cs.wright.edu/lod/resource/currKG/hasType
+:hasType rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :hasProfession .
 
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/assumesRole
@@ -50,6 +59,14 @@
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/coversTopic
 <https://edugate.cs.wright.edu/lod/resource/currKG/coversTopic> rdf:type owl:ObjectProperty .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/currKG/hasProfession
+:hasProfession rdf:type owl:ObjectProperty .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/currKG/hasType
+:hasType rdf:type owl:ObjectProperty .
 
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/determines
@@ -74,14 +91,6 @@
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/hasModule
 <https://edugate.cs.wright.edu/lod/resource/currKG/hasModule> rdf:type owl:ObjectProperty .
-
-
-###  https://edugate.cs.wright.edu/lod/resource/currKG/hasNextStep
-<https://edugate.cs.wright.edu/lod/resource/currKG/hasNextStep> rdf:type owl:ObjectProperty .
-
-
-###  https://edugate.cs.wright.edu/lod/resource/currKG/hasPreviousStep
-<https://edugate.cs.wright.edu/lod/resource/currKG/hasPreviousStep> rdf:type owl:ObjectProperty .
 
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/hasRecomended
@@ -136,20 +145,12 @@
 #    Classes
 #################################################################
 
-###  https://edugate.cs.wright.edu/lod/resource/currKG#Profession
-:Profession rdf:type owl:Class ;
-            rdfs:subClassOf [ rdf:type owl:Restriction ;
-                              owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/asString> ;
-                              owl:someValuesFrom owl:rational
-                            ] .
+###  https://edugate.cs.wright.edu/lod/resource/currKG/Profession
+:Profession rdf:type owl:Class .
 
 
-###  https://edugate.cs.wright.edu/lod/resource/currKG#Type
-:Type rdf:type owl:Class ;
-      rdfs:subClassOf [ rdf:type owl:Restriction ;
-                        owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/asString> ;
-                        owl:someValuesFrom owl:rational
-                      ] .
+###  https://edugate.cs.wright.edu/lod/resource/currKG/personaType
+:personaType rdf:type owl:Class .
 
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/Article
@@ -172,6 +173,10 @@
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/Author
 <https://edugate.cs.wright.edu/lod/resource/currKG/Author> rdf:type owl:Class ;
                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty :hasType ;
+                                                                             owl:someValuesFrom :Profession
+                                                                           ] ,
+                                                                           [ rdf:type owl:Restriction ;
                                                                              owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/hasName> ;
                                                                              owl:someValuesFrom xsd:string
                                                                            ] ;
@@ -344,12 +349,12 @@
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep
 <https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep> rdf:type owl:Class ;
                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/hasNextStep> ;
+                                                                                   owl:onProperty :hasNextLearningStep ;
                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                    owl:onClass <https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep>
                                                                                  ] ,
                                                                                  [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/hasPreviousStep> ;
+                                                                                   owl:onProperty :hasPreviousLearningStep ;
                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                    owl:onClass <https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep>
                                                                                  ] ;
@@ -432,6 +437,10 @@
 <https://edugate.cs.wright.edu/lod/resource/currKG/Person> rdf:type owl:Class ;
                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                                              owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/assumesRole> ;
+                                                                             owl:someValuesFrom <https://edugate.cs.wright.edu/lod/resource/currKG/Person>
+                                                                           ] ,
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/assumesRole> ;
                                                                              owl:someValuesFrom <https://edugate.cs.wright.edu/lod/resource/currKG/Persona>
                                                                            ] ;
                                                            <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "67.71024379246852"^^xsd:double ;
@@ -446,6 +455,15 @@
                                                                             [ rdf:type owl:Restriction ;
                                                                               owl:onProperty :hasType ;
                                                                               owl:someValuesFrom :Type
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty :hasType ;
+                                                                              owl:allValuesFrom :Profession
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty :hasProfession ;
+                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onClass :Profession
                                                                             ] ,
                                                                             [ rdf:type owl:Restriction ;
                                                                               owl:onProperty :hasProfession ;
@@ -563,6 +581,22 @@
                                                                                                                           <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "251.47842082041097"^^xsd:double ;
                                                                                                                           rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
                                                                                                                         ] .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/currKGProfession
+:Profession rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/asString> ;
+                              owl:someValuesFrom owl:rational
+                            ] .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/currKGType
+:Type rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty <https://edugate.cs.wright.edu/lod/resource/currKG/asString> ;
+                        owl:someValuesFrom owl:rational
+                      ] .
 
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/curriculumDeveloper
