@@ -3,6 +3,7 @@ import os
 import pandas as pd
 from rdflib import Graph, Namespace, Literal
 from rdflib import OWL, RDF, RDFS, XSD, TIME
+import argparse
 
 '''
 Script Parameters
@@ -12,13 +13,14 @@ Please make sure to adjust the
 which does not accidentally overwrite
 existing turtle files! 
 '''
-# Directory and File Parameters of Triplification run
-data_path = "./data"
-output_path = "./materialization"
+df = None
 
-data_path = os.path.join(data_path, "data-for-ns-okg.csv")
+# Directory and File Parameters of Triplification run
+data_input_name = "data-okg.csv"
 output_name = "new-schema-currkg.ttl"
-output_path = os.path.join(output_path, output_name)
+data_path = os.path.join("./data", data_input_name)
+current_file_path = output_path = os.path.join(
+    "./materialization", output_name)
 
 # Mapping of file extensions to RDF formats
 EXTENSION_TO_FORMAT = {
@@ -85,11 +87,11 @@ def init_kg(prefixes=pfs):
 
     kg = Graph()
 
-    if os.path.exists(output_path):
-        rdf_format = infer_format(output_path)
+    if os.path.exists(current_file_path):
+        rdf_format = infer_format(current_file_path)
         print(
-            f"Loading existing graph from {output_path} (format: {rdf_format})")
-        kg.parse(output_path, format=rdf_format)
+            f"Loading existing graph from {current_file_path} (format: {rdf_format})")
+        kg.parse(current_file_path, format=rdf_format)
     else:
         print(f"Creating a new graph as {output_path} does not exist.")
 
@@ -98,12 +100,6 @@ def init_kg(prefixes=pfs):
         kg.bind(prefix, pfs[prefix])
 
     return kg
-
-
-with open(data_path, "r") as inputF:
-    df = pd.read_csv(inputF)
-    header = df.columns
-    # print([col for col in header])
 
 
 def triplify(s, p, o):
@@ -204,13 +200,24 @@ def init_triplify():
             persona_type = get_column_value(row, 'Persona Type')
 
             if persona_type:
-                triplify(persona_uri, pfs["edu-ont"]["hasType"],
-                         Literal(persona_type, datatype=XSD.string))
-            persona_role = get_column_value(row, 'Persona Role')
+                persona_type_uri = pfs["edu-r"][f"PersonaType.{sanitize_string(persona_type)}"]
+                triplify(persona_type_uri, isA, pfs["edu-ont"]["PersonaType"])
+                triplify(persona_uri, pfs["edu-ont"]
+                         ["hasType"], persona_type_uri)
+                triplify(persona_type_uri, asString, Literal(
+                    persona_type, datatype=XSD.string))
 
-            if persona_role:
-                triplify(persona_uri, pfs["edu-ont"]["hasRole"],
-                         Literal(persona_role, datatype=XSD.string))
+            persona_profession = get_column_value(row, 'Persona Profession')
+
+            if persona_profession:
+                persona_profession_uri = pfs[
+                    "edu-r"][f"Profession.{sanitize_string(persona_profession)}"]
+                triplify(persona_profession_uri, isA,
+                         pfs["edu-ont"]["Profession"])
+                triplify(persona_uri, pfs["edu-ont"]
+                         ["hasProfession"], persona_profession_uri)
+                triplify(persona_profession_uri, asString, Literal(
+                    persona_profession, datatype=XSD.string))
 
         else:
             print(f"Row {i}: Missing or null 'Persona'")
@@ -218,8 +225,8 @@ def init_triplify():
         # Learning Path Base Information
         learning_path = get_column_value(row, 'Learning Path')
         if learning_path:
-            learning_path_uri = pfs["edu-r"][f"Learning_Path.{sanitize_string(learning_path)}"]
-            triplify(learning_path_uri, isA, pfs["edu-ont"]["Learning_Path"])
+            learning_path_uri = pfs["edu-r"][f"LearningPath.{sanitize_string(learning_path)}"]
+            triplify(learning_path_uri, isA, pfs["edu-ont"]["LearningPath"])
             triplify(learning_path_uri, asString, Literal(
                 learning_path, datatype=XSD.string))
 
@@ -236,8 +243,8 @@ def init_triplify():
                 steps = [s.strip() for s in learning_steps.split(',')]
                 for index, step in enumerate(steps):
                     step_uri = pfs[
-                        "edu-r"][f"Learning_Path.{sanitize_string(learning_path)}.Learning_Step.{sanitize_string(step)}"]
-                    triplify(step_uri, isA, pfs["edu-ont"]["Learning_Step"])
+                        "edu-r"][f"LearningPath.{sanitize_string(learning_path)}.LearningStep.{sanitize_string(step)}"]
+                    triplify(step_uri, isA, pfs["edu-ont"]["LearningStep"])
                     triplify(step_uri, asString, Literal(
                         step, datatype=XSD.string))
                     referencing_module_uri = pfs["edu-r"][f"Module.{sanitize_string(step)}"]
@@ -246,24 +253,24 @@ def init_triplify():
 
                     if index != 0:
                         prev_step_uri = pfs[
-                            "edu-r"][f"Learning_Path.{sanitize_string(learning_path)}.Learning_Step.{sanitize_string(steps[index-1])}"]
+                            "edu-r"][f"LearningPath.{sanitize_string(learning_path)}.LearningStep.{sanitize_string(steps[index-1])}"]
                         triplify(step_uri, pfs["edu-ont"]
                                  ["hasPreviousLearningStep"], prev_step_uri)
                     else:
                         triplify(step_uri, isA,
-                                 pfs["edu-ont"]["First_Learning_Step"])
+                                 pfs["edu-ont"]["FirstLearningStep"])
 
                     if index != len(steps) - 1:
                         next_step_uri = pfs[
-                            "edu-r"][f"Learning_Path.{sanitize_string(learning_path)}.Learning_Step.{sanitize_string(steps[index+1])}"]
+                            "edu-r"][f"LearningPath.{sanitize_string(learning_path)}.LearningStep.{sanitize_string(steps[index+1])}"]
                         triplify(step_uri, pfs["edu-ont"]
                                  ["hasNextLearningStep"], next_step_uri)
                     else:
                         triplify(step_uri, isA,
-                                 pfs["edu-ont"]["Last_Learning_Step"])
+                                 pfs["edu-ont"]["LastLearningStep"])
 
                     triplify(learning_path_uri,
-                             pfs["edu-ont"]["hasLearningSteps"], step_uri)
+                             pfs["edu-ont"]["hasLearningStep"], step_uri)
 
         else:
             print(f"Row {i}: Missing or null 'Learning Path'")
@@ -273,7 +280,7 @@ def init_triplify():
         if category_str and module_uri:
             module_categories = [c.strip() for c in category_str.split(',')]
             dictionary_triples(module_categories, "Category",
-                               module_uri, "belongsToCategory")
+                               module_uri, "belongsTo")
         elif category_str:
             module_categories = [c.strip() for c in category_str.split(',')]
             for mc in module_categories:
@@ -323,6 +330,10 @@ def init_triplify():
                 if media_uri:
                     triplify(media_uri, pfs["edu-ont"]
                              ["hasAuthor"], author_uri)
+
+                # Add Person to Author ontology graph
+                graph.add(
+                    (person_uri, pfs["edu-ont"]["assumesRole"], pfs["edu-ont"]["Author"]))
         else:
             print(f"Row {i}: Missing or null 'Author'")
 
@@ -331,10 +342,12 @@ def init_triplify():
         if event_title:
             event_uri = pfs["edu-r"][f"Event.{sanitize_string(event_title)}"]
             triplify(event_uri, isA, pfs["edu-ont"]["Event"])
+            # Todo: Add event title relationship
             triplify(event_uri, asString, Literal(
                 event_title, datatype=XSD.string))
 
             # Event with Event Type
+            # Todo: Add event type relationship
             event_type = get_column_value(row, 'Event Type')
             if event_type:
                 triplify(event_uri, isA, Literal(
@@ -342,7 +355,7 @@ def init_triplify():
 
             # Media with Event
             if media_uri:
-                triplify(media_uri, pfs["edu-ont"]["providedBy"], event_uri)
+                triplify(event_uri, pfs["edu-ont"]["provides"], media_uri)
 
             # Event with Sub Events
             sub_events_str = get_column_value(row, 'Sub Events')
@@ -427,7 +440,7 @@ def init_triplify():
         if audience_str and media_uri:
             audiences = [a.strip() for a in audience_str.split(',')]
             dictionary_triples(audiences, "Audience",
-                               media_uri, "hasRecommendedAudience")
+                               media_uri, "hasRecommended")
         else:
             print(f"Row {i}: Missing or null 'Audience' or 'Media Title'")
 
@@ -437,7 +450,7 @@ def init_triplify():
             languages = [l.strip() for l in language_str.split(',')]
             if media_uri:
                 dictionary_triples(languages, "Language",
-                                   media_uri, "supportsLanguage")
+                                   media_uri, "hasLanguage")
         else:
             print(f"Row {i}: Missing or null 'Language' or 'Media'")
 
@@ -449,12 +462,50 @@ def init_triplify():
 
 
 def main():
+    # -----------------------
+    # Example usage (run this script from terminal):
+    #
+    # python updated-triplification.py --input-data data-for-okg.csv --current-file current_graph.ttl --output new_graph.ttl
+    #
+    # All arguments are optional if defaults are set in the script.
+    # -----------------------
+
+    global data_path
+    global output_path
+    global current_file_path
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--input-data", help="The CSV File to use for materialization", default=data_path)
+    parser.add_argument(
+        "--current-file", help="The current file which has the graph", default=current_file_path)
+    parser.add_argument("--output", help="The output file to save the graph to",
+                        default=output_path)
+    args = parser.parse_args()
+
+    data_path = args.input_data
+    current_file_path = args.current_file
+    output_path = args.output
+
+    with open(data_path, "r") as inputF:
+        global df
+        # Read the CSV file into a DataFrame
+        df = pd.read_csv(inputF)
+        header = df.columns
+        # print([col for col in header])
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    # Start triplification
     init_triplify()
 
     # Serialize the graph
     graph.serialize(format="turtle", encoding="utf-8", destination=output_path)
 
     print("Graph Serialized")
+    print(f"Graph saved to {output_path}")
+    # Print the number of triples in the graph
+    print(f"Number of triples in the graph: {len(graph)}")
 
 
 graph = init_kg()
