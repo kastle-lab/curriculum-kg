@@ -183,7 +183,7 @@
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/Category
 :Category rdf:type owl:Class ;
           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                            owl:onProperty owl:inverseOf :hasModule ] ;
+                            owl:onProperty [ owl:inverseOf :hasModule ] ;
                             owl:someValuesFrom :Module
                           ] ,
                           [ rdf:type owl:Restriction ;
