@@ -28,8 +28,12 @@
 #    Object Properties
 #################################################################
 
-###  https://edugate.cs.wright.edu/lod/resource/currKG/assumesRole
-:assumesRole rdf:type owl:ObjectProperty .
+###  https://edugate.cs.wright.edu/lod/resource/currKG/assumesAuthorship
+:assumesAuthorship rdf:type owl:ObjectProperty .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/assumesPersona
+:assumesPersona rdf:type owl:ObjectProperty .
 
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/belongTo
@@ -157,10 +161,6 @@
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/Author
 :Author rdf:type owl:Class ;
         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasType ;
-                          owl:someValuesFrom :Profession
-                        ] ,
-                        [ rdf:type owl:Restriction ;
                           owl:onProperty :hasName ;
                           owl:someValuesFrom xsd:string
                         ] ;
@@ -418,11 +418,11 @@
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/Person
 :Person rdf:type owl:Class ;
         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                          owl:onProperty :assumesRole ;
-                          owl:someValuesFrom :Person
+                          owl:onProperty :assumesAuthorship ;
+                          owl:someValuesFrom :Author
                         ] ,
                         [ rdf:type owl:Restriction ;
-                          owl:onProperty :assumesRole ;
+                          owl:onProperty :assumesPersona ;
                           owl:someValuesFrom :Persona
                         ] ;
         <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "67.71024379246852"^^xsd:double ;
@@ -579,66 +579,6 @@
 #    Individuals
 #################################################################
 
-###  https://edugate.cs.wright.edu/lod/ontology/Collaborator
-:Collaborator rdf:type owl:NamedIndividual ,
-                       :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/Consultant
-:Consultant rdf:type owl:NamedIndividual ,
-                     :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/Contributor
-:Contributor rdf:type owl:NamedIndividual ,
-                      :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/CurriculumDeveloper
-:CurriculumDeveloper rdf:type owl:NamedIndividual ,
-                              :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/EducationalFacilitator
-:EducationalFacilitator rdf:type owl:NamedIndividual ,
-                                 :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/Enthusiast
-:Enthusiast rdf:type owl:NamedIndividual ,
-                     :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/Executive
-:Executive rdf:type owl:NamedIndividual ,
-                    :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/ExecutiveEngagementSpecialist
-:ExecutiveEngagementSpecialist rdf:type owl:NamedIndividual ,
-                                        :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/KGResearcher
-:KGResearcher rdf:type owl:NamedIndividual ,
-                       :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/ResourceDeveloper
-:ResourceDeveloper rdf:type owl:NamedIndividual ,
-                            :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/SupplyChainManagementSpecialist
-:SupplyChainManagementSpecialist rdf:type owl:NamedIndividual ,
-                                          :PersonaType .
-
-
-###  https://edugate.cs.wright.edu/lod/ontology/UserEngagementFacilitator
-:UserEngagementFacilitator rdf:type owl:NamedIndividual ,
-                                    :PersonaType .
-
-
 ###  https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert
 <https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert> rdf:type owl:NamedIndividual ,
                                                                                 :PersonaType .
@@ -649,23 +589,93 @@
                                                                                        :PersonaType .
 
 
+###  https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator
+:Collaborator rdf:type owl:NamedIndividual ,
+                       :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/Consultant
+:Consultant rdf:type owl:NamedIndividual ,
+                     :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/Contributor
+:Contributor rdf:type owl:NamedIndividual ,
+                      :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper
+:CurriculumDeveloper rdf:type owl:NamedIndividual ,
+                              :PersonaType .
+
+
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/Developer
 :Developer rdf:type owl:NamedIndividual ,
                     :PersonaType .
 
 
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "113.43577236590322"^^xsd:double ;
-  <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "22.465217322902088"^^xsd:double ;
+###  https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator
+:EducationalFacilitator rdf:type owl:NamedIndividual ,
+                                 :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast
+:Enthusiast rdf:type owl:NamedIndividual ,
+                     :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/Executive
+:Executive rdf:type owl:NamedIndividual ,
+                    :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist
+:ExecutiveEngagementSpecialist rdf:type owl:NamedIndividual ,
+                                        :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher
+:KGResearcher rdf:type owl:NamedIndividual ,
+                       :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper
+:ResourceDeveloper rdf:type owl:NamedIndividual ,
+                            :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist
+:SupplyChainManagementSpecialist rdf:type owl:NamedIndividual ,
+                                          :PersonaType .
+
+
+###  https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator
+:UserEngagementFacilitator rdf:type owl:NamedIndividual ,
+                                    :PersonaType .
+
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "97.20732638218533"^^xsd:double ;
+  <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "36.08742409572771"^^xsd:double ;
   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
 ] .
 
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "145.62239259602825"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "195.24366366751747"^^xsd:double ;
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "55.0138600700657"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "12.373535546589167"^^xsd:double ;
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
 [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "134.84670456198532"^^xsd:double ;
    <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "49.91841795116743"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "113.43577236590322"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "22.465217322902088"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "145.62239259602825"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "195.24366366751747"^^xsd:double ;
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
@@ -716,16 +726,6 @@
 
 [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "119.84515180299982"^^xsd:double ;
    <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "7.425398947877624"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "97.20732638218533"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "36.08742409572771"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "55.0138600700657"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "12.373535546589167"^^xsd:double ;
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
