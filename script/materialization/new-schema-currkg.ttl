@@ -11233,7 +11233,7 @@ edu-r:Persona.Darwin a edu-ont:Persona ;
     edu-ont:asString "Darwin"^^xsd:string ;
     edu-ont:determines edu-r:LearningPath.What_is_a_Knowledge_GraphXX_Introduction_to_Set_TheoryX_Description_LogicX_RDF_and_RDFS_familiarization_along_with_what_a_Schema_isX_What_is_an_OntologyXX_What_is_an_IdentifierXX_ProtegeX_OWLX_How_to_deploy_a_KGX_rdflib_starter_code_X_Go_through_itX_understand_itX_work_with_examplesX_What_is_a_TTL_fileX_how_to_read_itXX_SPARQLX_Validation_of_the_KG_through_Apache_Jena_Fuseki ;
     edu-ont:hasProfession edu-r:Profession.Data_Scientist ;
-    edu-ont:hasType edu-r:PersonaType.Darwin .
+    edu-ont:hasType edu-r:PersonaType.Developer .
 
 edu-r:Persona.Debbie a edu-ont:Persona ;
     edu-ont:asString "Debbie"^^xsd:string ;
@@ -15499,12 +15499,6 @@ edu-r:PersonaType.Consultant a edu-ont:PersonaType ;
 edu-r:PersonaType.Curriculum_Developer a edu-ont:PersonaType ;
     edu-ont:asString "Curriculum Developer"^^xsd:string .
 
-edu-r:PersonaType.Darwin a edu-ont:PersonaType ;
-    edu-ont:asString "Darwin"^^xsd:string .
-
-edu-r:PersonaType.Developer a edu-ont:PersonaType ;
-    edu-ont:asString "Developer"^^xsd:string .
-
 edu-r:PersonaType.Educational_Facilitator a edu-ont:PersonaType ;
     edu-ont:asString "Educational Facilitator"^^xsd:string .
 
@@ -16510,6 +16504,9 @@ edu-r:Module.Survey_of_Triplestores a edu-ont:Module ;
 
 edu-r:PersonaType.Contributor a edu-ont:PersonaType ;
     edu-ont:asString "Contributor"^^xsd:string .
+
+edu-r:PersonaType.Developer a edu-ont:PersonaType ;
+    edu-ont:asString "Developer"^^xsd:string .
 
 edu-r:Topic.Blank_Node a edu-ont:Topic ;
     edu-ont:asString "Blank Node"^^xsd:string .
