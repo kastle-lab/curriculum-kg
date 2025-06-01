@@ -28,6 +28,10 @@
 #    Object Properties
 #################################################################
 
+###  https://edugate.cs.wright.edu/lod/ontology#provides
+:provides rdf:type owl:ObjectProperty .
+
+
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/assumesAuthorship
 :assumesAuthorship rdf:type owl:ObjectProperty .
 
@@ -99,10 +103,6 @@
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/narrowerThan
 :narrowerThan rdf:type owl:ObjectProperty .
-
-
-###  https://edugate.cs.wright.edu/lod/resource/currKG/providedBy
-:providedBy rdf:type owl:ObjectProperty .
 
 
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/references
@@ -183,7 +183,8 @@
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/Category
 :Category rdf:type owl:Class ;
           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                            owl:onProperty [ owl:inverseOf :hasModule ] ;
+                            owl:onProperty [ owl:inverseOf :hasModule
+                                           ] ;
                             owl:someValuesFrom :Module
                           ] ,
                           [ rdf:type owl:Restriction ;
@@ -216,6 +217,10 @@
             rdfs:subClassOf [ rdf:type owl:Restriction ;
                               owl:onProperty :hasModule ;
                               owl:someValuesFrom :Module
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasTitle ;
+                              owl:someValuesFrom xsd:string
                             ] ;
             <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "84.22046954254326"^^xsd:double ;
                                                                          <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "61.85682749202153"^^xsd:double ;
@@ -260,8 +265,12 @@
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/Event
 :Event rdf:type owl:Class ;
        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :provides ;
+                         owl:someValuesFrom :Media
+                       ] ,
+                       [ rdf:type owl:Restriction ;
                          owl:onProperty :hasSubEvent ;
-                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
                          owl:onClass :Event
                        ] ;
        <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "222.95598092682775"^^xsd:double ;
@@ -323,6 +332,14 @@
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/LearningPath
 :LearningPath rdf:type owl:Class ;
               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasLearningStep ;
+                                owl:someValuesFrom :LearningStep
+                               
+                              ] ,
+				[rdf:type owl:Restriction;
+				owl:onProperty [owl:inverseOf :determines];
+				owl:someValuesFrom :Curriculum],
+                              [ rdf:type owl:Restriction ;
                                 owl:onProperty :scopedBy ;
                                 owl:someValuesFrom :Curriculum
                               ] ;
@@ -338,11 +355,21 @@
                                 owl:onProperty :hasNextLearningStep ;
                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                 owl:onClass :LearningStep
+                             
+                               
                               ] ,
+                              
                               [ rdf:type owl:Restriction ;
                                 owl:onProperty :hasPreviousLearningStep ;
                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                 owl:onClass :LearningStep
+                              ] ,
+
+                              
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :refersTo ;
+                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass :Module
                               ] ;
               <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "195.52378966483667"^^xsd:double ;
                                                                            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "113.96282514832542"^^xsd:double ;
@@ -434,16 +461,24 @@
 ###  https://edugate.cs.wright.edu/lod/resource/currKG/Persona
 :Persona rdf:type owl:Class ;
          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasType ;
+                           owl:someValuesFrom :PersonaType
+                          
+
+                         ] ,
+			[rdf:type owl:Restriction;
+				owl:onProperty [owl:inverseOf :assumesPersona];
+				owl:someValuesFrom :Person],
+
+                         [ rdf:type owl:Restriction ;
                            owl:onProperty :determines ;
-                           owl:someValuesFrom :LearningPath
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass :LearningPath
                          ] ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :hasProfession ;
-                           owl:someValuesFrom :Profession
-                         ] ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :hasType ;
-                           owl:someValuesFrom :PersonaType
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass :Profession
                          ] ;
          <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "234.79032302270195"^^xsd:double ;
                                                                       <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "105.44392300174702"^^xsd:double ;
@@ -654,8 +689,8 @@
                                     :PersonaType .
 
 
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "97.20732638218533"^^xsd:double ;
-  <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "36.08742409572771"^^xsd:double ;
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "134.84670456198532"^^xsd:double ;
+  <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "49.91841795116743"^^xsd:double ;
   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
 ] .
 
@@ -664,58 +699,8 @@
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "134.84670456198532"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "49.91841795116743"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "113.43577236590322"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "22.465217322902088"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "145.62239259602825"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "195.24366366751747"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "165.92527982260998"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "211.38782513420898"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "123.18951292272382"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "234.90074510777157"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "161.1024560953089"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "148.09272068338814"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "257.5387285119268"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "95.34067193482907"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "239.66214084125318"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "182.84350600897426"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "226.8059264557994"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "25.724382451246406"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "153.33337222219862"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "164.5685212755033"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "114.67584142520084"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "110.31012655424526"^^xsd:double ;
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "119.84515180299982"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "7.425398947877624"^^xsd:double ;
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
@@ -724,8 +709,58 @@
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "119.84515180299982"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "7.425398947877624"^^xsd:double ;
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "97.20732638218533"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "36.08742409572771"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "114.67584142520084"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "110.31012655424526"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "113.43577236590322"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "22.465217322902088"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "165.92527982260998"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "211.38782513420898"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "145.62239259602825"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "195.24366366751747"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "161.1024560953089"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "148.09272068338814"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "123.18951292272382"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "234.90074510777157"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "239.66214084125318"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "182.84350600897426"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "257.5387285119268"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "95.34067193482907"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "153.33337222219862"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "164.5685212755033"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "226.8059264557994"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "25.724382451246406"^^xsd:double ;
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
