@@ -333,7 +333,7 @@ def init_triplify():
 
                 # Add Person to Author ontology graph
                 graph.add(
-                    (person_uri, pfs["edu-ont"]["assumesRole"], pfs["edu-ont"]["Author"]))
+                    (person_uri, pfs["edu-ont"]["assumesAuthorship"], pfs["edu-ont"]["Author"]))
         else:
             print(f"Row {i}: Missing or null 'Author'")
 
@@ -456,7 +456,7 @@ def init_triplify():
 
     # Add Person to Persona ontology graph
     graph.add((person_uri, pfs["edu-ont"]
-              ["assumesRole"], pfs["edu-ont"]["Persona"]))
+              ["assumesPersona"], pfs["edu-ont"]["Persona"]))
 
     print("Graph Created")
 

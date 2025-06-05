@@ -2,8 +2,8 @@
 @prefix edu-r: <https://edugate.cs.wright.edu/lod/resource/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-edu-ont:Person edu-ont:assumesRole edu-ont:Author,
-        edu-ont:Persona .
+edu-ont:Person edu-ont:assumesAuthorship edu-ont:Author ;
+    edu-ont:assumesPersona edu-ont:Persona .
 
 edu-r:Category.Learn_X_Teach a edu-ont:Category ;
     edu-ont:asString "Learn & Teach"^^xsd:string .
