@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="resources/primer.css" media="screen"/>
+<link rel="stylesheet" href="resources/rec.css" media="screen"/>
+<link rel="stylesheet" href="resources/extra.css" media="screen"/>
+<link rel="stylesheet" href="resources/owl.css" media="screen"/>
+<link rel="stylesheet" href="resources/dark.css" media="(prefers-color-scheme: dark)"/>
+<link rel="stylesheet" href="resources/light.css" media="(prefers-color-scheme: light)"/>
+<link rel="stylesheet" href="resources/slider.css" media="screen"/>
+<meta name="color-scheme" content="dark light">
+<script type="module" src="resources/dark-mode-toggle.mjs"></script><div class="darkmode">
+	<dark-mode-toggle class="slider"></dark-mode-toggle>
+</div>
+ <title>CurriculumKG Ontology</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://edugate.cs.wright.edu/lod/ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://edugate.cs.wright.edu/lod/ontology","name":"CurriculumKG Ontology", "headline":"Educational, learning, and training materials are widely distributed across platforms and formats, which makes them hard to discover, reuse, and connect;CurriculumKG Ontology provides an OWL 2 DL schema and materialized knowledge graph to interlink these resources, structure curricula, and support persona-aware, explainable learning pathways.", "dateReleased":"2025-06-06", "dateModified":"2025-06-06", "version":"1", "license":"https://creativecommons.org/licenses/by-sa/4.0/", "codeRepository":"https://github.com/kastle-lab/curriculum-kg", "author":[{"@type":"Person","name":"Antrea Christou"},{"@type":"Person","name":"Chris Davis Jaldi"},{"@type":"Person","name":"Cogan Shimizu"}], "contributor":[{"@type":"Person","name":"Antrea Christou"},{"@type":"Person","name":"Chris Davis Jaldi"},{"@type":"Person","name":"Cogan Shimizu"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>CurriculumKG Ontology</h1>
+<h2>Release: 2025-06-06</h2>
+
+
+<dl>
+<dt>Modified on: 2025-06-06</dt>
+<dt>This version:</dt>
+<dd><a href="null">null</a></dd>
+<dt>Latest version:</dt>
+<dd><a href="https://edugate.cs.wright.edu/lod/ontology">https://edugate.cs.wright.edu/lod/ontology</a></dd>
+<dt>Revision:</dt>
+<dd>1</dd>
+<dt>Issued on:</dt>
+<dd>Date issued</dd>
+<dt>Authors:</dt>
+<dd>Antrea Christou, <a href="https://www.wright.edu/">Wright State University</a></dd><dd>Chris Davis Jaldi, <a href="https://www.wright.edu/">Wright State University</a></dd><dd>Cogan Shimizu, <a href="https://www.wright.edu/">Wright State University</a></dd>
+
+<dt>Contributors:</dt>
+<dd>Antrea Christou, <a href="https://www.wright.edu/">Wright State University</a></dd><dd>Chris Davis Jaldi, <a href="https://www.wright.edu/">Wright State University</a></dd><dd>Cogan Shimizu, <a href="https://www.wright.edu/">Wright State University</a></dd>
+
+<dt>Source:</dt>
+<dd><a href="https://github.com/kastle-lab/curriculum-kg">https://github.com/kastle-lab/curriculum-kg</a></dd>
+
+<dt>See also:</dt>
+<dd><a href="https://arxiv.org/abs/2506.05751">https://arxiv.org/abs/2506.05751</a></dd>
+
+<dt>Funder:</dt>
+<dd><a href="National Science Foundation (NSF)">National Science Foundation (NSF)</a></dd>
+
+<dt>Funding:</dt>
+<dd><a href="National Science Foundation award #2333532 "Proto-OKN Theme 3: An Education Gateway for the Proto-OKN (EduGate)"">National Science Foundation award #2333532 "Proto-OKN Theme 3: An Education Gateway for the Proto-OKN (EduGate)"</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-Creative%20Commons%20Attribution_ShareAlike%204.0%20International-blue.svg" alt="https://creativecommons.org/licenses/by-sa/4.0/" /></a>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license" target="_blank">
+<img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" style="border-width:0" alt="License" />
+</a>
+<br/></dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>Christou, A., Jaldi, C. D., Zalewski, J., Küçük McGinty, H., Hitzler, P., & Shimizu, C. (2025). An Ontology for Representing Curriculum and Learning Material.</dd>
+<dt>Vocabulary maintained at:</dt>
+<dd><a href="https://github.com/kastle-lab/curriculum-kg">https://github.com/kastle-lab/curriculum-kg</a></dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"><h1>Abstract</h1>
+<p>
+  The CurriculumKG (CurrKG) Ontology is an OWL 2 DL–based formal model for representing curricula, learning materials, learning paths, personas, topics and multimodal educational resources. It provides a structured, interoperable schema that supports dense interlinking of educational, learning and training (ELT) materials dispersed across platforms, formats and organizations.
+</p>
+
+<p>
+  Designed using Modular Ontology Modeling (MOMo) and instantiated with Ontology Design Patterns (ODPs) such as <em>AgentRole</em> and <em>Sequence</em>, the ontology enables persona-specific learning pathways, semantic topic hierarchies, media associations, authorship modeling and curriculum organization.
+</p>
+
+<p>
+  The ontology serves as the schema for the Curriculum Knowledge Graph (CurrKG), which has been materialized for real-world educational datasets and validated through competency questions. CurrKG aims to support explainable, personalized neurosymbolic pedagogical systems, retrieval-augmented learning experiences and integration within the broader Prototype Open Knowledge Network (Proto-OKN) ecosystem.
+</p>
+</div>
+
+<!--INTRODUCTION SECTION-->
+    <div id="introduction"><h1>Introduction</h1>
+<p>
+  Across the modern web, ELT materials are scattered across platforms, formats and mediums—from MOOCs, workshops, and conference tutorials to articles, 
+  videos, textbooks and curated community resources. This fragmentation creates barriers to discovery, reuse, contextualization, and personalized learning. KGs, with their graph-structured representation of concepts, relations and metadata, offer a natural solution for integrating heterogeneous learning materials and connecting them into meaningful pathways.
+</p>
+
+<p>
+  The CurrKG Ontology provides a foundational schema for representing curricula and the relationships among their constituent modules, topics, media, events, personas and learning sequences. It structures curricula as collections of modules, each linked to topics, difficulty levels, categories and associated multimedia resources. Learning paths tailored for specific personas are modeled as ordered sequences of learning steps that reference modules and encode prerequisite or curated orderings.
+</p>
+
+<p>
+  The ontology is designed to support explainable, agentic learning systems to query the structured KG using SPARQL to identify relevant materials, adapt paths to user personas and justify recommendations. As part of the Proto-OKN Education Gateway (EduGate), CurrKG contributes to a scalable, standards-based infrastructure for open, interoperable educational knowledge.
+</p></div>
+  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h1>Overview</h1>
+<h2>Curriculum</h2>
+  <p>
+    A Curriculum is the top-level organizing structure that has a title and must include at least one Module. Curricula serve as containers for Modules and provide context for LearningPaths.
+  </p>
+
+  <h2>Persona</h2>
+  <p>
+    Models learner types and roles using the AgentRole pattern. A Persona represents an abstract learner profile (e.g., Developer, Enthusiast, Executive) with a defined Profession and PersonaType. Each Persona determines exactly one LearningPath and can be assumed by a Person.
+  </p>
+
+  <h2>Learning Path</h2>
+  <p>
+    Models curated or persona-specific sequences of learning steps, using the Sequence design pattern. A LearningPath is scoped by a Curriculum and consists of LearningSteps connected via <code>hasNextLearningStep</code> and <code>hasPreviousLearningStep</code>. A <code>FirstLearningStep</code> and <code>LastLearningStep</code> denote boundaries.
+  </p>
+
+  <h2>Module</h2>
+  <p>Represents a pedagogical unit within a curriculum. Each Module must:</p>
+  <ul>
+    <li>have a title</li>
+    <li>cover one or more Topics</li>
+    <li>have a difficulty Level</li>
+    <li>belong to a Category (Survey, Foundations, Methodologies, Standards)</li>
+    <li>reference zero or more Media resources</li>
+  </ul>
+  <p>
+    Modules correspond to substantial instructional components such as &quot;What Is an Ontology?&quot;, &quot;RDF Basics&quot; or &quot;SPARQL Querying&quot;.
+  </p>
+
+  <h2>Topic</h2>
+  <p>
+    Topics are represented as vocabulary terms with hierarchical semantic relationships (<code>broaderThan</code> / <code>narrowerThan</code>). Topics help specify conceptual coverage and support hierarchical navigation (e.g., &quot;RDF&quot; -> &quot;Linked Data&quot; -> &quot;Semantic Web&quot;).
+  </p>
+
+  <h2>Media and Events</h2>
+  <p>
+    Media types include Articles, Videos, Podcasts, Presentations, and Transcripts. Each Media item has metadata such as author, title, language, and source link.
+  </p>
+
+  <h2>Events</h2>
+  <p>
+    Events (e.g., workshops, tutorials) are represented as learning activities that may contain sub-events and provide Media.
+  </p>
+
+  <p>
+    The ontology is serialized in OWL and annotated using OPLa to expose its modular structure. It is intended to serve as a reusable and extensible framework for modeling educational materials across domains.
+  </p>
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h1>Description</h1>
+<p>
+  The CurrKG Ontology provides a comprehensive schema for representing the structure, metadata and semantic relationships behind educational materials and curricula. At its core, the ontology models a <strong>Curriculum</strong> as a collection of <strong>Modules</strong>, each of which covers topics, belongs to a category, has a difficulty level and references one or more media resources. This supports fine-grained representation of content across modalities.
+</p>
+
+<p>
+  A key innovation in this modeling is persona-driven learning. <strong>Personas</strong> represent target audiences (e.g., Developer, Executive) and determine <strong>LearningPaths</strong> tailored to their background and goals. LearningPaths consist of sequenced <strong>LearningSteps</strong> that reference Modules, enabling ordering constraints, prerequisite modeling and detailed instructional design.
+</p>
+
+<p>
+  <strong>Topics</strong> form a semantic hierarchy enabling complex learning queries such as prerequisite discovery, content clustering and domain exploration. <strong>Media</strong> models capture multimodal resources and link them to Modules and Events.
+</p>
+
+<p>
+  The ontology leverages formal OWL 2 DL semantics to enable automated reasoning and support integrity constraints, such as exact cardinalities on persona attributes or uniqueness constraints on learning step ordering. The materialization pipeline uses RDFLib to generate instance data from CSV-based educational datasets, creating a fully instantiated CurrKG suitable for SPARQL querying.
+</p>
+
+<p>
+  The ontology has been validated through competency questions representing ontology needs, including retrieving persona-specific learning paths, identifying heavily referenced media, determining topic coverage and assessing module distribution across categories. These queries demonstrate the ontology’s expressiveness, completeness, and practical utility.
+</p></div>
+
+<div id="toc"></div> 
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for CurriculumKG Ontology classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by CurriculumKG Ontology.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
+ <h3 id="classes-headline" class="list">Classes</h3>
+ <ul class="hlist">
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Article" title="https://edugate.cs.wright.edu/lod/resource/currKG/Article"> <span>Article</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Author" title="https://edugate.cs.wright.edu/lod/resource/currKG/Author"> <span>Author</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Cameron" title="https://edugate.cs.wright.edu/lod/resource/currKG/Cameron"> <span>Cameron</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Carla" title="https://edugate.cs.wright.edu/lod/resource/currKG/Carla"> <span>Carla</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Category" title="https://edugate.cs.wright.edu/lod/resource/currKG/Category"> <span>Category</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Chris" title="https://edugate.cs.wright.edu/lod/resource/currKG/Chris"> <span>Chris</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Connie" title="https://edugate.cs.wright.edu/lod/resource/currKG/Connie"> <span>Connie</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Courtney" title="https://edugate.cs.wright.edu/lod/resource/currKG/Courtney"> <span>Courtney</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Curriculum" title="https://edugate.cs.wright.edu/lod/resource/currKG/Curriculum"> <span>Curriculum</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Darwin" title="https://edugate.cs.wright.edu/lod/resource/currKG/Darwin"> <span>Darwin</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Debbie" title="https://edugate.cs.wright.edu/lod/resource/currKG/Debbie"> <span>Debbie</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Edward" title="https://edugate.cs.wright.edu/lod/resource/currKG/Edward"> <span>Edward</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Elias" title="https://edugate.cs.wright.edu/lod/resource/currKG/Elias"> <span>Elias</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Ella" title="https://edugate.cs.wright.edu/lod/resource/currKG/Ella"> <span>Ella</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Ethan" title="https://edugate.cs.wright.edu/lod/resource/currKG/Ethan"> <span>Ethan</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Event" title="https://edugate.cs.wright.edu/lod/resource/currKG/Event"> <span>Event</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/FirstLearningStep" title="https://edugate.cs.wright.edu/lod/resource/currKG/FirstLearningStep"> <span>First Learning Step</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Foundations" title="https://edugate.cs.wright.edu/lod/resource/currKG/Foundations"> <span>Foundations</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Kai" title="https://edugate.cs.wright.edu/lod/resource/currKG/Kai"> <span>Kai</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Language" title="https://edugate.cs.wright.edu/lod/resource/currKG/Language"> <span>Language</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/LastLearningStep" title="https://edugate.cs.wright.edu/lod/resource/currKG/LastLearningStep"> <span>Last Learning Step</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/LearningPath" title="https://edugate.cs.wright.edu/lod/resource/currKG/LearningPath"> <span>Learning Path</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep" title="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep"> <span>Learning Step</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Level" title="https://edugate.cs.wright.edu/lod/resource/currKG/Level"> <span>Level</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Media" title="https://edugate.cs.wright.edu/lod/resource/currKG/Media"> <span>Media</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Module" title="https://edugate.cs.wright.edu/lod/resource/currKG/Module"> <span>Module</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Oratius" title="https://edugate.cs.wright.edu/lod/resource/currKG/Oratius"> <span>Oratius</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Person" title="https://edugate.cs.wright.edu/lod/resource/currKG/Person"> <span>Person</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"> <span>Persona</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"> <span>Persona Type</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Podcast" title="https://edugate.cs.wright.edu/lod/resource/currKG/Podcast"> <span>Podcast</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Presentation" title="https://edugate.cs.wright.edu/lod/resource/currKG/Presentation"> <span>Presentation</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Profession" title="https://edugate.cs.wright.edu/lod/resource/currKG/Profession"> <span>Profession</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie" title="https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie"> <span>Ronnie</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Silas" title="https://edugate.cs.wright.edu/lod/resource/currKG/Silas"> <span>Silas</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Standards" title="https://edugate.cs.wright.edu/lod/resource/currKG/Standards"> <span>Standards</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Stella" title="https://edugate.cs.wright.edu/lod/resource/currKG/Stella"> <span>Stella</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Topic" title="https://edugate.cs.wright.edu/lod/resource/currKG/Topic"> <span>Topic</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Transcript" title="https://edugate.cs.wright.edu/lod/resource/currKG/Transcript"> <span>Transcript</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Tutorial" title="https://edugate.cs.wright.edu/lod/resource/currKG/Tutorial"> <span>Tutorial</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Usman" title="https://edugate.cs.wright.edu/lod/resource/currKG/Usman"> <span>Usman</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Video" title="https://edugate.cs.wright.edu/lod/resource/currKG/Video"> <span>Video</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Workshop" title="https://edugate.cs.wright.edu/lod/resource/currKG/Workshop"> <span>Workshop</span> </a></li>
+ </ul>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Article">
+  <h3>Article<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Article</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Media" title="https://edugate.cs.wright.edu/lod/resource/currKG/Media">Media</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Author">
+  <h3>Author<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Author</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Cameron">
+  <h3>Cameron<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Cameron</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Carla">
+  <h3>Carla<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Carla</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Category">
+  <h3>Category<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Category</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+   <dt>
+    has sub-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Foundations" title="https://edugate.cs.wright.edu/lod/resource/currKG/Foundations">Foundations</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Standards" title="https://edugate.cs.wright.edu/lod/resource/currKG/Standards">Standards</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Chris">
+  <h3>Chris<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Chris</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Connie">
+  <h3>Connie<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Connie</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Courtney">
+  <h3>Courtney<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Courtney</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Curriculum">
+  <h3>Curriculum<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Curriculum</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Darwin">
+  <h3>Darwin<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Darwin</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Debbie">
+  <h3>Debbie<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Debbie</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Edward">
+  <h3>Edward<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Edward</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Elias">
+  <h3>Elias<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Elias</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Ella">
+  <h3>Ella<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Ella</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Ethan">
+  <h3>Ethan<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Ethan</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Event">
+  <h3>Event<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Event</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+   <dt>
+    has sub-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Tutorial" title="https://edugate.cs.wright.edu/lod/resource/currKG/Tutorial">Tutorial</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Workshop" title="https://edugate.cs.wright.edu/lod/resource/currKG/Workshop">Workshop</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/FirstLearningStep">
+  <h3>First Learning Step<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/FirstLearningStep</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep" title="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep">Learning Step</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Foundations">
+  <h3>Foundations<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Foundations</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Category" title="https://edugate.cs.wright.edu/lod/resource/currKG/Category">Category</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Kai">
+  <h3>Kai<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Kai</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Language">
+  <h3>Language<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Language</p>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/LastLearningStep">
+  <h3>Last Learning Step<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/LastLearningStep</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep" title="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep">Learning Step</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/LearningPath">
+  <h3>Learning Path<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/LearningPath</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep">
+  <h3>Learning Step<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+   <dt>
+    has sub-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/FirstLearningStep" title="https://edugate.cs.wright.edu/lod/resource/currKG/FirstLearningStep">First Learning Step</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/LastLearningStep" title="https://edugate.cs.wright.edu/lod/resource/currKG/LastLearningStep">Last Learning Step</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Level">
+  <h3>Level<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Level</p>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Media">
+  <h3>Media<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Media</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+   <dt>
+    has sub-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Article" title="https://edugate.cs.wright.edu/lod/resource/currKG/Article">Article</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Podcast" title="https://edugate.cs.wright.edu/lod/resource/currKG/Podcast">Podcast</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Presentation" title="https://edugate.cs.wright.edu/lod/resource/currKG/Presentation">Presentation</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Transcript" title="https://edugate.cs.wright.edu/lod/resource/currKG/Transcript">Transcript</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Video" title="https://edugate.cs.wright.edu/lod/resource/currKG/Video">Video</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Module">
+  <h3>Module<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Module</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Oratius">
+  <h3>Oratius<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Oratius</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Person">
+  <h3>Person<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Person</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">
+  <h3>Persona<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Persona</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+   <dt>
+    has sub-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Cameron" title="https://edugate.cs.wright.edu/lod/resource/currKG/Cameron">Cameron</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Carla" title="https://edugate.cs.wright.edu/lod/resource/currKG/Carla">Carla</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Chris" title="https://edugate.cs.wright.edu/lod/resource/currKG/Chris">Chris</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Connie" title="https://edugate.cs.wright.edu/lod/resource/currKG/Connie">Connie</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Courtney" title="https://edugate.cs.wright.edu/lod/resource/currKG/Courtney">Courtney</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Darwin" title="https://edugate.cs.wright.edu/lod/resource/currKG/Darwin">Darwin</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Debbie" title="https://edugate.cs.wright.edu/lod/resource/currKG/Debbie">Debbie</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Edward" title="https://edugate.cs.wright.edu/lod/resource/currKG/Edward">Edward</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Elias" title="https://edugate.cs.wright.edu/lod/resource/currKG/Elias">Elias</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Ella" title="https://edugate.cs.wright.edu/lod/resource/currKG/Ella">Ella</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Ethan" title="https://edugate.cs.wright.edu/lod/resource/currKG/Ethan">Ethan</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Kai" title="https://edugate.cs.wright.edu/lod/resource/currKG/Kai">Kai</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Oratius" title="https://edugate.cs.wright.edu/lod/resource/currKG/Oratius">Oratius</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie" title="https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie">Ronnie</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Silas" title="https://edugate.cs.wright.edu/lod/resource/currKG/Silas">Silas</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Stella" title="https://edugate.cs.wright.edu/lod/resource/currKG/Stella">Stella</a> <sup class="type-c" title="class">c</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Usman" title="https://edugate.cs.wright.edu/lod/resource/currKG/Usman">Usman</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">
+  <h3>Persona Type<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType</p>
+  <dl class="description">
+   <dt>
+    has members
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator" title="https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator">Collaborator</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Consultant" title="https://edugate.cs.wright.edu/lod/resource/currKG/Consultant">Consultant</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Contributor" title="https://edugate.cs.wright.edu/lod/resource/currKG/Contributor">Contributor</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper" title="https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper">Curriculum Developer</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Developer" title="https://edugate.cs.wright.edu/lod/resource/currKG/Developer">Developer</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#/SecurityAnalyst/DeveloperTrainer" title="https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer">Developer Trainer</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator" title="https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator">Educational Facilitator</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast" title="https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast">Enthusiast</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Executive" title="https://edugate.cs.wright.edu/lod/resource/currKG/Executive">Executive</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist" title="https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist">Executive Engagement Specialist</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher" title="https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher">K G Researcher</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper" title="https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper">Resource Developer</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist" title="https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist">Supply Chain Management Specialist</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator" title="https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator">User Engagement Facilitator</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#/Ontology/VocabularyExpert" title="https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert">Vocabulary Expert</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Podcast">
+  <h3>Podcast<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Podcast</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Media" title="https://edugate.cs.wright.edu/lod/resource/currKG/Media">Media</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Presentation">
+  <h3>Presentation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Presentation</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Media" title="https://edugate.cs.wright.edu/lod/resource/currKG/Media">Media</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Profession">
+  <h3>Profession<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Profession</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie">
+  <h3>Ronnie<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Silas">
+  <h3>Silas<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Silas</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Standards">
+  <h3>Standards<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Standards</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Category" title="https://edugate.cs.wright.edu/lod/resource/currKG/Category">Category</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Stella">
+  <h3>Stella<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Stella</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Topic">
+  <h3>Topic<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Topic</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd></dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Transcript">
+  <h3>Transcript<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Transcript</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Media" title="https://edugate.cs.wright.edu/lod/resource/currKG/Media">Media</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Tutorial">
+  <h3>Tutorial<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Tutorial</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Event" title="https://edugate.cs.wright.edu/lod/resource/currKG/Event">Event</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Usman">
+  <h3>Usman<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Usman</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Persona" title="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">Persona</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Video">
+  <h3>Video<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Video</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Media" title="https://edugate.cs.wright.edu/lod/resource/currKG/Media">Media</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Workshop">
+  <h3>Workshop<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Workshop</p>
+  <dl class="description">
+   <dt>
+    has super-classes
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Event" title="https://edugate.cs.wright.edu/lod/resource/currKG/Event">Event</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
+ <h3 id="properties" class="list">Object Properties</h3>
+ <ul class="hlist">
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/hasType" title="https://edugate.cs.wright.edu/lod/resource/currKG/hasType"> <span>has Type</span> </a></li>
+ </ul>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/hasType">
+  <h3>has Type<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/hasType</p>
+  <div class="description">
+   <dl>
+    <dt>
+     has super-properties
+    </dt>
+    <dd>
+     <a href="https://edugate.cs.wright.edu/lod/resource/currKG/hasProfession" target="_blank" title="https://edugate.cs.wright.edu/lod/resource/currKG/hasProfession">has Profession</a> <sup class="type-op" title="object property">op</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="annotationproperties">
+ <h3 id="annotationproperties" class="list">Annotation Properties</h3>
+ <ul class="hlist">
+  <li><a href="#http://ontologydesignpatterns.org/opla-sd#entityPosition" title="http://ontologydesignpatterns.org/opla-sd#entityPosition"> <span>entity Position</span> </a></li>
+  <li><a href="#http://ontologydesignpatterns.org/opla-sd#entityPositionX" title="http://ontologydesignpatterns.org/opla-sd#entityPositionX"> <span>entity Position X</span> </a></li>
+  <li><a href="#http://ontologydesignpatterns.org/opla-sd#entityPositionY" title="http://ontologydesignpatterns.org/opla-sd#entityPositionY"> <span>entity Position Y</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/isNativeTo" title="https://edugate.cs.wright.edu/lod/resource/currKG/isNativeTo"> <span>is Native To</span> </a></li>
+ </ul>
+ <div class="entity" id="http://ontologydesignpatterns.org/opla-sd#entityPosition">
+  <h3>entity Position<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://ontologydesignpatterns.org/opla-sd#entityPosition</p>
+ </div>
+ <div class="entity" id="http://ontologydesignpatterns.org/opla-sd#entityPositionX">
+  <h3>entity Position X<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://ontologydesignpatterns.org/opla-sd#entityPositionX</p>
+ </div>
+ <div class="entity" id="http://ontologydesignpatterns.org/opla-sd#entityPositionY">
+  <h3>entity Position Y<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://ontologydesignpatterns.org/opla-sd#entityPositionY</p>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/isNativeTo">
+  <h3>is Native To<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/isNativeTo</p>
+ </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+ <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <ul class="hlist">
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator" title="https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator"> <span>Collaborator</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Consultant" title="https://edugate.cs.wright.edu/lod/resource/currKG/Consultant"> <span>Consultant</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Contributor" title="https://edugate.cs.wright.edu/lod/resource/currKG/Contributor"> <span>Contributor</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper" title="https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper"> <span>Curriculum Developer</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Developer" title="https://edugate.cs.wright.edu/lod/resource/currKG/Developer"> <span>Developer</span> </a></li>
+  <li><a href="#/SecurityAnalyst/DeveloperTrainer" title="https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer"> <span>Developer Trainer</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator" title="https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator"> <span>Educational Facilitator</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast" title="https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast"> <span>Enthusiast</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/Executive" title="https://edugate.cs.wright.edu/lod/resource/currKG/Executive"> <span>Executive</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist" title="https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist"> <span>Executive Engagement Specialist</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher" title="https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher"> <span>K G Researcher</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper" title="https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper"> <span>Resource Developer</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist" title="https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist"> <span>Supply Chain Management Specialist</span> </a></li>
+  <li><a href="#https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator" title="https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator"> <span>User Engagement Facilitator</span> </a></li>
+  <li><a href="#/Ontology/VocabularyExpert" title="https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert"> <span>Vocabulary Expert</span> </a></li>
+ </ul>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator">
+  <h3>Collaborator<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Consultant">
+  <h3>Consultant<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Consultant</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Contributor">
+  <h3>Contributor<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Contributor</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper">
+  <h3>Curriculum Developer<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Developer">
+  <h3>Developer<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Developer</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="/SecurityAnalyst/DeveloperTrainer">
+  <h3>Developer Trainer<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator">
+  <h3>Educational Facilitator<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast">
+  <h3>Enthusiast<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/Executive">
+  <h3>Executive<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/Executive</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist">
+  <h3>Executive Engagement Specialist<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher">
+  <h3>K G Researcher<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper">
+  <h3>Resource Developer<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist">
+  <h3>Supply Chain Management Specialist<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator">
+  <h3>User Engagement Facilitator<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="/Ontology/VocabularyExpert">
+  <h3>Vocabulary Expert<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType" title="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">Persona Type</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
+</div>
+</div>
+</div>
+    
+
+<!--REFERENCES SECTION-->
+  <div id="references">
+<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+Add your references here. It is recommended to have them as a list.</span>
+
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

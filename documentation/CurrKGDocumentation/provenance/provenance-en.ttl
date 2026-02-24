@@ -1,0 +1,22 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<null> a prov:Entity;
+	 dc:title "CurriculumKG Ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo :agent4;
+	 prov:wasAttributedTo :agent5;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <https://edugate.cs.wright.edu/lod/ontology>;
+	 prov:wasGeneratedAt "2025-06-06";
+.
+:agent0 a prov:Agent; foaf:name "Antrea Christou".
+:agent1 a prov:Agent; foaf:name "Chris Davis Jaldi".
+:agent2 a prov:Agent; foaf:name "Cogan Shimizu".
+:agent3 a prov:Agent; foaf:name "Antrea Christou".
+:agent4 a prov:Agent; foaf:name "Chris Davis Jaldi".
+:agent5 a prov:Agent; foaf:name "Cogan Shimizu".

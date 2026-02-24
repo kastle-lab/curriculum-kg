@@ -1,0 +1,1266 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://edugate.cs.wright.edu/lod/ontology#"
+     xml:base="https://edugate.cs.wright.edu/lod/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:currKG="https://edugate.cs.wright.edu/lod/resource/currKG/"
+     xmlns:opla-sd="http://ontologydesignpatterns.org/opla-sd#">
+    <owl:Ontology rdf:about="https://edugate.cs.wright.edu/lod/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://ontologydesignpatterns.org/opla-sd#entityPosition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+    
+
+
+    <!-- http://ontologydesignpatterns.org/opla-sd#entityPositionX -->
+
+
+    <owl:AnnotationProperty rdf:about="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+    
+
+
+    <!-- http://ontologydesignpatterns.org/opla-sd#entityPositionY -->
+
+
+    <owl:AnnotationProperty rdf:about="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/isNativeTo -->
+
+
+    <owl:AnnotationProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/isNativeTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/assumesAuthorship -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/assumesAuthorship"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/assumesPersona -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/assumesPersona"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/belongTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/belongTo"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/broaderThan -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/broaderThan"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/coversTopic -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/coversTopic"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/determines -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/determines"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasAuthor -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasAuthor"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasLanguage -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasLanguage"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasLearningStep -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasLearningStep"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasLevel -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasLevel"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasModule -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasModule"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasNextLearningStep -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasNextLearningStep"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasPreviousLearningStep -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasPreviousLearningStep"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasProfession -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasProfession"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasRecomended -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasRecomended"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasSubEvent -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasSubEvent"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasType -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasType">
+        <rdfs:subPropertyOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasProfession"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/narrowerThan -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/narrowerThan"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/provides -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/provides"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/references -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/references"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/refersTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/refersTo"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/scopedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/scopedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/asString -->
+
+
+    <owl:DatatypeProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/asString"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasMediaSourceLink -->
+
+
+    <owl:DatatypeProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasMediaSourceLink"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasName"/>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/hasTitle -->
+
+
+    <owl:DatatypeProperty rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/hasTitle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Article -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Article">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Media"/>
+        <opla-sd:entityPosition rdf:nodeID="genid1"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid1">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">46.144836640895754</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">247.41338370020338</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Author -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Author">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid3"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid3">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">212.2044628151925</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">117.51617792023181</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Cameron -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Cameron">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Carla -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Carla">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Category -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Category">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasModule"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Module"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasTitle"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid7"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid7">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">66.0082422042512</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">163.11457706181378</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Chris -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Chris">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Connie -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Connie">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Courtney -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Courtney">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Curriculum -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Curriculum">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasModule"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Module"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasTitle"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid10"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/namestub"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid10">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">84.22046954254326</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">61.85682749202153</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Darwin -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Darwin">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+        <opla-sd:entityPosition rdf:nodeID="genid11"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid11">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">111.27012300983938</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">225.79451501074783</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Debbie -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Debbie">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Edward -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Edward">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Elias -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Elias">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Ella -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ella">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Ethan -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ethan">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Event -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Event">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/provides"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Media"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasSubEvent"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Event"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid14"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/event"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid14">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">222.95598092682775</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.29786947182403</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/FirstLearningStep -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/FirstLearningStep">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/refersTo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Module"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid16"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid16">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">121.96218406852572</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">261.79752540381384</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Foundations -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Foundations">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Category"/>
+        <opla-sd:entityPosition rdf:nodeID="genid17"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid17">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119.63769059552737</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">259.7961852328274</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Kai -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Kai">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Language -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Language">
+        <opla-sd:entityPosition rdf:nodeID="genid18"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid18">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.90193677825256</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">164.73174749711126</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/LastLearningStep -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/LastLearningStep">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/refersTo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Module"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid20"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid20">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">103.47116996503698</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69.51171184630267</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/LearningPath -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/LearningPath">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasLearningStep"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/scopedBy"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Curriculum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/determines"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Curriculum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid25"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid25">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">299.49419969429334</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.28410508436227</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasNextLearningStep"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasPreviousLearningStep"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/LearningStep"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/refersTo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Module"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid29"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid29">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">195.52378966483667</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">113.96282514832542</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Level -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Level">
+        <opla-sd:entityPosition rdf:nodeID="genid30"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid30">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">83.5387145526865</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">256.9006692958464</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Media -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Media">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/coversTopic"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Topic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Author"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasMediaSourceLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasTitle"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid35"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid35">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.22964736735543</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">192.4576250484204</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Module -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Module">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/belongTo"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Category"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/coversTopic"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Topic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasLevel"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Level"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/references"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Media"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasTitle"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid41"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid41">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.961109252390985</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">294.8983475284603</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Oratius -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Oratius">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Person -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Person">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/assumesAuthorship"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Author"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/assumesPersona"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid44"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid44">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">67.71024379246852</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">93.39558214157489</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Persona -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Persona">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasType"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/assumesPersona"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/determines"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/LearningPath"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/hasProfession"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Profession"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid50"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid50">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">234.79032302270195</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105.44392300174702</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType">
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Podcast -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Podcast">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Media"/>
+        <opla-sd:entityPosition rdf:nodeID="genid51"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid51">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">88.35855842870635</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.13207349708281</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Presentation -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Presentation">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Media"/>
+        <opla-sd:entityPosition rdf:nodeID="genid52"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid52">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.872849163765131</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">249.09322448025713</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Profession -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Profession">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/asString"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/namestub"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Silas -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Silas">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Standards -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Standards">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Category"/>
+        <opla-sd:entityPosition rdf:nodeID="genid54"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid54">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.484809414222099</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.47730822227177</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Stella -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Stella">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Topic -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Topic">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/broaderThan"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Topic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/narrowerThan"/>
+                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Topic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/asString"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition rdf:nodeID="genid58"/>
+        <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid58">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">98.2063796911752</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">277.9401087419016</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Transcript -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Transcript">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Media"/>
+        <opla-sd:entityPosition rdf:nodeID="genid59"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid59">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">87.8838970062962</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.22499876352645</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Tutorial -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Tutorial">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Event"/>
+        <opla-sd:entityPosition rdf:nodeID="genid60"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid60">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.117610307761666</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62.98965068213751</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Usman -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Usman">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Video -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Video">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Media"/>
+        <opla-sd:entityPosition rdf:nodeID="genid61"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid61">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">104.74937463170683</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.781752474628206</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Workshop -->
+
+
+    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Workshop">
+        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/Event"/>
+        <opla-sd:entityPosition rdf:nodeID="genid62"/>
+    </owl:Class>
+    <rdf:Description rdf:nodeID="genid62">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">77.91586952416019</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">251.47842082041097</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Consultant -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Consultant">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Contributor -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Contributor">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Developer -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Developer">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Executive -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Executive">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator -->
+
+
+    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator">
+        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/resource/currKG/PersonaType"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid63">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55.0138600700657</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.373535546589167</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid64">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">134.84670456198532</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.91841795116743</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid65">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">102.96334283972286</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.97006296875359</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid66">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">239.66214084125318</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">182.84350600897426</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid67">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.18951292272382</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">234.90074510777157</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid68">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">226.8059264557994</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.724382451246406</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid69">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119.84515180299982</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.425398947877624</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid70">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">113.43577236590322</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.465217322902088</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid71">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">153.33337222219862</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">164.5685212755033</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid72">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">257.5387285119268</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">95.34067193482907</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid73">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">114.67584142520084</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.31012655424526</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid74">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">161.1024560953089</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">148.09272068338814</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid75">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">145.62239259602825</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">195.24366366751747</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid76">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.92527982260998</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">211.38782513420898</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid77">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">97.20732638218533</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.08742409572771</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid78">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">224.7438590673655</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.38447116518856</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
