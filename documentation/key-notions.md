@@ -35,7 +35,7 @@
     * Rationale: Represents the level of the modules that are delivered; wherether thet are foundational etc.
     * Connected Pattern: Explicit Typing (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping
-    * Source Dataset(s): open kg
+    * Source Dataset(s):The KGC Open Knowledge Graph Curriculum - (customized/ curated)
 
 * Media
     * Rationale: Represents the set of the media types that cover a specific topic of the curriculum.
