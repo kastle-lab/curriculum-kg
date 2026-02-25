@@ -27,18 +27,20 @@
 
 * LearningStep
     * Rationale: Represents the set of learning steps the individual has to take in order to follow their personal learning path.
-    * Connected Pattern: Reccurent Event (Modular Ontology Design Library (MODL))
+    * Connected Pattern: Reccurent Event, Sequence, Trjectory (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/sequence
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/trajectory
     * Source Dataset(s): dssr, The KGC Open Knowledge Graph Curriculum
 
 * Level
-    * Rationale: Represents the level of the modules that are delivered; wherether thet are foundational etc.
+    * Rationale: Represents the level of the modules that are delivered; whether they are foundational etc. It is also a controled vocabulary, representing different levels.
     * Connected Pattern: Explicit Typing (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping
     * Source Dataset(s):The KGC Open Knowledge Graph Curriculum - (customized/ curated)
 
 * Media
-    * Rationale: Represents the set of the media types that cover a specific topic of the curriculum.
+    * Rationale: Represents the resources that are provided by presentations, lectures etc that cover a specific topic of the curriculum.
     * Connected Pattern: Reporting-Event (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event
     * Source Dataset(s): dssr, The KGC Open Knowledge Graph Curriculum
@@ -50,16 +52,18 @@
     * Source Dataset(s): dssr, The KGC Open Knowledge Graph Curriculum
 
 * Person
-    * Rationale: Represents the individual that in intenting to learn through the curriculum and that will be assuming a persona or an author in order to get a relevant learning path depending on the context.
-    * Connected Pattern: Role-Dependent-Name (Modular Ontology Design Library (MODL))
+    * Rationale: Represents the individual that is intenting to learn through the curriculum and that will be assuming a persona or an author in order to get a relevant learning path depending on the context. Person serves as an "Agent" assuming a role in this case.
+    * Connected Pattern: Role-Dependent-Name, Agent Role (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole
+        * 
     * Source Dataset(s): -
 
 * Persona
     * Rationale: Represents the "category" the individual "falls in" in terms of end goal in their learning journey and relative background.
     * Connected Pattern: Role-Dependent-Name (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name
-    * Source Dataset(s): -
+    * Source Dataset(s): customized-curated
 
 * Topic
     * Rationale: Represents the topic covered by a given module that can be narrower or browder depending on given learning step and level.
