@@ -1,0 +1,1706 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://edugate.cs.wright.edu/lod/resource/currKG", "http://www.w3.org/2002/07/owl", "https://edugate.cs.wright.edu/lod/ontology/currKG", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483648",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Module"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Podcast",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483653",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Podcast"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Silas",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Silas"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Language",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483655",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Language"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Darwin",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483658",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Darwin"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Chris",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chris"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 17,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483664",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Persona"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/FirstLearningStep",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483665",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "FirstLearningStep"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Connie",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Connie"
+    },
+    "attributes" : [ "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ronnie"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Cameron",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cameron"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Level",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483671",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Level"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Author",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole",
+        "type" : "iri"
+      }, {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483649",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Author"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "5",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Tutorial",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483650",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Tutorial"
+    },
+    "attributes" : [ "external" ],
+    "id" : "51",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Oratius",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Oratius"
+    },
+    "attributes" : [ "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ella",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ella"
+    },
+    "attributes" : [ "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Audience",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Audience"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483659",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LearningStep"
+    },
+    "subClasses" : [ "50", "30" ],
+    "attributes" : [ "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Category",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483666",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Category"
+    },
+    "subClasses" : [ "72", "73" ],
+    "attributes" : [ "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PersonaType"
+    },
+    "individuals" : [ {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "EducationalFacilitator"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Contributor",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "Contributor"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Developer",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "Developer"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "CurriculumDeveloper"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "UserEngagementFacilitator"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "Enthusiast"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Executive",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "Executive"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Consultant",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "Consultant"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "ExecutiveEngagementSpecialist"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst",
+      "labels" : {
+        "IRI-based" : "DeveloperTrainer"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/Ontology",
+      "labels" : {
+        "IRI-based" : "VocabularyExpert"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "Collaborator"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "KGResearcher"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "SupplyChainManagementSpecialist"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+      "labels" : {
+        "IRI-based" : "ResourceDeveloper"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Usman",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Usman"
+    },
+    "attributes" : [ "external" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Kai",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Kai"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#rational",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "rational"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483652",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Media"
+    },
+    "subClasses" : [ "86", "6", "87", "88", "89" ],
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Stella",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stella"
+    },
+    "attributes" : [ "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Standards",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483654",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Standards"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Article",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483660",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Article"
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Carla",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Carla"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483661",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Topic"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Profession",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/namestub",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Profession"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Person",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483668",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LastLearningStep",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483670",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LastLearningStep"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Video",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483672",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Video"
+    },
+    "attributes" : [ "external" ],
+    "id" : "88",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Transcript",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483651",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Transcript"
+    },
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ethan",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ethan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Workshop",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483656",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Workshop"
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Foundations",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483657",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Foundations"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Event",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483662",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/event",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "subClasses" : [ "92", "51" ],
+    "attributes" : [ "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483663",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/namestub",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Curriculum"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Debbie",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Debbie"
+    },
+    "attributes" : [ "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483669",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LearningPath"
+    },
+    "attributes" : [ "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Presentation",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483667",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Presentation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Edward",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Edward"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Courtney",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Courtney"
+    },
+    "attributes" : [ "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Elias",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Elias"
+    },
+    "attributes" : [ "external" ],
+    "id" : "83"
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "13",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "17",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "19",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "21",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "22",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "24",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "26",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "28",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "34",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "37",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "40",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "41",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "42",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "43",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "46",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "47",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "48",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "56",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "58",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "59",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "61",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "62",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "63",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "68",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "70",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "74",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "76",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "78",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "79",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "80",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "81",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "82",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "84",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "104",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "105",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "107",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "108",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "109",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "110",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/asString",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "asString"
+    },
+    "domain" : "2",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "refersTo"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "assumesPersona"
+    },
+    "domain" : "11",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasType",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasType"
+    },
+    "superproperty" : [ "15" ],
+    "domain" : "11",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "0",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "assumesAuthorship"
+    },
+    "domain" : "12",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "assumesPersona"
+    },
+    "domain" : "12",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasLevel"
+    },
+    "domain" : "0",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "coversTopic"
+    },
+    "domain" : "0",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/references",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "references"
+    },
+    "domain" : "0",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "belongTo"
+    },
+    "domain" : "0",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasRecomended"
+    },
+    "domain" : "7",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasLanguage"
+    },
+    "domain" : "7",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasMediaSourceLink"
+    },
+    "domain" : "7",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "7",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasAuthor"
+    },
+    "domain" : "7",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "scopedBy"
+    },
+    "domain" : "44",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "coversTopic"
+    },
+    "domain" : "7",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "hasLearningStep"
+    },
+    "domain" : "44",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "47"
+  }, {
+    "domain" : "11",
+    "range" : "39",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "50",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "31",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "domain" : "11",
+    "range" : "27",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "47",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "57",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "46",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "53",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "49",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "60",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "48",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "8",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "43",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "32",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "42",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "64",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "45",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasSubEvent"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "external" ],
+    "id" : "65"
+  }, {
+    "domain" : "11",
+    "range" : "67",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "44",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "69",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "41",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "71",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "40",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "33",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "39",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "77",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "36",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "75",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "35",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "54",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "38",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "18",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "37",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "narrowerThan"
+    },
+    "domain" : "25",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "81"
+  }, {
+    "domain" : "11",
+    "range" : "83",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "34",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "broaderThan"
+    },
+    "domain" : "25",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "84"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasPreviousLearningStep"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "external" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasProfession"
+    },
+    "domain" : "5",
+    "subproperty" : [ "90" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "15"
+  }, {
+    "range" : "52",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "7",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "range" : "52",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "7",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "7",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "29",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "31",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "7",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "29",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "29",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "hasModule"
+    },
+    "domain" : "29",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "45",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "hasModule"
+    },
+    "domain" : "45",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "107"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/provides",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "provides"
+    },
+    "domain" : "52",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/determines",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "determines"
+    },
+    "domain" : "44",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasName",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "hasName"
+    },
+    "domain" : "20",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "110"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasNextLearningStep"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "external" ],
+    "id" : "112"
+  } ]
+}
