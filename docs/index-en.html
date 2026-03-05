@@ -17,7 +17,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://edugate.cs.wright.edu/lod/ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://edugate.cs.wright.edu/lod/ontology","name":"CurriculumKG Ontology", "headline":"Educational, learning, and training materials are widely distributed across platforms and formats, which makes them hard to discover, reuse, and connect;CurriculumKG Ontology provides an OWL 2 DL schema and materialized knowledge graph to interlink these resources, structure curricula, and support persona-aware, explainable learning pathways.", "dateReleased":"2025-06-06", "dateModified":"2025-06-06", "version":"1", "license":"https://creativecommons.org/licenses/by-sa/4.0/", "codeRepository":"https://github.com/kastle-lab/curriculum-kg", "author":[{"@type":"Person","name":"Antrea Christou"},{"@type":"Person","name":"Chris Davis Jaldi"},{"@type":"Person","name":"Cogan Shimizu"}], "contributor":[{"@type":"Person","name":"Antrea Christou"},{"@type":"Person","name":"Chris Davis Jaldi"},{"@type":"Person","name":"Cogan Shimizu"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://edugate.cs.wright.edu/lod/ontology","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://edugate.cs.wright.edu/lod/ontology","name":"CurriculumKG Ontology", "headline":"Educational, learning, and training materials are widely distributed across platforms and formats, which makes them hard to discover, reuse, and connect;CurriculumKG Ontology provides an OWL 2 DL schema and materialized knowledge graph to interlink these resources, structure curricula, and support persona-aware, explainable learning pathways.", "dateReleased":"2025-06-06", "dateModified":"2025-06-06", "version":"1", "license":"https://creativecommons.org/licenses/by-sa/4.0/", "codeRepository":"https://kastle-lab.github.io/curriculum-kg/", "author":[{"@type":"Person","name":"Antrea Christou"},{"@type":"Person","name":"Chris Davis Jaldi"},{"@type":"Person","name":"Cogan Shimizu"}], "contributor":[{"@type":"Person","name":"Antrea Christou"},{"@type":"Person","name":"Chris Davis Jaldi"},{"@type":"Person","name":"Cogan Shimizu"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -105,7 +105,7 @@ $(function(){
 <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd><dt>Cite as:</dt>
 <dd>Christou, A., Jaldi, C. D., Zalewski, J., Küçük McGinty, H., Hitzler, P., & Shimizu, C. (2025). An Ontology for Representing Curriculum and Learning Material.</dd>
 <dt>Vocabulary maintained at:</dt>
-<dd><a href="https://github.com/kastle-lab/curriculum-kg">https://github.com/kastle-lab/curriculum-kg</a></dd>
+<dd><a href="https://kastle-lab.github.io/curriculum-kg/">https://kastle-lab.github.io/curriculum-kg/</a></dd>
 </dl>
 
 <a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
@@ -227,6 +227,7 @@ This section provides details for each class and property defined by CurriculumK
  <h3 id="classes-headline" class="list">Classes</h3>
  <ul class="hlist">
   <li><a href="#/currKG/Article" title="https://edugate.cs.wright.edu/lod/ontology/currKG/Article"> <span>Article</span> </a></li>
+  <li><a href="#/currKG/Audience" title="https://edugate.cs.wright.edu/lod/ontology/currKG/Audience"> <span>Audience</span> </a></li>
   <li><a href="#/currKG/Author" title="https://edugate.cs.wright.edu/lod/ontology/currKG/Author"> <span>Author</span> </a></li>
   <li><a href="#/currKG/Category" title="https://edugate.cs.wright.edu/lod/ontology/currKG/Category"> <span>Category</span> </a></li>
   <li><a href="#/currKG/Curriculum" title="https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum"> <span>Curriculum</span> </a></li>
@@ -256,6 +257,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Article">
   <h3>Article<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Article</p>
+  <div class="comment">
+   <span class="markdown">Represents an Article is a written media resource, typed as a sub-class.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -265,9 +269,19 @@ This section provides details for each class and property defined by CurriculumK
    </dd>
   </dl>
  </div>
+ <div class="entity" id="/currKG/Audience">
+  <h3>Audience<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Audience</p>
+  <div class="comment">
+   <span class="markdown">Represents audience as a controlled vocabulary that is used to indicate intended audience for a media resource.</span>
+  </div>
+ </div>
  <div class="entity" id="/currKG/Author">
   <h3>Author<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Author</p>
+  <div class="comment">
+   <span class="markdown">Represents an author that is a person who creates or is credited for media resources.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -278,6 +292,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Category">
   <h3>Category<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Category</p>
+  <div class="comment">
+   <span class="markdown">Represents a category is a high-level grouping used to organize modules (e.g., foundations, survey, methodology, standards).</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -294,6 +311,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Curriculum">
   <h3>Curriculum<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum</p>
+  <div class="comment">
+   <span class="markdown">Represents a Curriculum as a curated course of study that groups modules into a coherent educational offering.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -304,6 +324,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Event">
   <h3>Event<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Event</p>
+  <div class="comment">
+   <span class="markdown">Represents an event as a structured learning activity (e.g., workshop, tutorial, presentation) that can provide media and have sub-events.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -320,6 +343,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/FirstLearningStep">
   <h3>First Learning Step<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/FirstLearningStep</p>
+  <div class="comment">
+   <span class="markdown">Represents a First Learning Step that marks the starting step of a learning path.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -332,6 +358,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Foundations">
   <h3>Foundations<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Foundations</p>
+  <div class="comment">
+   <span class="markdown">Represents Foundations as a category subclass for modules covering fundamental concepts and principles.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -344,10 +373,16 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Language">
   <h3>Language<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Language</p>
+  <div class="comment">
+   <span class="markdown">Represents a Language indicating the language of a media resource.</span>
+  </div>
  </div>
  <div class="entity" id="/currKG/LastLearningStep">
   <h3>Last Learning Step<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/LastLearningStep</p>
+  <div class="comment">
+   <span class="markdown">Represents a Last Learning Step that marks the ending step of a learning path.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -360,6 +395,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/LearningPath">
   <h3>Learning Path<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath</p>
+  <div class="comment">
+   <span class="markdown">Represents a Learning Path as an ordered sequence of learning steps tailored to a persona and scoped by a curriculum.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -370,6 +408,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/LearningStep">
   <h3>Learning Step<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep</p>
+  <div class="comment">
+   <span class="markdown">Represents a Learning Step as an ordered step within a Learning Path that refers to exactly one module.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -386,10 +427,16 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Level">
   <h3>Level<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Level</p>
+  <div class="comment">
+   <span class="markdown">Represents Level as a controlled vocabulary indicating the difficulty of a module.</span>
+  </div>
  </div>
  <div class="entity" id="/currKG/Media">
   <h3>Media<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Media</p>
+  <div class="comment">
+   <span class="markdown">Represents a Media that is a learning resource (e.g., article, video, podcast, transcript) and can be referenced by modules or provided by events.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -406,6 +453,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Module">
   <h3>Module<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Module</p>
+  <div class="comment">
+   <span class="markdown">Represents Module as a unit of learning content that covers one or more topics and references supporting media.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -416,6 +466,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Person">
   <h3>Person<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Person</p>
+  <div class="comment">
+   <span class="markdown">Represents Person is an Agent (from Agent Role pattern) who may assume roles such as persona or author.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -426,6 +479,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Persona">
   <h3>Persona<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Persona</p>
+  <div class="comment">
+   <span class="markdown">Represents Persona as an audience profile (role/background) used to tailor a learning path.e</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -442,6 +498,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/PersonaType">
   <h3>Persona Type<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType</p>
+  <div class="comment">
+   <span class="markdown">Represents Persona Type as a controlled vocabulary used to classify personas (e.g., developer, executive).</span>
+  </div>
   <dl class="description">
    <dt>
     has members
@@ -454,6 +513,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Podcast">
   <h3>Podcast<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Podcast</p>
+  <div class="comment">
+   <span class="markdown">Represents a Podcast as an audio media resource, typed as a sub-class.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -466,6 +528,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Presentation">
   <h3>Presentation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Presentation</p>
+  <div class="comment">
+   <span class="markdown">Represents a Presentationas an event type focused on delivering content to an audience, typed as a sub-class.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -478,6 +543,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Profession">
   <h3>Profession<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Profession</p>
+  <div class="comment">
+   <span class="markdown">Represents Profession indicating the professional role associated with a persona.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -488,6 +556,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Standards">
   <h3>Standards<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Standards</p>
+  <div class="comment">
+   <span class="markdown">Represents Standards as a category subclass for modules covering formal specifications and recommendations.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -500,6 +571,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Topic">
   <h3>Topic<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Topic</p>
+  <div class="comment">
+   <span class="markdown">Represents Topic as a subject or concept covered by modules and media, and can be arranged hierarchically.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -510,6 +584,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Transcript">
   <h3>Transcript<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Transcript</p>
+  <div class="comment">
+   <span class="markdown">Represents Transcript as a text rendering of spoken media content, typed as a sub-class.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -522,6 +599,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Tutorial">
   <h3>Tutorial<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Tutorial</p>
+  <div class="comment">
+   <span class="markdown">Represents a Tutorial as an event type (through sub-class) focused on guided instruction.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -534,6 +614,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Video">
   <h3>Video<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Video</p>
+  <div class="comment">
+   <span class="markdown">Represents Video as an audiovisual media resource., typed as a sub-class.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -546,6 +629,9 @@ This section provides details for each class and property defined by CurriculumK
  <div class="entity" id="/currKG/Workshop">
   <h3>Workshop<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/Workshop</p>
+  <div class="comment">
+   <span class="markdown">Represents a Workshop as an event type (through sub-class) focused on hands-on learning.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -558,8 +644,151 @@ This section provides details for each class and property defined by CurriculumK
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
  <h3 id="properties" class="list">Object Properties</h3>
  <ul class="hlist">
+  <li><a href="#/currKG/assumesAuthorship" title="https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship"> <span>assumes Authorship</span> </a></li>
+  <li><a href="#/currKG/assumesPersona" title="https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona"> <span>assumes Persona</span> </a></li>
+  <li><a href="#/currKG/belongTo" title="https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo"> <span>belong To</span> </a></li>
+  <li><a href="#/currKG/broaderThan" title="https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan"> <span>broader Than</span> </a></li>
+  <li><a href="#/currKG/coversTopic" title="https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic"> <span>covers Topic</span> </a></li>
+  <li><a href="#/currKG/determines" title="https://edugate.cs.wright.edu/lod/ontology/currKG/determines"> <span>determines</span> </a></li>
+  <li><a href="#/currKG/hasAuthor" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor"> <span>has Author</span> </a></li>
+  <li><a href="#/currKG/hasLanguage" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage"> <span>has Language</span> </a></li>
+  <li><a href="#/currKG/hasLearningStep" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep"> <span>has Learning Step</span> </a></li>
+  <li><a href="#/currKG/hasLevel" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel"> <span>has Level</span> </a></li>
+  <li><a href="#/currKG/hasModule" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule"> <span>has Module</span> </a></li>
+  <li><a href="#/currKG/hasNextLearningStep" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep"> <span>has Next Learning Step</span> </a></li>
+  <li><a href="#/currKG/hasPreviousLearningStep" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep"> <span>has Previous Learning Step</span> </a></li>
+  <li><a href="#/currKG/hasProfession" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession"> <span>has Profession</span> </a></li>
+  <li><a href="#/currKG/hasRecomended" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended"> <span>has Recomended</span> </a></li>
+  <li><a href="#/currKG/hasSubEvent" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent"> <span>has Sub Event</span> </a></li>
   <li><a href="#/currKG/hasType" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasType"> <span>has Type</span> </a></li>
+  <li><a href="#/currKG/narrowerThan" title="https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan"> <span>narrower Than</span> </a></li>
+  <li><a href="#/currKG/provides" title="https://edugate.cs.wright.edu/lod/ontology/currKG/provides"> <span>provides</span> </a></li>
+  <li><a href="#/currKG/references" title="https://edugate.cs.wright.edu/lod/ontology/currKG/references"> <span>references</span> </a></li>
+  <li><a href="#/currKG/refersTo" title="https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo"> <span>refers To</span> </a></li>
+  <li><a href="#/currKG/scopedBy" title="https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy"> <span>scoped By</span> </a></li>
  </ul>
+ <div class="entity" id="/currKG/assumesAuthorship">
+  <h3>assumes Authorship<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a person to an author role they assume.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/assumesPersona">
+  <h3>assumes Persona<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a person to a persona role they assume.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/belongTo">
+  <h3>belong To<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a module to the category it belongs to.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/broaderThan">
+  <h3>broader Than<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a topic to a broader (more general) topic.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/coversTopic">
+  <h3>covers Topic<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a module or media resource to a topic it covers.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/determines">
+  <h3>determines<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/determines</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a persona to the learning path it determines.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasAuthor">
+  <h3>has Author<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a media resource to its author.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasLanguage">
+  <h3>has Language<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a media resource to the language it is in.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasLearningStep">
+  <h3>has Learning Step<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a learning path to a learning step that it contains.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasLevel">
+  <h3>has Level<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a module to its difficulty level.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasModule">
+  <h3>has Module<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of referring a curriculum to a module that is part of that curriculum.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasNextLearningStep">
+  <h3>has Next Learning Step<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a learning step to the next learning step in the sequence.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasPreviousLearningStep">
+  <h3>has Previous Learning Step<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a learning step to the previous learning step in the sequence.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasProfession">
+  <h3>has Profession<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a persona to its profession.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has sub-properties
+    </dt>
+    <dd>
+     <a href="#/currKG/hasType" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasType">has Type</a> <sup class="type-op" title="object property">op</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasRecomended">
+  <h3>has Recomended<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a media resource to an intended audience it is recommended for.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/hasSubEvent">
+  <h3>has Sub Event<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of an event to a sub-event that is part of it.</span>
+  </div>
+ </div>
  <div class="entity" id="/currKG/hasType">
   <h3>has Type<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/hasType</p>
@@ -569,9 +798,44 @@ This section provides details for each class and property defined by CurriculumK
      has super-properties
     </dt>
     <dd>
-     <a href="https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession" target="_blank" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession">has Profession</a> <sup class="type-op" title="object property">op</sup>
+     <a href="#/currKG/hasProfession" title="https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession">has Profession</a> <sup class="type-op" title="object property">op</sup>
     </dd>
    </dl>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/narrowerThan">
+  <h3>narrower Than<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a topic to a narrower (more specific) topic.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/provides">
+  <h3>provides<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/provides</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of an event to media resources it provides.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/references">
+  <h3>references<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/references</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a module (or other entity) to media resources that it references.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/refersTo">
+  <h3>refers To<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a learning step to the module it refers to.</span>
+  </div>
+ </div>
+ <div class="entity" id="/currKG/scopedBy">
+  <h3>scoped By<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy</p>
+  <div class="comment">
+   <span class="markdown">Represents the relation of a learning path to the curriculum that scopes it.</span>
   </div>
  </div>
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="annotationproperties">

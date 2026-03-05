@@ -1,6 +1,7 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
+    "languages" : [ "en" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://edugate.cs.wright.edu/lod/resource/currKG", "http://www.w3.org/2002/07/owl", "https://edugate.cs.wright.edu/lod/ontology/currKG", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
     "iri" : "https://edugate.cs.wright.edu/lod/ontology"
   },
@@ -18,14 +19,14 @@
     "id" : "9",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
     "type" : "rdfs:Datatype"
-  }, {
-    "id" : "18",
-    "type" : "owl:Class"
-  }, {
-    "id" : "27",
-    "type" : "owl:Class"
   }, {
     "id" : "11",
     "type" : "owl:Class"
@@ -39,49 +40,49 @@
     "id" : "33",
     "type" : "owl:Class"
   }, {
-    "id" : "36",
+    "id" : "35",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "38",
-    "type" : "rdfs:Datatype"
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
   }, {
     "id" : "39",
-    "type" : "owl:Class"
+    "type" : "rdfs:Datatype"
   }, {
-    "id" : "23",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
+    "id" : "21",
     "type" : "owl:Class"
   }, {
     "id" : "5",
     "type" : "owl:Thing"
   }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "53",
+    "id" : "52",
     "type" : "owl:Class"
   }, {
     "id" : "54",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
     "type" : "owl:Class"
   }, {
     "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "75",
+    "id" : "71",
     "type" : "owl:Class"
   }, {
-    "id" : "60",
+    "id" : "59",
     "type" : "owl:Class"
   }, {
     "id" : "3",
@@ -90,7 +91,7 @@
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "65",
     "type" : "owl:Class"
   }, {
     "id" : "73",
@@ -99,19 +100,19 @@
     "id" : "89",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
+    "id" : "75",
     "type" : "owl:Class"
   }, {
-    "id" : "25",
+    "id" : "26",
     "type" : "owl:Class"
   }, {
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "50",
+    "id" : "51",
     "type" : "owl:Class"
   }, {
     "id" : "88",
@@ -123,10 +124,10 @@
     "id" : "103",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "106",
+    "id" : "107",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "67",
+    "id" : "57",
     "type" : "owl:Class"
   }, {
     "id" : "92",
@@ -138,7 +139,7 @@
     "id" : "111",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "52",
+    "id" : "53",
     "type" : "owl:Class"
   }, {
     "id" : "45",
@@ -153,13 +154,13 @@
     "id" : "87",
     "type" : "owl:Class"
   }, {
-    "id" : "77",
-    "type" : "owl:Class"
-  }, {
-    "id" : "64",
+    "id" : "49",
     "type" : "owl:Class"
   }, {
     "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -167,21 +168,24 @@
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
-        "type" : "iri"
-      } ],
       "entityPosition" : [ {
         "identifier" : "entityPosition",
         "language" : "undefined",
         "value" : "_:genid2147483648",
         "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
+        "type" : "iri"
       } ]
     },
     "label" : {
       "IRI-based" : "Module"
+    },
+    "comment" : {
+      "en" : "Represents Module as a unit of learning content that covers one or more topics and references supporting media."
     },
     "attributes" : [ "external" ],
     "id" : "0"
@@ -200,6 +204,9 @@
     "label" : {
       "IRI-based" : "Podcast"
     },
+    "comment" : {
+      "en" : "Represents a Podcast as an audio media resource, typed as a sub-class."
+    },
     "attributes" : [ "external" ],
     "id" : "6",
     "superClasses" : [ "7" ]
@@ -209,6 +216,9 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "Silas"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
     },
     "attributes" : [ "external" ],
     "id" : "8"
@@ -227,15 +237,11 @@
     "label" : {
       "IRI-based" : "Language"
     },
+    "comment" : {
+      "en" : "Represents a Language indicating the language of a media resource."
+    },
     "attributes" : [ "external" ],
     "id" : "9"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "16",
-    "label" : {
-      "IRI-based" : "string"
-    }
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Darwin",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -251,8 +257,11 @@
     "label" : {
       "IRI-based" : "Darwin"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "18"
+    "id" : "19"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Chris",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -260,28 +269,41 @@
     "label" : {
       "IRI-based" : "Chris"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "27"
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "string"
+    }
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 17,
     "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483664",
-        "type" : "label"
-      } ],
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
         "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
         "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483664",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Persona"
+    },
+    "comment" : {
+      "en" : "Represents Persona as an audience profile (role/background) used to tailor a learning path.e"
     },
     "attributes" : [ "external" ],
     "id" : "11"
@@ -300,6 +322,9 @@
     "label" : {
       "IRI-based" : "FirstLearningStep"
     },
+    "comment" : {
+      "en" : "Represents a First Learning Step that marks the starting step of a learning path."
+    },
     "attributes" : [ "external" ],
     "id" : "30",
     "superClasses" : [ "31" ]
@@ -310,6 +335,9 @@
     "label" : {
       "IRI-based" : "Connie"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
     "id" : "32"
   }, {
@@ -319,19 +347,15 @@
     "label" : {
       "IRI-based" : "Ronnie"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
     "id" : "33"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "36",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "38",
+    "id" : "35",
     "label" : {
       "IRI-based" : "string"
     }
@@ -342,36 +366,55 @@
     "label" : {
       "IRI-based" : "Cameron"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "39"
+    "id" : "40"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Level",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483671",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Level"
+    },
+    "comment" : {
+      "en" : "Represents Level as a controlled vocabulary indicating the difficulty of a module."
+    },
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Author",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
         "identifier" : "entityPosition",
         "language" : "undefined",
-        "value" : "_:genid2147483671",
+        "value" : "_:genid2147483649",
         "type" : "label"
       } ],
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Level"
-    },
-    "attributes" : [ "external" ],
-    "id" : "23"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Author",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
@@ -382,19 +425,16 @@
         "language" : "undefined",
         "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
         "type" : "iri"
-      } ],
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483649",
-        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Author"
     },
+    "comment" : {
+      "en" : "Represents an author that is a person who creates or is credited for media resources."
+    },
     "attributes" : [ "external" ],
-    "id" : "20"
+    "id" : "21"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
@@ -417,9 +457,12 @@
     "label" : {
       "IRI-based" : "Tutorial"
     },
+    "comment" : {
+      "en" : "Represents a Tutorial as an event type (through sub-class) focused on guided instruction."
+    },
     "attributes" : [ "external" ],
-    "id" : "51",
-    "superClasses" : [ "52" ]
+    "id" : "52",
+    "superClasses" : [ "53" ]
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Oratius",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -427,8 +470,11 @@
     "label" : {
       "IRI-based" : "Oratius"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "53"
+    "id" : "54"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ella",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -436,8 +482,11 @@
     "label" : {
       "IRI-based" : "Ella"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "54"
+    "id" : "55"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Audience",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -445,8 +494,11 @@
     "label" : {
       "IRI-based" : "Audience"
     },
+    "comment" : {
+      "en" : "Represents audience as a controlled vocabulary that is used to indicate intended audience for a media resource."
+    },
     "attributes" : [ "external" ],
-    "id" : "35"
+    "id" : "37"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -468,7 +520,10 @@
     "label" : {
       "IRI-based" : "LearningStep"
     },
-    "subClasses" : [ "50", "30" ],
+    "subClasses" : [ "51", "30" ],
+    "comment" : {
+      "en" : "Represents a Learning Step as an ordered step within a Learning Path that refers to exactly one module."
+    },
     "attributes" : [ "external" ],
     "id" : "31"
   }, {
@@ -493,8 +548,11 @@
       "IRI-based" : "Category"
     },
     "subClasses" : [ "72", "73" ],
+    "comment" : {
+      "en" : "Represents a category is a high-level grouping used to organize modules (e.g., foundations, survey, methodology, standards)."
+    },
     "attributes" : [ "external" ],
-    "id" : "29"
+    "id" : "17"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -565,16 +623,16 @@
         "IRI-based" : "ExecutiveEngagementSpecialist"
       }
     }, {
-      "iri" : "https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer",
-      "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst",
-      "labels" : {
-        "IRI-based" : "DeveloperTrainer"
-      }
-    }, {
       "iri" : "https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert",
       "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/Ontology",
       "labels" : {
         "IRI-based" : "VocabularyExpert"
+      }
+    }, {
+      "iri" : "https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer",
+      "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst",
+      "labels" : {
+        "IRI-based" : "DeveloperTrainer"
       }
     }, {
       "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator",
@@ -601,8 +659,11 @@
         "IRI-based" : "ResourceDeveloper"
       }
     } ],
+    "comment" : {
+      "en" : "Represents Persona Type as a controlled vocabulary used to classify personas (e.g., developer, executive)."
+    },
     "attributes" : [ "external" ],
-    "id" : "14"
+    "id" : "12"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Usman",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -610,8 +671,11 @@
     "label" : {
       "IRI-based" : "Usman"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "75"
+    "id" : "71"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Kai",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -619,8 +683,11 @@
     "label" : {
       "IRI-based" : "Kai"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "60"
+    "id" : "59"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#rational",
     "baseIri" : "http://www.w3.org/2002/07/owl",
@@ -633,23 +700,26 @@
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483652",
-        "type" : "label"
-      } ],
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
         "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event",
         "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483652",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Media"
     },
     "subClasses" : [ "86", "6", "87", "88", "89" ],
+    "comment" : {
+      "en" : "Represents a Media that is a learning resource (e.g., article, video, podcast, transcript) and can be referenced by modules or provided by events."
+    },
     "attributes" : [ "external" ],
     "id" : "7"
   }, {
@@ -659,8 +729,11 @@
     "label" : {
       "IRI-based" : "Stella"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "71"
+    "id" : "65"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Standards",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -676,9 +749,12 @@
     "label" : {
       "IRI-based" : "Standards"
     },
+    "comment" : {
+      "en" : "Represents Standards as a category subclass for modules covering formal specifications and recommendations."
+    },
     "attributes" : [ "external" ],
     "id" : "73",
-    "superClasses" : [ "29" ]
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Article",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -694,6 +770,9 @@
     "label" : {
       "IRI-based" : "Article"
     },
+    "comment" : {
+      "en" : "Represents an Article is a written media resource, typed as a sub-class."
+    },
     "attributes" : [ "external" ],
     "id" : "89",
     "superClasses" : [ "7" ]
@@ -704,31 +783,37 @@
     "label" : {
       "IRI-based" : "Carla"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "57"
+    "id" : "75"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483661",
-        "type" : "label"
-      } ],
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
         "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
         "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483661",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Topic"
     },
+    "comment" : {
+      "en" : "Represents Topic as a subject or concept covered by modules and media, and can be arranged hierarchically."
+    },
     "attributes" : [ "external" ],
-    "id" : "25"
+    "id" : "26"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Profession",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -744,6 +829,9 @@
     "label" : {
       "IRI-based" : "Profession"
     },
+    "comment" : {
+      "en" : "Represents Profession indicating the professional role associated with a persona."
+    },
     "attributes" : [ "external" ],
     "id" : "2"
   }, {
@@ -751,24 +839,27 @@
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483668",
-        "type" : "label"
-      } ],
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
         "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
         "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483668",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Person"
     },
+    "comment" : {
+      "en" : "Represents Person is an Agent (from Agent Role pattern) who may assume roles such as persona or author."
+    },
     "attributes" : [ "external" ],
-    "id" : "12"
+    "id" : "15"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LastLearningStep",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -784,8 +875,11 @@
     "label" : {
       "IRI-based" : "LastLearningStep"
     },
+    "comment" : {
+      "en" : "Represents a Last Learning Step that marks the ending step of a learning path."
+    },
     "attributes" : [ "external" ],
-    "id" : "50",
+    "id" : "51",
     "superClasses" : [ "31" ]
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Video",
@@ -801,6 +895,9 @@
     },
     "label" : {
       "IRI-based" : "Video"
+    },
+    "comment" : {
+      "en" : "Represents Video as an audiovisual media resource., typed as a sub-class."
     },
     "attributes" : [ "external" ],
     "id" : "88",
@@ -820,6 +917,9 @@
     "label" : {
       "IRI-based" : "Transcript"
     },
+    "comment" : {
+      "en" : "Represents Transcript as a text rendering of spoken media content, typed as a sub-class."
+    },
     "attributes" : [ "external" ],
     "id" : "86",
     "superClasses" : [ "7" ]
@@ -833,7 +933,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "106",
+    "id" : "107",
     "label" : {
       "IRI-based" : "string"
     }
@@ -844,8 +944,11 @@
     "label" : {
       "IRI-based" : "Ethan"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "67"
+    "id" : "57"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Workshop",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -861,9 +964,12 @@
     "label" : {
       "IRI-based" : "Workshop"
     },
+    "comment" : {
+      "en" : "Represents a Workshop as an event type (through sub-class) focused on hands-on learning."
+    },
     "attributes" : [ "external" ],
     "id" : "92",
-    "superClasses" : [ "52" ]
+    "superClasses" : [ "53" ]
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Foundations",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -879,9 +985,12 @@
     "label" : {
       "IRI-based" : "Foundations"
     },
+    "comment" : {
+      "en" : "Represents Foundations as a category subclass for modules covering fundamental concepts and principles."
+    },
     "attributes" : [ "external" ],
     "id" : "72",
-    "superClasses" : [ "29" ]
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -894,25 +1003,28 @@
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483662",
-        "type" : "label"
-      } ],
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
         "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/event",
         "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483662",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Event"
     },
-    "subClasses" : [ "92", "51" ],
+    "subClasses" : [ "92", "52" ],
+    "comment" : {
+      "en" : "Represents an event as a structured learning activity (e.g., workshop, tutorial, presentation) that can provide media and have sub-events."
+    },
     "attributes" : [ "external" ],
-    "id" : "52"
+    "id" : "53"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -934,6 +1046,9 @@
     "label" : {
       "IRI-based" : "Curriculum"
     },
+    "comment" : {
+      "en" : "Represents a Curriculum as a curated course of study that groups modules into a coherent educational offering."
+    },
     "attributes" : [ "external" ],
     "id" : "45"
   }, {
@@ -942,6 +1057,9 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "Debbie"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
     },
     "attributes" : [ "external" ],
     "id" : "69"
@@ -960,6 +1078,9 @@
     "label" : {
       "IRI-based" : "LearningPath"
     },
+    "comment" : {
+      "en" : "Represents a Learning Path as an ordered sequence of learning steps tailored to a persona and scoped by a curriculum."
+    },
     "attributes" : [ "external" ],
     "id" : "44"
   }, {
@@ -977,6 +1098,9 @@
     "label" : {
       "IRI-based" : "Presentation"
     },
+    "comment" : {
+      "en" : "Represents a Presentationas an event type focused on delivering content to an audience, typed as a sub-class."
+    },
     "attributes" : [ "external" ],
     "id" : "87",
     "superClasses" : [ "7" ]
@@ -987,8 +1111,11 @@
     "label" : {
       "IRI-based" : "Edward"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "77"
+    "id" : "49"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Courtney",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -996,8 +1123,11 @@
     "label" : {
       "IRI-based" : "Courtney"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "64"
+    "id" : "83"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Elias",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -1005,8 +1135,11 @@
     "label" : {
       "IRI-based" : "Elias"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "83"
+    "id" : "78"
   } ],
   "property" : [ {
     "id" : "1",
@@ -1018,37 +1151,37 @@
     "id" : "10",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "13",
+    "id" : "14",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "17",
+    "id" : "16",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "19",
+    "id" : "18",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "21",
+    "id" : "20",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "22",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "24",
+    "id" : "23",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "26",
+    "id" : "25",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "28",
+    "id" : "27",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "34",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "37",
+    "id" : "36",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "40",
+    "id" : "38",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "41",
@@ -1069,11 +1202,8 @@
     "id" : "48",
     "type" : "rdf:Property"
   }, {
-    "id" : "49",
+    "id" : "50",
     "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "55",
-    "type" : "rdf:Property"
   }, {
     "id" : "56",
     "type" : "rdf:Property"
@@ -1081,7 +1211,7 @@
     "id" : "58",
     "type" : "rdf:Property"
   }, {
-    "id" : "59",
+    "id" : "60",
     "type" : "rdf:Property"
   }, {
     "id" : "61",
@@ -1093,10 +1223,13 @@
     "id" : "63",
     "type" : "rdf:Property"
   }, {
-    "id" : "65",
-    "type" : "owl:objectProperty"
+    "id" : "64",
+    "type" : "rdf:Property"
   }, {
     "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
     "type" : "rdf:Property"
   }, {
     "id" : "68",
@@ -1111,7 +1244,7 @@
     "id" : "76",
     "type" : "rdf:Property"
   }, {
-    "id" : "78",
+    "id" : "77",
     "type" : "rdf:Property"
   }, {
     "id" : "79",
@@ -1132,7 +1265,7 @@
     "id" : "85",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "15",
+    "id" : "13",
     "type" : "owl:objectProperty"
   }, {
     "id" : "91",
@@ -1174,7 +1307,7 @@
     "id" : "105",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "107",
+    "id" : "106",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "108",
@@ -1197,7 +1330,7 @@
       "IRI-based" : "asString"
     },
     "domain" : "2",
-    "attributes" : [ "someValues", "datatype", "external" ],
+    "attributes" : [ "datatype", "someValues", "external" ],
     "id" : "1"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo",
@@ -1207,79 +1340,48 @@
       "IRI-based" : "refersTo"
     },
     "domain" : "5",
+    "comment" : {
+      "en" : "Represents the relation of a learning step to the module it refers to."
+    },
     "attributes" : [ "object", "external" ],
     "id" : "4"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasType",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "range" : "12",
     "label" : {
-      "IRI-based" : "assumesPersona"
+      "IRI-based" : "hasType"
     },
+    "superproperty" : [ "13" ],
     "domain" : "11",
     "attributes" : [ "someValues", "object", "external" ],
     "id" : "10"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasType",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "14",
-    "label" : {
-      "IRI-based" : "hasType"
-    },
-    "superproperty" : [ "15" ],
-    "domain" : "11",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "13"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "hasTitle"
-    },
-    "domain" : "0",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "17"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "20",
-    "label" : {
-      "IRI-based" : "assumesAuthorship"
-    },
-    "domain" : "12",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "19"
-  }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "11",
+    "range" : "15",
     "label" : {
       "IRI-based" : "assumesPersona"
     },
-    "domain" : "12",
+    "domain" : "11",
+    "comment" : {
+      "en" : "Represents the relation of a person to a persona role they assume."
+    },
     "attributes" : [ "someValues", "object", "external" ],
-    "id" : "21"
+    "id" : "14"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel",
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "23",
+    "range" : "17",
     "label" : {
-      "IRI-based" : "hasLevel"
+      "IRI-based" : "belongTo"
     },
     "domain" : "0",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "22"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "25",
-    "label" : {
-      "IRI-based" : "coversTopic"
+    "comment" : {
+      "en" : "Represents the relation of a module to the category it belongs to."
     },
-    "domain" : "0",
     "attributes" : [ "someValues", "object", "external" ],
-    "id" : "24"
+    "id" : "16"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/references",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -1288,28 +1390,145 @@
       "IRI-based" : "references"
     },
     "domain" : "0",
+    "comment" : {
+      "en" : "Represents the relation of a module (or other entity) to media resources that it references."
+    },
     "attributes" : [ "someValues", "object", "external" ],
-    "id" : "26"
+    "id" : "18"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo",
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "29",
+    "range" : "21",
     "label" : {
-      "IRI-based" : "belongTo"
+      "IRI-based" : "assumesAuthorship"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Represents the relation of a person to an author role they assume."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "assumesPersona"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Represents the relation of a person to a persona role they assume."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "hasTitle"
     },
     "domain" : "0",
+    "attributes" : [ "datatype", "someValues", "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "coversTopic"
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "Represents the relation of a module or media resource to a topic it covers."
+    },
     "attributes" : [ "someValues", "object", "external" ],
-    "id" : "28"
+    "id" : "25"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasLevel"
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "Represents the relation of a module to its difficulty level."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "coversTopic"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Represents the relation of a module or media resource to a topic it covers."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "34"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "35",
+    "range" : "37",
     "label" : {
       "IRI-based" : "hasRecomended"
     },
     "domain" : "7",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to an intended audience it is recommended for."
+    },
     "attributes" : [ "someValues", "object", "external" ],
-    "id" : "34"
+    "id" : "36"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasMediaSourceLink"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "someValues", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasAuthor"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to its author."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "someValues", "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/determines",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "determines"
+    },
+    "domain" : "44",
+    "comment" : {
+      "en" : "Represents the relation of a persona to the learning path it determines."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "43"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -1318,56 +1537,9 @@
       "IRI-based" : "hasLanguage"
     },
     "domain" : "7",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "37"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "38",
-    "label" : {
-      "IRI-based" : "hasMediaSourceLink"
+    "comment" : {
+      "en" : "Represents the relation of a media resource to the language it is in."
     },
-    "domain" : "7",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "40"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "36",
-    "label" : {
-      "IRI-based" : "hasTitle"
-    },
-    "domain" : "7",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "41"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "20",
-    "label" : {
-      "IRI-based" : "hasAuthor"
-    },
-    "domain" : "7",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "42"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "45",
-    "label" : {
-      "IRI-based" : "scopedBy"
-    },
-    "domain" : "44",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "43"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "25",
-    "label" : {
-      "IRI-based" : "coversTopic"
-    },
-    "domain" : "7",
     "attributes" : [ "someValues", "object", "external" ],
     "id" : "46"
   }, {
@@ -1378,11 +1550,14 @@
       "IRI-based" : "hasLearningStep"
     },
     "domain" : "44",
+    "comment" : {
+      "en" : "Represents the relation of a learning path to a learning step that it contains."
+    },
     "attributes" : [ "someValues", "object", "external" ],
     "id" : "47"
   }, {
     "domain" : "11",
-    "range" : "39",
+    "range" : "49",
     "id" : "48",
     "label" : {
       "IRI-based" : "50",
@@ -1390,39 +1565,31 @@
     }
   }, {
     "range" : "31",
-    "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "49"
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
   }, {
     "domain" : "11",
-    "range" : "27",
-    "id" : "55",
+    "range" : "57",
+    "id" : "56",
     "label" : {
       "IRI-based" : "47",
       "undefined" : "is a"
     }
   }, {
     "domain" : "11",
-    "range" : "57",
-    "id" : "56",
+    "range" : "59",
+    "id" : "58",
     "label" : {
       "IRI-based" : "46",
       "undefined" : "is a"
     }
   }, {
     "domain" : "11",
-    "range" : "53",
-    "id" : "58",
+    "range" : "19",
+    "id" : "60",
     "label" : {
       "IRI-based" : "49",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "60",
-    "id" : "59",
-    "label" : {
-      "IRI-based" : "48",
       "undefined" : "is a"
     }
   }, {
@@ -1430,21 +1597,29 @@
     "range" : "8",
     "id" : "61",
     "label" : {
+      "IRI-based" : "48",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "11",
+    "range" : "55",
+    "id" : "62",
+    "label" : {
       "IRI-based" : "43",
       "undefined" : "is a"
     }
   }, {
     "domain" : "11",
-    "range" : "32",
-    "id" : "62",
+    "range" : "40",
+    "id" : "63",
     "label" : {
       "IRI-based" : "42",
       "undefined" : "is a"
     }
   }, {
     "domain" : "11",
-    "range" : "64",
-    "id" : "63",
+    "range" : "65",
+    "id" : "64",
     "label" : {
       "IRI-based" : "45",
       "undefined" : "is a"
@@ -1457,12 +1632,15 @@
       "IRI-based" : "hasSubEvent"
     },
     "domain" : "5",
+    "comment" : {
+      "en" : "Represents the relation of an event to a sub-event that is part of it."
+    },
     "attributes" : [ "object", "external" ],
-    "id" : "65"
+    "id" : "66"
   }, {
     "domain" : "11",
-    "range" : "67",
-    "id" : "66",
+    "range" : "29",
+    "id" : "67",
     "label" : {
       "IRI-based" : "44",
       "undefined" : "is a"
@@ -1485,7 +1663,7 @@
     }
   }, {
     "domain" : "11",
-    "range" : "33",
+    "range" : "75",
     "id" : "74",
     "label" : {
       "IRI-based" : "39",
@@ -1493,7 +1671,7 @@
     }
   }, {
     "domain" : "11",
-    "range" : "77",
+    "range" : "32",
     "id" : "76",
     "label" : {
       "IRI-based" : "36",
@@ -1501,15 +1679,15 @@
     }
   }, {
     "domain" : "11",
-    "range" : "75",
-    "id" : "78",
+    "range" : "78",
+    "id" : "77",
     "label" : {
       "IRI-based" : "35",
       "undefined" : "is a"
     }
   }, {
     "domain" : "11",
-    "range" : "54",
+    "range" : "33",
     "id" : "79",
     "label" : {
       "IRI-based" : "38",
@@ -1517,7 +1695,7 @@
     }
   }, {
     "domain" : "11",
-    "range" : "18",
+    "range" : "54",
     "id" : "80",
     "label" : {
       "IRI-based" : "37",
@@ -1526,11 +1704,14 @@
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "25",
+    "range" : "26",
     "label" : {
       "IRI-based" : "narrowerThan"
     },
-    "domain" : "25",
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the relation of a topic to a narrower (more specific) topic."
+    },
     "attributes" : [ "someValues", "object", "external" ],
     "id" : "81"
   }, {
@@ -1544,11 +1725,14 @@
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "25",
+    "range" : "26",
     "label" : {
       "IRI-based" : "broaderThan"
     },
-    "domain" : "25",
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the relation of a topic to a broader (more general) topic."
+    },
     "attributes" : [ "someValues", "object", "external" ],
     "id" : "84"
   }, {
@@ -1559,6 +1743,9 @@
       "IRI-based" : "hasPreviousLearningStep"
     },
     "domain" : "5",
+    "comment" : {
+      "en" : "Represents the relation of a learning step to the previous learning step in the sequence."
+    },
     "attributes" : [ "object", "external" ],
     "id" : "85"
   }, {
@@ -1570,57 +1757,60 @@
     },
     "domain" : "5",
     "subproperty" : [ "90" ],
+    "comment" : {
+      "en" : "Represents the relation of a persona to its profession."
+    },
     "attributes" : [ "object", "external" ],
-    "id" : "15"
+    "id" : "13"
   }, {
-    "range" : "52",
+    "range" : "53",
     "domain" : "92",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "91"
   }, {
     "range" : "7",
     "domain" : "89",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "93"
   }, {
-    "range" : "52",
-    "domain" : "51",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "53",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "94"
   }, {
     "range" : "7",
     "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "95"
   }, {
     "range" : "7",
     "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "96"
   }, {
     "range" : "7",
     "domain" : "88",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "97"
   }, {
-    "range" : "29",
+    "range" : "17",
     "domain" : "72",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "98"
   }, {
     "range" : "31",
     "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "99"
   }, {
     "range" : "7",
     "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
-    "range" : "29",
+    "range" : "17",
     "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "101"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
@@ -1629,8 +1819,8 @@
     "label" : {
       "IRI-based" : "hasTitle"
     },
-    "domain" : "29",
-    "attributes" : [ "someValues", "datatype", "external" ],
+    "domain" : "17",
+    "attributes" : [ "datatype", "someValues", "external" ],
     "id" : "102"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule",
@@ -1639,19 +1829,12 @@
     "label" : {
       "IRI-based" : "hasModule"
     },
-    "domain" : "29",
+    "domain" : "17",
+    "comment" : {
+      "en" : "Represents the relation of referring a curriculum to a module that is part of that curriculum."
+    },
     "attributes" : [ "someValues", "object", "external" ],
     "id" : "104"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "106",
-    "label" : {
-      "IRI-based" : "hasTitle"
-    },
-    "domain" : "45",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "105"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -1660,8 +1843,21 @@
       "IRI-based" : "hasModule"
     },
     "domain" : "45",
+    "comment" : {
+      "en" : "Represents the relation of referring a curriculum to a module that is part of that curriculum."
+    },
     "attributes" : [ "someValues", "object", "external" ],
-    "id" : "107"
+    "id" : "105"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "45",
+    "attributes" : [ "datatype", "someValues", "external" ],
+    "id" : "106"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/provides",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -1669,17 +1865,23 @@
     "label" : {
       "IRI-based" : "provides"
     },
-    "domain" : "52",
+    "domain" : "53",
+    "comment" : {
+      "en" : "Represents the relation of an event to media resources it provides."
+    },
     "attributes" : [ "someValues", "object", "external" ],
     "id" : "108"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/determines",
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "range" : "45",
     "label" : {
-      "IRI-based" : "determines"
+      "IRI-based" : "scopedBy"
     },
     "domain" : "44",
+    "comment" : {
+      "en" : "Represents the relation of a learning path to the curriculum that scopes it."
+    },
     "attributes" : [ "someValues", "object", "external" ],
     "id" : "109"
   }, {
@@ -1689,8 +1891,8 @@
     "label" : {
       "IRI-based" : "hasName"
     },
-    "domain" : "20",
-    "attributes" : [ "someValues", "datatype", "external" ],
+    "domain" : "21",
+    "attributes" : [ "datatype", "someValues", "external" ],
     "id" : "110"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep",
@@ -1700,6 +1902,9 @@
       "IRI-based" : "hasNextLearningStep"
     },
     "domain" : "5",
+    "comment" : {
+      "en" : "Represents the relation of a learning step to the next learning step in the sequence."
+    },
     "attributes" : [ "object", "external" ],
     "id" : "112"
   } ]
