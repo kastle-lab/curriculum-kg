@@ -1,241 +1,180 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
+    "languages" : [ "en" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://edugate.cs.wright.edu/lod/resource/currKG", "http://www.w3.org/2002/07/owl", "https://edugate.cs.wright.edu/lod/ontology/currKG", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
     "iri" : "https://edugate.cs.wright.edu/lod/ontology"
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "0",
-    "type" : "owl:Class"
-  }, {
-    "id" : "6",
-    "type" : "owl:Class"
-  }, {
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
-    "type" : "owl:Class"
-  }, {
-    "id" : "16",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "18",
-    "type" : "owl:Class"
-  }, {
-    "id" : "27",
-    "type" : "owl:Class"
-  }, {
-    "id" : "11",
-    "type" : "owl:Class"
-  }, {
-    "id" : "30",
-    "type" : "owl:Class"
-  }, {
-    "id" : "32",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
-    "type" : "owl:Class"
-  }, {
-    "id" : "36",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "38",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "39",
-    "type" : "owl:Class"
-  }, {
-    "id" : "23",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
-    "type" : "owl:Class"
-  }, {
-    "id" : "5",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
+    "id" : "47",
     "type" : "owl:Class"
   }, {
     "id" : "35",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
-    "type" : "owl:Class"
-  }, {
-    "id" : "14",
-    "type" : "owl:Class"
-  }, {
-    "id" : "75",
-    "type" : "owl:Class"
-  }, {
-    "id" : "60",
-    "type" : "owl:Class"
-  }, {
-    "id" : "3",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "71",
-    "type" : "owl:Class"
-  }, {
-    "id" : "73",
-    "type" : "owl:Class"
-  }, {
-    "id" : "89",
-    "type" : "owl:Class"
-  }, {
-    "id" : "57",
-    "type" : "owl:Class"
-  }, {
-    "id" : "25",
-    "type" : "owl:Class"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "12",
-    "type" : "owl:Class"
-  }, {
-    "id" : "50",
-    "type" : "owl:Class"
-  }, {
-    "id" : "88",
-    "type" : "owl:Class"
-  }, {
-    "id" : "86",
-    "type" : "owl:Class"
-  }, {
-    "id" : "103",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "106",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "67",
-    "type" : "owl:Class"
-  }, {
-    "id" : "92",
-    "type" : "owl:Class"
-  }, {
-    "id" : "72",
-    "type" : "owl:Class"
-  }, {
-    "id" : "111",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "52",
-    "type" : "owl:Class"
-  }, {
-    "id" : "45",
-    "type" : "owl:Class"
+    "id" : "154",
+    "type" : "owl:Thing"
   }, {
     "id" : "69",
     "type" : "owl:Class"
   }, {
-    "id" : "44",
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "214",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "400",
     "type" : "owl:Class"
   }, {
     "id" : "87",
     "type" : "owl:Class"
   }, {
-    "id" : "77",
+    "id" : "358",
     "type" : "owl:Class"
   }, {
-    "id" : "64",
+    "id" : "50",
     "type" : "owl:Class"
   }, {
-    "id" : "83",
+    "id" : "425",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "448",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "470",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "478",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "509",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "515",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "558",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
-        "type" : "iri"
-      } ],
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483648",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Module"
-    },
-    "attributes" : [ "external" ],
-    "id" : "0"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Podcast",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483653",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Podcast"
-    },
-    "attributes" : [ "external" ],
-    "id" : "6",
-    "superClasses" : [ "7" ]
-  }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Silas",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Silas"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
     "id" : "8"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Language",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483655",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Language"
-    },
-    "attributes" : [ "external" ],
-    "id" : "9"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "16",
-    "label" : {
-      "IRI-based" : "string"
-    }
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Darwin",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -251,8 +190,11 @@
     "label" : {
       "IRI-based" : "Darwin"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "18"
+    "id" : "47"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Chris",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -260,241 +202,71 @@
     "label" : {
       "IRI-based" : "Chris"
     },
-    "attributes" : [ "external" ],
-    "id" : "27"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 17,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483664",
-        "type" : "label"
-      } ],
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Persona"
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
     },
     "attributes" : [ "external" ],
-    "id" : "11"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/FirstLearningStep",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483665",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "FirstLearningStep"
-    },
-    "attributes" : [ "external" ],
-    "id" : "30",
-    "superClasses" : [ "31" ]
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Connie",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Connie"
-    },
-    "attributes" : [ "external" ],
-    "id" : "32"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Ronnie"
-    },
-    "attributes" : [ "external" ],
-    "id" : "33"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "36",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "38",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Cameron",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Cameron"
-    },
-    "attributes" : [ "external" ],
-    "id" : "39"
+    "id" : "35"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Level",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483671",
-        "type" : "label"
-      } ],
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
         "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping",
         "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483671",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Level"
     },
-    "attributes" : [ "external" ],
-    "id" : "23"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Author",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole",
-        "type" : "iri"
-      }, {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
-        "type" : "iri"
-      } ],
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483649",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Author"
+    "comment" : {
+      "en" : "Represents Level as a controlled vocabulary indicating the difficulty of a module."
     },
     "attributes" : [ "external" ],
-    "id" : "20"
+    "id" : "4"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "5",
+    "id" : "154",
     "label" : {
       "undefined" : "Thing"
     }
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Tutorial",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483650",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Tutorial"
-    },
-    "attributes" : [ "external" ],
-    "id" : "51",
-    "superClasses" : [ "52" ]
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Oratius",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Oratius"
-    },
-    "attributes" : [ "external" ],
-    "id" : "53"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ella",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Ella"
-    },
-    "attributes" : [ "external" ],
-    "id" : "54"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Audience",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Audience"
-    },
-    "attributes" : [ "external" ],
-    "id" : "35"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
-        "type" : "iri"
-      } ],
       "entityPosition" : [ {
         "identifier" : "entityPosition",
         "language" : "undefined",
         "value" : "_:genid2147483659",
         "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
+        "type" : "iri"
       } ]
     },
     "label" : {
       "IRI-based" : "LearningStep"
     },
-    "subClasses" : [ "50", "30" ],
-    "attributes" : [ "external" ],
-    "id" : "31"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Category",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
-        "type" : "iri"
-      } ],
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483666",
-        "type" : "label"
-      } ]
+    "subClasses" : [ "112", "115" ],
+    "comment" : {
+      "en" : "Represents a Learning Step as an ordered step within a Learning Path that refers to exactly one module."
     },
-    "label" : {
-      "IRI-based" : "Category"
-    },
-    "subClasses" : [ "72", "73" ],
     "attributes" : [ "external" ],
-    "id" : "29"
+    "id" : "69"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -601,174 +373,38 @@
         "IRI-based" : "ResourceDeveloper"
       }
     } ],
-    "attributes" : [ "external" ],
-    "id" : "14"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Usman",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Usman"
+    "comment" : {
+      "en" : "Represents Persona Type as a controlled vocabulary used to classify personas (e.g., developer, executive)."
     },
     "attributes" : [ "external" ],
-    "id" : "75"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Kai",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Kai"
-    },
-    "attributes" : [ "external" ],
-    "id" : "60"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#rational",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "id" : "3",
-    "label" : {
-      "IRI-based" : "rational"
-    }
+    "id" : "7"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483652",
-        "type" : "label"
-      } ],
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
         "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event",
         "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483652",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "Media"
     },
-    "subClasses" : [ "86", "6", "87", "88", "89" ],
-    "attributes" : [ "external" ],
-    "id" : "7"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Stella",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Stella"
+    "subClasses" : [ "119", "124", "130", "73" ],
+    "comment" : {
+      "en" : "Represents a Media that is a learning resource (e.g., article, video, podcast, transcript) and can be referenced by modules or provided by events."
     },
     "attributes" : [ "external" ],
-    "id" : "71"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Standards",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483654",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Standards"
-    },
-    "attributes" : [ "external" ],
-    "id" : "73",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Article",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483660",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Article"
-    },
-    "attributes" : [ "external" ],
-    "id" : "89",
-    "superClasses" : [ "7" ]
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Carla",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Carla"
-    },
-    "attributes" : [ "external" ],
-    "id" : "57"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483661",
-        "type" : "label"
-      } ],
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Topic"
-    },
-    "attributes" : [ "external" ],
-    "id" : "25"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Profession",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/namestub",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Profession"
-    },
-    "attributes" : [ "external" ],
-    "id" : "2"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Person",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483668",
-        "type" : "label"
-      } ],
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Person"
-    },
-    "attributes" : [ "external" ],
-    "id" : "12"
+    "id" : "74"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LastLearningStep",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -784,59 +420,12 @@
     "label" : {
       "IRI-based" : "LastLearningStep"
     },
-    "attributes" : [ "external" ],
-    "id" : "50",
-    "superClasses" : [ "31" ]
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Video",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483672",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Video"
+    "comment" : {
+      "en" : "Represents a Last Learning Step that marks the ending step of a learning path."
     },
     "attributes" : [ "external" ],
-    "id" : "88",
-    "superClasses" : [ "7" ]
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Transcript",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483651",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Transcript"
-    },
-    "attributes" : [ "external" ],
-    "id" : "86",
-    "superClasses" : [ "7" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "103",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "106",
-    "label" : {
-      "IRI-based" : "string"
-    }
+    "id" : "112",
+    "superClasses" : [ "69" ]
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ethan",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -844,26 +433,11 @@
     "label" : {
       "IRI-based" : "Ethan"
     },
-    "attributes" : [ "external" ],
-    "id" : "67"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Workshop",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483656",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Workshop"
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
     },
     "attributes" : [ "external" ],
-    "id" : "92",
-    "superClasses" : [ "52" ]
+    "id" : "19"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Foundations",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -879,40 +453,472 @@
     "label" : {
       "IRI-based" : "Foundations"
     },
+    "comment" : {
+      "en" : "Represents Foundations as a category subclass for modules covering fundamental concepts and principles."
+    },
     "attributes" : [ "external" ],
-    "id" : "72",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "111",
-    "label" : {
-      "IRI-based" : "string"
-    }
+    "id" : "99",
+    "superClasses" : [ "50" ]
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Event",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/event",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483662",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "subClasses" : [ "80", "87", "93" ],
+    "comment" : {
+      "en" : "Represents an event as a structured learning activity (e.g., workshop, tutorial, presentation) that can provide media and have sub-events."
+    },
+    "attributes" : [ "external" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Language",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
         "identifier" : "entityPosition",
         "language" : "undefined",
-        "value" : "_:genid2147483662",
+        "value" : "_:genid2147483655",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Language"
+    },
+    "comment" : {
+      "en" : "Represents a Language indicating the language of a media resource."
+    },
+    "attributes" : [ "external" ],
+    "id" : "214"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Cameron",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cameron"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Author",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483649",
         "type" : "label"
       } ],
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/event",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
+        "type" : "iri"
+      }, {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "Event"
+      "IRI-based" : "Author"
     },
-    "subClasses" : [ "92", "51" ],
+    "comment" : {
+      "en" : "Represents an author that is a person who creates or is credited for media resources."
+    },
     "attributes" : [ "external" ],
-    "id" : "52"
+    "id" : "400"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Tutorial",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483650",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Tutorial"
+    },
+    "comment" : {
+      "en" : "Represents a Tutorial as an event type (through sub-class) focused on guided instruction."
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Audience",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Audience"
+    },
+    "comment" : {
+      "en" : "Represents audience as a controlled vocabulary that is used to indicate intended audience for a media resource."
+    },
+    "attributes" : [ "external" ],
+    "id" : "358"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Category",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483666",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Category"
+    },
+    "subClasses" : [ "99", "49" ],
+    "comment" : {
+      "en" : "Represents a category is a high-level grouping used to organize modules (e.g., foundations, survey, methodology, standards)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "425",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#rational",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "id" : "448",
+    "label" : {
+      "IRI-based" : "rational"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Carla",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Carla"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "470",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "478",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Profession",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/namestub",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Profession"
+    },
+    "comment" : {
+      "en" : "Represents Profession indicating the professional role associated with a persona."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "509",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Transcript",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483651",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Transcript"
+    },
+    "comment" : {
+      "en" : "Represents Transcript as a text rendering of spoken media content, typed as a sub-class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "515",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Workshop",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483656",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Workshop"
+    },
+    "comment" : {
+      "en" : "Represents a Workshop as an event type (through sub-class) focused on hands-on learning."
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "558",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Elias",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Elias"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483648",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Module"
+    },
+    "comment" : {
+      "en" : "Represents Module as a unit of learning content that covers one or more topics and references supporting media."
+    },
+    "attributes" : [ "external" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 17,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483664",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Persona"
+    },
+    "comment" : {
+      "en" : "Represents Persona as an audience profile (role/background) used to tailor a learning path.e"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Connie",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Connie"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/FirstLearningStep",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483665",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "FirstLearningStep"
+    },
+    "comment" : {
+      "en" : "Represents a First Learning Step that marks the starting step of a learning path."
+    },
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ronnie"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Oratius",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Oratius"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ella",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ella"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Usman",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Usman"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Standards",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483654",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Standards"
+    },
+    "comment" : {
+      "en" : "Represents Standards as a category subclass for modules covering formal specifications and recommendations."
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Article",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483660",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Article"
+    },
+    "comment" : {
+      "en" : "Represents an Article is a written media resource, typed as a sub-class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "74" ]
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -934,8 +940,11 @@
     "label" : {
       "IRI-based" : "Curriculum"
     },
+    "comment" : {
+      "en" : "Represents a Curriculum as a curated course of study that groups modules into a coherent educational offering."
+    },
     "attributes" : [ "external" ],
-    "id" : "45"
+    "id" : "1"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Debbie",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -943,8 +952,11 @@
     "label" : {
       "IRI-based" : "Debbie"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "69"
+    "id" : "10"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -960,8 +972,11 @@
     "label" : {
       "IRI-based" : "LearningPath"
     },
+    "comment" : {
+      "en" : "Represents a Learning Path as an ordered sequence of learning steps tailored to a persona and scoped by a curriculum."
+    },
     "attributes" : [ "external" ],
-    "id" : "44"
+    "id" : "173"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Presentation",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
@@ -977,9 +992,12 @@
     "label" : {
       "IRI-based" : "Presentation"
     },
+    "comment" : {
+      "en" : "Represents a Presentationas an event type focused on delivering content to an audience, typed as a sub-class."
+    },
     "attributes" : [ "external" ],
-    "id" : "87",
-    "superClasses" : [ "7" ]
+    "id" : "93",
+    "superClasses" : [ "81" ]
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Edward",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -987,8 +1005,129 @@
     "label" : {
       "IRI-based" : "Edward"
     },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
     "attributes" : [ "external" ],
-    "id" : "77"
+    "id" : "2"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Podcast",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483653",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Podcast"
+    },
+    "comment" : {
+      "en" : "Represents a Podcast as an audio media resource, typed as a sub-class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Kai",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Kai"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Stella",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stella"
+    },
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
+    },
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483661",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Topic"
+    },
+    "comment" : {
+      "en" : "Represents Topic as a subject or concept covered by modules and media, and can be arranged hierarchically."
+    },
+    "attributes" : [ "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Person",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483668",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "comment" : {
+      "en" : "Represents Person is an Agent (from Agent Role pattern) who may assume roles such as persona or author."
+    },
+    "attributes" : [ "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Video",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483672",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Video"
+    },
+    "comment" : {
+      "en" : "Represents Video as an audiovisual media resource., typed as a sub-class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "130",
+    "superClasses" : [ "74" ]
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Courtney",
     "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
@@ -996,711 +1135,5001 @@
     "label" : {
       "IRI-based" : "Courtney"
     },
-    "attributes" : [ "external" ],
-    "id" : "64"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/resource/currKG/Elias",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/resource/currKG",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Elias"
+    "comment" : {
+      "en" : "Represents an example Persona instance used in the ontology."
     },
     "attributes" : [ "external" ],
-    "id" : "83"
+    "id" : "45"
   } ],
   "property" : [ {
-    "id" : "1",
-    "type" : "owl:someValuesFrom"
+    "id" : "0",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "4",
-    "type" : "owl:objectProperty"
+    "id" : "3",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "10",
-    "type" : "owl:someValuesFrom"
+    "id" : "6",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "13",
-    "type" : "owl:someValuesFrom"
+    "id" : "9",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "17",
-    "type" : "owl:someValuesFrom"
+    "id" : "12",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "19",
-    "type" : "owl:someValuesFrom"
+    "id" : "14",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "16",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "18",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "20",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "21",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "22",
-    "type" : "owl:someValuesFrom"
+    "id" : "23",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "24",
-    "type" : "owl:someValuesFrom"
+    "id" : "25",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "26",
-    "type" : "owl:someValuesFrom"
+    "id" : "27",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "28",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "30",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "31",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "33",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "34",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "36",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "37",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "39",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "40",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "41",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "42",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "43",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "46",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "47",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "48",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "49",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "55",
-    "type" : "rdf:Property"
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "56",
-    "type" : "rdf:Property"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "58",
-    "type" : "rdf:Property"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "59",
-    "type" : "rdf:Property"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "61",
-    "type" : "rdf:Property"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "62",
-    "type" : "rdf:Property"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "63",
-    "type" : "rdf:Property"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "64",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "65",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "66",
-    "type" : "rdf:Property"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "67",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "68",
-    "type" : "rdf:Property"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "70",
-    "type" : "rdf:Property"
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "74",
-    "type" : "rdf:Property"
+    "id" : "71",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "76",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "78",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "79",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "80",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "81",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "82",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "84",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "85",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "15",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "91",
+    "id" : "72",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "93",
+    "id" : "75",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "76",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "77",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "78",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "84",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "85",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "89",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "90",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "92",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "94",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "95",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "96",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "97",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "98",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "99",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "100",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "101",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "102",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "103",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "104",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "105",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "106",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "107",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "108",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "109",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "110",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "117",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "121",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "122",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "128",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "132",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "133",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "134",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "135",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "136",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "137",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "138",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "139",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "140",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "141",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "142",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "143",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "144",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "145",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "146",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "147",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "148",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "149",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "150",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "151",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "152",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "153",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "156",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "157",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "158",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "159",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "160",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "161",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "162",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "163",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "164",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "165",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "166",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "169",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "170",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "171",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "172",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "174",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "175",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "176",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "177",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "178",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "180",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "181",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "182",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "183",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "184",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "185",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "186",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "187",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "188",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "189",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "190",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "191",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "192",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "193",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "194",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "195",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "196",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "197",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "198",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "199",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "200",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "201",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "202",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "203",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "204",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "205",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "206",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "207",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "112",
+    "id" : "208",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "209",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "210",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "211",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "212",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "213",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "215",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "217",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "218",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "219",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "220",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "221",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "222",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "223",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "224",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "225",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "226",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "227",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "228",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "229",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "231",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "232",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "233",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "234",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "235",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "236",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "237",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "238",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "239",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "240",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "241",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "242",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "243",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "244",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "247",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "248",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "250",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "252",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "253",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "254",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "256",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "257",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "258",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "259",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "260",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "261",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "263",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "265",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "266",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "269",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "270",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "271",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "272",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "273",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "274",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "276",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "277",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "278",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "279",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "280",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "281",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "283",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "286",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "287",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "288",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "289",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "290",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "291",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "292",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "293",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "294",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "295",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "297",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "298",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "299",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "300",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "301",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "302",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "303",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "306",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "307",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "308",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "309",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "310",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "311",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "312",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "313",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "314",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "315",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "316",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "317",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "318",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "319",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "320",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "321",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "322",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "323",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "324",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "325",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "326",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "327",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "328",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "329",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "330",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "331",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "332",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "333",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "334",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "335",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "336",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "337",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "338",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "339",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "340",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "341",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "342",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "343",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "344",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "345",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "346",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "347",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "348",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "349",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "350",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "351",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "352",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "353",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "354",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "355",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "356",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "357",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "359",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "360",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "361",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "362",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "363",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "364",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "365",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "366",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "367",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "368",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "369",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "370",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "371",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "372",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "373",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "374",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "375",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "376",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "377",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "378",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "379",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "380",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "381",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "382",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "383",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "384",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "385",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "386",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "387",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "388",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "389",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "390",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "391",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "392",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "393",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "394",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "395",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "396",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "397",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "398",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "399",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "401",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "402",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "403",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "404",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "405",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "406",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "407",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "408",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "409",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "410",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "411",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "412",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "413",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "414",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "415",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "416",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "417",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "418",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "419",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "420",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "421",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "422",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "423",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "424",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "426",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "427",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "428",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "429",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "430",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "431",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "432",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "433",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "434",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "435",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "436",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "437",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "438",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "439",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "440",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "441",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "442",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "443",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "444",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "445",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "446",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "447",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "449",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "450",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "451",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "452",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "453",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "454",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "455",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "456",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "457",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "458",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "459",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "460",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "461",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "462",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "463",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "464",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "465",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "466",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "467",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "468",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "469",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "471",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "472",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "473",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "474",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "475",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "476",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "477",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "479",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "480",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "481",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "482",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "483",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "484",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "485",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "486",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "487",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "488",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "489",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "490",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "491",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "492",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "493",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "494",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "495",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "496",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "497",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "498",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "499",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "500",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "501",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "502",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "503",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "504",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "505",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "506",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "507",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "508",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "510",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "511",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "512",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "513",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "514",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "516",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "517",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "518",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "519",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "520",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "521",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "522",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "523",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "524",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "525",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "526",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "527",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "528",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "529",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "530",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "531",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "532",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "533",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "534",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "535",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "536",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "537",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "538",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "539",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "540",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "541",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "542",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "543",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "544",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "545",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "546",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "547",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "548",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "549",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "550",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "551",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "552",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "553",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "554",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "555",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "556",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "557",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "559",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "560",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "561",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "562",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "563",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "564",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "565",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "566",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "567",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "568",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "569",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "570",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "571",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "572",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "573",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "574",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "575",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "576",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "577",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "578",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "579",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "580",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "581",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "582",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "583",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "584",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "585",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "586",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "587",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "588",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "589",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "590",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "591",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "592",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "593",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "594",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "595",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "596",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "597",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "598",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "599",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "600",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "601",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "602",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "603",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "604",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "605",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "606",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "607",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "608",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "609",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "610",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "611",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "612",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "613",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "614",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "615",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "616",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "617",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "618",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "619",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "620",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "621",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "622",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "623",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "624",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "625",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "626",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "627",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "628",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "629",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "630",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "631",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "632",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "633",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "634",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "635",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "636",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "637",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "638",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "639",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "640",
+    "type" : "owl:disjointWith"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/asString",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "3",
-    "label" : {
-      "IRI-based" : "asString"
-    },
-    "domain" : "2",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "1"
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "range" : "5",
-    "label" : {
-      "IRI-based" : "refersTo"
-    },
-    "domain" : "5",
-    "attributes" : [ "object", "external" ],
-    "id" : "4"
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "12",
-    "label" : {
-      "IRI-based" : "assumesPersona"
-    },
-    "domain" : "11",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "10"
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasType",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "14",
-    "label" : {
-      "IRI-based" : "hasType"
-    },
-    "superproperty" : [ "15" ],
-    "domain" : "11",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "13"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "hasTitle"
-    },
-    "domain" : "0",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "17"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "20",
-    "label" : {
-      "IRI-based" : "assumesAuthorship"
-    },
-    "domain" : "12",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "19"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "range" : "11",
-    "label" : {
-      "IRI-based" : "assumesPersona"
-    },
-    "domain" : "12",
-    "attributes" : [ "someValues", "object", "external" ],
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "9"
+  }, {
+    "range" : "13",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "12"
+  }, {
+    "range" : "15",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "14"
+  }, {
+    "range" : "17",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "19",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "11",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "range" : "22",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "21"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "23",
-    "label" : {
-      "IRI-based" : "hasLevel"
-    },
-    "domain" : "0",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "22"
+    "range" : "24",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "25",
-    "label" : {
-      "IRI-based" : "coversTopic"
-    },
-    "domain" : "0",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "24"
+    "range" : "26",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/references",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "7",
-    "label" : {
-      "IRI-based" : "references"
-    },
-    "domain" : "0",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "26"
+    "range" : "19",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "range" : "29",
-    "label" : {
-      "IRI-based" : "belongTo"
-    },
-    "domain" : "0",
-    "attributes" : [ "someValues", "object", "external" ],
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "28"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "15",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "32",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "26",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
     "range" : "35",
-    "label" : {
-      "IRI-based" : "hasRecomended"
-    },
-    "domain" : "7",
-    "attributes" : [ "someValues", "object", "external" ],
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "34"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "9",
-    "label" : {
-      "IRI-based" : "hasLanguage"
-    },
-    "domain" : "7",
-    "attributes" : [ "someValues", "object", "external" ],
+    "range" : "22",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "38",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "37"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "38",
-    "label" : {
-      "IRI-based" : "hasMediaSourceLink"
-    },
-    "domain" : "7",
-    "attributes" : [ "someValues", "datatype", "external" ],
+    "range" : "32",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "41",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "40"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "36",
-    "label" : {
-      "IRI-based" : "hasTitle"
-    },
-    "domain" : "7",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "41"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "20",
-    "label" : {
-      "IRI-based" : "hasAuthor"
-    },
-    "domain" : "7",
-    "attributes" : [ "someValues", "object", "external" ],
+    "range" : "29",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "42"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "45",
-    "label" : {
-      "IRI-based" : "scopedBy"
-    },
-    "domain" : "44",
-    "attributes" : [ "someValues", "object", "external" ],
+    "range" : "38",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "43"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "25",
-    "label" : {
-      "IRI-based" : "coversTopic"
-    },
-    "domain" : "7",
-    "attributes" : [ "someValues", "object", "external" ],
+    "range" : "45",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "8",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "46"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "31",
-    "label" : {
-      "IRI-based" : "hasLearningStep"
-    },
-    "domain" : "44",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "47"
+    "range" : "50",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
   }, {
-    "domain" : "11",
-    "range" : "39",
-    "id" : "48",
-    "label" : {
-      "IRI-based" : "50",
-      "undefined" : "is a"
-    }
-  }, {
-    "range" : "31",
-    "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "49"
-  }, {
-    "domain" : "11",
-    "range" : "27",
-    "id" : "55",
-    "label" : {
-      "IRI-based" : "47",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "57",
-    "id" : "56",
-    "label" : {
-      "IRI-based" : "46",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "53",
-    "id" : "58",
-    "label" : {
-      "IRI-based" : "49",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "60",
-    "id" : "59",
-    "label" : {
-      "IRI-based" : "48",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
     "range" : "8",
-    "id" : "61",
-    "label" : {
-      "IRI-based" : "43",
-      "undefined" : "is a"
-    }
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
   }, {
-    "domain" : "11",
+    "range" : "19",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "17",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "55",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "26",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "24",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "47",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "range" : "60",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
     "range" : "32",
-    "id" : "62",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "2",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "10",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "7",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "38",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "13",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "range" : "60",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "26",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
+  }, {
+    "range" : "41",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "range" : "13",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "range" : "74",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "7",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "32",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "45",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "11",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "range" : "81",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "5",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "38",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "47",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "84"
+  }, {
+    "range" : "19",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "range" : "81",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "15",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "range" : "8",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "89"
+  }, {
+    "range" : "10",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "26",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "91"
+  }, {
+    "range" : "81",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "92"
+  }, {
+    "range" : "22",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "94"
+  }, {
+    "range" : "17",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "95"
+  }, {
+    "range" : "2",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "96"
+  }, {
+    "range" : "32",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "97"
+  }, {
+    "range" : "50",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "29",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "range" : "24",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "101"
+  }, {
+    "range" : "13",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "38",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "103"
+  }, {
+    "range" : "35",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "74",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "11",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "41",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "107"
+  }, {
+    "range" : "109",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "45",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "range" : "69",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "17",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "113"
+  }, {
+    "range" : "69",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "22",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "116"
+  }, {
+    "range" : "24",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "117"
+  }, {
+    "range" : "74",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "118"
+  }, {
+    "range" : "11",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "120"
+  }, {
+    "range" : "29",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "121"
+  }, {
+    "range" : "10",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "74",
+    "domain" : "124",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "55",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "19",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "35",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "range" : "2",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "74",
+    "domain" : "130",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "22",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "26",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "range" : "13",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "domain" : "60",
+    "range" : "29",
+    "id" : "134",
     "label" : {
-      "IRI-based" : "42",
+      "IRI-based" : "574",
       "undefined" : "is a"
     }
   }, {
-    "domain" : "11",
-    "range" : "64",
-    "id" : "63",
+    "range" : "29",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "32",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "136"
+  }, {
+    "range" : "11",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "domain" : "60",
+    "range" : "19",
+    "id" : "138",
     "label" : {
-      "IRI-based" : "45",
+      "IRI-based" : "575",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "35",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "38",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "140"
+  }, {
+    "range" : "19",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "domain" : "60",
+    "range" : "11",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "576",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "41",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "8",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "26",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "domain" : "60",
+    "range" : "13",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "577",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "45",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "range" : "17",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "range" : "32",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "domain" : "60",
+    "range" : "26",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "578",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "47",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "24",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "range" : "38",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "10",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "155"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "range" : "8",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "157"
+  }, {
+    "range" : "2",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "range" : "15",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "159"
+  }, {
+    "range" : "13",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "domain" : "60",
+    "range" : "22",
+    "id" : "161",
+    "label" : {
+      "IRI-based" : "570",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "47",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "domain" : "60",
+    "range" : "38",
+    "id" : "163",
+    "label" : {
+      "IRI-based" : "571",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "11",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "164"
+  }, {
+    "range" : "10",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "domain" : "60",
+    "range" : "2",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "572",
       "undefined" : "is a"
     }
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "5",
+    "range" : "154",
     "label" : {
       "IRI-based" : "hasSubEvent"
     },
-    "domain" : "5",
-    "attributes" : [ "object", "external" ],
-    "id" : "65"
-  }, {
-    "domain" : "11",
-    "range" : "67",
-    "id" : "66",
-    "label" : {
-      "IRI-based" : "44",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "69",
-    "id" : "68",
-    "label" : {
-      "IRI-based" : "41",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "71",
-    "id" : "70",
-    "label" : {
-      "IRI-based" : "40",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "33",
-    "id" : "74",
-    "label" : {
-      "IRI-based" : "39",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "77",
-    "id" : "76",
-    "label" : {
-      "IRI-based" : "36",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "75",
-    "id" : "78",
-    "label" : {
-      "IRI-based" : "35",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "54",
-    "id" : "79",
-    "label" : {
-      "IRI-based" : "38",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "11",
-    "range" : "18",
-    "id" : "80",
-    "label" : {
-      "IRI-based" : "37",
-      "undefined" : "is a"
-    }
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "25",
-    "label" : {
-      "IRI-based" : "narrowerThan"
+    "domain" : "154",
+    "comment" : {
+      "en" : "Represents the relation of an event to a sub-event that is part of it."
     },
-    "domain" : "25",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "81"
+    "attributes" : [ "object", "external" ],
+    "id" : "167"
   }, {
-    "domain" : "11",
-    "range" : "83",
-    "id" : "82",
+    "range" : "15",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
+  }, {
+    "range" : "19",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "169"
+  }, {
+    "range" : "2",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "170"
+  }, {
+    "domain" : "60",
+    "range" : "47",
+    "id" : "171",
     "label" : {
-      "IRI-based" : "34",
+      "IRI-based" : "573",
       "undefined" : "is a"
     }
+  }, {
+    "range" : "8",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "172"
+  }, {
+    "range" : "22",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
+  }, {
+    "range" : "11",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "domain" : "60",
+    "range" : "10",
+    "id" : "176",
+    "label" : {
+      "IRI-based" : "563",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "17",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "range" : "29",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
+  }, {
+    "range" : "19",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "domain" : "60",
+    "range" : "41",
+    "id" : "180",
+    "label" : {
+      "IRI-based" : "564",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "24",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "range" : "35",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "range" : "26",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "domain" : "60",
+    "range" : "32",
+    "id" : "184",
+    "label" : {
+      "IRI-based" : "565",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "4",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "range" : "41",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "186"
+  }, {
+    "range" : "32",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "domain" : "60",
+    "range" : "8",
+    "id" : "188",
+    "label" : {
+      "IRI-based" : "566",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "74",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "189"
+  }, {
+    "range" : "45",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "190"
+  }, {
+    "range" : "38",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "191"
+  }, {
+    "domain" : "60",
+    "range" : "17",
+    "id" : "192",
+    "label" : {
+      "IRI-based" : "567",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "109",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "range" : "47",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "8",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "195"
+  }, {
+    "domain" : "60",
+    "range" : "35",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "568",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "55",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "10",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "198"
+  }, {
+    "range" : "17",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
+  }, {
+    "domain" : "60",
+    "range" : "24",
+    "id" : "200",
+    "label" : {
+      "IRI-based" : "569",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "60",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "2",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "202"
+  }, {
+    "range" : "24",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "range" : "7",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "204"
+  }, {
+    "range" : "13",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "5",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "25",
+    "range" : "15",
     "label" : {
       "IRI-based" : "broaderThan"
     },
-    "domain" : "25",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "84"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "5",
-    "label" : {
-      "IRI-based" : "hasPreviousLearningStep"
+    "domain" : "15",
+    "comment" : {
+      "en" : "Represents the relation of a topic to a broader (more general) topic."
     },
-    "domain" : "5",
-    "attributes" : [ "object", "external" ],
-    "id" : "85"
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "207"
+  }, {
+    "range" : "2",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "narrowerThan"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Represents the relation of a topic to a narrower (more specific) topic."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "209"
+  }, {
+    "range" : "15",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "13",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "domain" : "60",
+    "range" : "45",
+    "id" : "212",
+    "label" : {
+      "IRI-based" : "562",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "60",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "range" : "7",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "215"
+  }, {
+    "range" : "2",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "216"
+  }, {
+    "range" : "7",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
+  }, {
+    "range" : "5",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "218"
+  }, {
+    "range" : "13",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "219"
+  }, {
+    "range" : "5",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "220"
+  }, {
+    "range" : "15",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "221"
+  }, {
+    "range" : "15",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "222"
+  }, {
+    "range" : "17",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "223"
+  }, {
+    "range" : "32",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  }, {
+    "range" : "24",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "225"
+  }, {
+    "range" : "173",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "226"
+  }, {
+    "range" : "38",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "227"
+  }, {
+    "range" : "29",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "5",
+    "range" : "154",
     "label" : {
       "IRI-based" : "hasProfession"
     },
-    "domain" : "5",
-    "subproperty" : [ "90" ],
+    "domain" : "154",
+    "subproperty" : [ "230" ],
+    "comment" : {
+      "en" : "Represents the relation of a persona to its profession."
+    },
     "attributes" : [ "object", "external" ],
-    "id" : "15"
+    "id" : "229"
   }, {
-    "range" : "52",
-    "domain" : "92",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "91"
+    "range" : "69",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "231"
   }, {
-    "range" : "7",
-    "domain" : "89",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "93"
+    "range" : "8",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
   }, {
-    "range" : "52",
-    "domain" : "51",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "94"
+    "range" : "35",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "233"
   }, {
-    "range" : "7",
-    "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "95"
+    "range" : "4",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "234"
   }, {
-    "range" : "7",
-    "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "96"
+    "range" : "17",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "235"
   }, {
-    "range" : "7",
-    "domain" : "88",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "97"
+    "range" : "41",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
   }, {
-    "range" : "29",
-    "domain" : "72",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "98"
+    "range" : "74",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
   }, {
-    "range" : "31",
-    "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "99"
+    "range" : "24",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
   }, {
-    "range" : "7",
-    "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "100"
-  }, {
-    "range" : "29",
-    "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "101"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "103",
-    "label" : {
-      "IRI-based" : "hasTitle"
-    },
-    "domain" : "29",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "102"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "0",
-    "label" : {
-      "IRI-based" : "hasModule"
-    },
-    "domain" : "29",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "104"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "106",
-    "label" : {
-      "IRI-based" : "hasTitle"
-    },
-    "domain" : "45",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "105"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "0",
-    "label" : {
-      "IRI-based" : "hasModule"
-    },
-    "domain" : "45",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "107"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/provides",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "7",
-    "label" : {
-      "IRI-based" : "provides"
-    },
-    "domain" : "52",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "108"
-  }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/determines",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
     "range" : "45",
-    "label" : {
-      "IRI-based" : "determines"
-    },
-    "domain" : "44",
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "109"
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "239"
   }, {
-    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasName",
-    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "111",
-    "label" : {
-      "IRI-based" : "hasName"
-    },
-    "domain" : "20",
-    "attributes" : [ "someValues", "datatype", "external" ],
-    "id" : "110"
+    "range" : "109",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "240"
+  }, {
+    "range" : "55",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "241"
+  }, {
+    "range" : "47",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "242"
+  }, {
+    "range" : "55",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
+  }, {
+    "range" : "60",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "244"
+  }, {
+    "range" : "10",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "32",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "range" : "13",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "32",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "38",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "range" : "11",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "250"
+  }, {
+    "range" : "38",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "251"
+  }, {
+    "range" : "8",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "252"
+  }, {
+    "range" : "19",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "253"
+  }, {
+    "range" : "8",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "254"
+  }, {
+    "range" : "17",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "255"
+  }, {
+    "range" : "26",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "256"
+  }, {
+    "range" : "24",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "257"
+  }, {
+    "range" : "47",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "range" : "35",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "259"
+  }, {
+    "range" : "10",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "260"
+  }, {
+    "range" : "2",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "261"
+  }, {
+    "range" : "41",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "range" : "2",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
+  }, {
+    "range" : "13",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "range" : "45",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "265"
+  }, {
+    "range" : "13",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "266"
+  }, {
+    "range" : "11",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
+  }, {
+    "range" : "47",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "268"
+  }, {
+    "range" : "11",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "269"
+  }, {
+    "range" : "19",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "range" : "10",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "271"
+  }, {
+    "range" : "19",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "272"
+  }, {
+    "range" : "26",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "273"
+  }, {
+    "range" : "2",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "274"
+  }, {
+    "range" : "26",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "275"
+  }, {
+    "range" : "29",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "276"
+  }, {
+    "range" : "7",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "277"
+  }, {
+    "range" : "29",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "278"
+  }, {
+    "range" : "8",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "279"
+  }, {
+    "range" : "35",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
+  }, {
+    "range" : "5",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "281"
+  }, {
+    "range" : "35",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "282"
+  }, {
+    "range" : "17",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "283"
+  }, {
+    "range" : "41",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "284"
+  }, {
+    "range" : "15",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "285"
+  }, {
+    "range" : "41",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "286"
+  }, {
+    "range" : "24",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "287"
+  }, {
+    "range" : "45",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "288"
+  }, {
+    "range" : "22",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "289"
+  }, {
+    "range" : "45",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "290"
+  }, {
+    "range" : "47",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "291"
+  }, {
+    "range" : "29",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "292"
+  }, {
+    "range" : "10",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "293"
+  }, {
+    "range" : "17",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "294"
+  }, {
+    "range" : "32",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "295"
+  }, {
+    "range" : "24",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "296"
+  }, {
+    "range" : "17",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "297"
+  }, {
+    "range" : "38",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "298"
+  }, {
+    "range" : "11",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "299"
+  }, {
+    "range" : "7",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "300"
+  }, {
+    "range" : "24",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "301"
+  }, {
+    "range" : "8",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "302"
+  }, {
+    "range" : "19",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "303"
+  }, {
+    "range" : "5",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "304"
+  }, {
+    "range" : "109",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "305"
+  }, {
+    "range" : "17",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "306"
+  }, {
+    "range" : "26",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "307"
+  }, {
+    "range" : "15",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "308"
+  }, {
+    "range" : "55",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "309"
+  }, {
+    "range" : "24",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "310"
+  }, {
+    "range" : "32",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "311"
+  }, {
+    "range" : "22",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "312"
+  }, {
+    "range" : "60",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "313"
+  }, {
+    "range" : "22",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "314"
+  }, {
+    "range" : "38",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "315"
+  }, {
+    "range" : "173",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "316"
+  }, {
+    "range" : "11",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "317"
+  }, {
+    "range" : "2",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "318"
+  }, {
+    "range" : "26",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "319"
+  }, {
+    "range" : "69",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "320"
+  }, {
+    "range" : "19",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "321"
+  }, {
+    "range" : "13",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "322"
+  }, {
+    "range" : "32",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "323"
+  }, {
+    "range" : "4",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "324"
+  }, {
+    "range" : "26",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "325"
+  }, {
+    "range" : "11",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "326"
+  }, {
+    "range" : "38",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "327"
+  }, {
+    "range" : "74",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "328"
+  }, {
+    "range" : "32",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "329"
+  }, {
+    "range" : "19",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "330"
+  }, {
+    "range" : "8",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "331"
+  }, {
+    "range" : "109",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "332"
+  }, {
+    "range" : "38",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "333"
+  }, {
+    "range" : "26",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "334"
+  }, {
+    "range" : "55",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "335"
+  }, {
+    "range" : "8",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "336"
+  }, {
+    "range" : "60",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "337"
   }, {
     "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep",
     "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
-    "range" : "5",
+    "range" : "154",
     "label" : {
       "IRI-based" : "hasNextLearningStep"
     },
-    "domain" : "5",
+    "domain" : "154",
+    "comment" : {
+      "en" : "Represents the relation of a learning step to the next learning step in the sequence."
+    },
     "attributes" : [ "object", "external" ],
-    "id" : "112"
+    "id" : "338"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "339"
+  }, {
+    "range" : "35",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "340"
+  }, {
+    "range" : "17",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "341"
+  }, {
+    "range" : "47",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "342"
+  }, {
+    "range" : "41",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "343"
+  }, {
+    "range" : "24",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "344"
+  }, {
+    "range" : "17",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "345"
+  }, {
+    "range" : "10",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "346"
+  }, {
+    "range" : "45",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "347"
+  }, {
+    "range" : "13",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "348"
+  }, {
+    "range" : "24",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "349"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "350"
+  }, {
+    "range" : "47",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "351"
+  }, {
+    "range" : "11",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "352"
+  }, {
+    "range" : "214",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "353"
+  }, {
+    "range" : "13",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "354"
+  }, {
+    "range" : "10",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "355"
+  }, {
+    "range" : "19",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "356"
+  }, {
+    "range" : "17",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "357"
+  }, {
+    "range" : "8",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "359"
+  }, {
+    "range" : "17",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "360"
+  }, {
+    "range" : "24",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "361"
+  }, {
+    "range" : "32",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "362"
+  }, {
+    "range" : "38",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "363"
+  }, {
+    "range" : "8",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "364"
+  }, {
+    "range" : "17",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "365"
+  }, {
+    "range" : "24",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "366"
+  }, {
+    "range" : "38",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "367"
+  }, {
+    "range" : "8",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "368"
+  }, {
+    "range" : "8",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "369"
+  }, {
+    "range" : "38",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "370"
+  }, {
+    "range" : "19",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "371"
+  }, {
+    "range" : "11",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "372"
+  }, {
+    "range" : "32",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "373"
+  }, {
+    "range" : "26",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "374"
+  }, {
+    "range" : "10",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "375"
+  }, {
+    "range" : "47",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "376"
+  }, {
+    "range" : "13",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "377"
+  }, {
+    "range" : "2",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "378"
+  }, {
+    "range" : "19",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "379"
+  }, {
+    "range" : "26",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "380"
+  }, {
+    "range" : "32",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "381"
+  }, {
+    "range" : "38",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "382"
+  }, {
+    "range" : "8",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "383"
+  }, {
+    "range" : "17",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "384"
+  }, {
+    "range" : "24",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "385"
+  }, {
+    "range" : "26",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "386"
+  }, {
+    "range" : "32",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "387"
+  }, {
+    "range" : "38",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "388"
+  }, {
+    "range" : "41",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "389"
+  }, {
+    "range" : "35",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "390"
+  }, {
+    "range" : "45",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "391"
+  }, {
+    "range" : "15",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "392"
+  }, {
+    "range" : "5",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "393"
+  }, {
+    "range" : "29",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "394"
+  }, {
+    "range" : "22",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "395"
+  }, {
+    "range" : "55",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "396"
+  }, {
+    "range" : "7",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "397"
+  }, {
+    "range" : "60",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "398"
+  }, {
+    "range" : "45",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "399"
+  }, {
+    "range" : "10",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "401"
+  }, {
+    "range" : "47",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "402"
+  }, {
+    "range" : "29",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "403"
+  }, {
+    "range" : "22",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "404"
+  }, {
+    "range" : "41",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "405"
+  }, {
+    "range" : "35",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "406"
+  }, {
+    "range" : "7",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "407"
+  }, {
+    "range" : "60",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "408"
+  }, {
+    "range" : "15",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "409"
+  }, {
+    "range" : "5",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "410"
+  }, {
+    "range" : "55",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "411"
+  }, {
+    "range" : "109",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "412"
+  }, {
+    "range" : "74",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "413"
+  }, {
+    "range" : "173",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "414"
+  }, {
+    "range" : "214",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "415"
+  }, {
+    "range" : "4",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "416"
+  }, {
+    "range" : "69",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "417"
+  }, {
+    "range" : "50",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "418"
+  }, {
+    "range" : "24",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "419"
+  }, {
+    "range" : "81",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "420"
+  }, {
+    "range" : "1",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "421"
+  }, {
+    "range" : "60",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "422"
+  }, {
+    "range" : "11",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "423"
+  }, {
+    "range" : "26",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "424"
+  }, {
+    "range" : "55",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "426"
+  }, {
+    "range" : "19",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "427"
+  }, {
+    "range" : "32",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "428"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "belongTo"
+    },
+    "domain" : "109",
+    "comment" : {
+      "en" : "Represents the relation of a module to the category it belongs to."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "429"
+  }, {
+    "range" : "5",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "430"
+  }, {
+    "range" : "26",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "431"
+  }, {
+    "range" : "38",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "432"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "assumesPersona"
+    },
+    "domain" : "55",
+    "comment" : {
+      "en" : "Represents the relation of a person to a persona role they assume."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "433"
+  }, {
+    "range" : "7",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "434"
+  }, {
+    "range" : "32",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "435"
+  }, {
+    "range" : "8",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "436"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "400",
+    "label" : {
+      "IRI-based" : "assumesAuthorship"
+    },
+    "domain" : "55",
+    "comment" : {
+      "en" : "Represents the relation of a person to an author role they assume."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "437"
+  }, {
+    "range" : "38",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "438"
+  }, {
+    "range" : "17",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "439"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasType",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasType"
+    },
+    "superproperty" : [ "229" ],
+    "domain" : "60",
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "440"
+  }, {
+    "range" : "8",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "441"
+  }, {
+    "range" : "24",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "442"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "assumesPersona"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "Represents the relation of a person to a persona role they assume."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "443"
+  }, {
+    "range" : "109",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "444"
+  }, {
+    "range" : "17",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "445"
+  }, {
+    "range" : "45",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "446"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/asString",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "448",
+    "label" : {
+      "IRI-based" : "asString"
+    },
+    "domain" : "5",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "447"
+  }, {
+    "range" : "24",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "449"
+  }, {
+    "range" : "47",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "450"
+  }, {
+    "range" : "7",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "451"
+  }, {
+    "range" : "10",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "452"
+  }, {
+    "range" : "5",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "453"
+  }, {
+    "range" : "74",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "454"
+  }, {
+    "range" : "4",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "455"
+  }, {
+    "range" : "214",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "456"
+  }, {
+    "range" : "81",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "457"
+  }, {
+    "range" : "69",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "458"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "coversTopic"
+    },
+    "domain" : "109",
+    "comment" : {
+      "en" : "Represents the relation of a module or media resource to a topic it covers."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "459"
+  }, {
+    "range" : "173",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "460"
+  }, {
+    "range" : "19",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "461"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "425",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "109",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "462"
+  }, {
+    "range" : "17",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "463"
+  }, {
+    "range" : "8",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "464"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "400",
+    "label" : {
+      "IRI-based" : "hasAuthor"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to its author."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "465"
+  }, {
+    "range" : "8",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "466"
+  }, {
+    "range" : "15",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "467"
+  }, {
+    "range" : "17",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "468"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "470",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "74",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "469"
+  }, {
+    "range" : "1",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "471"
+  }, {
+    "range" : "22",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "472"
+  }, {
+    "range" : "24",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "473"
+  }, {
+    "range" : "24",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "474"
+  }, {
+    "range" : "29",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "475"
+  }, {
+    "range" : "41",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "476"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "478",
+    "label" : {
+      "IRI-based" : "hasMediaSourceLink"
+    },
+    "domain" : "74",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "477"
+  }, {
+    "range" : "35",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "479"
+  }, {
+    "range" : "45",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "480"
+  }, {
+    "range" : "41",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "481"
+  }, {
+    "range" : "47",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "482"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "358",
+    "label" : {
+      "IRI-based" : "hasRecomended"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to an intended audience it is recommended for."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "483"
+  }, {
+    "range" : "45",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "484"
+  }, {
+    "range" : "10",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "485"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "coversTopic"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "Represents the relation of a module or media resource to a topic it covers."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "486"
+  }, {
+    "range" : "47",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "487"
+  }, {
+    "range" : "2",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "488"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasLevel"
+    },
+    "domain" : "109",
+    "comment" : {
+      "en" : "Represents the relation of a module to its difficulty level."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "489"
+  }, {
+    "range" : "10",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "490"
+  }, {
+    "range" : "13",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "491"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/references",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "references"
+    },
+    "domain" : "109",
+    "comment" : {
+      "en" : "Represents the relation of a module (or other entity) to media resources that it references."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "492"
+  }, {
+    "range" : "2",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "493"
+  }, {
+    "range" : "11",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "494"
+  }, {
+    "range" : "13",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "495"
+  }, {
+    "range" : "32",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "496"
+  }, {
+    "range" : "26",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "497"
+  }, {
+    "range" : "38",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "498"
+  }, {
+    "range" : "13",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "499"
+  }, {
+    "range" : "2",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "500"
+  }, {
+    "range" : "19",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "501"
+  }, {
+    "range" : "11",
+    "domain" : "400",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "502"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "214",
+    "label" : {
+      "IRI-based" : "hasLanguage"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to the language it is in."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "503"
+  }, {
+    "range" : "214",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "504"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "hasModule"
+    },
+    "domain" : "50",
+    "comment" : {
+      "en" : "Represents the relation of referring a curriculum to a module that is part of that curriculum."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "505"
+  }, {
+    "range" : "81",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "506"
+  }, {
+    "range" : "45",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "507"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "509",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "50",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "508"
+  }, {
+    "range" : "69",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "510"
+  }, {
+    "range" : "47",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "511"
+  }, {
+    "range" : "173",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "512"
+  }, {
+    "range" : "10",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "513"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "515",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "1",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "514"
+  }, {
+    "range" : "8",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "516"
+  }, {
+    "range" : "2",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "517"
+  }, {
+    "range" : "13",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "518"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "hasModule"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Represents the relation of referring a curriculum to a module that is part of that curriculum."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "519"
+  }, {
+    "range" : "24",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "520"
+  }, {
+    "range" : "11",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "521"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/provides",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "provides"
+    },
+    "domain" : "81",
+    "comment" : {
+      "en" : "Represents the relation of an event to media resources it provides."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "522"
+  }, {
+    "range" : "17",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "523"
+  }, {
+    "range" : "19",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "524"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/determines",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "determines"
+    },
+    "domain" : "173",
+    "comment" : {
+      "en" : "Represents the relation of a persona to the learning path it determines."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "525"
+  }, {
+    "range" : "26",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "526"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "hasLearningStep"
+    },
+    "domain" : "173",
+    "comment" : {
+      "en" : "Represents the relation of a learning path to a learning step that it contains."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "527"
+  }, {
+    "range" : "32",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "528"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "scopedBy"
+    },
+    "domain" : "173",
+    "comment" : {
+      "en" : "Represents the relation of a learning path to the curriculum that scopes it."
+    },
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "529"
+  }, {
+    "range" : "38",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "530"
+  }, {
+    "range" : "26",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "531"
+  }, {
+    "range" : "19",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "532"
+  }, {
+    "range" : "38",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "533"
+  }, {
+    "range" : "32",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "534"
+  }, {
+    "range" : "2",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "535"
+  }, {
+    "range" : "10",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "536"
+  }, {
+    "range" : "17",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "537"
+  }, {
+    "range" : "11",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "538"
+  }, {
+    "range" : "11",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "539"
+  }, {
+    "range" : "24",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "540"
+  }, {
+    "range" : "13",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "541"
+  }, {
+    "range" : "19",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "542"
+  }, {
+    "range" : "8",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "543"
+  }, {
+    "range" : "26",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "544"
+  }, {
+    "range" : "17",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "545"
+  }, {
+    "range" : "32",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "546"
+  }, {
+    "range" : "24",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "547"
+  }, {
+    "range" : "47",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "548"
+  }, {
+    "range" : "38",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "549"
+  }, {
+    "range" : "17",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "550"
+  }, {
+    "range" : "45",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "551"
+  }, {
+    "range" : "8",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "552"
+  }, {
+    "range" : "24",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "553"
+  }, {
+    "range" : "17",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "554"
+  }, {
+    "range" : "24",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "555"
+  }, {
+    "range" : "24",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "556"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasName",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "558",
+    "label" : {
+      "IRI-based" : "hasName"
+    },
+    "domain" : "400",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "557"
+  }, {
+    "range" : "35",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "559"
+  }, {
+    "range" : "41",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "560"
+  }, {
+    "range" : "41",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "561"
+  }, {
+    "range" : "22",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "562"
+  }, {
+    "range" : "15",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "563"
+  }, {
+    "range" : "35",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "564"
+  }, {
+    "range" : "29",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "565"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "refersTo"
+    },
+    "domain" : "154",
+    "comment" : {
+      "en" : "Represents the relation of a learning step to the module it refers to."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "566"
+  }, {
+    "range" : "74",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "567"
+  }, {
+    "range" : "4",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "568"
+  }, {
+    "range" : "109",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "569"
+  }, {
+    "range" : "45",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "570"
+  }, {
+    "range" : "47",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "571"
+  }, {
+    "range" : "10",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "572"
+  }, {
+    "range" : "2",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "573"
+  }, {
+    "range" : "13",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "574"
+  }, {
+    "range" : "11",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "575"
+  }, {
+    "range" : "19",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "576"
+  }, {
+    "range" : "26",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "577"
+  }, {
+    "range" : "32",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "578"
+  }, {
+    "range" : "38",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "579"
+  }, {
+    "range" : "41",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "580"
+  }, {
+    "range" : "109",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "581"
+  }, {
+    "range" : "55",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "582"
+  }, {
+    "range" : "60",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "583"
+  }, {
+    "range" : "7",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "584"
+  }, {
+    "range" : "5",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "585"
+  }, {
+    "range" : "15",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "586"
+  }, {
+    "range" : "22",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "587"
+  }, {
+    "range" : "29",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "588"
+  }, {
+    "range" : "35",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "589"
+  }, {
+    "range" : "4",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "590"
+  }, {
+    "range" : "5",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "591"
+  }, {
+    "range" : "74",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "592"
+  }, {
+    "range" : "19",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "593"
+  }, {
+    "range" : "19",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "594"
+  }, {
+    "range" : "26",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "595"
+  }, {
+    "range" : "26",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "596"
+  }, {
+    "range" : "32",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "597"
+  }, {
+    "range" : "32",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "598"
+  }, {
+    "range" : "38",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "599"
+  }, {
+    "range" : "38",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "600"
+  }, {
+    "range" : "8",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "601"
+  }, {
+    "range" : "8",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "602"
+  }, {
+    "range" : "17",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "603"
+  }, {
+    "range" : "17",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "604"
+  }, {
+    "range" : "24",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "605"
+  }, {
+    "range" : "24",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "606"
+  }, {
+    "range" : "60",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "607"
+  }, {
+    "range" : "69",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "608"
+  }, {
+    "range" : "7",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "609"
+  }, {
+    "range" : "2",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "610"
+  }, {
+    "range" : "13",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "611"
+  }, {
+    "range" : "13",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "612"
+  }, {
+    "range" : "11",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "613"
+  }, {
+    "range" : "11",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "614"
+  }, {
+    "range" : "22",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "615"
+  }, {
+    "range" : "22",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "616"
+  }, {
+    "range" : "29",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "617"
+  }, {
+    "range" : "29",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "618"
+  }, {
+    "range" : "35",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "619"
+  }, {
+    "range" : "35",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "620"
+  }, {
+    "range" : "41",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "621"
+  }, {
+    "range" : "41",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "622"
+  }, {
+    "range" : "45",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "623"
+  }, {
+    "range" : "45",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "624"
+  }, {
+    "range" : "47",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "625"
+  }, {
+    "range" : "47",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "626"
+  }, {
+    "range" : "10",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "627"
+  }, {
+    "range" : "10",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "628"
+  }, {
+    "range" : "2",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "629"
+  }, {
+    "iri" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep",
+    "baseIri" : "https://edugate.cs.wright.edu/lod/ontology/currKG",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "hasPreviousLearningStep"
+    },
+    "domain" : "154",
+    "comment" : {
+      "en" : "Represents the relation of a learning step to the previous learning step in the sequence."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "630"
+  }, {
+    "range" : "1",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "631"
+  }, {
+    "range" : "81",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "632"
+  }, {
+    "range" : "214",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "633"
+  }, {
+    "range" : "173",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "634"
+  }, {
+    "range" : "69",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "635"
+  }, {
+    "range" : "4",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "636"
+  }, {
+    "range" : "74",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "637"
+  }, {
+    "range" : "109",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "638"
+  }, {
+    "range" : "400",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "639"
+  }, {
+    "range" : "50",
+    "domain" : "358",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "640"
   } ]
 }
