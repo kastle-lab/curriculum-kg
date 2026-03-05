@@ -33,43 +33,53 @@
 #################################################################
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship
-:assumesAuthorship rdf:type owl:ObjectProperty .
+:assumesAuthorship rdf:type owl:ObjectProperty ;
+                   rdfs:comment "Represents the relation of a person to an author role they assume."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona
-:assumesPersona rdf:type owl:ObjectProperty .
+:assumesPersona rdf:type owl:ObjectProperty ;
+                rdfs:comment "Represents the relation of a person to a persona role they assume."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo
-:belongTo rdf:type owl:ObjectProperty .
+:belongTo rdf:type owl:ObjectProperty ;
+          rdfs:comment "Represents the relation of a module to the category it belongs to."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan
-:broaderThan rdf:type owl:ObjectProperty .
+:broaderThan rdf:type owl:ObjectProperty ;
+             rdfs:comment "Represents the relation of a topic to a broader (more general) topic."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic
-:coversTopic rdf:type owl:ObjectProperty .
+:coversTopic rdf:type owl:ObjectProperty ;
+             rdfs:comment "Represents the relation of a module or media resource to a topic it covers."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/determines
-:determines rdf:type owl:ObjectProperty .
+:determines rdf:type owl:ObjectProperty ;
+            rdfs:comment "Represents the relation of a persona to the learning path it determines."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor
-:hasAuthor rdf:type owl:ObjectProperty .
+:hasAuthor rdf:type owl:ObjectProperty ;
+           rdfs:comment "Represents the relation of a media resource to its author."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage
-:hasLanguage rdf:type owl:ObjectProperty .
+:hasLanguage rdf:type owl:ObjectProperty ;
+             rdfs:comment "Represents the relation of a media resource to the language it is in."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep
-:hasLearningStep rdf:type owl:ObjectProperty .
+:hasLearningStep rdf:type owl:ObjectProperty ;
+                 rdfs:comment "Represents the relation of a learning path to a learning step that it contains."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel
-:hasLevel rdf:type owl:ObjectProperty .
+:hasLevel rdf:type owl:ObjectProperty ;
+          rdfs:comment "Represents the relation of a module to its difficulty level."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule
@@ -78,23 +88,28 @@
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep
-:hasNextLearningStep rdf:type owl:ObjectProperty .
+:hasNextLearningStep rdf:type owl:ObjectProperty ;
+                     rdfs:comment "Represents the relation of a learning step to the next learning step in the sequence."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep
-:hasPreviousLearningStep rdf:type owl:ObjectProperty .
+:hasPreviousLearningStep rdf:type owl:ObjectProperty ;
+                         rdfs:comment "Represents the relation of a learning step to the previous learning step in the sequence."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession
-:hasProfession rdf:type owl:ObjectProperty .
+:hasProfession rdf:type owl:ObjectProperty ;
+               rdfs:comment "Represents the relation of a persona to its profession."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended
-:hasRecomended rdf:type owl:ObjectProperty .
+:hasRecomended rdf:type owl:ObjectProperty ;
+               rdfs:comment "Represents the relation of a media resource to an intended audience it is recommended for."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent
-:hasSubEvent rdf:type owl:ObjectProperty .
+:hasSubEvent rdf:type owl:ObjectProperty ;
+             rdfs:comment "Represents the relation of an event to a sub-event that is part of it."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/hasType
@@ -103,23 +118,28 @@
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan
-:narrowerThan rdf:type owl:ObjectProperty .
+:narrowerThan rdf:type owl:ObjectProperty ;
+              rdfs:comment "Represents the relation of a topic to a narrower (more specific) topic."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/provides
-:provides rdf:type owl:ObjectProperty .
+:provides rdf:type owl:ObjectProperty ;
+          rdfs:comment "Represents the relation of an event to media resources it provides."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/references
-:references rdf:type owl:ObjectProperty .
+:references rdf:type owl:ObjectProperty ;
+            rdfs:comment "Represents the relation of a module (or other entity) to media resources that it references."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo
-:refersTo rdf:type owl:ObjectProperty .
+:refersTo rdf:type owl:ObjectProperty ;
+          rdfs:comment "Represents the relation of a learning step to the module it refers to."@en .
 
 
 ###  https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy
-:scopedBy rdf:type owl:ObjectProperty .
+:scopedBy rdf:type owl:ObjectProperty ;
+          rdfs:comment "Represents the relation of a learning path to the curriculum that scopes it."@en .
 
 
 #################################################################
