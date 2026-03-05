@@ -10,6 +10,13 @@
 	 prov:wasAttributedTo :agent3;
 	 prov:wasAttributedTo :agent4;
 	 prov:wasAttributedTo :agent5;
+	 prov:wasAttributedTo :agent6;
+	 prov:wasAttributedTo :agent7;
+	 prov:wasAttributedTo :agent8;
+	 prov:wasAttributedTo :agent9;
+	 prov:wasAttributedTo :agent10;
+	 prov:wasAttributedTo :agent11;
+	 prov:wasAttributedTo :agent12;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 	 prov:specializationOf <https://edugate.cs.wright.edu/lod/ontology>;
 	 prov:wasGeneratedAt "2025-06-06";
@@ -17,6 +24,13 @@
 :agent0 a prov:Agent; foaf:name "Antrea Christou".
 :agent1 a prov:Agent; foaf:name "Chris Davis Jaldi".
 :agent2 a prov:Agent; foaf:name "Cogan Shimizu".
-:agent3 a prov:Agent; foaf:name "Antrea Christou".
-:agent4 a prov:Agent; foaf:name "Chris Davis Jaldi".
-:agent5 a prov:Agent; foaf:name "Cogan Shimizu".
+:agent3 a prov:Agent; foaf:name "Joseph Zalewski".
+:agent4 a prov:Agent; foaf:name "Pascal Hitzler".
+:agent5 a prov:Agent; foaf:name "Hande Küçük McGinty ".
+:agent6 a prov:Agent; foaf:name "Antrea Christou".
+:agent7 a prov:Agent; foaf:name "Chris Davis Jaldi".
+:agent8 a prov:Agent; foaf:name "Cogan Shimizu".
+:agent9 a prov:Agent; foaf:name " Joseph Zalewski".
+:agent10 a prov:Agent; foaf:name "Pascal Hitzler".
+:agent11 a prov:Agent; foaf:name "Hande Küçük McGinty".
+:agent12 a prov:Agent; foaf:name "Alexis Ellis".
