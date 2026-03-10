@@ -37,3 +37,16 @@ python updated-triplification.py \
   - Initial curriculum data  
  
   By contributing, you agree to license your contributions under these same terms.
+
+### Citation
+```bibtex
+@misc{christou2025ontologyrepresentingcurriculumlearning,
+  title={An Ontology for Representing Curriculum and Learning Material}, 
+  author={Antrea Christou and Chris Davis Jaldi and Joseph Zalewski and Hande Küçük McGinty and Pascal Hitzler and Cogan Shimizu},
+  year={2025},
+  eprint={2506.05751},
+  archivePrefix={arXiv},
+  primaryClass={cs.CY},
+  url={https://arxiv.org/abs/2506.05751}, 
+}
+```
