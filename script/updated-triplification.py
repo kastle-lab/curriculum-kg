@@ -1,3 +1,24 @@
+"""
+Convert the curriculum CSV export into RDF triples.
+
+This script is intentionally verbose and heavily commented so that someone
+who is new to Python, RDFLib, or this repository can still follow the flow.
+
+High-level workflow:
+1. Read a CSV file into a pandas DataFrame.
+2. Create or load an RDF graph.
+3. Walk row-by-row through the spreadsheet.
+4. Turn each row into CurriculumKG resources and relationships.
+5. Save the graph as a Turtle file.
+
+Important:
+- The default output file is `new-schema-currkg.ttl`.
+- If you do not want to append to or overwrite an existing RDF file, change
+  the `--output` argument when running the script.
+- The script expects to be run from inside the `script/` directory unless you
+  pass explicit file paths for `--input-data`, `--current-file`, and `--output`.
+"""
+
 import re
 import os
 import pandas as pd
@@ -5,17 +26,13 @@ from rdflib import Graph, Namespace, Literal
 from rdflib import OWL, RDF, RDFS, XSD, TIME
 import argparse
 
-'''
-Script Parameters
-
-Please make sure to adjust the 
-`output_name` to a befitting name
-which does not accidentally overwrite
-existing turtle files! 
-'''
+# `df` is filled in `main()` after the CSV is loaded.
+# It stays global because the original script structure expects helper
+# functions like `init_triplify()` to read from a shared DataFrame.
 df = None
 
-# Directory and File Parameters of Triplification run
+# Default Script input/output names for a triplification run.
+# These can all be overridden from the command line.
 data_input_name = "data-okg.csv"
 output_name = "new-schema-currkg.ttl"
 data_path = os.path.join("./data", data_input_name)
@@ -34,13 +51,16 @@ EXTENSION_TO_FORMAT = {
 
 
 def infer_format(file_path):
-    """Infer RDF format based on file extension."""
+    """Infer the RDF serialization format from the file extension."""
     _, ext = os.path.splitext(file_path)
-    # Default to turtle if unknown
+    # Turtle is the safest default for this repository because all
+    # generated instance-data examples currently use `.ttl`.
     return EXTENSION_TO_FORMAT.get(ext.lower(), "turtle")
 
 
-#  Prefixes for KG
+# Namespace and prefix setup for the knowledge graph.
+# `pfs` acts as a small registry so the rest of the script can build URIs
+# without hardcoding the base namespace over and over again.
 name_space = "https://edugate.cs.wright.edu/"
 pfs = {
     "edu-r": Namespace(f"{name_space}lod/resource/"),
@@ -59,6 +79,9 @@ pfs = {
     "time": TIME,
     "qudt": Namespace("http://qudt.org/schema/qudt/"),
 }
+
+# Common URI shortcuts used throughout the script.
+# These make the row-mapping logic easier to read.
 # rdf:type shortcut
 isA = pfs["rdf"]["type"]  # isA prefix/relationship
 asString = pfs["edu-ont"]["asString"]  # type pattern
@@ -68,7 +91,15 @@ person_uri = pfs["edu-ont"]["Person"]
 
 def sanitize_string(input_string, replace_with="X"):
     """
-    Replaces special characters with a specified string and spaces with underscores.
+    Convert free-text values into URI-safe fragments.
+
+    Why this exists:
+    - CSV values can contain spaces, punctuation, slashes, and other
+      characters that are awkward in RDF resource identifiers.
+    - The script uses the sanitized value as part of the URI local name.
+
+    Example:
+    "Data Science / AI" -> "Data_Science_X_AI"
 
     :param input_string: The input string to be sanitized.
     :param replace_with: The string to replace special characters with (default is empty string).
@@ -81,9 +112,13 @@ def sanitize_string(input_string, replace_with="X"):
     return sanitized
 
 #  Initialize KG
-
-
 def init_kg(prefixes=pfs):
+    """
+    Create the RDF graph used by the script.
+
+    If the target file already exists, we load it first so a run can extend an
+    existing graph instead of always starting from an empty one.
+    """
 
     kg = Graph()
 
@@ -103,11 +138,19 @@ def init_kg(prefixes=pfs):
 
 
 def triplify(s, p, o):
-    '''
-        Adds a (subject, predicate, object) triple to graph.
+    """
+    Add one RDF triple to the graph.
 
-        s,p, and o should be rdflib terms
-    '''
+    The parameters should already be RDFLib terms:
+    - `s`: subject
+    - `p`: predicate
+    - `o`: object
+
+    This helper centralizes the `graph.add(...)` call so any future logging or
+    validation can be added in one place.
+    
+    s,p, and o should be rdflib terms (URIRef, Literal, BNode) that are ready to be added to the graph.
+    """
     try:
         global graph
         graph.add((s, p, o))
@@ -116,10 +159,12 @@ def triplify(s, p, o):
 
 
 def get_column_value(row, column_name):
-    '''
-        Safely retrieves the value from a DataFrame row for a given column.
-        Returns None if the column is missing or the value is NaN.
-    '''
+    """
+    Safely read a value from a pandas Dataframe row for a given column.
+
+    Returning `None` for missing/blank or NaN values keeps the main mapping logic
+    straightforward because each block can simply check `if value:`.
+    """
     value = row.get(column_name)
     if pd.notnull(value):
         return str(value).strip()
@@ -127,13 +172,14 @@ def get_column_value(row, column_name):
         return None
 
 
-def dictionary_check(key, dictionary):
-    '''
-        Checks if dictionary already has key-value pairing.
-
-        Returns already used index-value from dictionary or 
-        creates a new one
-    '''
+def dictionary_check(key, dictionary): 
+    """
+    Checks if dictionary already has key-value pairing.
+    Returns already used index-value from dictionary or creates a new one, a stable integer ID for a dictionary key.
+        
+    This helper is currently unused, but it has been kept because it may be
+    useful for future numbered-resource generation or deterministic indexing.
+    """
     if key in dictionary:
         return dictionary[key]
     else:
@@ -143,9 +189,14 @@ def dictionary_check(key, dictionary):
 
 
 def dictionary_triples(elements, type, subject_uri, predicate):
-    '''
-        Creates triples for elements in a list using a shared dictionary.
-    '''
+    """
+    Creates triples for elements in a set of typed resources from a comma-separated list using a shared dictionary.
+
+    Example:
+    - If a module has categories `AI, Ethics`
+    - this helper creates the `Category.*` resources
+    - and links the module to each category with the requested predicate.
+    """
     if not subject_uri:
         return
     for el in elements:
@@ -158,14 +209,28 @@ def dictionary_triples(elements, type, subject_uri, predicate):
 
 
 def init_triplify():
+    """
+    Walk through the loaded DataFrame and materialize all supported entities.
+
+    The script processes one CSV row at a time. Each row can contribute:
+    - curriculum metadata
+    - module metadata
+    - persona and learning-path information
+    - media resources and authors
+    - events and sub-events
+    - topics, languages, audience, levels, and categories
+    """
     #  Media Mint + Typing
     for i, row in df.iterrows():
+        # Reset row-scoped URIs for each CSV record so resources do not leak
+        # across iterations.
         module_uri = None
         media_uri = None
         curriculum_uri = None
         authors = []
 
-        # Curriculum base information
+        # Curriculum base information.
+        # Every row can atleast belong to one curriculum.
         curriculum_title = get_column_value(row, 'Curriculum')
         if curriculum_title:
             curriculum_uri = pfs["edu-r"][f"Curriculum.{sanitize_string(curriculum_title)}"]
@@ -175,7 +240,9 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing or null 'Curriculum'")
 
-        # Module Base Information
+        # Module base information.
+        # Modules are one of the main anchors in the KG because media, topics,
+        # and learning steps often point back to them.
         module_title = get_column_value(row, 'Module Title')
         if module_title:
             module_uri = pfs["edu-r"][f"Module.{sanitize_string(module_title)}"]
@@ -190,7 +257,8 @@ def init_triplify():
             print(f"Row {i}: Missing or null 'Module Title'")
 
         persona_uri = None
-        # Persona Base Information
+        # Persona base information.
+        # Personas let the KG describe different target learners or users.
         persona_title = get_column_value(row, 'Persona')
         if persona_title:
             persona_uri = pfs["edu-r"][f"Persona.{sanitize_string(persona_title)}"]
@@ -222,7 +290,10 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing or null 'Persona'")
 
-        # Learning Path Base Information
+        # Learning path information.
+        # The same CSV column is used both as the path label and as the list of
+        # ordered learning steps. This means the field should contain a
+        # comma-separated sequence in the desired order.
         learning_path = get_column_value(row, 'Learning Path')
         if learning_path:
             learning_path_uri = pfs["edu-r"][f"LearningPath.{sanitize_string(learning_path)}"]
@@ -242,6 +313,8 @@ def init_triplify():
             if learning_steps:
                 steps = [s.strip() for s in learning_steps.split(',')]
                 for index, step in enumerate(steps):
+                    # Each step gets its own URI inside the parent learning
+                    # path namespace so the order can be expressed explicitly.
                     step_uri = pfs[
                         "edu-r"][f"LearningPath.{sanitize_string(learning_path)}.LearningStep.{sanitize_string(step)}"]
                     triplify(step_uri, isA, pfs["edu-ont"]["LearningStep"])
@@ -275,7 +348,9 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing or null 'Learning Path'")
 
-        # Handle Module Category
+        # Module categories.
+        # If there is no module URI for the row, we still materialize the
+        # category resources, but there is nothing to link them to.
         category_str = get_column_value(row, 'Module Category')
         if category_str and module_uri:
             module_categories = [c.strip() for c in category_str.split(',')]
@@ -292,7 +367,7 @@ def init_triplify():
             print(
                 f"Row {i}: Missing or null 'Module Category' or 'Module Title'")
 
-        #  Level
+        # Module difficulty or level labels.
         module_level_str = get_column_value(row, 'Module Level')
         if module_level_str and module_uri:
             levels = [a.strip() for a in module_level_str.split(',')]
@@ -300,7 +375,8 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing or null 'Module Level' or 'Module Title'")
 
-        #  Media base information
+        # Media base information.
+        # A media record needs both a title and a source link to be useful.
         media_title = get_column_value(row, 'Media Title')
         media_link = get_column_value(row, 'Media Link')
         if media_title and media_link:
@@ -316,7 +392,8 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing or null 'Media Title' or 'Media Link'")
 
-        #  Author base information
+        # Author information.
+        # Multiple authors are expected to be stored as comma-separated values.
         authors_str = get_column_value(row, 'Author')
         if authors_str:
             authors = [author.strip() for author in authors_str.split(',')]
@@ -337,7 +414,8 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing or null 'Author'")
 
-        # Event Base Information
+        # Event base information.
+        # Events can provide media and can also contain sub-events.
         event_title = get_column_value(row, 'Event')
         if event_title:
             event_uri = pfs["edu-r"][f"Event.{sanitize_string(event_title)}"]
@@ -369,7 +447,9 @@ def init_triplify():
                     triplify(event_uri, pfs["edu-ont"]
                              ["hasSubEvent"], sub_event_uri)
 
-        # Media with Typing
+        # Media typing.
+        # The ontology treats each media type as a class and asserts that the
+        # media instance is also of that class.
         format_str = get_column_value(row, 'Media Type')
         if format_str and media_uri:
             types = [f.strip() for f in format_str.split(',')]
@@ -382,7 +462,7 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing or null 'Media Type' or 'Media'")
 
-        # Module with Topic
+        # Topics covered by a module.
         mod_topic_covered_str = get_column_value(row, 'Module Topics Covered')
         if mod_topic_covered_str:
             topics = [t.strip() for t in mod_topic_covered_str.split(',')]
@@ -391,7 +471,7 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing Module or null 'Module Topics Covered'")
 
-        # Media with Topic
+        # Topics covered by a media item.
         media_topic_covered_str = get_column_value(row, 'Media Topics Covered')
         if media_topic_covered_str:
             topics = [t.strip() for t in media_topic_covered_str.split(',')]
@@ -401,6 +481,7 @@ def init_triplify():
             print(f"Row {i}: Missing media or null 'Media Topic Covered'")
 
         # Topic Relations
+        # This lets the graph represent broader/narrower topic structure.
         topic = get_column_value(row, 'Topic')
         if topic:
             topic_uri = pfs["edu-r"][f"Topic.{sanitize_string(topic)}"]
@@ -435,7 +516,7 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing or null 'Topic Relations'")
 
-        #  Audience
+        # Recommended audience for a media item.
         audience_str = get_column_value(row, 'Audience')
         if audience_str and media_uri:
             audiences = [a.strip() for a in audience_str.split(',')]
@@ -444,7 +525,7 @@ def init_triplify():
         else:
             print(f"Row {i}: Missing or null 'Audience' or 'Media Title'")
 
-        #  Language
+        # Language labels for a media item.
         language_str = get_column_value(row, 'Language')
         if language_str and media_uri:
             languages = [l.strip() for l in language_str.split(',')]
@@ -462,19 +543,23 @@ def init_triplify():
 
 
 def main():
-    # -----------------------
-    # Example usage (run this script from terminal):
-    #
-    # python updated-triplification.py --input-data data-for-okg.csv --current-file current_graph.ttl --output new_graph.ttl
-    #
-    # All arguments are optional if defaults are set in the script.
-    # -----------------------
+    """
+    Parse command-line arguments, load the CSV, and write the RDF graph.
+
+    Example:
+        python updated-triplification.py \
+            --input-data ./data/data-okg.csv \
+            --current-file ./materialization/new-schema-currkg.ttl \
+            --output ./materialization/new-schema-currkg.ttl
+    """
 
     global data_path
     global output_path
     global current_file_path
 
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Materialize CurriculumKG RDF triples from a CSV file."
+    )
     parser.add_argument(
         "--input-data", help="The CSV File to use for materialization", default=data_path)
     parser.add_argument(
@@ -487,6 +572,9 @@ def main():
     current_file_path = args.current_file
     output_path = args.output
 
+    # Load the CSV once and keep it available globally for the row-mapping
+    # helper. This matches the original script structure and keeps the rest of
+    # the file unchanged.
     with open(data_path, "r") as inputF:
         global df
         # Read the CSV file into a DataFrame
@@ -494,12 +582,15 @@ def main():
         header = df.columns
         # print([col for col in header])
 
+    # Make sure the destination directory exists before trying to write the
+    # serialized graph to disk.
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     # Start triplification
+    # Create triples from the loaded CSV rows.
     init_triplify()
 
-    # Serialize the graph
+    # Serialize the graph to a file in the specified format (default is Turtle).
     graph.serialize(format="turtle", encoding="utf-8", destination=output_path)
 
     print("Graph Serialized")
@@ -509,4 +600,7 @@ def main():
 
 
 graph = init_kg()
-main()
+if __name__ == "__main__":
+    # The import guard prevents the script from running automatically if it is
+    # imported from another Python file for testing or reuse.
+    main()
