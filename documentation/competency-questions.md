@@ -7,8 +7,8 @@
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -26,8 +26,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?media ?title
@@ -44,8 +44,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT DISTINCT ?mediaType 
@@ -63,8 +63,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?author ?authorName
@@ -81,8 +81,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -104,8 +104,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?media ?mediaTitle
@@ -128,8 +128,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?persona ?personaName ?learningPath ?learningStep ?learningStepName ?prevStep ?prevStepName ?nextStep ?nextStepName
@@ -160,8 +160,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?media ?title ?type ?typeName
@@ -182,8 +182,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -204,8 +204,8 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT DISTINCT ?learningPath ?learningPathName (GROUP_CONCAT(DISTINCT ?persona; separator=", ") AS ?personas)
@@ -227,8 +227,8 @@ HAVING (COUNT(?persona) > 1)
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -250,8 +250,8 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?broaderTopic ?broaderTopicName
@@ -271,8 +271,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -294,8 +294,8 @@ ORDER BY DESC(?count)
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -332,8 +332,8 @@ ORDER BY DESC(?count)
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 
 SELECT ?author1 ?author2 (COUNT(DISTINCT ?media) AS ?coAuthoredMediaCount)
 WHERE {
@@ -354,8 +354,8 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?topic ?topicName (COUNT(?ref) AS ?count)
@@ -378,8 +378,8 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?learningPath ?learningStep ?learningStepName ?prevStep ?prevStepName ?nextStep ?nextStepName 
@@ -406,8 +406,8 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource/>
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 SELECT ?categoryName (COUNT(?module) AS ?moduleCount)
@@ -427,7 +427,7 @@ ORDER BY DESC(?moduleCount)
 **SPARQL Query:**
 
 ```sparql
-PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology/>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
 
 SELECT ?module ?moduleTitle ?level ?levelName
 WHERE {

@@ -24,121 +24,121 @@
 <http://ontologydesignpatterns.org/opla-sd#entityPositionY> rdf:type owl:AnnotationProperty .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo
-<https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> rdf:type owl:AnnotationProperty .
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo
+<https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/assumesAuthorship
-<https://kastle-lab.org/currkg/lod/ontology/currKG/assumesAuthorship> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/assumesAuthorship
+<https://kastle-lab.org/currkg/lod/ontology#currKG/assumesAuthorship> rdf:type owl:ObjectProperty ;
                                                                       rdfs:comment "Represents the relation of a person to an author role they assume."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona
-<https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/assumesPersona
+<https://kastle-lab.org/currkg/lod/ontology#currKG/assumesPersona> rdf:type owl:ObjectProperty ;
                                                                    rdfs:comment "Represents the relation of a person to a persona role they assume."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/belongTo
-<https://kastle-lab.org/currkg/lod/ontology/currKG/belongTo> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/belongTo
+<https://kastle-lab.org/currkg/lod/ontology#currKG/belongTo> rdf:type owl:ObjectProperty ;
                                                              rdfs:comment "Represents the relation of a module to the category it belongs to."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan
-<https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/broaderThan
+<https://kastle-lab.org/currkg/lod/ontology#currKG/broaderThan> rdf:type owl:ObjectProperty ;
                                                                 rdfs:comment "Represents the relation of a topic to a broader (more general) topic."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic
-<https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/coversTopic
+<https://kastle-lab.org/currkg/lod/ontology#currKG/coversTopic> rdf:type owl:ObjectProperty ;
                                                                 rdfs:comment "Represents the relation of a module or media resource to a topic it covers."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/determines
-<https://kastle-lab.org/currkg/lod/ontology/currKG/determines> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/determines
+<https://kastle-lab.org/currkg/lod/ontology#currKG/determines> rdf:type owl:ObjectProperty ;
                                                                rdfs:comment "Represents the relation of a persona to the learning path it determines."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasAuthor
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasAuthor> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasAuthor
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasAuthor> rdf:type owl:ObjectProperty ;
                                                               rdfs:comment "Represents the relation of a media resource to its author."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasLanguage
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasLanguage> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasLanguage
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasLanguage> rdf:type owl:ObjectProperty ;
                                                                 rdfs:comment "Represents the relation of a media resource to the language it is in."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasLearningStep
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasLearningStep> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasLearningStep
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasLearningStep> rdf:type owl:ObjectProperty ;
                                                                     rdfs:comment "Represents the relation of a learning path to a learning step that it contains."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasLevel
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasLevel> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasLevel
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasLevel> rdf:type owl:ObjectProperty ;
                                                              rdfs:comment "Represents the relation of a module to its difficulty level."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasModule
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasModule> rdf:type owl:ObjectProperty ;
                                                               rdfs:comment "Represents the relation of referring a curriculum to a module that is part of that curriculum."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasNextLearningStep
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasNextLearningStep> rdf:type owl:ObjectProperty ;
                                                                         rdfs:comment "Represents the relation of a learning step to the next learning step in the sequence."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasPreviousLearningStep
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasPreviousLearningStep> rdf:type owl:ObjectProperty ;
                                                                             rdfs:comment "Represents the relation of a learning step to the previous learning step in the sequence."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasProfession
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasProfession> rdf:type owl:ObjectProperty ;
                                                                   rdfs:comment "Represents the relation of a persona to its profession."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasRecomended
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasRecomended> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasRecomended
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasRecomended> rdf:type owl:ObjectProperty ;
                                                                   rdfs:comment "Represents the relation of a media resource to an intended audience it is recommended for."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasSubEvent
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasSubEvent> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasSubEvent
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasSubEvent> rdf:type owl:ObjectProperty ;
                                                                 rdfs:comment "Represents the relation of an event to a sub-event that is part of it."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasType
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasType> rdf:type owl:ObjectProperty ;
-                                                            rdfs:subPropertyOf <https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession> .
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasType
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasType> rdf:type owl:ObjectProperty ;
+                                                            rdfs:subPropertyOf <https://kastle-lab.org/currkg/lod/ontology#currKG/hasProfession> .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan
-<https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/narrowerThan
+<https://kastle-lab.org/currkg/lod/ontology#currKG/narrowerThan> rdf:type owl:ObjectProperty ;
                                                                  rdfs:comment "Represents the relation of a topic to a narrower (more specific) topic."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/provides
-<https://kastle-lab.org/currkg/lod/ontology/currKG/provides> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/provides
+<https://kastle-lab.org/currkg/lod/ontology#currKG/provides> rdf:type owl:ObjectProperty ;
                                                              rdfs:comment "Represents the relation of an event to media resources it provides."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/references
-<https://kastle-lab.org/currkg/lod/ontology/currKG/references> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/references
+<https://kastle-lab.org/currkg/lod/ontology#currKG/references> rdf:type owl:ObjectProperty ;
                                                                rdfs:comment "Represents the relation of a module (or other entity) to media resources that it references."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo
-<https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/refersTo
+<https://kastle-lab.org/currkg/lod/ontology#currKG/refersTo> rdf:type owl:ObjectProperty ;
                                                              rdfs:comment "Represents the relation of a learning step to the module it refers to."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/scopedBy
-<https://kastle-lab.org/currkg/lod/ontology/currKG/scopedBy> rdf:type owl:ObjectProperty ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/scopedBy
+<https://kastle-lab.org/currkg/lod/ontology#currKG/scopedBy> rdf:type owl:ObjectProperty ;
                                                              rdfs:comment "Represents the relation of a learning path to the curriculum that scopes it."@en .
 
 
@@ -146,29 +146,29 @@
 #    Data properties
 #################################################################
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/asString
-<https://kastle-lab.org/currkg/lod/ontology/currKG/asString> rdf:type owl:DatatypeProperty .
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/asString
+<https://kastle-lab.org/currkg/lod/ontology#currKG/asString> rdf:type owl:DatatypeProperty .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasMediaSourceLink
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasMediaSourceLink> rdf:type owl:DatatypeProperty .
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasMediaSourceLink
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasMediaSourceLink> rdf:type owl:DatatypeProperty .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasName
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasName> rdf:type owl:DatatypeProperty .
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasName
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasName> rdf:type owl:DatatypeProperty .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle
-<https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle> rdf:type owl:DatatypeProperty .
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle
+<https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle> rdf:type owl:DatatypeProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Article
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Article> rdf:type owl:Class ;
-                                                            rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/Media> ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Article
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Article> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/Media> ;
                                                             <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid1 ;
                                                             rdfs:comment "Represents an Article is a written media resource, typed as a sub-class."@en .
 
@@ -177,20 +177,20 @@ _:genid1 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "46.1448366
           rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Audience
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Audience> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Audience
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Audience> rdf:type owl:Class ;
                                                              rdfs:comment "Represents audience as a controlled vocabulary that is used to indicate intended audience for a media resource."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Author
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Author> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Author
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Author> rdf:type owl:Class ;
                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasName> ;
+                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasName> ;
                                                                              owl:someValuesFrom xsd:string
                                                                            ] ;
                                                            <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid3 ;
                                                            rdfs:comment "Represents an author that is a person who creates or is credited for media resources."@en ;
-                                                           <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole> ,
+                                                           <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole> ,
                                                                                                                           <https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name> .
 
 _:genid3 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "212.2044628151925"^^xsd:double ;
@@ -198,72 +198,72 @@ _:genid3 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "212.204462
           rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Category
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Category> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Category
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Category> rdf:type owl:Class ;
                                                              rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty [ owl:inverseOf <https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule>
+                                                                               owl:onProperty [ owl:inverseOf <https://kastle-lab.org/currkg/lod/ontology#currKG/hasModule>
                                                                                               ] ;
-                                                                               owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Module>
+                                                                               owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Module>
                                                                              ] ,
                                                                              [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle> ;
+                                                                               owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle> ;
                                                                                owl:someValuesFrom xsd:string
                                                                              ] ;
                                                              <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid7 ;
                                                              rdfs:comment "Represents a category is a high-level grouping used to organize modules (e.g., foundations, survey, methodology, standards)."@en ;
-                                                             <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole> .
+                                                             <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole> .
 
 _:genid7 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "66.0082422042512"^^xsd:double ;
           <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "163.11457706181378"^^xsd:double ;
           rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Curriculum
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Curriculum> rdf:type owl:Class ;
                                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule> ;
-                                                                                 owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Module>
+                                                                                 owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasModule> ;
+                                                                                 owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Module>
                                                                                ] ,
                                                                                [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle> ;
+                                                                                 owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle> ;
                                                                                  owl:someValuesFrom xsd:string
                                                                                ] ;
                                                                <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid10 ;
                                                                rdfs:comment "Represents a Curriculum as a curated course of study that groups modules into a coherent educational offering."@en ;
-                                                               <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/namestub> .
+                                                               <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/namestub> .
 
 _:genid10 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "84.22046954254326"^^xsd:double ;
            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "61.85682749202153"^^xsd:double ;
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Event
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Event> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Event
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Event> rdf:type owl:Class ;
                                                           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/provides> ;
-                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Media>
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/provides> ;
+                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Media>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasSubEvent> ;
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasSubEvent> ;
                                                                             owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                                                                            owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/Event>
+                                                                            owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/Event>
                                                                           ] ;
                                                           <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid13 ;
                                                           rdfs:comment "Represents an event as a structured learning activity (e.g., workshop, tutorial, presentation) that can provide media and have sub-events."@en ;
-                                                          <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/event> .
+                                                          <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/event> .
 
 _:genid13 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "222.95598092682775"^^xsd:double ;
            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "20.29786947182403"^^xsd:double ;
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/FirstLearningStep
-<https://kastle-lab.org/currkg/lod/ontology/currKG/FirstLearningStep> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep> ,
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/FirstLearningStep
+<https://kastle-lab.org/currkg/lod/ontology#currKG/FirstLearningStep> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep> ,
                                                                                       [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo> ;
+                                                                                        owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/refersTo> ;
                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                        owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/Module>
+                                                                                        owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/Module>
                                                                                       ] ;
                                                                       <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid15 ;
                                                                       rdfs:comment "Represents a First Learning Step that marks the starting step of a learning path."@en .
@@ -273,9 +273,9 @@ _:genid15 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "121.96218
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Foundations
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Foundations> rdf:type owl:Class ;
-                                                                rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/Category> ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Foundations
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Foundations> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/Category> ;
                                                                 <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid16 ;
                                                                 rdfs:comment "Represents Foundations as a category subclass for modules covering fundamental concepts and principles."@en .
 
@@ -284,8 +284,8 @@ _:genid16 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "119.63769
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Language
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Language> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Language
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Language> rdf:type owl:Class ;
                                                              <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid17 ;
                                                              rdfs:comment "Represents a Language indicating the language of a media resource."@en .
 
@@ -294,13 +294,13 @@ _:genid17 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "58.901936
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/LastLearningStep
-<https://kastle-lab.org/currkg/lod/ontology/currKG/LastLearningStep> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep> ,
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/LastLearningStep
+<https://kastle-lab.org/currkg/lod/ontology#currKG/LastLearningStep> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo> ;
+                                                                                       owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/refersTo> ;
                                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                       owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/Module>
+                                                                                       owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/Module>
                                                                                      ] ;
                                                                      <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid19 ;
                                                                      rdfs:comment "Represents a Last Learning Step that marks the ending step of a learning path."@en .
@@ -310,20 +310,20 @@ _:genid19 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "103.47116
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath
-<https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/LearningPath
+<https://kastle-lab.org/currkg/lod/ontology#currKG/LearningPath> rdf:type owl:Class ;
                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasLearningStep> ;
-                                                                                   owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep>
+                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasLearningStep> ;
+                                                                                   owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep>
                                                                                  ] ,
                                                                                  [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/scopedBy> ;
-                                                                                   owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum>
+                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/scopedBy> ;
+                                                                                   owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Curriculum>
                                                                                  ] ,
                                                                                  [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty [ owl:inverseOf <https://kastle-lab.org/currkg/lod/ontology/currKG/determines>
+                                                                                   owl:onProperty [ owl:inverseOf <https://kastle-lab.org/currkg/lod/ontology#currKG/determines>
                                                                                                   ] ;
-                                                                                   owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum>
+                                                                                   owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Curriculum>
                                                                                  ] ;
                                                                  <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid24 ;
                                                                  rdfs:comment "Represents a Learning Path as an ordered sequence of learning steps tailored to a persona and scoped by a curriculum."@en .
@@ -333,177 +333,177 @@ _:genid24 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "299.49419
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep
-<https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep
+<https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep> rdf:type owl:Class ;
                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep> ;
+                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasNextLearningStep> ;
                                                                                    owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep>
+                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep>
                                                                                  ] ,
                                                                                  [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep> ;
+                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasPreviousLearningStep> ;
                                                                                    owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep>
+                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep>
                                                                                  ] ,
                                                                                  [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep> ;
+                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasNextLearningStep> ;
                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep>
+                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep>
                                                                                  ] ,
                                                                                  [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep> ;
+                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasPreviousLearningStep> ;
                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep>
+                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep>
                                                                                  ] ,
                                                                                  [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo> ;
+                                                                                   owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/refersTo> ;
                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/Module>
+                                                                                   owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/Module>
                                                                                  ] ;
                                                                  <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid30 ;
                                                                  rdfs:comment "Represents a Learning Step as an ordered step within a Learning Path that refers to exactly one module."@en ;
-                                                                 <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent> .
+                                                                 <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent> .
 
 _:genid30 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "195.52378966483667"^^xsd:double ;
            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "113.96282514832542"^^xsd:double ;
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Level
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Level> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Level
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Level> rdf:type owl:Class ;
                                                           <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid31 ;
                                                           rdfs:comment "Represents Level as a controlled vocabulary indicating the difficulty of a module."@en ;
-                                                          <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping> .
+                                                          <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping> .
 
 _:genid31 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "83.5387145526865"^^xsd:double ;
            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "256.9006692958464"^^xsd:double ;
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Media
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Media> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Media
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Media> rdf:type owl:Class ;
                                                           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic> ;
-                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Topic>
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/coversTopic> ;
+                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Topic>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasAuthor> ;
-                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Author>
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasAuthor> ;
+                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Author>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasLanguage> ;
-                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Language>
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasLanguage> ;
+                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Language>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasRecomended> ;
-                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Audience>
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasRecomended> ;
+                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Audience>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasMediaSourceLink> ;
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasMediaSourceLink> ;
                                                                             owl:someValuesFrom xsd:string
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle> ;
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle> ;
                                                                             owl:someValuesFrom xsd:string
                                                                           ] ;
                                                           <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid38 ;
                                                           rdfs:comment "Represents a Media that is a learning resource (e.g., article, video, podcast, transcript) and can be referenced by modules or provided by events."@en ;
-                                                          <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event> .
+                                                          <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event> .
 
 _:genid38 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "56.22964736735543"^^xsd:double ;
            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "192.4576250484204"^^xsd:double ;
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Module
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Module> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Module
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Module> rdf:type owl:Class ;
                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/belongTo> ;
-                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Category>
+                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/belongTo> ;
+                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Category>
                                                                            ] ,
                                                                            [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic> ;
-                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Topic>
+                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/coversTopic> ;
+                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Topic>
                                                                            ] ,
                                                                            [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasLevel> ;
-                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Level>
+                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasLevel> ;
+                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Level>
                                                                            ] ,
                                                                            [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/references> ;
-                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Media>
+                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/references> ;
+                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Media>
                                                                            ] ,
                                                                            [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle> ;
+                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle> ;
                                                                              owl:someValuesFrom xsd:string
                                                                            ] ;
                                                            <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid44 ;
                                                            rdfs:comment "Represents Module as a unit of learning content that covers one or more topics and references supporting media."@en ;
-                                                           <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole> .
+                                                           <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole> .
 
 _:genid44 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "11.961109252390985"^^xsd:double ;
            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "294.8983475284603"^^xsd:double ;
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Person
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Person> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Person
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Person> rdf:type owl:Class ;
                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/assumesAuthorship> ;
-                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Author>
+                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/assumesAuthorship> ;
+                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Author>
                                                                            ] ,
                                                                            [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona> ;
-                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona>
+                                                                             owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/assumesPersona> ;
+                                                                             owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona>
                                                                            ] ;
                                                            <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid47 ;
                                                            rdfs:comment "Represents Person is an Agent (from Agent Role pattern) who may assume roles such as persona or author."@en ;
-                                                           <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name> .
+                                                           <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name> .
 
 _:genid47 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "67.71024379246852"^^xsd:double ;
            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "93.39558214157489"^^xsd:double ;
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Persona
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Persona
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> rdf:type owl:Class ;
                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasType> ;
-                                                                              owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType>
+                                                                              owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasType> ;
+                                                                              owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType>
                                                                             ] ,
                                                                             [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty [ owl:inverseOf <https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona>
+                                                                              owl:onProperty [ owl:inverseOf <https://kastle-lab.org/currkg/lod/ontology#currKG/assumesPersona>
                                                                                              ] ;
-                                                                              owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Person>
+                                                                              owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Person>
                                                                             ] ,
                                                                             [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/determines> ;
+                                                                              owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/determines> ;
                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                              owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath>
+                                                                              owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningPath>
                                                                             ] ,
                                                                             [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession> ;
+                                                                              owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/hasProfession> ;
                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                              owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/Profession>
+                                                                              owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/Profession>
                                                                             ] ;
                                                             <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid53 ;
                                                             rdfs:comment "Represents Persona as an audience profile (role/background) used to tailor a learning path.e"@en ;
-                                                            <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name> .
+                                                            <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name> .
 
 _:genid53 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "234.79032302270195"^^xsd:double ;
            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "105.44392300174702"^^xsd:double ;
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType
-<https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType
+<https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> rdf:type owl:Class ;
                                                                 rdfs:comment "Represents Persona Type as a controlled vocabulary used to classify personas (e.g., developer, executive)."@en ;
-                                                                <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping> .
+                                                                <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping> .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Podcast
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Podcast> rdf:type owl:Class ;
-                                                            rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/Media> ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Podcast
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Podcast> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/Media> ;
                                                             <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid54 ;
                                                             rdfs:comment "Represents a Podcast as an audio media resource, typed as a sub-class."@en .
 
@@ -512,9 +512,9 @@ _:genid54 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "88.358558
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Presentation
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Presentation> rdf:type owl:Class ;
-                                                                 rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/Event> ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Presentation
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Presentation> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/Event> ;
                                                                  <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid55 ;
                                                                  rdfs:comment "Represents a Presentationas an event type focused on delivering content to an audience, typed as a sub-class."@en .
 
@@ -523,19 +523,19 @@ _:genid55 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "4.8728491
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Profession
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Profession> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Profession
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Profession> rdf:type owl:Class ;
                                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/asString> ;
+                                                                                 owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/asString> ;
                                                                                  owl:someValuesFrom owl:rational
                                                                                ] ;
                                                                rdfs:comment "Represents Profession indicating the professional role associated with a persona."@en ;
-                                                               <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/namestub> .
+                                                               <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/namestub> .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Standards
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Standards> rdf:type owl:Class ;
-                                                              rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/Category> ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Standards
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Standards> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/Category> ;
                                                               <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid57 ;
                                                               rdfs:comment "Represents Standards as a category subclass for modules covering formal specifications and recommendations."@en .
 
@@ -544,43 +544,43 @@ _:genid57 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "9.4848094
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Topic
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Topic> rdf:type owl:Class ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Topic
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Topic> rdf:type owl:Class ;
                                                           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan> ;
-                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Topic>
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/broaderThan> ;
+                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Topic>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan> ;
-                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology/currKG/Topic>
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/narrowerThan> ;
+                                                                            owl:someValuesFrom <https://kastle-lab.org/currkg/lod/ontology#currKG/Topic>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan> ;
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/broaderThan> ;
                                                                             owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                                                                            owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/Topic>
+                                                                            owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/Topic>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan> ;
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/narrowerThan> ;
                                                                             owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                                                                            owl:onClass <https://kastle-lab.org/currkg/lod/ontology/currKG/Topic>
+                                                                            owl:onClass <https://kastle-lab.org/currkg/lod/ontology#currKG/Topic>
                                                                           ] ,
                                                                           [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology/currKG/asString> ;
+                                                                            owl:onProperty <https://kastle-lab.org/currkg/lod/ontology#currKG/asString> ;
                                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                             owl:onDataRange xsd:string
                                                                           ] ;
                                                           <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid63 ;
                                                           rdfs:comment "Represents Topic as a subject or concept covered by modules and media, and can be arranged hierarchically."@en ;
-                                                          <https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent> .
+                                                          <https://kastle-lab.org/currkg/lod/ontology#currKG/isNativeTo> <https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent> .
 
 _:genid63 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "98.2063796911752"^^xsd:double ;
            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "277.9401087419016"^^xsd:double ;
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Transcript
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Transcript> rdf:type owl:Class ;
-                                                               rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/Media> ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Transcript
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Transcript> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/Media> ;
                                                                <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid64 ;
                                                                rdfs:comment "Represents Transcript as a text rendering of spoken media content, typed as a sub-class."@en .
 
@@ -589,9 +589,9 @@ _:genid64 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "87.883897
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Tutorial
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Tutorial> rdf:type owl:Class ;
-                                                             rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/Event> ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Tutorial
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Tutorial> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/Event> ;
                                                              <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid65 ;
                                                              rdfs:comment "Represents a Tutorial as an event type (through sub-class) focused on guided instruction."@en .
 
@@ -600,9 +600,9 @@ _:genid65 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "23.117610
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Video
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Video> rdf:type owl:Class ;
-                                                          rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/Media> ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Video
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Video> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/Media> ;
                                                           <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid66 ;
                                                           rdfs:comment "Represents Video as an audiovisual media resource., typed as a sub-class."@en .
 
@@ -611,9 +611,9 @@ _:genid66 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "104.74937
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/currKG/Workshop
-<https://kastle-lab.org/currkg/lod/ontology/currKG/Workshop> rdf:type owl:Class ;
-                                                             rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology/currKG/Event> ;
+###  https://kastle-lab.org/currkg/lod/ontology#currKG/Workshop
+<https://kastle-lab.org/currkg/lod/ontology#currKG/Workshop> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://kastle-lab.org/currkg/lod/ontology#currKG/Event> ;
                                                              <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid67 ;
                                                              rdfs:comment "Represents a Workshop as an event type (through sub-class) focused on hands-on learning."@en .
 
@@ -622,236 +622,236 @@ _:genid67 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "77.915869
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Cameron
-<https://kastle-lab.org/currkg/lod/resource/currKG/Cameron> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Cameron
+<https://kastle-lab.org/currkg/lod/resource#currKG/Cameron> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Carla
-<https://kastle-lab.org/currkg/lod/resource/currKG/Carla> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Carla
+<https://kastle-lab.org/currkg/lod/resource#currKG/Carla> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Chris
-<https://kastle-lab.org/currkg/lod/resource/currKG/Chris> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Chris
+<https://kastle-lab.org/currkg/lod/resource#currKG/Chris> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Connie
-<https://kastle-lab.org/currkg/lod/resource/currKG/Connie> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Connie
+<https://kastle-lab.org/currkg/lod/resource#currKG/Connie> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Courtney
-<https://kastle-lab.org/currkg/lod/resource/currKG/Courtney> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Courtney
+<https://kastle-lab.org/currkg/lod/resource#currKG/Courtney> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Darwin
-<https://kastle-lab.org/currkg/lod/resource/currKG/Darwin> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Darwin
+<https://kastle-lab.org/currkg/lod/resource#currKG/Darwin> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Debbie
-<https://kastle-lab.org/currkg/lod/resource/currKG/Debbie> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Debbie
+<https://kastle-lab.org/currkg/lod/resource#currKG/Debbie> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Edward
-<https://kastle-lab.org/currkg/lod/resource/currKG/Edward> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Edward
+<https://kastle-lab.org/currkg/lod/resource#currKG/Edward> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Elias
-<https://kastle-lab.org/currkg/lod/resource/currKG/Elias> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Elias
+<https://kastle-lab.org/currkg/lod/resource#currKG/Elias> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Ella
-<https://kastle-lab.org/currkg/lod/resource/currKG/Ella> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Ella
+<https://kastle-lab.org/currkg/lod/resource#currKG/Ella> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Ethan
-<https://kastle-lab.org/currkg/lod/resource/currKG/Ethan> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Ethan
+<https://kastle-lab.org/currkg/lod/resource#currKG/Ethan> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Kai
-<https://kastle-lab.org/currkg/lod/resource/currKG/Kai> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Kai
+<https://kastle-lab.org/currkg/lod/resource#currKG/Kai> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Oratius
-<https://kastle-lab.org/currkg/lod/resource/currKG/Oratius> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Oratius
+<https://kastle-lab.org/currkg/lod/resource#currKG/Oratius> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie
-<https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Ronnie
+<https://kastle-lab.org/currkg/lod/resource#currKG/Ronnie> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Silas
-<https://kastle-lab.org/currkg/lod/resource/currKG/Silas> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Silas
+<https://kastle-lab.org/currkg/lod/resource#currKG/Silas> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Stella
-<https://kastle-lab.org/currkg/lod/resource/currKG/Stella> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Stella
+<https://kastle-lab.org/currkg/lod/resource#currKG/Stella> rdf:type owl:Class .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Usman
-<https://kastle-lab.org/currkg/lod/resource/currKG/Usman> rdf:type owl:Class .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Usman
+<https://kastle-lab.org/currkg/lod/resource#currKG/Usman> rdf:type owl:Class .
 
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  https://kastle-lab.org/currkg/lod/ontology/Ontology/VocabularyExpert
-<https://kastle-lab.org/currkg/lod/ontology/Ontology/VocabularyExpert> rdf:type owl:NamedIndividual ,
-                                                                                <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#Ontology/VocabularyExpert
+<https://kastle-lab.org/currkg/lod/resource#Ontology/VocabularyExpert> rdf:type owl:NamedIndividual ,
+                                                                                <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/ontology/SecurityAnalyst/DeveloperTrainer
-<https://kastle-lab.org/currkg/lod/ontology/SecurityAnalyst/DeveloperTrainer> rdf:type owl:NamedIndividual ,
-                                                                                       <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#SecurityAnalyst/DeveloperTrainer
+<https://kastle-lab.org/currkg/lod/resource#SecurityAnalyst/DeveloperTrainer> rdf:type owl:NamedIndividual ,
+                                                                                       <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Cameron
-<https://kastle-lab.org/currkg/lod/resource/currKG/Cameron> rdf:type owl:NamedIndividual ,
-                                                                     <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Cameron
+<https://kastle-lab.org/currkg/lod/resource#currKG/Cameron> rdf:type owl:NamedIndividual ,
+                                                                     <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Carla
-<https://kastle-lab.org/currkg/lod/resource/currKG/Carla> rdf:type owl:NamedIndividual ,
-                                                                   <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Carla
+<https://kastle-lab.org/currkg/lod/resource#currKG/Carla> rdf:type owl:NamedIndividual ,
+                                                                   <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Chris
-<https://kastle-lab.org/currkg/lod/resource/currKG/Chris> rdf:type owl:NamedIndividual ,
-                                                                   <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Chris
+<https://kastle-lab.org/currkg/lod/resource#currKG/Chris> rdf:type owl:NamedIndividual ,
+                                                                   <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Collaborator
-<https://kastle-lab.org/currkg/lod/resource/currKG/Collaborator> rdf:type owl:NamedIndividual ,
-                                                                          <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Collaborator
+<https://kastle-lab.org/currkg/lod/resource#currKG/Collaborator> rdf:type owl:NamedIndividual ,
+                                                                          <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Connie
-<https://kastle-lab.org/currkg/lod/resource/currKG/Connie> rdf:type owl:NamedIndividual ,
-                                                                    <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Connie
+<https://kastle-lab.org/currkg/lod/resource#currKG/Connie> rdf:type owl:NamedIndividual ,
+                                                                    <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Consultant
-<https://kastle-lab.org/currkg/lod/resource/currKG/Consultant> rdf:type owl:NamedIndividual ,
-                                                                        <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Consultant
+<https://kastle-lab.org/currkg/lod/resource#currKG/Consultant> rdf:type owl:NamedIndividual ,
+                                                                        <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Contributor
-<https://kastle-lab.org/currkg/lod/resource/currKG/Contributor> rdf:type owl:NamedIndividual ,
-                                                                         <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Contributor
+<https://kastle-lab.org/currkg/lod/resource#currKG/Contributor> rdf:type owl:NamedIndividual ,
+                                                                         <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Courtney
-<https://kastle-lab.org/currkg/lod/resource/currKG/Courtney> rdf:type owl:NamedIndividual ,
-                                                                      <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Courtney
+<https://kastle-lab.org/currkg/lod/resource#currKG/Courtney> rdf:type owl:NamedIndividual ,
+                                                                      <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/CurriculumDeveloper
-<https://kastle-lab.org/currkg/lod/resource/currKG/CurriculumDeveloper> rdf:type owl:NamedIndividual ,
-                                                                                 <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/CurriculumDeveloper
+<https://kastle-lab.org/currkg/lod/resource#currKG/CurriculumDeveloper> rdf:type owl:NamedIndividual ,
+                                                                                 <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Darwin
-<https://kastle-lab.org/currkg/lod/resource/currKG/Darwin> rdf:type owl:NamedIndividual ,
-                                                                    <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Darwin
+<https://kastle-lab.org/currkg/lod/resource#currKG/Darwin> rdf:type owl:NamedIndividual ,
+                                                                    <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Debbie
-<https://kastle-lab.org/currkg/lod/resource/currKG/Debbie> rdf:type owl:NamedIndividual ,
-                                                                    <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Debbie
+<https://kastle-lab.org/currkg/lod/resource#currKG/Debbie> rdf:type owl:NamedIndividual ,
+                                                                    <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Developer
-<https://kastle-lab.org/currkg/lod/resource/currKG/Developer> rdf:type owl:NamedIndividual ,
-                                                                       <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Developer
+<https://kastle-lab.org/currkg/lod/resource#currKG/Developer> rdf:type owl:NamedIndividual ,
+                                                                       <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/EducationalFacilitator
-<https://kastle-lab.org/currkg/lod/resource/currKG/EducationalFacilitator> rdf:type owl:NamedIndividual ,
-                                                                                    <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/EducationalFacilitator
+<https://kastle-lab.org/currkg/lod/resource#currKG/EducationalFacilitator> rdf:type owl:NamedIndividual ,
+                                                                                    <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Edward
-<https://kastle-lab.org/currkg/lod/resource/currKG/Edward> rdf:type owl:NamedIndividual ,
-                                                                    <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Edward
+<https://kastle-lab.org/currkg/lod/resource#currKG/Edward> rdf:type owl:NamedIndividual ,
+                                                                    <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Elias
-<https://kastle-lab.org/currkg/lod/resource/currKG/Elias> rdf:type owl:NamedIndividual ,
-                                                                   <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Elias
+<https://kastle-lab.org/currkg/lod/resource#currKG/Elias> rdf:type owl:NamedIndividual ,
+                                                                   <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Ella
-<https://kastle-lab.org/currkg/lod/resource/currKG/Ella> rdf:type owl:NamedIndividual ,
-                                                                  <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Ella
+<https://kastle-lab.org/currkg/lod/resource#currKG/Ella> rdf:type owl:NamedIndividual ,
+                                                                  <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Enthusiast
-<https://kastle-lab.org/currkg/lod/resource/currKG/Enthusiast> rdf:type owl:NamedIndividual ,
-                                                                        <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Enthusiast
+<https://kastle-lab.org/currkg/lod/resource#currKG/Enthusiast> rdf:type owl:NamedIndividual ,
+                                                                        <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Ethan
-<https://kastle-lab.org/currkg/lod/resource/currKG/Ethan> rdf:type owl:NamedIndividual ,
-                                                                   <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Ethan
+<https://kastle-lab.org/currkg/lod/resource#currKG/Ethan> rdf:type owl:NamedIndividual ,
+                                                                   <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Executive
-<https://kastle-lab.org/currkg/lod/resource/currKG/Executive> rdf:type owl:NamedIndividual ,
-                                                                       <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Executive
+<https://kastle-lab.org/currkg/lod/resource#currKG/Executive> rdf:type owl:NamedIndividual ,
+                                                                       <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/ExecutiveEngagementSpecialist
-<https://kastle-lab.org/currkg/lod/resource/currKG/ExecutiveEngagementSpecialist> rdf:type owl:NamedIndividual ,
-                                                                                           <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/ExecutiveEngagementSpecialist
+<https://kastle-lab.org/currkg/lod/resource#currKG/ExecutiveEngagementSpecialist> rdf:type owl:NamedIndividual ,
+                                                                                           <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/KGResearcher
-<https://kastle-lab.org/currkg/lod/resource/currKG/KGResearcher> rdf:type owl:NamedIndividual ,
-                                                                          <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/KGResearcher
+<https://kastle-lab.org/currkg/lod/resource#currKG/KGResearcher> rdf:type owl:NamedIndividual ,
+                                                                          <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Kai
-<https://kastle-lab.org/currkg/lod/resource/currKG/Kai> rdf:type owl:NamedIndividual ,
-                                                                 <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Kai
+<https://kastle-lab.org/currkg/lod/resource#currKG/Kai> rdf:type owl:NamedIndividual ,
+                                                                 <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Oratius
-<https://kastle-lab.org/currkg/lod/resource/currKG/Oratius> rdf:type owl:NamedIndividual ,
-                                                                     <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Oratius
+<https://kastle-lab.org/currkg/lod/resource#currKG/Oratius> rdf:type owl:NamedIndividual ,
+                                                                     <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/ResourceDeveloper
-<https://kastle-lab.org/currkg/lod/resource/currKG/ResourceDeveloper> rdf:type owl:NamedIndividual ,
-                                                                               <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/ResourceDeveloper
+<https://kastle-lab.org/currkg/lod/resource#currKG/ResourceDeveloper> rdf:type owl:NamedIndividual ,
+                                                                               <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie
-<https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie> rdf:type owl:NamedIndividual ,
-                                                                    <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Ronnie
+<https://kastle-lab.org/currkg/lod/resource#currKG/Ronnie> rdf:type owl:NamedIndividual ,
+                                                                    <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Silas
-<https://kastle-lab.org/currkg/lod/resource/currKG/Silas> rdf:type owl:NamedIndividual ,
-                                                                   <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Silas
+<https://kastle-lab.org/currkg/lod/resource#currKG/Silas> rdf:type owl:NamedIndividual ,
+                                                                   <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Stella
-<https://kastle-lab.org/currkg/lod/resource/currKG/Stella> rdf:type owl:NamedIndividual ,
-                                                                    <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Stella
+<https://kastle-lab.org/currkg/lod/resource#currKG/Stella> rdf:type owl:NamedIndividual ,
+                                                                    <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/SupplyChainManagementSpecialist
-<https://kastle-lab.org/currkg/lod/resource/currKG/SupplyChainManagementSpecialist> rdf:type owl:NamedIndividual ,
-                                                                                             <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/SupplyChainManagementSpecialist
+<https://kastle-lab.org/currkg/lod/resource#currKG/SupplyChainManagementSpecialist> rdf:type owl:NamedIndividual ,
+                                                                                             <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/UserEngagementFacilitator
-<https://kastle-lab.org/currkg/lod/resource/currKG/UserEngagementFacilitator> rdf:type owl:NamedIndividual ,
-                                                                                       <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/UserEngagementFacilitator
+<https://kastle-lab.org/currkg/lod/resource#currKG/UserEngagementFacilitator> rdf:type owl:NamedIndividual ,
+                                                                                       <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType> .
 
 
-###  https://kastle-lab.org/currkg/lod/resource/currKG/Usman
-<https://kastle-lab.org/currkg/lod/resource/currKG/Usman> rdf:type owl:NamedIndividual ,
-                                                                   <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona> .
+###  https://kastle-lab.org/currkg/lod/resource#currKG/Usman
+<https://kastle-lab.org/currkg/lod/resource#currKG/Usman> rdf:type owl:NamedIndividual ,
+                                                                   <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona> .
 
 
 _:genid68 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "134.84670456198532"^^xsd:double ;
@@ -922,22 +922,22 @@ _:genid83 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "97.207326
 #    Annotations
 #################################################################
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Cameron> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Cameron> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Carla> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Carla> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Chris> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Chris> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Connie> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Connie> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Courtney> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Courtney> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Darwin> <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid84 ;
+<https://kastle-lab.org/currkg/lod/resource#currKG/Darwin> <http://ontologydesignpatterns.org/opla-sd#entityPosition> _:genid84 ;
                                                            rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 _:genid84 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "111.27012300983938"^^xsd:double ;
@@ -945,37 +945,37 @@ _:genid84 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "111.27012
            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Debbie> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Debbie> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Edward> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Edward> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Elias> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Elias> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Ella> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Ella> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Ethan> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Ethan> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Kai> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Kai> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Oratius> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Oratius> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Ronnie> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Silas> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Silas> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Stella> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Stella> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
-<https://kastle-lab.org/currkg/lod/resource/currKG/Usman> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
+<https://kastle-lab.org/currkg/lod/resource#currKG/Usman> rdfs:comment "Represents an example Persona instance used in the ontology."@en .
 
 
 #################################################################
@@ -983,39 +983,39 @@ _:genid84 <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "111.27012
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <https://kastle-lab.org/currkg/lod/ontology/currKG/Audience>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Author>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Category>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Event>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Language>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Level>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Media>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Module>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Person>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Persona>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Profession>
-                <https://kastle-lab.org/currkg/lod/ontology/currKG/Topic>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Cameron>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Carla>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Chris>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Connie>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Courtney>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Darwin>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Debbie>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Edward>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Elias>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Ella>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Ethan>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Kai>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Oratius>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Silas>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Stella>
-                <https://kastle-lab.org/currkg/lod/resource/currKG/Usman>
+  owl:members ( <https://kastle-lab.org/currkg/lod/ontology#currKG/Audience>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Author>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Category>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Curriculum>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Event>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Language>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningPath>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Level>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Media>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Module>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Person>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Persona>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Profession>
+                <https://kastle-lab.org/currkg/lod/ontology#currKG/Topic>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Cameron>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Carla>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Chris>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Connie>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Courtney>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Darwin>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Debbie>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Edward>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Elias>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Ella>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Ethan>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Kai>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Oratius>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Ronnie>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Silas>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Stella>
+                <https://kastle-lab.org/currkg/lod/resource#currKG/Usman>
               )
 ] .
 

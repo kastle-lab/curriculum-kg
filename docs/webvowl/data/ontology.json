@@ -2,7 +2,7 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://kastle-lab.org/currkg/lod/resource/currKG", "http://www.w3.org/2002/07/owl", "https://kastle-lab.org/currkg/lod/ontology/currKG", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://kastle-lab.org/currkg/lod/resource#currKG", "http://www.w3.org/2002/07/owl", "https://kastle-lab.org/currkg/lod/ontology#currKG", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
     "iri" : "https://kastle-lab.org/currkg/lod/ontology"
   },
   "namespace" : [ ],
@@ -164,8 +164,8 @@
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Silas",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Silas",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Silas"
@@ -176,8 +176,8 @@
     "attributes" : [ "external" ],
     "id" : "8"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Darwin",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Darwin",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -196,8 +196,8 @@
     "attributes" : [ "external" ],
     "id" : "47"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Chris",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Chris",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Chris"
@@ -208,8 +208,8 @@
     "attributes" : [ "external" ],
     "id" : "35"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Level",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Level",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "isNativeTo" : [ {
@@ -241,8 +241,8 @@
       "undefined" : "Thing"
     }
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/LearningStep",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -268,8 +268,8 @@
     "attributes" : [ "external" ],
     "id" : "69"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/PersonaType",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "isNativeTo" : [ {
@@ -283,92 +283,92 @@
       "IRI-based" : "PersonaType"
     },
     "individuals" : [ {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/EducationalFacilitator",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/EducationalFacilitator",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "EducationalFacilitator"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Contributor",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Contributor",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "Contributor"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Developer",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Developer",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "Developer"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/CurriculumDeveloper",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/CurriculumDeveloper",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "CurriculumDeveloper"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/UserEngagementFacilitator",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/UserEngagementFacilitator",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "UserEngagementFacilitator"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Enthusiast",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Enthusiast",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "Enthusiast"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Executive",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Executive",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "Executive"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Consultant",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Consultant",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "Consultant"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/ExecutiveEngagementSpecialist",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/ExecutiveEngagementSpecialist",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "ExecutiveEngagementSpecialist"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/ontology/SecurityAnalyst/DeveloperTrainer",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/SecurityAnalyst",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#SecurityAnalyst/DeveloperTrainer",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#SecurityAnalyst",
       "labels" : {
         "IRI-based" : "DeveloperTrainer"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/ontology/Ontology/VocabularyExpert",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/Ontology",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Ontology/VocabularyExpert",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#Ontology",
       "labels" : {
         "IRI-based" : "VocabularyExpert"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Collaborator",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Collaborator",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "Collaborator"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/KGResearcher",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/KGResearcher",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "KGResearcher"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/SupplyChainManagementSpecialist",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/SupplyChainManagementSpecialist",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "SupplyChainManagementSpecialist"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/ResourceDeveloper",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/ResourceDeveloper",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
       "labels" : {
         "IRI-based" : "ResourceDeveloper"
       }
@@ -379,8 +379,8 @@
     "attributes" : [ "external" ],
     "id" : "7"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Media",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Media",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "isNativeTo" : [ {
@@ -406,8 +406,8 @@
     "attributes" : [ "external" ],
     "id" : "74"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LastLearningStep",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/LastLearningStep",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -427,8 +427,8 @@
     "id" : "112",
     "superClasses" : [ "69" ]
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Ethan",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Ethan",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Ethan"
@@ -439,8 +439,8 @@
     "attributes" : [ "external" ],
     "id" : "19"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Foundations",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Foundations",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -460,8 +460,8 @@
     "id" : "99",
     "superClasses" : [ "50" ]
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Event",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Event",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "isNativeTo" : [ {
@@ -487,8 +487,8 @@
     "attributes" : [ "external" ],
     "id" : "81"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Language",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Language",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -507,8 +507,8 @@
     "attributes" : [ "external" ],
     "id" : "214"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Cameron",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Cameron",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Cameron"
@@ -519,8 +519,8 @@
     "attributes" : [ "external" ],
     "id" : "22"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Author",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Author",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -550,8 +550,8 @@
     "attributes" : [ "external" ],
     "id" : "400"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Tutorial",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Tutorial",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -571,8 +571,8 @@
     "id" : "87",
     "superClasses" : [ "81" ]
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Audience",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Audience",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Audience"
@@ -583,8 +583,8 @@
     "attributes" : [ "external" ],
     "id" : "358"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Category",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Category",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "isNativeTo" : [ {
@@ -624,8 +624,8 @@
       "IRI-based" : "rational"
     }
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Carla",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Carla",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Carla"
@@ -650,8 +650,8 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Profession",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Profession",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "isNativeTo" : [ {
@@ -677,8 +677,8 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Transcript",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Transcript",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -705,8 +705,8 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Workshop",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Workshop",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -733,8 +733,8 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Elias",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Elias",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Elias"
@@ -745,8 +745,8 @@
     "attributes" : [ "external" ],
     "id" : "13"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Module",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Module",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -771,8 +771,8 @@
     "attributes" : [ "external" ],
     "id" : "109"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Persona",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 17,
     "annotations" : {
       "entityPosition" : [ {
@@ -797,8 +797,8 @@
     "attributes" : [ "external" ],
     "id" : "60"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Connie",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Connie",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Connie"
@@ -809,8 +809,8 @@
     "attributes" : [ "external" ],
     "id" : "41"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/FirstLearningStep",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/FirstLearningStep",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -830,8 +830,8 @@
     "id" : "115",
     "superClasses" : [ "69" ]
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Ronnie",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Ronnie"
@@ -842,8 +842,8 @@
     "attributes" : [ "external" ],
     "id" : "38"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Oratius",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Oratius",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Oratius"
@@ -854,8 +854,8 @@
     "attributes" : [ "external" ],
     "id" : "32"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Ella",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Ella",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Ella"
@@ -866,8 +866,8 @@
     "attributes" : [ "external" ],
     "id" : "11"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Usman",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Usman",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Usman"
@@ -878,8 +878,8 @@
     "attributes" : [ "external" ],
     "id" : "24"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Standards",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Standards",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -899,8 +899,8 @@
     "id" : "49",
     "superClasses" : [ "50" ]
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Article",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Article",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -920,8 +920,8 @@
     "id" : "73",
     "superClasses" : [ "74" ]
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Curriculum",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -946,8 +946,8 @@
     "attributes" : [ "external" ],
     "id" : "1"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Debbie",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Debbie",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Debbie"
@@ -958,8 +958,8 @@
     "attributes" : [ "external" ],
     "id" : "10"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/LearningPath",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -978,8 +978,8 @@
     "attributes" : [ "external" ],
     "id" : "173"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Presentation",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Presentation",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -999,8 +999,8 @@
     "id" : "93",
     "superClasses" : [ "81" ]
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Edward",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Edward",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Edward"
@@ -1011,8 +1011,8 @@
     "attributes" : [ "external" ],
     "id" : "2"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Podcast",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Podcast",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -1032,8 +1032,8 @@
     "id" : "124",
     "superClasses" : [ "74" ]
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Kai",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Kai",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Kai"
@@ -1044,8 +1044,8 @@
     "attributes" : [ "external" ],
     "id" : "26"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Stella",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Stella",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Stella"
@@ -1056,8 +1056,8 @@
     "attributes" : [ "external" ],
     "id" : "17"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Topic",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Topic",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "isNativeTo" : [ {
@@ -1082,8 +1082,8 @@
     "attributes" : [ "external" ],
     "id" : "15"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Person",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Person",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "isNativeTo" : [ {
@@ -1108,8 +1108,8 @@
     "attributes" : [ "external" ],
     "id" : "55"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Video",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/Video",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "instances" : 0,
     "annotations" : {
       "entityPosition" : [ {
@@ -1129,8 +1129,8 @@
     "id" : "130",
     "superClasses" : [ "74" ]
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/resource/currKG/Courtney",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/resource/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/resource#currKG/Courtney",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/resource#currKG",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Courtney"
@@ -3561,8 +3561,8 @@
       "undefined" : "is a"
     }
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasSubEvent",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasSubEvent",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "154",
     "label" : {
       "IRI-based" : "hasSubEvent"
@@ -3788,8 +3788,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "206"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/broaderThan",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "15",
     "label" : {
       "IRI-based" : "broaderThan"
@@ -3806,8 +3806,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "208"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/narrowerThan",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "15",
     "label" : {
       "IRI-based" : "narrowerThan"
@@ -3912,8 +3912,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "228"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasProfession",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "154",
     "label" : {
       "IRI-based" : "hasProfession"
@@ -4461,8 +4461,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "337"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasNextLearningStep",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "154",
     "label" : {
       "IRI-based" : "hasNextLearningStep"
@@ -4909,8 +4909,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "428"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/belongTo",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/belongTo",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "50",
     "label" : {
       "IRI-based" : "belongTo"
@@ -4937,8 +4937,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "432"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/assumesPersona",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "60",
     "label" : {
       "IRI-based" : "assumesPersona"
@@ -4965,8 +4965,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "436"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/assumesAuthorship",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/assumesAuthorship",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "400",
     "label" : {
       "IRI-based" : "assumesAuthorship"
@@ -4988,8 +4988,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "439"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasType",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasType",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "7",
     "label" : {
       "IRI-based" : "hasType"
@@ -5009,8 +5009,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "442"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/assumesPersona",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "55",
     "label" : {
       "IRI-based" : "assumesPersona"
@@ -5037,8 +5037,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "446"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/asString",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/asString",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "448",
     "label" : {
       "IRI-based" : "asString"
@@ -5097,8 +5097,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "458"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/coversTopic",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "15",
     "label" : {
       "IRI-based" : "coversTopic"
@@ -5120,8 +5120,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "461"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "425",
     "label" : {
       "IRI-based" : "hasTitle"
@@ -5140,8 +5140,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "464"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasAuthor",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasAuthor",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "400",
     "label" : {
       "IRI-based" : "hasAuthor"
@@ -5168,8 +5168,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "468"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "470",
     "label" : {
       "IRI-based" : "hasTitle"
@@ -5208,8 +5208,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "476"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasMediaSourceLink",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasMediaSourceLink",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "478",
     "label" : {
       "IRI-based" : "hasMediaSourceLink"
@@ -5238,8 +5238,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "482"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasRecomended",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasRecomended",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "358",
     "label" : {
       "IRI-based" : "hasRecomended"
@@ -5261,8 +5261,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "485"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/coversTopic",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "15",
     "label" : {
       "IRI-based" : "coversTopic"
@@ -5284,8 +5284,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "488"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasLevel",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasLevel",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "4",
     "label" : {
       "IRI-based" : "hasLevel"
@@ -5307,8 +5307,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "491"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/references",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/references",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "74",
     "label" : {
       "IRI-based" : "references"
@@ -5370,8 +5370,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "502"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasLanguage",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasLanguage",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "214",
     "label" : {
       "IRI-based" : "hasLanguage"
@@ -5388,8 +5388,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "504"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasModule",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "109",
     "label" : {
       "IRI-based" : "hasModule"
@@ -5411,8 +5411,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "507"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "509",
     "label" : {
       "IRI-based" : "hasTitle"
@@ -5441,8 +5441,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "513"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasTitle",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "515",
     "label" : {
       "IRI-based" : "hasTitle"
@@ -5466,8 +5466,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "518"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasModule",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "109",
     "label" : {
       "IRI-based" : "hasModule"
@@ -5489,8 +5489,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "521"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/provides",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/provides",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "74",
     "label" : {
       "IRI-based" : "provides"
@@ -5512,8 +5512,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "524"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/determines",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/determines",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "1",
     "label" : {
       "IRI-based" : "determines"
@@ -5530,8 +5530,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "526"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasLearningStep",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasLearningStep",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "69",
     "label" : {
       "IRI-based" : "hasLearningStep"
@@ -5548,8 +5548,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "528"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/scopedBy",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/scopedBy",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "1",
     "label" : {
       "IRI-based" : "scopedBy"
@@ -5696,8 +5696,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "556"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasName",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasName",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "558",
     "label" : {
       "IRI-based" : "hasName"
@@ -5741,8 +5741,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "565"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/refersTo",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "154",
     "label" : {
       "IRI-based" : "refersTo"
@@ -6069,8 +6069,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "629"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology/currKG",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#currKG/hasPreviousLearningStep",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology#currKG",
     "range" : "154",
     "label" : {
       "IRI-based" : "hasPreviousLearningStep"

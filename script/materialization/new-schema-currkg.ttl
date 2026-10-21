@@ -1,5 +1,5 @@
-@prefix currkg: <https://kastle-lab.org/currkg/lod/ontology/> .
-@prefix currkg-r: <https://kastle-lab.org/currkg/lod/resource/> .
+@prefix currkg: <https://kastle-lab.org/currkg/lod/ontology#> .
+@prefix currkg-r: <https://kastle-lab.org/currkg/lod/resource#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 currkg:Person currkg:assumesAuthorship currkg:Author ;
