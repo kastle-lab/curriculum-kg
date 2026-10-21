@@ -30,10 +30,10 @@
   "@id" : "_:genid11",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/provides"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/provides"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Media"
   } ]
 }, {
   "@id" : "_:genid12",
@@ -43,10 +43,10 @@
     "@value" : "0"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Event"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Event"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasSubEvent"
   } ]
 }, {
   "@id" : "_:genid13",
@@ -66,10 +66,10 @@
   "@id" : "_:genid14",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Module"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -121,10 +121,10 @@
   "@id" : "_:genid18",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Module"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -148,7 +148,7 @@
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasName"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasName"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -157,19 +157,19 @@
   "@id" : "_:genid20",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasLearningStep"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"
   } ]
 }, {
   "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/scopedBy"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum"
   } ]
 }, {
   "@id" : "_:genid22",
@@ -178,12 +178,12 @@
     "@id" : "_:genid23"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum"
   } ]
 }, {
   "@id" : "_:genid23",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/determines"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/determines"
   } ]
 }, {
   "@id" : "_:genid24",
@@ -207,10 +207,10 @@
     "@value" : "0"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep"
   } ]
 }, {
   "@id" : "_:genid26",
@@ -220,19 +220,19 @@
     "@value" : "0"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep"
   } ]
 }, {
   "@id" : "_:genid27",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -242,10 +242,10 @@
   "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -255,10 +255,10 @@
   "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Module"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -310,43 +310,43 @@
   "@id" : "_:genid32",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"
   } ]
 }, {
   "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasAuthor"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Author"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Author"
   } ]
 }, {
   "@id" : "_:genid34",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasLanguage"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Language"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Language"
   } ]
 }, {
   "@id" : "_:genid35",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasRecomended"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Audience"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Audience"
   } ]
 }, {
   "@id" : "_:genid36",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasMediaSourceLink"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -355,7 +355,7 @@
   "@id" : "_:genid37",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -378,10 +378,10 @@
   "@id" : "_:genid39",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/belongTo"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Category"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Category"
   } ]
 }, {
   "@id" : "_:genid4",
@@ -390,40 +390,40 @@
     "@id" : "_:genid5"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Module"
   } ]
 }, {
   "@id" : "_:genid40",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"
   } ]
 }, {
   "@id" : "_:genid41",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasLevel"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Level"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Level"
   } ]
 }, {
   "@id" : "_:genid42",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/references"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/references"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Media"
   } ]
 }, {
   "@id" : "_:genid43",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -446,19 +446,19 @@
   "@id" : "_:genid45",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/assumesAuthorship"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Author"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Author"
   } ]
 }, {
   "@id" : "_:genid46",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ]
 }, {
   "@id" : "_:genid47",
@@ -478,10 +478,10 @@
   "@id" : "_:genid48",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasType"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
   "@id" : "_:genid49",
@@ -490,26 +490,26 @@
     "@id" : "_:genid50"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Person"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Person"
   } ]
 }, {
   "@id" : "_:genid5",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule"
   } ]
 }, {
   "@id" : "_:genid50",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona"
   } ]
 }, {
   "@id" : "_:genid51",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/determines"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/determines"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -519,10 +519,10 @@
   "@id" : "_:genid52",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Profession"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Profession"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -574,7 +574,7 @@
   "@id" : "_:genid56",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/asString"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/asString"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#rational"
@@ -597,25 +597,25 @@
   "@id" : "_:genid58",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"
   } ]
 }, {
   "@id" : "_:genid59",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"
   } ]
 }, {
   "@id" : "_:genid6",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -628,10 +628,10 @@
     "@value" : "0"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan"
   } ]
 }, {
   "@id" : "_:genid61",
@@ -641,10 +641,10 @@
     "@value" : "0"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan"
   } ]
 }, {
   "@id" : "_:genid62",
@@ -653,7 +653,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/asString"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/asString"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -915,10 +915,10 @@
   "@id" : "_:genid8",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Module"
   } ]
 }, {
   "@id" : "_:genid80",
@@ -995,78 +995,78 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Audience"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Audience"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Author"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Author"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Category"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Category"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Event"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Event"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Language"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Language"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Level"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Level"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Media"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Module"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Person"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Person"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Profession"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Profession"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"
+      "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Cameron"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Cameron"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Carla"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Carla"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Chris"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Chris"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Connie"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Connie"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Courtney"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Courtney"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Darwin"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Darwin"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Debbie"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Debbie"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Edward"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Edward"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Elias"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Elias"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ella"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Ella"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ethan"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Ethan"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Kai"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Kai"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Oratius"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Oratius"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Silas"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Silas"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Stella"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Stella"
     }, {
-      "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Usman"
+      "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Usman"
     } ]
   } ]
 }, {
   "@id" : "_:genid9",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -1081,22 +1081,22 @@
   "@id" : "http://ontologydesignpatterns.org/opla-sd#entityPositionY",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/Ontology/VocabularyExpert",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/SecurityAnalyst/DeveloperTrainer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Article",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Article",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid1"
@@ -1106,17 +1106,17 @@
     "@value" : "Represents an Article is a written media resource, typed as a sub-class."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Media"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Audience",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Audience",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents audience as a controlled vocabulary that is used to indicate intended audience for a media resource."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Author",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Author",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid3"
@@ -1128,13 +1128,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid2"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole"
   }, {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Category",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Category",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid7"
@@ -1148,11 +1148,11 @@
   }, {
     "@id" : "_:genid6"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid10"
@@ -1166,11 +1166,11 @@
   }, {
     "@id" : "_:genid9"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/namestub"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Event",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid13"
@@ -1184,11 +1184,11 @@
   }, {
     "@id" : "_:genid12"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/event"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/FirstLearningStep",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/FirstLearningStep",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid15"
@@ -1198,12 +1198,12 @@
     "@value" : "Represents a First Learning Step that marks the starting step of a learning path."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"
   }, {
     "@id" : "_:genid14"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Foundations",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Foundations",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid16"
@@ -1213,10 +1213,10 @@
     "@value" : "Represents Foundations as a category subclass for modules covering fundamental concepts and principles."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Category"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Category"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Language",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Language",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid17"
@@ -1226,7 +1226,7 @@
     "@value" : "Represents a Language indicating the language of a media resource."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LastLearningStep",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LastLearningStep",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid19"
@@ -1236,12 +1236,12 @@
     "@value" : "Represents a Last Learning Step that marks the ending step of a learning path."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"
   }, {
     "@id" : "_:genid18"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid24"
@@ -1258,7 +1258,7 @@
     "@id" : "_:genid22"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid30"
@@ -1278,11 +1278,11 @@
   }, {
     "@id" : "_:genid29"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Level",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Level",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid31"
@@ -1291,11 +1291,11 @@
     "@language" : "en",
     "@value" : "Represents Level as a controlled vocabulary indicating the difficulty of a module."
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Media",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid38"
@@ -1317,11 +1317,11 @@
   }, {
     "@id" : "_:genid37"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Module",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Module",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid44"
@@ -1341,11 +1341,11 @@
   }, {
     "@id" : "_:genid43"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Person",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Person",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid47"
@@ -1359,11 +1359,11 @@
   }, {
     "@id" : "_:genid46"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid53"
@@ -1381,21 +1381,21 @@
   }, {
     "@id" : "_:genid52"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents Persona Type as a controlled vocabulary used to classify personas (e.g., developer, executive)."
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Podcast",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Podcast",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid54"
@@ -1405,10 +1405,10 @@
     "@value" : "Represents a Podcast as an audio media resource, typed as a sub-class."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Media"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Presentation",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Presentation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid55"
@@ -1418,10 +1418,10 @@
     "@value" : "Represents a Presentationas an event type focused on delivering content to an audience, typed as a sub-class."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Event"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Event"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Profession",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Profession",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1430,11 +1430,11 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid56"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/namestub"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Standards",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Standards",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid57"
@@ -1444,10 +1444,10 @@
     "@value" : "Represents Standards as a category subclass for modules covering formal specifications and recommendations."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Category"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Category"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Topic",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Topic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid63"
@@ -1467,11 +1467,11 @@
   }, {
     "@id" : "_:genid62"
   } ],
-  "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo" : [ {
+  "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo" : [ {
     "@id" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Transcript",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Transcript",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid64"
@@ -1481,10 +1481,10 @@
     "@value" : "Represents Transcript as a text rendering of spoken media content, typed as a sub-class."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Media"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Tutorial",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Tutorial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid65"
@@ -1494,10 +1494,10 @@
     "@value" : "Represents a Tutorial as an event type (through sub-class) focused on guided instruction."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Event"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Event"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Video",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Video",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid66"
@@ -1507,10 +1507,10 @@
     "@value" : "Represents Video as an audiovisual media resource., typed as a sub-class."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Media"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Media"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Workshop",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Workshop",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid67"
@@ -1520,422 +1520,422 @@
     "@value" : "Represents a Workshop as an event type (through sub-class) focused on hands-on learning."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Event"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Event"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/asString",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/asString",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/assumesAuthorship",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a person to an author role they assume."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a person to a persona role they assume."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/belongTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a module to the category it belongs to."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a topic to a broader (more general) topic."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a module or media resource to a topic it covers."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/determines",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/determines",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a persona to the learning path it determines."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasAuthor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a media resource to its author."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasLanguage",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a media resource to the language it is in."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasLearningStep",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a learning path to a learning step that it contains."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasLevel",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a module to its difficulty level."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasMediaSourceLink",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of referring a curriculum to a module that is part of that curriculum."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasName",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a learning step to the next learning step in the sequence."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a learning step to the previous learning step in the sequence."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a persona to its profession."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasRecomended",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a media resource to an intended audience it is recommended for."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasSubEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of an event to a sub-event that is part of it."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasType",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a topic to a narrower (more specific) topic."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/provides",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/provides",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of an event to media resources it provides."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/references",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/references",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a module (or other entity) to media resources that it references."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a learning step to the module it refers to."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy",
+  "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/scopedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents the relation of a learning path to the curriculum that scopes it."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Cameron",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Cameron",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Carla",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Carla",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Chris",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Chris",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Collaborator",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Connie",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Connie",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Consultant",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Consultant",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Contributor",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Contributor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Courtney",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Courtney",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/CurriculumDeveloper",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Darwin",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Darwin",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://ontologydesignpatterns.org/opla-sd#entityPosition" : [ {
     "@id" : "_:genid84"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Debbie",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Debbie",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Developer",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Developer",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/EducationalFacilitator",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Edward",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Edward",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Elias",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Elias",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ella",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Ella",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Enthusiast",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ethan",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Ethan",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Executive",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Executive",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/ExecutiveEngagementSpecialist",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/KGResearcher",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Kai",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Kai",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Oratius",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Oratius",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/ResourceDeveloper",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Silas",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Silas",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Stella",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Stella",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents an example Persona instance used in the ontology."
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/SupplyChainManagementSpecialist",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/UserEngagementFacilitator",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"
   } ]
 }, {
-  "@id" : "https://edugate.cs.wright.edu/lod/resource/currKG/Usman",
+  "@id" : "https://kastle-lab.org/currkg/lod/resource/currKG/Usman",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"
+    "@id" : "https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",

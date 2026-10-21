@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://edugate.cs.wright.edu/lod/ontology#"
-     xml:base="https://edugate.cs.wright.edu/lod/ontology"
+<rdf:RDF xmlns="https://kastle-lab.org/currkg/lod/ontology#"
+     xml:base="https://kastle-lab.org/currkg/lod/ontology"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:currKG="https://edugate.cs.wright.edu/lod/ontology/currKG/"
+     xmlns:currKG="https://kastle-lab.org/currkg/lod/ontology/currKG/"
      xmlns:opla-sd="http://ontologydesignpatterns.org/opla-sd#">
-    <owl:Ontology rdf:about="https://edugate.cs.wright.edu/lod/ontology"/>
+    <owl:Ontology rdf:about="https://kastle-lab.org/currkg/lod/ontology"/>
     
 
 
@@ -45,10 +45,10 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo -->
 
 
-    <owl:AnnotationProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/isNativeTo"/>
+    <owl:AnnotationProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/isNativeTo"/>
     
 
 
@@ -64,199 +64,199 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/assumesAuthorship -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/assumesAuthorship">
         <rdfs:comment xml:lang="en">Represents the relation of a person to an author role they assume.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona">
         <rdfs:comment xml:lang="en">Represents the relation of a person to a persona role they assume.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/belongTo -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/belongTo">
         <rdfs:comment xml:lang="en">Represents the relation of a module to the category it belongs to.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan">
         <rdfs:comment xml:lang="en">Represents the relation of a topic to a broader (more general) topic.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic">
         <rdfs:comment xml:lang="en">Represents the relation of a module or media resource to a topic it covers.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/determines -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/determines -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/determines">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/determines">
         <rdfs:comment xml:lang="en">Represents the relation of a persona to the learning path it determines.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasAuthor -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasAuthor">
         <rdfs:comment xml:lang="en">Represents the relation of a media resource to its author.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasLanguage -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasLanguage">
         <rdfs:comment xml:lang="en">Represents the relation of a media resource to the language it is in.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasLearningStep -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasLearningStep">
         <rdfs:comment xml:lang="en">Represents the relation of a learning path to a learning step that it contains.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasLevel -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasLevel">
         <rdfs:comment xml:lang="en">Represents the relation of a module to its difficulty level.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule">
         <rdfs:comment xml:lang="en">Represents the relation of referring a curriculum to a module that is part of that curriculum.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep">
         <rdfs:comment xml:lang="en">Represents the relation of a learning step to the next learning step in the sequence.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep">
         <rdfs:comment xml:lang="en">Represents the relation of a learning step to the previous learning step in the sequence.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession">
         <rdfs:comment xml:lang="en">Represents the relation of a persona to its profession.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasRecomended -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasRecomended">
         <rdfs:comment xml:lang="en">Represents the relation of a media resource to an intended audience it is recommended for.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasSubEvent -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasSubEvent">
         <rdfs:comment xml:lang="en">Represents the relation of an event to a sub-event that is part of it.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasType -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasType -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasType">
-        <rdfs:subPropertyOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession"/>
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasType">
+        <rdfs:subPropertyOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan">
         <rdfs:comment xml:lang="en">Represents the relation of a topic to a narrower (more specific) topic.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/provides -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/provides -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/provides">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/provides">
         <rdfs:comment xml:lang="en">Represents the relation of an event to media resources it provides.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/references -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/references -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/references">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/references">
         <rdfs:comment xml:lang="en">Represents the relation of a module (or other entity) to media resources that it references.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo">
         <rdfs:comment xml:lang="en">Represents the relation of a learning step to the module it refers to.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/scopedBy -->
 
 
-    <owl:ObjectProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy">
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/scopedBy">
         <rdfs:comment xml:lang="en">Represents the relation of a learning path to the curriculum that scopes it.</rdfs:comment>
     </owl:ObjectProperty>
     
@@ -274,31 +274,31 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/asString -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/asString -->
 
 
-    <owl:DatatypeProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/asString"/>
+    <owl:DatatypeProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/asString"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasMediaSourceLink -->
 
 
-    <owl:DatatypeProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink"/>
+    <owl:DatatypeProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasMediaSourceLink"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasName -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasName"/>
+    <owl:DatatypeProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasName"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle -->
 
 
-    <owl:DatatypeProperty rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle"/>
+    <owl:DatatypeProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle"/>
     
 
 
@@ -314,11 +314,11 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Article -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Article -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Article">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Media"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Article">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Media"/>
         <opla-sd:entityPosition rdf:nodeID="genid1"/>
         <rdfs:comment xml:lang="en">Represents an Article is a written media resource, typed as a sub-class.</rdfs:comment>
     </owl:Class>
@@ -330,22 +330,22 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Audience -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Audience -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Audience">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Audience">
         <rdfs:comment xml:lang="en">Represents audience as a controlled vocabulary that is used to indicate intended audience for a media resource.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Author -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Author -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Author">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Author">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasName"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasName"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -362,23 +362,23 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Category -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Category -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Category">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Category">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty>
                     <rdf:Description>
-                        <owl:inverseOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule"/>
+                        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule"/>
                     </rdf:Description>
                 </owl:onProperty>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Module"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Module"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -394,19 +394,19 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasModule"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Module"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasModule"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Module"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -422,21 +422,21 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Event -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Event -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Event">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Event">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/provides"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Media"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/provides"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Media"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasSubEvent"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasSubEvent"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Event"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Event"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <opla-sd:entityPosition rdf:nodeID="genid13"/>
@@ -451,16 +451,16 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/FirstLearningStep -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/FirstLearningStep -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/FirstLearningStep">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/FirstLearningStep">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Module"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Module"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <opla-sd:entityPosition rdf:nodeID="genid15"/>
@@ -474,11 +474,11 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Foundations -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Foundations -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Foundations">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Category"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Foundations">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Category"/>
         <opla-sd:entityPosition rdf:nodeID="genid16"/>
         <rdfs:comment xml:lang="en">Represents Foundations as a category subclass for modules covering fundamental concepts and principles.</rdfs:comment>
     </owl:Class>
@@ -490,10 +490,10 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Language -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Language -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Language">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Language">
         <opla-sd:entityPosition rdf:nodeID="genid17"/>
         <rdfs:comment xml:lang="en">Represents a Language indicating the language of a media resource.</rdfs:comment>
     </owl:Class>
@@ -505,16 +505,16 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/LastLearningStep -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/LastLearningStep -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/LastLearningStep">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/LastLearningStep">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Module"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Module"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <opla-sd:entityPosition rdf:nodeID="genid19"/>
@@ -528,30 +528,30 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasLearningStep"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasLearningStep"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/scopedBy"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/scopedBy"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty>
                     <rdf:Description>
-                        <owl:inverseOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/determines"/>
+                        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/determines"/>
                     </rdf:Description>
                 </owl:onProperty>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <opla-sd:entityPosition rdf:nodeID="genid24"/>
@@ -565,43 +565,43 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasNextLearningStep"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasNextLearningStep"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasPreviousLearningStep"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasPreviousLearningStep"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/refersTo"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/refersTo"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Module"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Module"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <opla-sd:entityPosition rdf:nodeID="genid30"/>
@@ -616,10 +616,10 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Level -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Level -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Level">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Level">
         <opla-sd:entityPosition rdf:nodeID="genid31"/>
         <rdfs:comment xml:lang="en">Represents Level as a controlled vocabulary indicating the difficulty of a module.</rdfs:comment>
         <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping"/>
@@ -632,43 +632,43 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Media -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Media -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Media">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Media">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasAuthor"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Author"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Author"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasLanguage"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Language"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasLanguage"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Language"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasRecomended"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Audience"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasRecomended"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Audience"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasMediaSourceLink"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasMediaSourceLink"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -684,37 +684,37 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Module -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Module -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Module">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Module">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/belongTo"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Category"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/belongTo"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Category"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/coversTopic"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/coversTopic"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasLevel"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Level"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasLevel"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Level"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/references"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Media"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/references"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Media"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasTitle"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasTitle"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -730,20 +730,20 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Person -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Person -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Person">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Person">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/assumesAuthorship"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Author"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/assumesAuthorship"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Author"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <opla-sd:entityPosition rdf:nodeID="genid47"/>
@@ -758,38 +758,38 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Persona -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Persona -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasType"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasType"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty>
                     <rdf:Description>
-                        <owl:inverseOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/assumesPersona"/>
+                        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/assumesPersona"/>
                     </rdf:Description>
                 </owl:onProperty>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Person"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/determines"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/determines"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/hasProfession"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/hasProfession"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Profession"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Profession"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <opla-sd:entityPosition rdf:nodeID="genid53"/>
@@ -804,21 +804,21 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType">
         <rdfs:comment xml:lang="en">Represents Persona Type as a controlled vocabulary used to classify personas (e.g., developer, executive).</rdfs:comment>
         <currKG:isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping"/>
     </owl:Class>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Podcast -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Podcast -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Podcast">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Media"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Podcast">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Media"/>
         <opla-sd:entityPosition rdf:nodeID="genid54"/>
         <rdfs:comment xml:lang="en">Represents a Podcast as an audio media resource, typed as a sub-class.</rdfs:comment>
     </owl:Class>
@@ -830,11 +830,11 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Presentation -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Presentation -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Presentation">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Event"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Presentation">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Event"/>
         <opla-sd:entityPosition rdf:nodeID="genid55"/>
         <rdfs:comment xml:lang="en">Represents a Presentationas an event type focused on delivering content to an audience, typed as a sub-class.</rdfs:comment>
     </owl:Class>
@@ -846,13 +846,13 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Profession -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Profession -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Profession">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Profession">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/asString"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/asString"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -862,11 +862,11 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Standards -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Standards -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Standards">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Category"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Standards">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Category"/>
         <opla-sd:entityPosition rdf:nodeID="genid57"/>
         <rdfs:comment xml:lang="en">Represents Standards as a category subclass for modules covering formal specifications and recommendations.</rdfs:comment>
     </owl:Class>
@@ -878,39 +878,39 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Topic -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Topic -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Topic">
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Topic">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan"/>
-                <owl:someValuesFrom rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/broaderThan"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/broaderThan"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/narrowerThan"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/narrowerThan"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"/>
+                <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/asString"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/asString"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -927,11 +927,11 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Transcript -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Transcript -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Transcript">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Media"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Transcript">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Media"/>
         <opla-sd:entityPosition rdf:nodeID="genid64"/>
         <rdfs:comment xml:lang="en">Represents Transcript as a text rendering of spoken media content, typed as a sub-class.</rdfs:comment>
     </owl:Class>
@@ -943,11 +943,11 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Tutorial -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Tutorial -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Tutorial">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Event"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Tutorial">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Event"/>
         <opla-sd:entityPosition rdf:nodeID="genid65"/>
         <rdfs:comment xml:lang="en">Represents a Tutorial as an event type (through sub-class) focused on guided instruction.</rdfs:comment>
     </owl:Class>
@@ -959,11 +959,11 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Video -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Video -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Video">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Media"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Video">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Media"/>
         <opla-sd:entityPosition rdf:nodeID="genid66"/>
         <rdfs:comment xml:lang="en">Represents Video as an audiovisual media resource., typed as a sub-class.</rdfs:comment>
     </owl:Class>
@@ -975,11 +975,11 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/currKG/Workshop -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/currKG/Workshop -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Workshop">
-        <rdfs:subClassOf rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Event"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Workshop">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Event"/>
         <opla-sd:entityPosition rdf:nodeID="genid67"/>
         <rdfs:comment xml:lang="en">Represents a Workshop as an event type (through sub-class) focused on hands-on learning.</rdfs:comment>
     </owl:Class>
@@ -991,122 +991,122 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Cameron -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Cameron -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Cameron"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Cameron"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Carla -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Carla -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Carla"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Carla"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Chris -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Chris -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Chris"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Chris"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Connie -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Connie -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Connie"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Connie"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Courtney -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Courtney -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Courtney"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Courtney"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Darwin -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Darwin -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Darwin"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Darwin"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Debbie -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Debbie -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Debbie"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Debbie"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Edward -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Edward -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Edward"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Edward"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Elias -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Elias -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Elias"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Elias"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Ella -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Ella -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ella"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ella"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Ethan -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Ethan -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ethan"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ethan"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Kai -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Kai -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Kai"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Kai"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Oratius -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Oratius -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Oratius"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Oratius"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Silas -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Silas -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Silas"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Silas"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Stella -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Stella -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Stella"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Stella"/>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Usman -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Usman -->
 
 
-    <owl:Class rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Usman"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Usman"/>
     
 
 
@@ -1122,290 +1122,290 @@
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/Ontology/VocabularyExpert -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/ontology/Ontology/VocabularyExpert">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/ontology/Ontology/VocabularyExpert">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer -->
+    <!-- https://kastle-lab.org/currkg/lod/ontology/SecurityAnalyst/DeveloperTrainer -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/ontology/SecurityAnalyst/DeveloperTrainer">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/ontology/SecurityAnalyst/DeveloperTrainer">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Cameron -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Cameron -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Cameron">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Cameron">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Carla -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Carla -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Carla">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Carla">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Chris -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Chris -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Chris">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Chris">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Collaborator -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Collaborator">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Collaborator">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Connie -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Connie -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Connie">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Connie">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Consultant -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Consultant -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Consultant">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Consultant">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Contributor -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Contributor -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Contributor">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Contributor">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Courtney -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Courtney -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Courtney">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Courtney">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/CurriculumDeveloper -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/CurriculumDeveloper">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/CurriculumDeveloper">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Darwin -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Darwin -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Darwin">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Darwin">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Debbie -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Debbie -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Debbie">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Debbie">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Developer -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Developer -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Developer">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Developer">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/EducationalFacilitator -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/EducationalFacilitator">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/EducationalFacilitator">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Edward -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Edward -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Edward">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Edward">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Elias -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Elias -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Elias">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Elias">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Ella -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Ella -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ella">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ella">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Enthusiast -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Enthusiast">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Enthusiast">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Ethan -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Ethan -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ethan">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ethan">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Executive -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Executive -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Executive">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Executive">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/ExecutiveEngagementSpecialist -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/ExecutiveEngagementSpecialist">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/ExecutiveEngagementSpecialist">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/KGResearcher -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/KGResearcher">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/KGResearcher">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Kai -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Kai -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Kai">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Kai">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Oratius -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Oratius -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Oratius">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Oratius">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/ResourceDeveloper -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/ResourceDeveloper">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/ResourceDeveloper">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Silas -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Silas -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Silas">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Silas">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Stella -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Stella -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Stella">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Stella">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/SupplyChainManagementSpecialist -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/SupplyChainManagementSpecialist">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/SupplyChainManagementSpecialist">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/UserEngagementFacilitator -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/UserEngagementFacilitator">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/UserEngagementFacilitator">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://edugate.cs.wright.edu/lod/resource/currKG/Usman -->
+    <!-- https://kastle-lab.org/currkg/lod/resource/currKG/Usman -->
 
 
-    <owl:NamedIndividual rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Usman">
-        <rdf:type rdf:resource="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
+    <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Usman">
+        <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
     </owl:NamedIndividual>
     <rdf:Description rdf:nodeID="genid68">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">134.84670456198532</opla-sd:entityPositionX>
@@ -1499,22 +1499,22 @@
      -->
 
 
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Cameron">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Cameron">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Carla">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Carla">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Chris">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Chris">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Connie">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Connie">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Courtney">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Courtney">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Darwin">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Darwin">
         <opla-sd:entityPosition rdf:nodeID="genid84"/>
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
@@ -1523,37 +1523,37 @@
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">225.79451501074783</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Debbie">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Debbie">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Edward">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Edward">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Elias">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Elias">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ella">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ella">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ethan">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ethan">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Kai">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Kai">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Oratius">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Oratius">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Silas">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Silas">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Stella">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Stella">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Usman">
+    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Usman">
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </rdf:Description>
     
@@ -1571,39 +1571,39 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Audience"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Author"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Category"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Curriculum"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Event"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Language"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningPath"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/LearningStep"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Level"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Media"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Module"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Person"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Persona"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/PersonaType"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Profession"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/ontology/currKG/Topic"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Cameron"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Carla"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Chris"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Connie"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Courtney"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Darwin"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Debbie"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Edward"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Elias"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ella"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ethan"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Kai"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Oratius"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Ronnie"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Silas"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Stella"/>
-            <rdf:Description rdf:about="https://edugate.cs.wright.edu/lod/resource/currKG/Usman"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Audience"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Author"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Category"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Curriculum"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Event"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Language"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningPath"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/LearningStep"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Level"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Media"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Module"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Person"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Persona"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/PersonaType"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Profession"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology/currKG/Topic"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Cameron"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Carla"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Chris"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Connie"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Courtney"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Darwin"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Debbie"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Edward"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Elias"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ella"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ethan"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Kai"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Oratius"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Ronnie"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Silas"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Stella"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/resource/currKG/Usman"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
@@ -1611,5 +1611,3 @@
 
 
 <!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
-
-

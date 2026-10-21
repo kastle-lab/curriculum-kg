@@ -2,10 +2,10 @@
 abstract=Educational, learning, and training materials are widely distributed across platforms and formats, which makes them hard to discover, reuse, and connect;CurriculumKG Ontology provides an OWL 2 DL schema and materialized knowledge graph to interlink these resources, structure curricula, and support persona-aware, explainable learning pathways.
 ontologyTitle=CurriculumKG Ontology
 ontologyPrefix=eduont
-ontologyNamespaceURI=https://edugate.cs.wright.edu/lod/ontology
+ontologyNamespaceURI=https://kastle-lab.org/currkg/lod/ontology
 ontologyName=CurriculumKG Ontology
 thisVersionURI=null
-latestVersionURI=https://edugate.cs.wright.edu/lod/ontology
+latestVersionURI=https://kastle-lab.org/currkg/lod/ontology
 previousVersionURI=
 dateCreated=2025-06-06
 dateModified=2025-06-06
