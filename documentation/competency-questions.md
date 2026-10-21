@@ -7,15 +7,15 @@
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?topic ?topicName
 WHERE {
-  ?topic rdf:type edu-ont:Topic ;
-         edu-ont:asString ?topicName .
+  ?topic rdf:type currkg:Topic ;
+         currkg:asString ?topicName .
 }
 ```
 
@@ -26,14 +26,14 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?media ?title
 WHERE {
-    ?media a edu-ont:Media ;
-           edu-ont:hasTitle ?title .
+    ?media a currkg:Media ;
+           currkg:hasTitle ?title .
 }mediaTmediaTitle
 ```
 
@@ -44,13 +44,13 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT DISTINCT ?mediaType 
 WHERE {
-    ?media rdf:type edu-ont:Media .
+    ?media rdf:type currkg:Media .
     ?media rdf:type ?mediaType .
 }
 
@@ -63,14 +63,14 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?author ?authorName
 WHERE {
-    ?author a edu-ont:Author ;
-            edu-ont:hasName ?authorName .
+    ?author a currkg:Author ;
+            currkg:hasName ?authorName .
 }
 ```
 
@@ -81,19 +81,19 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?media ?mediaTitle ?author ?authorName
 WHERE {
-    ?media rdf:type edu-ont:Media ;
-           edu-ont:hasTitle ?mediaTitle ;
-           edu-ont:hasAuthor ?author .
+    ?media rdf:type currkg:Media ;
+           currkg:hasTitle ?mediaTitle ;
+           currkg:hasAuthor ?author .
 
-    ?author rdf:type edu-ont:Author ;
-            edu-ont:hasName ?authorName .
+    ?author rdf:type currkg:Author ;
+            currkg:hasName ?authorName .
 }
 ```
 
@@ -104,18 +104,18 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?media ?mediaTitle
 WHERE {
-    ?media a edu-ont:Media ;
-           edu-ont:hasTitle ?mediaTitle ;
-           edu-ont:coversTopic ?topic .
+    ?media a currkg:Media ;
+           currkg:hasTitle ?mediaTitle ;
+           currkg:coversTopic ?topic .
            
-    ?topic a edu-ont:Topic ;
-           edu-ont:asString ?topicTitle .
+    ?topic a currkg:Topic ;
+           currkg:asString ?topicTitle .
 
     FILTER regex(?topicTitle, "A Specific Topic", "i")
 }
@@ -128,27 +128,27 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?persona ?personaName ?learningPath ?learningStep ?learningStepName ?prevStep ?prevStepName ?nextStep ?nextStepName
 WHERE {
-    ?persona a edu-ont:Persona ;
-             edu-ont:determines ?learningPath ;
-             edu-ont:asString ?personaName.
+    ?persona a currkg:Persona ;
+             currkg:determines ?learningPath ;
+             currkg:asString ?personaName.
 
-    ?learningPath edu-ont:hasLearningSteps ?learningStep .
+    ?learningPath currkg:hasLearningSteps ?learningStep .
     
-    ?learningStep edu-ont:asString ?learningStepName.
+    ?learningStep currkg:asString ?learningStepName.
 
     OPTIONAL {
-        ?learningStep edu-ont:hasPreviousLearningStep ?prevStep .
-        ?prevStep edu-ont:asString ?prevStepName.
+        ?learningStep currkg:hasPreviousLearningStep ?prevStep .
+        ?prevStep currkg:asString ?prevStepName.
     }
     OPTIONAL {
-        ?learningStep edu-ont:hasNextLearningStep ?nextStep .
-        ?nextStep edu-ont:asString ?nextStepName.
+        ?learningStep currkg:hasNextLearningStep ?nextStep .
+        ?nextStep currkg:asString ?nextStepName.
     }
 }
 ```
@@ -160,16 +160,16 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?media ?title ?type ?typeName
 WHERE {
-    ?media rdf:type edu-ont:Media ;
-           edu-ont:hasTitle ?title ;
+    ?media rdf:type currkg:Media ;
+           currkg:hasTitle ?title ;
            rdf:type ?type .
-    ?type edu-ont:asString ?typeName.
+    ?type currkg:asString ?typeName.
     
     FILTER regex(?typeName, "A Specific Type", "i")
 }
@@ -182,15 +182,15 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?media ?mediaTitle (COUNT(?referencingEntity) AS ?referenceCount)
 WHERE {
-    ?referencingEntity edu-ont:references ?media .
-    ?media edu-ont:hasTitle ?mediaTitle.
+    ?referencingEntity currkg:references ?media .
+    ?media currkg:hasTitle ?mediaTitle.
 }
 GROUP BY ?media ?mediaTitle
 ORDER BY DESC(?referenceCount)
@@ -204,16 +204,16 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT DISTINCT ?learningPath ?learningPathName (GROUP_CONCAT(DISTINCT ?persona; separator=", ") AS ?personas)
 WHERE {
-    ?persona rdf:type edu-ont:Persona ;
-             edu-ont:determines ?learningPath .
+    ?persona rdf:type currkg:Persona ;
+             currkg:determines ?learningPath .
     
-    ?learningPath edu-ont:asString ?learningPathName .
+    ?learningPath currkg:asString ?learningPathName .
 }
 GROUP BY ?learningPath ?learningPathName
 HAVING (COUNT(?persona) > 1)  
@@ -227,16 +227,16 @@ HAVING (COUNT(?persona) > 1)
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?topic ?topicName (COUNT(?media) AS ?mediaCount)
 WHERE {
-    ?media rdf:type edu-ont:Media .
-    ?media edu-ont:coversTopic ?topic .
-    ?topic edu-ont:asString ?topicName .
+    ?media rdf:type currkg:Media .
+    ?media currkg:coversTopic ?topic .
+    ?topic currkg:asString ?topicName .
 }
 GROUP BY ?topic ?topicName
 ORDER BY DESC(?mediaCount)
@@ -250,17 +250,17 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?broaderTopic ?broaderTopicName
 WHERE {
-    ?specificTopic a edu-ont:Topic ;
-                   edu-ont:asString "A Specific Topic" ;
-                   edu-ont:broaderThan ?broaderTopic .
+    ?specificTopic a currkg:Topic ;
+                   currkg:asString "A Specific Topic" ;
+                   currkg:broaderThan ?broaderTopic .
     
-    ?broaderTopic edu-ont:asString ?broaderTopicName .
+    ?broaderTopic currkg:asString ?broaderTopicName .
 }
 ```
 
@@ -271,16 +271,16 @@ WHERE {
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?media ?mediaName(COUNT(?topic) AS ?count)
 WHERE {
-    ?media rdf:type edu-ont:Media ;
-           edu-ont:hasTitle ?mediaName .
-    ?media edu-ont:coversTopic ?topic .
+    ?media rdf:type currkg:Media ;
+           currkg:hasTitle ?mediaName .
+    ?media currkg:coversTopic ?topic .
 }
 GROUP BY ?media ?mediaName
 HAVING (COUNT(?topic) > 1)
@@ -294,16 +294,16 @@ ORDER BY DESC(?count)
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?author ?authorName (COUNT(?media) AS ?count)
 WHERE {
-    ?media rdf:type edu-ont:Media .
-    ?media edu-ont:hasAuthor ?author .
-    ?author edu-ont:hasName ?authorName .
+    ?media rdf:type currkg:Media .
+    ?media currkg:hasAuthor ?author .
+    ?author currkg:hasName ?authorName .
 }
 GROUP BY ?author ?authorName
 HAVING (COUNT(?media) > 1)
@@ -332,14 +332,14 @@ ORDER BY DESC(?count)
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 
 SELECT ?author1 ?author2 (COUNT(DISTINCT ?media) AS ?coAuthoredMediaCount)
 WHERE {
-    ?media a edu-ont:Media .
-    ?media edu-ont:hasAuthor ?author1 .
-    ?media edu-ont:hasAuthor ?author2 .
+    ?media a currkg:Media .
+    ?media currkg:hasAuthor ?author1 .
+    ?media currkg:hasAuthor ?author2 .
     FILTER(?author1 != ?author2)
 }
 GROUP BY ?author1 ?author2
@@ -354,17 +354,17 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?topic ?topicName (COUNT(?ref) AS ?count)
 WHERE {
-  ?topic rdf:type edu-ont:Topic ;
-         edu-ont:asString ?topicName .
-  { ?topic edu-ont:broaderThan ?ref } 
+  ?topic rdf:type currkg:Topic ;
+         currkg:asString ?topicName .
+  { ?topic currkg:broaderThan ?ref } 
   UNION 
-  { ?topic edu-ont:narrowerThan ?ref }
+  { ?topic currkg:narrowerThan ?ref }
 }
 GROUP BY ?topic ?topicName
 ORDER BY DESC(?count)
@@ -378,46 +378,45 @@ LIMIT 10
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?learningPath ?learningStep ?learningStepName ?prevStep ?prevStepName ?nextStep ?nextStepName 
 WHERE {
-    ?learningPath a edu-ont:Learning_Path .
-    ?learningPath edu-ont:hasLearningSteps ?learningStep .
-    ?learningStep edu-ont:asString ?learningStepName .
+    ?learningPath a currkg:Learning_Path .
+    ?learningPath currkg:hasLearningSteps ?learningStep .
+    ?learningStep currkg:asString ?learningStepName .
     
     OPTIONAL {
-        ?learningStep edu-ont:hasNextLearningStep ?nextStep .
-        ?nextStep edu-ont:asString ?nextStepName .
+        ?learningStep currkg:hasNextLearningStep ?nextStep .
+        ?nextStep currkg:asString ?nextStepName .
     }
 
     OPTIONAL {
-        ?learningStep edu-ont:hasPreviousLearningStep ?prevStep .
-        ?prevStep edu-ont:asString ?prevStepName .
+        ?learningStep currkg:hasPreviousLearningStep ?prevStep .
+        ?prevStep currkg:asString ?prevStepName .
     }
 }
 ```
 
 ## Question 19
 
-**Competency Question:** How many modules belong to each category?
-**SPARQL Query:**
+**Competency Question:** What themes are addressed by each module?
+
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 ```sparql
-PREFIX edu-r: <https://edugate.cs.wright.edu/lod/resource/>
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
-SELECT ?categoryName (COUNT(?module) AS ?moduleCount)
+SELECT ?module ?moduleTitle ?theme ?themeName
 WHERE {
-  ?module a edu-ont:Module ;
-          edu-ont:belongsToCategory ?category .
-  ?category edu-ont:asString ?categoryName .
+    ?module a currkg:Module ;
+            currkg:hasTitle ?moduleTitle ;
+            currkg:hasTheme ?theme .
+    ?theme currkg:asString ?themeName .
 }
-GROUP BY ?categoryName
-ORDER BY DESC(?moduleCount)
 ```
 
 ## Question 20
@@ -427,14 +426,57 @@ ORDER BY DESC(?moduleCount)
 **SPARQL Query:**
 
 ```sparql
-PREFIX edu-ont: <https://edugate.cs.wright.edu/lod/ontology/>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
 
 SELECT ?module ?moduleTitle ?level ?levelName
 WHERE {
-    ?module a edu-ont:Module ;
-            edu-ont:hasTitle ?moduleTitle ;
-            edu-ont:hasLevel ?level .
+    ?module a currkg:Module ;
+            currkg:hasTitle ?moduleTitle ;
+            currkg:hasLevel ?level .
     
-    ?level edu-ont:asString ?levelName .
+    ?level currkg:asString ?levelName .
+}
+```
+
+## Question 21 
+
+**Competency Question:** What are the preferred labels, alternative labels, and definitions of topics in the lower-level ontology?
+
+```sparql
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?topic ?prefLabel ?altLabel ?definition
+WHERE {
+    ?topic a currkg:Topic .
+    OPTIONAL { ?topic skos:prefLabel ?prefLabel . }
+    OPTIONAL { ?topic skos:altLabel ?altLabel . }
+    OPTIONAL { ?topic skos:definition ?definition . }
+}
+```
+
+## Question 22
+
+**Competency Question:**: Which media resources (such as videos) are recommended or by specific presentations?
+
+```sparql
+PREFIX currkg-r: <currkg: https:kastle-lab.org/currkg/log/res#>
+PREFIX currkg: <currkg: https:kastle-lab.org/currkg/log/ont#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?presentation ?presentationTitle ?media ?mediaTitle ?mediaType
+WHERE {
+    
+    ?presentation a currkg:Presentation ;
+                  currkg:hasTitle ?presentationTitle ;
+                  currkg:hasRecomended ?media . 
+                  
+    ?media a currkg:Video ;
+           currkg:hasTitle ?mediaTitle ;
+           rdf:type ?mediaType .
+           
+    FILTER (?mediaType != currkg:Media)
 }
 ```
