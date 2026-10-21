@@ -68,7 +68,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://id.cfainstitute.org/ns/addresses">
-        <rdfs:subPropertyOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#related"/>
+        <rdfs:label xml:lang="en">addresses</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -131,6 +131,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#assumesAuthorship">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isAuthorshipOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Person"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Author"/>
         <rdfs:comment xml:lang="en">Represents the relation of a person to an author role they assume.</rdfs:comment>
@@ -143,6 +144,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#assumesPersona">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isPersonaOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Person"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
         <rdfs:comment xml:lang="en">Represents the relation of a person to a persona role they assume.</rdfs:comment>
@@ -156,6 +158,7 @@
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#belongTo">
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Module"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Theme"/>
         <rdfs:comment xml:lang="en">Represents the relation of a module to the category it belongs to.</rdfs:comment>
         <rdfs:label xml:lang="en">belongs to</rdfs:label>
     </owl:ObjectProperty>
@@ -166,6 +169,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#broaderThan">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#narrowerThan"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Topic"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Topic"/>
         <rdfs:comment xml:lang="en">Represents the relation of a topic to a broader (more general) topic.</rdfs:comment>
@@ -178,6 +182,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#coversTopic">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isCoveredBy"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -197,6 +202,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#determines">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isDeterminedBy"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningPath"/>
         <rdfs:comment xml:lang="en">Represents the relation of a persona to the learning path it determines.</rdfs:comment>
@@ -209,6 +215,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasAuthor">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isAuthorOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Author"/>
         <rdfs:comment xml:lang="en">Represents the relation of a media resource to its author.</rdfs:comment>
@@ -221,6 +228,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasLanguage">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isLanguageOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Language"/>
         <rdfs:comment xml:lang="en">Represents the relation of a media resource to the language it is in.</rdfs:comment>
@@ -233,6 +241,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasLearningStep">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isLearningStepOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningPath"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningStep"/>
         <rdfs:comment xml:lang="en">Represents the relation of a learning path to a learning step that it contains.</rdfs:comment>
@@ -245,6 +254,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasLevel">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isLevelOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Module"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Level"/>
         <rdfs:comment xml:lang="en">Represents the relation of a module to its difficulty level.</rdfs:comment>
@@ -257,6 +267,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasModule">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isModuleOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Curriculum"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Module"/>
         <rdfs:comment xml:lang="en">Represents the relation of referring a curriculum to a module that is part of that curriculum.</rdfs:comment>
@@ -269,6 +280,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasNextLearningStep">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#hasPreviousLearningStep"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningStep"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningStep"/>
         <rdfs:comment xml:lang="en">Represents the relation of a learning step to the next learning step in the sequence.</rdfs:comment>
@@ -293,6 +305,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasProfession">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isProfessionOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Profession"/>
         <rdfs:comment xml:lang="en">Represents the relation of a persona to its profession.</rdfs:comment>
@@ -305,6 +318,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasRecomended">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isRecommendedFor"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Audience"/>
         <rdfs:comment xml:lang="en">Represents the relation of a media resource to an intended audience it is recommended for.</rdfs:comment>
@@ -317,6 +331,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasSubEvent">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isSubEventOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Event"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Event"/>
         <rdfs:comment xml:lang="en">Represents the relation of an event to a sub-event that is part of it.</rdfs:comment>
@@ -328,7 +343,13 @@
     <!-- https://kastle-lab.org/currkg/lod/ontology#hasTheme -->
 
 
-    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasTheme"/>
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasTheme">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isThemeOf"/>
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Module"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Theme"/>
+        <rdfs:comment xml:lang="en">Relates a module to a theme that organizes its content.</rdfs:comment>
+        <rdfs:label xml:lang="en">has theme</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -336,10 +357,225 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#hasType">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isTypeOf"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#PersonaType"/>
         <rdfs:comment xml:lang="en">Represents the relation of a persona to its persona type.</rdfs:comment>
         <rdfs:label xml:lang="en">has type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isAuthorOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isAuthorOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Author"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Relates an author role to media authored in that role.</rdfs:comment>
+        <rdfs:label xml:lang="en">is author of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isAuthorshipOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isAuthorshipOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Author"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Person"/>
+        <rdfs:comment xml:lang="en">Relates an author role to the person who assumes it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is authorship of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isCoveredBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isCoveredBy">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Topic"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+                    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Module"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Relates a topic to media or modules that cover it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is covered by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isDeterminedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isDeterminedBy">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningPath"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
+        <rdfs:comment xml:lang="en">Relates a learning path to the persona that determines it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is determined by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isLanguageOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isLanguageOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Language"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Relates a language to media expressed in that language.</rdfs:comment>
+        <rdfs:label xml:lang="en">is language of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isLearningStepOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isLearningStepOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningStep"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningPath"/>
+        <rdfs:comment xml:lang="en">Relates a learning step to the learning path that contains it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is learning step of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isLevelOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isLevelOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Level"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Module"/>
+        <rdfs:comment xml:lang="en">Relates a difficulty level to a module assigned that level.</rdfs:comment>
+        <rdfs:label xml:lang="en">is level of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isModuleOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isModuleOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Module"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Curriculum"/>
+        <rdfs:comment xml:lang="en">Relates a module to the curriculum that contains it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is module of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isPersonaOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isPersonaOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Person"/>
+        <rdfs:comment xml:lang="en">Relates a persona role to the person who assumes it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is persona of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isProfessionOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isProfessionOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Profession"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
+        <rdfs:comment xml:lang="en">Relates a profession to a persona associated with it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is profession of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isProvidedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isProvidedBy">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#provides"/>
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Event"/>
+        <rdfs:comment xml:lang="en">Relates media to an event that provides it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is provided by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isRecommendedFor -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isRecommendedFor">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Audience"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Relates an audience to media recommended for it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is recommended for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isReferencedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isReferencedBy">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#references"/>
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Module"/>
+        <rdfs:comment xml:lang="en">Relates media to a module that references it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is referenced by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isReferredToBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isReferredToBy">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#refersTo"/>
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Module"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningStep"/>
+        <rdfs:comment xml:lang="en">Relates a module to a learning step that refers to it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is referred to by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isSubEventOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isSubEventOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Event"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Event"/>
+        <rdfs:comment xml:lang="en">Relates a sub-event to the event of which it is a part.</rdfs:comment>
+        <rdfs:label xml:lang="en">is sub-event of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isThemeOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isThemeOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Theme"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Module"/>
+        <rdfs:comment xml:lang="en">Relates a theme to a module organized under it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is theme of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#isTypeOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#isTypeOf">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#PersonaType"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
+        <rdfs:comment xml:lang="en">Relates a persona type to a persona classified by it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is type of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -395,7 +631,13 @@
     <!-- https://kastle-lab.org/currkg/lod/ontology#related -->
 
 
-    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#related"/>
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#related">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Topic"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Topic"/>
+        <rdfs:comment xml:lang="en">Relates two topics that are associated without asserting a hierarchical relationship.</rdfs:comment>
+        <rdfs:label xml:lang="en">related</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -403,10 +645,23 @@
 
 
     <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#scopedBy">
+        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#scopes"/>
         <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningPath"/>
         <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Curriculum"/>
         <rdfs:comment xml:lang="en">Represents the relation of a learning path to the curriculum that scopes it.</rdfs:comment>
         <rdfs:label xml:lang="en">scoped by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://kastle-lab.org/currkg/lod/ontology#scopes -->
+
+
+    <owl:ObjectProperty rdf:about="https://kastle-lab.org/currkg/lod/ontology#scopes">
+        <rdfs:domain rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Curriculum"/>
+        <rdfs:range rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningPath"/>
+        <rdfs:comment xml:lang="en">Relates a curriculum to a learning path that it scopes.</rdfs:comment>
+        <rdfs:label xml:lang="en">scopes</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -508,11 +763,11 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Article">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
-        <opla-sd:entityPosition rdf:nodeID="genid16"/>
+        <opla-sd:entityPosition rdf:nodeID="genid19"/>
         <rdfs:comment xml:lang="en">Represents an Article is a written media resource, typed as a sub-class.</rdfs:comment>
         <rdfs:label xml:lang="en">Article</rdfs:label>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid16">
+    <rdf:Description rdf:nodeID="genid19">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">46.144836640895754</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">247.41338370020338</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -540,13 +795,13 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid18"/>
+        <opla-sd:entityPosition rdf:nodeID="genid21"/>
         <rdfs:comment xml:lang="en">Represents an author that is a person who creates or is credited for media resources.</rdfs:comment>
         <rdfs:label xml:lang="en">Author</rdfs:label>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole"/>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name"/>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid18">
+    <rdf:Description rdf:nodeID="genid21">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">212.2044628151925</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">117.51617792023181</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -559,6 +814,8 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#CaseStudy">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Represents a case study as a media resource presenting an in-depth examination of a situation or example.</rdfs:comment>
+        <rdfs:label xml:lang="en">Case Study</rdfs:label>
     </owl:Class>
     
 
@@ -585,12 +842,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid22"/>
+        <opla-sd:entityPosition rdf:nodeID="genid25"/>
         <rdfs:comment xml:lang="en">Represents a Curriculum as a curated course of study that groups modules into a coherent educational offering.</rdfs:comment>
         <rdfs:label xml:lang="en">Curriculum</rdfs:label>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/namestub"/>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid22">
+    <rdf:Description rdf:nodeID="genid25">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">84.22046954254326</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">61.85682749202153</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -615,12 +872,12 @@
                 <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Event"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid25"/>
+        <opla-sd:entityPosition rdf:nodeID="genid28"/>
         <rdfs:comment xml:lang="en">Represents an event as a structured learning activity (e.g., workshop, tutorial, presentation) that can provide media and have sub-events.</rdfs:comment>
         <rdfs:label xml:lang="en">Event</rdfs:label>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/event"/>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid25">
+    <rdf:Description rdf:nodeID="genid28">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">222.95598092682775</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.29786947182403</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -633,6 +890,8 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Figure">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Represents a figure as a visual media resource used to illustrate learning content.</rdfs:comment>
+        <rdfs:label xml:lang="en">Figure</rdfs:label>
     </owl:Class>
     
 
@@ -656,11 +915,11 @@
                 <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningStep"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid28"/>
+        <opla-sd:entityPosition rdf:nodeID="genid31"/>
         <rdfs:comment xml:lang="en">Represents a First Learning Step that marks the starting step of a learning path.</rdfs:comment>
         <rdfs:label xml:lang="en">First Learning Step</rdfs:label>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid28">
+    <rdf:Description rdf:nodeID="genid31">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">121.96218406852572</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">261.79752540381384</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -673,14 +932,9 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Formula">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Represents a formula as a symbolic media resource expressing a mathematical or logical relationship.</rdfs:comment>
+        <rdfs:label xml:lang="en">Formula</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- https://kastle-lab.org/currkg/lod/ontology#Foundations -->
-
-
-    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Foundations"/>
     
 
 
@@ -689,6 +943,8 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#GlossaryItem">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Represents a glossary item as a media resource defining a term or concept.</rdfs:comment>
+        <rdfs:label xml:lang="en">Glossary Item</rdfs:label>
     </owl:Class>
     
 
@@ -697,11 +953,11 @@
 
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Language">
-        <opla-sd:entityPosition rdf:nodeID="genid29"/>
+        <opla-sd:entityPosition rdf:nodeID="genid32"/>
         <rdfs:comment xml:lang="en">Represents a Language indicating the language of a media resource.</rdfs:comment>
         <rdfs:label xml:lang="en">Language</rdfs:label>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid29">
+    <rdf:Description rdf:nodeID="genid32">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.90193677825256</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">164.73174749711126</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -728,11 +984,11 @@
                 <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningStep"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid32"/>
+        <opla-sd:entityPosition rdf:nodeID="genid35"/>
         <rdfs:comment xml:lang="en">Represents a Last Learning Step that marks the ending step of a learning path.</rdfs:comment>
         <rdfs:label xml:lang="en">Last Learning Step</rdfs:label>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid32">
+    <rdf:Description rdf:nodeID="genid35">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">103.47116996503698</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">69.51171184630267</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -752,25 +1008,21 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology#scopedBy"/>
-                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Curriculum"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isDeterminedBy"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty>
-                    <rdf:Description>
-                        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#determines"/>
-                    </rdf:Description>
-                </owl:onProperty>
-                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology#scopedBy"/>
+                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Curriculum"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid37"/>
+        <opla-sd:entityPosition rdf:nodeID="genid39"/>
         <rdfs:comment xml:lang="en">Represents a Learning Path as an ordered sequence of learning steps tailored to a persona and scoped by a curriculum.</rdfs:comment>
         <rdfs:label xml:lang="en">Learning Path</rdfs:label>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid37">
+    <rdf:Description rdf:nodeID="genid39">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">299.49419969429334</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.28410508436227</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -817,12 +1069,12 @@
                 <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology#LearningStep"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid43"/>
+        <opla-sd:entityPosition rdf:nodeID="genid45"/>
         <rdfs:comment xml:lang="en">Represents a Learning Step as an ordered step within a Learning Path that refers to exactly one module.</rdfs:comment>
         <rdfs:label xml:lang="en">Learning Step</rdfs:label>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent"/>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid43">
+    <rdf:Description rdf:nodeID="genid45">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">195.52378966483667</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">113.96282514832542</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -830,16 +1082,27 @@
     
 
 
+    <!-- https://kastle-lab.org/currkg/lod/ontology#Lesson -->
+
+
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Lesson">
+        <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Represents a lesson as one of the atomic media resource in a teaching plan or module.</rdfs:comment>
+        <rdfs:label xml:lang="en">Lesson</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://kastle-lab.org/currkg/lod/ontology#Level -->
 
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Level">
-        <opla-sd:entityPosition rdf:nodeID="genid44"/>
+        <opla-sd:entityPosition rdf:nodeID="genid46"/>
         <rdfs:comment xml:lang="en">Represents Level as a controlled vocabulary indicating the difficulty of a module.</rdfs:comment>
         <rdfs:label xml:lang="en">Level</rdfs:label>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping"/>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid44">
+    <rdf:Description rdf:nodeID="genid46">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">83.5387145526865</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">256.9006692958464</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -887,12 +1150,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid51"/>
+        <opla-sd:entityPosition rdf:nodeID="genid53"/>
         <rdfs:comment xml:lang="en">Represents a Media that is a learning resource (e.g., article, video, podcast, transcript) and can be referenced by modules or provided by events.</rdfs:comment>
         <rdfs:label xml:lang="en">Media</rdfs:label>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event"/>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid51">
+    <rdf:Description rdf:nodeID="genid53">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.22964736735543</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">192.4576250484204</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -934,12 +1197,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid57"/>
+        <opla-sd:entityPosition rdf:nodeID="genid59"/>
         <rdfs:comment xml:lang="en">Represents Module as a unit of learning content that covers one or more topics and references supporting media.</rdfs:comment>
         <rdfs:label xml:lang="en">Module</rdfs:label>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole"/>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid57">
+    <rdf:Description rdf:nodeID="genid59">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.961109252390985</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">294.8983475284603</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -950,7 +1213,10 @@
     <!-- https://kastle-lab.org/currkg/lod/ontology#ParticipantRole -->
 
 
-    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#ParticipantRole"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#ParticipantRole">
+        <rdfs:comment xml:lang="en">Represents a role that a person may assume while participating in a curriculum context.</rdfs:comment>
+        <rdfs:label xml:lang="en">Participant Role</rdfs:label>
+    </owl:Class>
     
 
 
@@ -970,12 +1236,12 @@
                 <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid60"/>
+        <opla-sd:entityPosition rdf:nodeID="genid62"/>
         <rdfs:comment xml:lang="en">Represents Person is an Agent (from Agent Role pattern) who may assume roles such as persona or author.</rdfs:comment>
         <rdfs:label xml:lang="en">Person</rdfs:label>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name"/>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid60">
+    <rdf:Description rdf:nodeID="genid62">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">67.71024379246852</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">93.39558214157489</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -996,11 +1262,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty>
-                    <rdf:Description>
-                        <owl:inverseOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#assumesPersona"/>
-                    </rdf:Description>
-                </owl:onProperty>
+                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology#isPersonaOf"/>
                 <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1018,12 +1280,12 @@
                 <owl:onClass rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Profession"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <opla-sd:entityPosition rdf:nodeID="genid66"/>
+        <opla-sd:entityPosition rdf:nodeID="genid67"/>
         <rdfs:comment xml:lang="en">Represents Persona as an audience profile (role/background) used to tailor a learning path.e</rdfs:comment>
         <rdfs:label xml:lang="en">Persona</rdfs:label>
         <isNativeTo rdf:resource="https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name"/>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid66">
+    <rdf:Description rdf:nodeID="genid67">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">234.79032302270195</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105.44392300174702</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -1047,11 +1309,11 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Podcast">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
-        <opla-sd:entityPosition rdf:nodeID="genid67"/>
+        <opla-sd:entityPosition rdf:nodeID="genid68"/>
         <rdfs:comment xml:lang="en">Represents a Podcast as an audio media resource, typed as a sub-class.</rdfs:comment>
         <rdfs:label xml:lang="en">Podcast</rdfs:label>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid67">
+    <rdf:Description rdf:nodeID="genid68">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">88.35855842870635</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.13207349708281</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -1064,11 +1326,11 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Presentation">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Event"/>
-        <opla-sd:entityPosition rdf:nodeID="genid68"/>
+        <opla-sd:entityPosition rdf:nodeID="genid69"/>
         <rdfs:comment xml:lang="en">Represents a Presentationas an event type focused on delivering content to an audience, typed as a sub-class.</rdfs:comment>
         <rdfs:label xml:lang="en">Presentation</rdfs:label>
     </owl:Class>
-    <rdf:Description rdf:nodeID="genid68">
+    <rdf:Description rdf:nodeID="genid69">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.872849163765131</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">249.09322448025713</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -1098,14 +1360,9 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Section">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Represents a section as a structured division within a media resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">Section</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- https://kastle-lab.org/currkg/lod/ontology#Standards -->
-
-
-    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Standards"/>
     
 
 
@@ -1114,6 +1371,8 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Table">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Represents a table as a tabular media resource organizing information into rows and columns.</rdfs:comment>
+        <rdfs:label xml:lang="en">Table</rdfs:label>
     </owl:Class>
     
 
@@ -1121,7 +1380,11 @@
     <!-- https://kastle-lab.org/currkg/lod/ontology#Theme -->
 
 
-    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Theme"/>
+    <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Theme">
+        <owl:disjointWith rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Topic"/>
+        <rdfs:comment xml:lang="en">Represents a broad thematic category used to organize modules within a curriculum.</rdfs:comment>
+        <rdfs:label xml:lang="en">Theme</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1129,12 +1392,6 @@
 
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#Topic">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology#related"/>
-                <owl:someValuesFrom rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Topic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://kastle-lab.org/currkg/lod/ontology#broaderThan"/>
@@ -1225,6 +1482,8 @@
 
     <owl:Class rdf:about="https://kastle-lab.org/currkg/lod/ontology#WorkedExample">
         <rdfs:subClassOf rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Media"/>
+        <rdfs:comment xml:lang="en">Represents a worked example as a media resource demonstrating how to solve a problem step by step.</rdfs:comment>
+        <rdfs:label xml:lang="en">Worked Example</rdfs:label>
     </owl:Class>
     
 
@@ -1263,7 +1522,15 @@
 
     <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/ontology#Foundations">
         <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Theme"/>
+        <opla-sd:entityPosition rdf:nodeID="genid79"/>
+        <rdfs:comment xml:lang="en">Represents Foundations as a theme vocab for modules covering fundamental concepts and principles.</rdfs:comment>
+        <rdfs:label xml:lang="en">Foundations</rdfs:label>
     </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid79">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119.63769059552737</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">259.7961852328274</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
     
 
 
@@ -1281,7 +1548,15 @@
 
     <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/ontology#Standards">
         <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Theme"/>
+        <opla-sd:entityPosition rdf:nodeID="genid80"/>
+        <rdfs:comment xml:lang="en">Represents Standards as a theme vocab for modules covering formal specifications and recommendations.</rdfs:comment>
+        <rdfs:label xml:lang="en">Standards</rdfs:label>
     </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid80">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.484809414222099</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.47730822227177</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
     
 
 
@@ -1385,10 +1660,10 @@
 
     <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource#Persona.Darwin">
         <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology#Persona"/>
-        <opla-sd:entityPosition rdf:nodeID="genid79"/>
+        <opla-sd:entityPosition rdf:nodeID="genid81"/>
         <rdfs:comment xml:lang="en">Represents an example Persona instance used in the ontology.</rdfs:comment>
     </owl:NamedIndividual>
-    <rdf:Description rdf:nodeID="genid79">
+    <rdf:Description rdf:nodeID="genid81">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">111.27012300983938</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">225.79451501074783</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -1602,49 +1877,39 @@
     <owl:NamedIndividual rdf:about="https://kastle-lab.org/currkg/lod/resource#SecurityAnalyst/DeveloperTrainer">
         <rdf:type rdf:resource="https://kastle-lab.org/currkg/lod/ontology#PersonaType"/>
     </owl:NamedIndividual>
-    <rdf:Description rdf:nodeID="genid80">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">224.7438590673655</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.38447116518856</opla-sd:entityPositionY>
-        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid81">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">113.43577236590322</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.465217322902088</opla-sd:entityPositionY>
-        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-    </rdf:Description>
     <rdf:Description rdf:nodeID="genid82">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">161.1024560953089</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">148.09272068338814</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid83">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55.0138600700657</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.373535546589167</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid83">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">134.84670456198532</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.91841795116743</opla-sd:entityPositionY>
-        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-    </rdf:Description>
     <rdf:Description rdf:nodeID="genid84">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">114.67584142520084</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.31012655424526</opla-sd:entityPositionY>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.92527982260998</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">211.38782513420898</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid85">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">102.96334283972286</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.97006296875359</opla-sd:entityPositionY>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">113.43577236590322</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.465217322902088</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid86">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">66.0082422042512</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">163.11457706181378</opla-sd:entityPositionY>
-        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid87">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">257.5387285119268</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">95.34067193482907</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:nodeID="genid87">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">102.96334283972286</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.97006296875359</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:nodeID="genid88">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">239.66214084125318</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">182.84350600897426</opla-sd:entityPositionY>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">114.67584142520084</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.31012655424526</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid89">
@@ -1653,36 +1918,46 @@
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid90">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">97.20732638218533</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.08742409572771</opla-sd:entityPositionY>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">66.0082422042512</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">163.11457706181378</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid91">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">153.33337222219862</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">164.5685212755033</opla-sd:entityPositionY>
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">239.66214084125318</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">182.84350600897426</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid92">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">161.1024560953089</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">148.09272068338814</opla-sd:entityPositionY>
-        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid93">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.92527982260998</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">211.38782513420898</opla-sd:entityPositionY>
-        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid94">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">145.62239259602825</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">195.24366366751747</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid95">
+    <rdf:Description rdf:nodeID="genid93">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">226.8059264557994</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.724382451246406</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:nodeID="genid94">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">153.33337222219862</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">164.5685212755033</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid95">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">97.20732638218533</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.08742409572771</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:nodeID="genid96">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">224.7438590673655</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">100.38447116518856</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid97">
+        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">134.84670456198532</opla-sd:entityPositionX>
+        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.91841795116743</opla-sd:entityPositionY>
+        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid98">
         <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.18951292272382</opla-sd:entityPositionX>
         <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">234.90074510777157</opla-sd:entityPositionY>
         <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
@@ -1693,31 +1968,36 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Annotations
+    // General axioms
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
 
-    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Foundations">
-        <opla-sd:entityPosition rdf:nodeID="genid97"/>
-        <rdfs:comment xml:lang="en">Represents Foundations as a category subclass for modules covering fundamental concepts and principles.</rdfs:comment>
-        <rdfs:label xml:lang="en">Foundations</rdfs:label>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Article"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#CaseStudy"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Figure"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Formula"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#GlossaryItem"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Lesson"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Podcast"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Section"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Table"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Transcript"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Video"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#WorkedExample"/>
+        </owl:members>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid97">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119.63769059552737</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">259.7961852328274</opla-sd:entityPositionY>
-        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Standards">
-        <opla-sd:entityPosition rdf:nodeID="genid98"/>
-        <rdfs:comment xml:lang="en">Represents Standards as a category subclass for modules covering formal specifications and recommendations.</rdfs:comment>
-        <rdfs:label xml:lang="en">Standards</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid98">
-        <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.484809414222099</opla-sd:entityPositionX>
-        <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.47730822227177</opla-sd:entityPositionY>
-        <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Presentation"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Tutorial"/>
+            <rdf:Description rdf:about="https://kastle-lab.org/currkg/lod/ontology#Workshop"/>
+        </owl:members>
     </rdf:Description>
 </rdf:RDF>
 

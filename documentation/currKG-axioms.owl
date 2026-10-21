@@ -36,7 +36,7 @@ currkg:isNativeTo rdf:type owl:AnnotationProperty .
 
 ###  https://id.cfainstitute.org/ns/addresses
 <https://id.cfainstitute.org/ns/addresses> rdf:type owl:ObjectProperty ;
-                                           rdfs:subPropertyOf currkg:related .
+                                           rdfs:label "addresses"@en .
 
 
 ###  https://id.cfainstitute.org/ns/contrastsWith
@@ -71,6 +71,7 @@ currkg:isNativeTo rdf:type owl:AnnotationProperty .
 
 ###  https://kastle-lab.org/currkg/lod/ontology#assumesAuthorship
 currkg:assumesAuthorship rdf:type owl:ObjectProperty ;
+                         owl:inverseOf currkg:isAuthorshipOf ;
                          rdfs:domain currkg:Person ;
                          rdfs:range currkg:Author ;
                          rdfs:comment "Represents the relation of a person to an author role they assume."@en ;
@@ -79,6 +80,7 @@ currkg:assumesAuthorship rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#assumesPersona
 currkg:assumesPersona rdf:type owl:ObjectProperty ;
+                      owl:inverseOf currkg:isPersonaOf ;
                       rdfs:domain currkg:Person ;
                       rdfs:range currkg:Persona ;
                       rdfs:comment "Represents the relation of a person to a persona role they assume."@en ;
@@ -88,12 +90,14 @@ currkg:assumesPersona rdf:type owl:ObjectProperty ;
 ###  https://kastle-lab.org/currkg/lod/ontology#belongTo
 currkg:belongTo rdf:type owl:ObjectProperty ;
                 rdfs:domain currkg:Module ;
+                rdfs:range currkg:Theme ;
                 rdfs:comment "Represents the relation of a module to the category it belongs to."@en ;
                 rdfs:label "belongs to"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#broaderThan
 currkg:broaderThan rdf:type owl:ObjectProperty ;
+                   owl:inverseOf currkg:narrowerThan ;
                    rdfs:domain currkg:Topic ;
                    rdfs:range currkg:Topic ;
                    rdfs:comment "Represents the relation of a topic to a broader (more general) topic."@en ;
@@ -102,6 +106,7 @@ currkg:broaderThan rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#coversTopic
 currkg:coversTopic rdf:type owl:ObjectProperty ;
+                   owl:inverseOf currkg:isCoveredBy ;
                    rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( currkg:Media
                                                currkg:Module
@@ -114,6 +119,7 @@ currkg:coversTopic rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#determines
 currkg:determines rdf:type owl:ObjectProperty ;
+                  owl:inverseOf currkg:isDeterminedBy ;
                   rdfs:domain currkg:Persona ;
                   rdfs:range currkg:LearningPath ;
                   rdfs:comment "Represents the relation of a persona to the learning path it determines."@en ;
@@ -122,6 +128,7 @@ currkg:determines rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasAuthor
 currkg:hasAuthor rdf:type owl:ObjectProperty ;
+                 owl:inverseOf currkg:isAuthorOf ;
                  rdfs:domain currkg:Media ;
                  rdfs:range currkg:Author ;
                  rdfs:comment "Represents the relation of a media resource to its author."@en ;
@@ -130,6 +137,7 @@ currkg:hasAuthor rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasLanguage
 currkg:hasLanguage rdf:type owl:ObjectProperty ;
+                   owl:inverseOf currkg:isLanguageOf ;
                    rdfs:domain currkg:Media ;
                    rdfs:range currkg:Language ;
                    rdfs:comment "Represents the relation of a media resource to the language it is in."@en ;
@@ -138,6 +146,7 @@ currkg:hasLanguage rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasLearningStep
 currkg:hasLearningStep rdf:type owl:ObjectProperty ;
+                       owl:inverseOf currkg:isLearningStepOf ;
                        rdfs:domain currkg:LearningPath ;
                        rdfs:range currkg:LearningStep ;
                        rdfs:comment "Represents the relation of a learning path to a learning step that it contains."@en ;
@@ -146,6 +155,7 @@ currkg:hasLearningStep rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasLevel
 currkg:hasLevel rdf:type owl:ObjectProperty ;
+                owl:inverseOf currkg:isLevelOf ;
                 rdfs:domain currkg:Module ;
                 rdfs:range currkg:Level ;
                 rdfs:comment "Represents the relation of a module to its difficulty level."@en ;
@@ -154,6 +164,7 @@ currkg:hasLevel rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasModule
 currkg:hasModule rdf:type owl:ObjectProperty ;
+                 owl:inverseOf currkg:isModuleOf ;
                  rdfs:domain currkg:Curriculum ;
                  rdfs:range currkg:Module ;
                  rdfs:comment "Represents the relation of referring a curriculum to a module that is part of that curriculum."@en ;
@@ -162,6 +173,7 @@ currkg:hasModule rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasNextLearningStep
 currkg:hasNextLearningStep rdf:type owl:ObjectProperty ;
+                           owl:inverseOf currkg:hasPreviousLearningStep ;
                            rdfs:domain currkg:LearningStep ;
                            rdfs:range currkg:LearningStep ;
                            rdfs:comment "Represents the relation of a learning step to the next learning step in the sequence."@en ;
@@ -178,6 +190,7 @@ currkg:hasPreviousLearningStep rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasProfession
 currkg:hasProfession rdf:type owl:ObjectProperty ;
+                     owl:inverseOf currkg:isProfessionOf ;
                      rdfs:domain currkg:Persona ;
                      rdfs:range currkg:Profession ;
                      rdfs:comment "Represents the relation of a persona to its profession."@en ;
@@ -186,6 +199,7 @@ currkg:hasProfession rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasRecomended
 currkg:hasRecomended rdf:type owl:ObjectProperty ;
+                     owl:inverseOf currkg:isRecommendedFor ;
                      rdfs:domain currkg:Media ;
                      rdfs:range currkg:Audience ;
                      rdfs:comment "Represents the relation of a media resource to an intended audience it is recommended for."@en ;
@@ -194,6 +208,7 @@ currkg:hasRecomended rdf:type owl:ObjectProperty ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasSubEvent
 currkg:hasSubEvent rdf:type owl:ObjectProperty ;
+                   owl:inverseOf currkg:isSubEventOf ;
                    rdfs:domain currkg:Event ;
                    rdfs:range currkg:Event ;
                    rdfs:comment "Represents the relation of an event to a sub-event that is part of it."@en ;
@@ -201,15 +216,164 @@ currkg:hasSubEvent rdf:type owl:ObjectProperty ;
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasTheme
-currkg:hasTheme rdf:type owl:ObjectProperty .
+currkg:hasTheme rdf:type owl:ObjectProperty ;
+                owl:inverseOf currkg:isThemeOf ;
+                rdfs:domain currkg:Module ;
+                rdfs:range currkg:Theme ;
+                rdfs:comment "Relates a module to a theme that organizes its content."@en ;
+                rdfs:label "has theme"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#hasType
 currkg:hasType rdf:type owl:ObjectProperty ;
+               owl:inverseOf currkg:isTypeOf ;
                rdfs:domain currkg:Persona ;
                rdfs:range currkg:PersonaType ;
                rdfs:comment "Represents the relation of a persona to its persona type."@en ;
                rdfs:label "has type"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isAuthorOf
+currkg:isAuthorOf rdf:type owl:ObjectProperty ;
+                  rdfs:domain currkg:Author ;
+                  rdfs:range currkg:Media ;
+                  rdfs:comment "Relates an author role to media authored in that role."@en ;
+                  rdfs:label "is author of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isAuthorshipOf
+currkg:isAuthorshipOf rdf:type owl:ObjectProperty ;
+                      rdfs:domain currkg:Author ;
+                      rdfs:range currkg:Person ;
+                      rdfs:comment "Relates an author role to the person who assumes it."@en ;
+                      rdfs:label "is authorship of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isCoveredBy
+currkg:isCoveredBy rdf:type owl:ObjectProperty ;
+                   rdfs:domain currkg:Topic ;
+                   rdfs:range [ rdf:type owl:Class ;
+                                owl:unionOf ( currkg:Media
+                                              currkg:Module
+                                            )
+                              ] ;
+                   rdfs:comment "Relates a topic to media or modules that cover it."@en ;
+                   rdfs:label "is covered by"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isDeterminedBy
+currkg:isDeterminedBy rdf:type owl:ObjectProperty ;
+                      rdfs:domain currkg:LearningPath ;
+                      rdfs:range currkg:Persona ;
+                      rdfs:comment "Relates a learning path to the persona that determines it."@en ;
+                      rdfs:label "is determined by"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isLanguageOf
+currkg:isLanguageOf rdf:type owl:ObjectProperty ;
+                    rdfs:domain currkg:Language ;
+                    rdfs:range currkg:Media ;
+                    rdfs:comment "Relates a language to media expressed in that language."@en ;
+                    rdfs:label "is language of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isLearningStepOf
+currkg:isLearningStepOf rdf:type owl:ObjectProperty ;
+                        rdfs:domain currkg:LearningStep ;
+                        rdfs:range currkg:LearningPath ;
+                        rdfs:comment "Relates a learning step to the learning path that contains it."@en ;
+                        rdfs:label "is learning step of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isLevelOf
+currkg:isLevelOf rdf:type owl:ObjectProperty ;
+                 rdfs:domain currkg:Level ;
+                 rdfs:range currkg:Module ;
+                 rdfs:comment "Relates a difficulty level to a module assigned that level."@en ;
+                 rdfs:label "is level of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isModuleOf
+currkg:isModuleOf rdf:type owl:ObjectProperty ;
+                  rdfs:domain currkg:Module ;
+                  rdfs:range currkg:Curriculum ;
+                  rdfs:comment "Relates a module to the curriculum that contains it."@en ;
+                  rdfs:label "is module of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isPersonaOf
+currkg:isPersonaOf rdf:type owl:ObjectProperty ;
+                   rdfs:domain currkg:Persona ;
+                   rdfs:range currkg:Person ;
+                   rdfs:comment "Relates a persona role to the person who assumes it."@en ;
+                   rdfs:label "is persona of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isProfessionOf
+currkg:isProfessionOf rdf:type owl:ObjectProperty ;
+                      rdfs:domain currkg:Profession ;
+                      rdfs:range currkg:Persona ;
+                      rdfs:comment "Relates a profession to a persona associated with it."@en ;
+                      rdfs:label "is profession of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isProvidedBy
+currkg:isProvidedBy rdf:type owl:ObjectProperty ;
+                    owl:inverseOf currkg:provides ;
+                    rdfs:domain currkg:Media ;
+                    rdfs:range currkg:Event ;
+                    rdfs:comment "Relates media to an event that provides it."@en ;
+                    rdfs:label "is provided by"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isRecommendedFor
+currkg:isRecommendedFor rdf:type owl:ObjectProperty ;
+                        rdfs:domain currkg:Audience ;
+                        rdfs:range currkg:Media ;
+                        rdfs:comment "Relates an audience to media recommended for it."@en ;
+                        rdfs:label "is recommended for"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isReferencedBy
+currkg:isReferencedBy rdf:type owl:ObjectProperty ;
+                      owl:inverseOf currkg:references ;
+                      rdfs:domain currkg:Media ;
+                      rdfs:range currkg:Module ;
+                      rdfs:comment "Relates media to a module that references it."@en ;
+                      rdfs:label "is referenced by"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isReferredToBy
+currkg:isReferredToBy rdf:type owl:ObjectProperty ;
+                      owl:inverseOf currkg:refersTo ;
+                      rdfs:domain currkg:Module ;
+                      rdfs:range currkg:LearningStep ;
+                      rdfs:comment "Relates a module to a learning step that refers to it."@en ;
+                      rdfs:label "is referred to by"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isSubEventOf
+currkg:isSubEventOf rdf:type owl:ObjectProperty ;
+                    rdfs:domain currkg:Event ;
+                    rdfs:range currkg:Event ;
+                    rdfs:comment "Relates a sub-event to the event of which it is a part."@en ;
+                    rdfs:label "is sub-event of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isThemeOf
+currkg:isThemeOf rdf:type owl:ObjectProperty ;
+                 rdfs:domain currkg:Theme ;
+                 rdfs:range currkg:Module ;
+                 rdfs:comment "Relates a theme to a module organized under it."@en ;
+                 rdfs:label "is theme of"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isTypeOf
+currkg:isTypeOf rdf:type owl:ObjectProperty ;
+                rdfs:domain currkg:PersonaType ;
+                rdfs:range currkg:Persona ;
+                rdfs:comment "Relates a persona type to a persona classified by it."@en ;
+                rdfs:label "is type of"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#narrowerThan
@@ -245,15 +409,29 @@ currkg:refersTo rdf:type owl:ObjectProperty ;
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#related
-currkg:related rdf:type owl:ObjectProperty .
+currkg:related rdf:type owl:ObjectProperty ,
+                        owl:SymmetricProperty ;
+               rdfs:domain currkg:Topic ;
+               rdfs:range currkg:Topic ;
+               rdfs:comment "Relates two topics that are associated without asserting a hierarchical relationship."@en ;
+               rdfs:label "related"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#scopedBy
 currkg:scopedBy rdf:type owl:ObjectProperty ;
+                owl:inverseOf currkg:scopes ;
                 rdfs:domain currkg:LearningPath ;
                 rdfs:range currkg:Curriculum ;
                 rdfs:comment "Represents the relation of a learning path to the curriculum that scopes it."@en ;
                 rdfs:label "scoped by"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#scopes
+currkg:scopes rdf:type owl:ObjectProperty ;
+              rdfs:domain currkg:Curriculum ;
+              rdfs:range currkg:LearningPath ;
+              rdfs:comment "Relates a curriculum to a learning path that it scopes."@en ;
+              rdfs:label "scopes"@en .
 
 
 #################################################################
@@ -345,7 +523,9 @@ currkg:Author rdf:type owl:Class ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#CaseStudy
 currkg:CaseStudy rdf:type owl:Class ;
-                 rdfs:subClassOf currkg:Media .
+                 rdfs:subClassOf currkg:Media ;
+                 rdfs:comment "Represents a case study as a media resource presenting an in-depth examination of a situation or example."@en ;
+                 rdfs:label "Case Study"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Curriculum
@@ -393,7 +573,9 @@ currkg:Event rdf:type owl:Class ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Figure
 currkg:Figure rdf:type owl:Class ;
-              rdfs:subClassOf currkg:Media .
+              rdfs:subClassOf currkg:Media ;
+              rdfs:comment "Represents a figure as a visual media resource used to illustrate learning content."@en ;
+              rdfs:label "Figure"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#FirstLearningStep
@@ -419,16 +601,16 @@ currkg:FirstLearningStep rdf:type owl:Class ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Formula
 currkg:Formula rdf:type owl:Class ;
-               rdfs:subClassOf currkg:Media .
-
-
-###  https://kastle-lab.org/currkg/lod/ontology#Foundations
-currkg:Foundations rdf:type owl:Class .
+               rdfs:subClassOf currkg:Media ;
+               rdfs:comment "Represents a formula as a symbolic media resource expressing a mathematical or logical relationship."@en ;
+               rdfs:label "Formula"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#GlossaryItem
 currkg:GlossaryItem rdf:type owl:Class ;
-                    rdfs:subClassOf currkg:Media .
+                    rdfs:subClassOf currkg:Media ;
+                    rdfs:comment "Represents a glossary item as a media resource defining a term or concept."@en ;
+                    rdfs:label "Glossary Item"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Language
@@ -469,13 +651,12 @@ currkg:LearningPath rdf:type owl:Class ;
                                       owl:someValuesFrom currkg:LearningStep
                                     ] ,
                                     [ rdf:type owl:Restriction ;
-                                      owl:onProperty currkg:scopedBy ;
-                                      owl:someValuesFrom currkg:Curriculum
+                                      owl:onProperty currkg:isDeterminedBy ;
+                                      owl:someValuesFrom currkg:Persona
                                     ] ,
                                     [ rdf:type owl:Restriction ;
-                                      owl:onProperty [ owl:inverseOf currkg:determines
-                                                     ] ;
-                                      owl:someValuesFrom currkg:Persona
+                                      owl:onProperty currkg:scopedBy ;
+                                      owl:someValuesFrom currkg:Curriculum
                                     ] ;
                     <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "299.49419969429334"^^xsd:double ;
                                                                                  <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "165.28410508436227"^^xsd:double ;
@@ -519,6 +700,13 @@ currkg:LearningStep rdf:type owl:Class ;
                     rdfs:comment "Represents a Learning Step as an ordered step within a Learning Path that refers to exactly one module."@en ;
                     rdfs:label "Learning Step"@en ;
                     currkg:isNativeTo <https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent> .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#Lesson
+currkg:Lesson rdf:type owl:Class ;
+              rdfs:subClassOf currkg:Media ;
+              rdfs:comment "Represents a lesson as one of the atomic media resource in a teaching plan or module."@en ;
+              rdfs:label "Lesson"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Level
@@ -599,7 +787,9 @@ currkg:Module rdf:type owl:Class ;
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#ParticipantRole
-currkg:ParticipantRole rdf:type owl:Class .
+currkg:ParticipantRole rdf:type owl:Class ;
+                       rdfs:comment "Represents a role that a person may assume while participating in a curriculum context."@en ;
+                       rdfs:label "Participant Role"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Person
@@ -629,8 +819,7 @@ currkg:Persona rdf:type owl:Class ;
                                  owl:someValuesFrom currkg:PersonaType
                                ] ,
                                [ rdf:type owl:Restriction ;
-                                 owl:onProperty [ owl:inverseOf currkg:assumesPersona
-                                                ] ;
+                                 owl:onProperty currkg:isPersonaOf ;
                                  owl:someValuesFrom currkg:Person
                                ] ,
                                [ rdf:type owl:Restriction ;
@@ -694,29 +883,28 @@ currkg:Profession rdf:type owl:Class ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Section
 currkg:Section rdf:type owl:Class ;
-               rdfs:subClassOf currkg:Media .
-
-
-###  https://kastle-lab.org/currkg/lod/ontology#Standards
-currkg:Standards rdf:type owl:Class .
+               rdfs:subClassOf currkg:Media ;
+               rdfs:comment "Represents a section as a structured division within a media resource."@en ;
+               rdfs:label "Section"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Table
 currkg:Table rdf:type owl:Class ;
-             rdfs:subClassOf currkg:Media .
+             rdfs:subClassOf currkg:Media ;
+             rdfs:comment "Represents a table as a tabular media resource organizing information into rows and columns."@en ;
+             rdfs:label "Table"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Theme
-currkg:Theme rdf:type owl:Class .
+currkg:Theme rdf:type owl:Class ;
+             owl:disjointWith currkg:Topic ;
+             rdfs:comment "Represents a broad thematic category used to organize modules within a curriculum."@en ;
+             rdfs:label "Theme"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Topic
 currkg:Topic rdf:type owl:Class ;
              rdfs:subClassOf [ rdf:type owl:Restriction ;
-                               owl:onProperty currkg:related ;
-                               owl:someValuesFrom currkg:Topic
-                             ] ,
-                             [ rdf:type owl:Restriction ;
                                owl:onProperty currkg:broaderThan ;
                                owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
                                owl:onClass currkg:Topic
@@ -775,7 +963,9 @@ currkg:Video rdf:type owl:Class ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#WorkedExample
 currkg:WorkedExample rdf:type owl:Class ;
-                     rdfs:subClassOf currkg:Media .
+                     rdfs:subClassOf currkg:Media ;
+                     rdfs:comment "Represents a worked example as a media resource demonstrating how to solve a problem step by step."@en ;
+                     rdfs:label "Worked Example"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Workshop
@@ -795,7 +985,13 @@ currkg:Workshop rdf:type owl:Class ;
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Foundations
 currkg:Foundations rdf:type owl:NamedIndividual ,
-                            currkg:Theme .
+                            currkg:Theme ;
+                   <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "119.63769059552737"^^xsd:double ;
+                                                                                <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "259.7961852328274"^^xsd:double ;
+                                                                                rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                              ] ;
+                   rdfs:comment "Represents Foundations as a theme vocab for modules covering fundamental concepts and principles."@en ;
+                   rdfs:label "Foundations"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Methodologies
@@ -805,7 +1001,13 @@ currkg:Methodologies rdf:type owl:NamedIndividual ,
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Standards
 currkg:Standards rdf:type owl:NamedIndividual ,
-                          currkg:Theme .
+                          currkg:Theme ;
+                 <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "9.484809414222099"^^xsd:double ;
+                                                                              <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "72.47730822227177"^^xsd:double ;
+                                                                              rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                            ] ;
+                 rdfs:comment "Represents Standards as a theme vocab for modules covering formal specifications and recommendations."@en ;
+                 rdfs:label "Standards"@en .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Surveys
@@ -994,73 +1196,18 @@ currkg-r:Persona.Usman rdf:type owl:NamedIndividual ,
                                                                                        currkg:PersonaType .
 
 
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "239.66214084125318"^^xsd:double ;
-  <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "182.84350600897426"^^xsd:double ;
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "119.84515180299982"^^xsd:double ;
+  <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "7.425398947877624"^^xsd:double ;
   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
 ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "119.84515180299982"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "7.425398947877624"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
 
 [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "66.0082422042512"^^xsd:double ;
    <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "163.11457706181378"^^xsd:double ;
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "257.5387285119268"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "95.34067193482907"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "55.0138600700657"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "12.373535546589167"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "134.84670456198532"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "49.91841795116743"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "224.7438590673655"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "100.38447116518856"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "113.43577236590322"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "22.465217322902088"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "114.67584142520084"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "110.31012655424526"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "102.96334283972286"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "35.97006296875359"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "161.1024560953089"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "148.09272068338814"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "226.8059264557994"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "25.724382451246406"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "123.18951292272382"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "234.90074510777157"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "165.92527982260998"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "211.38782513420898"^^xsd:double ;
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "239.66214084125318"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "182.84350600897426"^^xsd:double ;
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
@@ -1069,8 +1216,8 @@ currkg-r:Persona.Usman rdf:type owl:NamedIndividual ,
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
-[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "97.20732638218533"^^xsd:double ;
-   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "36.08742409572771"^^xsd:double ;
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "226.8059264557994"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "25.724382451246406"^^xsd:double ;
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
@@ -1079,24 +1226,88 @@ currkg-r:Persona.Usman rdf:type owl:NamedIndividual ,
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "97.20732638218533"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "36.08742409572771"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "224.7438590673655"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "100.38447116518856"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "134.84670456198532"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "49.91841795116743"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "123.18951292272382"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "234.90074510777157"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "161.1024560953089"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "148.09272068338814"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "55.0138600700657"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "12.373535546589167"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "165.92527982260998"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "211.38782513420898"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "113.43577236590322"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "22.465217322902088"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "257.5387285119268"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "95.34067193482907"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "102.96334283972286"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "35.97006296875359"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "114.67584142520084"^^xsd:double ;
+   <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "110.31012655424526"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
 #################################################################
-#    Annotations
+#    General axioms
 #################################################################
 
-currkg:Foundations <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "119.63769059552737"^^xsd:double ;
-                                                                                 <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "259.7961852328274"^^xsd:double ;
-                                                                                 rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
-                                                                               ] ;
-                    rdfs:comment "Represents Foundations as a category subclass for modules covering fundamental concepts and principles."@en ;
-                    rdfs:label "Foundations"@en .
+[ rdf:type owl:AllDisjointClasses ;
+   owl:members ( currkg:Article
+                 currkg:CaseStudy
+                 currkg:Figure
+                 currkg:Formula
+                 currkg:GlossaryItem
+                 currkg:Lesson
+                 currkg:Podcast
+                 currkg:Section
+                 currkg:Table
+                 currkg:Transcript
+                 currkg:Video
+                 currkg:WorkedExample
+               )
+ ] .
 
 
-currkg:Standards <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "9.484809414222099"^^xsd:double ;
-                                                                              <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "72.47730822227177"^^xsd:double ;
-                                                                              rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
-                                                                            ] ;
-                 rdfs:comment "Represents Standards as a category subclass for modules covering formal specifications and recommendations."@en ;
-                 rdfs:label "Standards"@en .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( currkg:Presentation
+                currkg:Tutorial
+                currkg:Workshop
+              )
+] .
 
 
 ###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

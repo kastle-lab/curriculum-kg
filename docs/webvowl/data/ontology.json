@@ -10,175 +10,151 @@
     "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
-    "type" : "owl:Class"
-  }, {
-    "id" : "16",
+    "id" : "13",
     "type" : "owl:Class"
   }, {
     "id" : "19",
     "type" : "owl:Class"
   }, {
-    "id" : "23",
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "41",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "18",
-    "type" : "owl:Class"
+    "id" : "42",
+    "type" : "rdfs:Datatype"
   }, {
-    "id" : "30",
-    "type" : "owl:Class"
+    "id" : "43",
+    "type" : "rdfs:Datatype"
   }, {
-    "id" : "33",
+    "id" : "6",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "7",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "44",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "47",
     "type" : "owl:Class"
   }, {
-    "id" : "46",
+    "id" : "51",
     "type" : "rdfs:Datatype"
-  }, {
-    "id" : "53",
-    "type" : "owl:Class"
   }, {
     "id" : "55",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "29",
     "type" : "owl:Class"
   }, {
-    "id" : "52",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "67",
+    "id" : "37",
     "type" : "owl:Class"
   }, {
-    "id" : "68",
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
     "type" : "owl:Class"
   }, {
     "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "32",
+    "id" : "67",
     "type" : "owl:Class"
   }, {
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "85",
-    "type" : "owl:Thing"
+    "id" : "33",
+    "type" : "owl:Class"
   }, {
-    "id" : "60",
-    "type" : "owl:Thing"
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
   }, {
     "id" : "82",
     "type" : "owl:Class"
   }, {
-    "id" : "1",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "87",
+    "id" : "156",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "2",
+    "id" : "165",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "89",
-    "type" : "owl:unionOf"
+    "id" : "83",
+    "type" : "owl:Class"
   }, {
-    "id" : "96",
-    "type" : "owl:unionOf"
+    "id" : "100",
+    "type" : "owl:Class"
   }, {
-    "id" : "98",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "90",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "72",
+    "id" : "18",
     "type" : "owl:Class"
   }, {
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
-    "type" : "owl:Class"
-  }, {
-    "id" : "50",
-    "type" : "owl:Class"
-  }, {
-    "id" : "101",
-    "type" : "owl:Class"
-  }, {
-    "id" : "75",
-    "type" : "owl:Class"
-  }, {
-    "id" : "63",
-    "type" : "owl:Class"
-  }, {
-    "id" : "35",
-    "type" : "owl:Class"
-  }, {
-    "id" : "41",
-    "type" : "owl:Class"
-  }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
-    "id" : "103",
-    "type" : "owl:Class"
-  }, {
-    "id" : "65",
-    "type" : "owl:Class"
-  }, {
-    "id" : "117",
+    "id" : "199",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "56",
-    "type" : "owl:Class"
-  }, {
-    "id" : "124",
+    "id" : "203",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "59",
-    "type" : "owl:Class"
-  }, {
-    "id" : "109",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "owl:Class"
-  }, {
-    "id" : "22",
-    "type" : "owl:Class"
-  }, {
-    "id" : "28",
-    "type" : "owl:Class"
-  }, {
-    "id" : "94",
-    "type" : "owl:Class"
-  }, {
-    "id" : "112",
-    "type" : "owl:Class"
+    "id" : "208",
+    "type" : "rdfs:Datatype"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Tutorial",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483648",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Tutorial",
-      "en" : "Tutorial"
-    },
-    "comment" : {
-      "en" : "Represents a Tutorial as an event type (through sub-class) focused on guided instruction."
-    },
-    "id" : "12",
-    "superClasses" : [ "13" ]
-  }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Transcript",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
@@ -197,29 +173,50 @@
     "comment" : {
       "en" : "Represents Transcript as a text rendering of spoken media content, typed as a sub-class."
     },
-    "id" : "14",
-    "superClasses" : [ "15" ]
+    "id" : "12",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Tutorial",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483648",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Tutorial",
+      "en" : "Tutorial"
+    },
+    "comment" : {
+      "en" : "Represents a Tutorial as an event type (through sub-class) focused on guided instruction."
+    },
+    "id" : "13",
+    "superClasses" : [ "14" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Author",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole",
-        "type" : "iri"
-      }, {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
-        "type" : "iri"
-      } ],
       "entityPosition" : [ {
         "identifier" : "entityPosition",
         "language" : "undefined",
         "value" : "_:genid2147483650",
         "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
+        "type" : "iri"
+      }, {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole",
+        "type" : "iri"
       } ]
     },
     "label" : {
@@ -229,81 +226,69 @@
     "comment" : {
       "en" : "Represents an author that is a person who creates or is credited for media resources."
     },
-    "id" : "16"
+    "id" : "19"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Section",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Section"
+      "IRI-based" : "Section",
+      "en" : "Section"
     },
-    "id" : "19",
-    "superClasses" : [ "15" ]
+    "comment" : {
+      "en" : "Represents a section as a structured division within a media resource."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "33", "2" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "32"
+  }, {
+    "instances" : 0,
+    "union" : [ "36", "37", "14", "38", "25", "39", "40" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "35"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "23",
+    "id" : "41",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Person",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
-        "type" : "iri"
-      } ],
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483651",
-        "type" : "label"
-      } ]
-    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
     "label" : {
-      "IRI-based" : "Person",
-      "en" : "Person"
-    },
-    "comment" : {
-      "en" : "Represents Person is an Agent (from Agent Role pattern) who may assume roles such as persona or author."
-    },
-    "id" : "18"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Level",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483653",
-        "type" : "label"
-      } ],
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Level",
-      "en" : "Level"
-    },
-    "comment" : {
-      "en" : "Represents Level as a controlled vocabulary indicating the difficulty of a module."
-    },
-    "id" : "30"
+      "IRI-based" : "string"
+    }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "33",
+    "id" : "43",
     "label" : {
       "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "33", "2", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "44",
+    "label" : {
+      "undefined" : "Thing"
     }
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Audience",
@@ -316,57 +301,19 @@
     "comment" : {
       "en" : "Represents audience as a controlled vocabulary that is used to indicate intended audience for a media resource."
     },
-    "id" : "44"
+    "id" : "47"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "46",
+    "id" : "51",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#WorkedExample",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
-    "label" : {
-      "IRI-based" : "WorkedExample"
-    },
-    "id" : "53",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#LearningStep",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
-        "type" : "iri"
-      } ],
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483657",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "LearningStep",
-      "en" : "Learning Step"
-    },
-    "subClasses" : [ "56", "57" ],
-    "comment" : {
-      "en" : "Represents a Learning Step as an ordered step within a Learning Path that refers to exactly one module."
-    },
+    "union" : [ "33", "2" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "55"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "52",
-    "label" : {
-      "IRI-based" : "string"
-    }
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Podcast",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
@@ -386,28 +333,8 @@
     "comment" : {
       "en" : "Represents a Podcast as an audio media resource, typed as a sub-class."
     },
-    "id" : "67",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Standards",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483661",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Standards",
-      "en" : "Standards"
-    },
-    "comment" : {
-      "en" : "Represents Standards as a category subclass for modules covering formal specifications and recommendations."
-    },
-    "id" : "68"
+    "id" : "29",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Profession",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
@@ -427,134 +354,36 @@
     "comment" : {
       "en" : "Represents Profession indicating the professional role associated with a persona."
     },
-    "id" : "25"
+    "id" : "37"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#PersonaType",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Lesson",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
-    "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping",
-        "type" : "iri"
-      } ]
-    },
     "label" : {
-      "IRI-based" : "PersonaType",
-      "en" : "Persona Type"
+      "IRI-based" : "Lesson",
+      "en" : "Lesson"
     },
-    "individuals" : [ {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.EducationalFacilitator",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.EducationalFacilitator"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Consultant",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.Consultant"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Ontology/VocabularyExpert",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Ontology/VocabularyExpert"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.ExecutiveEngagementSpecialist",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.ExecutiveEngagementSpecialist"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.ResourceDeveloper",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.ResourceDeveloper"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#SecurityAnalyst/DeveloperTrainer",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "SecurityAnalyst/DeveloperTrainer"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.CurriculumDeveloper",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.CurriculumDeveloper"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Collaborator",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.Collaborator"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Enthusiast",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.Enthusiast"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Contributor",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.Contributor"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Developer",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.Developer"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.UserEngagementFacilitator",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.UserEngagementFacilitator"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.SupplyChainManagementSpecialist",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.SupplyChainManagementSpecialist"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.KGResearcher",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.KGResearcher"
-      }
-    }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Executive",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "labels" : {
-        "IRI-based" : "Persona.Executive"
-      }
-    } ],
     "comment" : {
-      "en" : "Represents Persona Type as a controlled vocabulary used to classify personas (e.g., developer, executive)."
+      "en" : "Represents a lesson as one of the atomic media resource in a teaching plan or module."
     },
-    "id" : "32"
+    "id" : "11",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Topic",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483665",
-        "type" : "label"
-      } ],
       "isNativeTo" : [ {
         "identifier" : "isNativeTo",
         "language" : "undefined",
         "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
         "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483665",
+        "type" : "label"
       } ]
     },
     "label" : {
@@ -564,82 +393,20 @@
     "comment" : {
       "en" : "Represents Topic as a subject or concept covered by modules and media, and can be arranged hierarchically."
     },
-    "id" : "4"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "85",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "60",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#ParticipantRole",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ParticipantRole"
-    },
-    "subClasses" : [ "28" ],
-    "id" : "82"
-  }, {
-    "instances" : 0,
-    "union" : [ "35", "15", "22" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "1"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "87",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "2",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "instances" : 0,
-    "union" : [ "4", "25", "13", "32", "21", "28", "55" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "89"
-  }, {
-    "instances" : 0,
-    "union" : [ "35", "15" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "96"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "98",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "90",
-    "label" : {
-      "IRI-based" : "string"
-    }
+    "id" : "36"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Figure",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Figure"
+      "IRI-based" : "Figure",
+      "en" : "Figure"
     },
-    "id" : "72",
-    "superClasses" : [ "15" ]
+    "comment" : {
+      "en" : "Represents a figure as a visual media resource used to illustrate learning content."
+    },
+    "id" : "31",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#LearningPath",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
@@ -659,7 +426,7 @@
     "comment" : {
       "en" : "Represents a Learning Path as an ordered sequence of learning steps tailored to a persona and scoped by a curriculum."
     },
-    "id" : "21"
+    "id" : "25"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#FirstLearningStep",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
@@ -679,83 +446,37 @@
     "comment" : {
       "en" : "Represents a First Learning Step that marks the starting step of a learning path."
     },
-    "id" : "57",
-    "superClasses" : [ "55" ]
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Language",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483656",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Language",
-      "en" : "Language"
-    },
-    "comment" : {
-      "en" : "Represents a Language indicating the language of a media resource."
-    },
-    "id" : "50"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Workshop",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483655",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Workshop",
-      "en" : "Workshop"
-    },
-    "comment" : {
-      "en" : "Represents a Workshop as an event type (through sub-class) focused on hands-on learning."
-    },
-    "id" : "101",
-    "superClasses" : [ "13" ]
+    "id" : "67",
+    "superClasses" : [ "40" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Formula",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Formula"
+      "IRI-based" : "Formula",
+      "en" : "Formula"
     },
-    "id" : "75",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#CaseStudy",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "CaseStudy"
+    "comment" : {
+      "en" : "Represents a formula as a symbolic media resource expressing a mathematical or logical relationship."
     },
-    "id" : "63",
-    "superClasses" : [ "15" ]
+    "id" : "4",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Module",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
-        "type" : "iri"
-      } ],
       "entityPosition" : [ {
         "identifier" : "entityPosition",
         "language" : "undefined",
         "value" : "_:genid2147483658",
         "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole",
+        "type" : "iri"
       } ]
     },
     "label" : {
@@ -765,15 +486,52 @@
     "comment" : {
       "en" : "Represents Module as a unit of learning content that covers one or more topics and references supporting media."
     },
-    "id" : "35"
+    "id" : "33"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Theme",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 2,
+    "instances" : 0,
     "label" : {
-      "IRI-based" : "Theme"
+      "IRI-based" : "Theme",
+      "en" : "Theme"
     },
     "individuals" : [ {
+      "iri" : "https://kastle-lab.org/currkg/lod/ontology#Foundations",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+      "annotations" : {
+        "entityPosition" : [ {
+          "identifier" : "entityPosition",
+          "language" : "undefined",
+          "value" : "_:genid2147483669",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Represents Foundations as a theme vocab for modules covering fundamental concepts and principles."
+      },
+      "labels" : {
+        "IRI-based" : "Foundations",
+        "en" : "Foundations"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/ontology#Standards",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+      "annotations" : {
+        "entityPosition" : [ {
+          "identifier" : "entityPosition",
+          "language" : "undefined",
+          "value" : "_:genid2147483661",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Represents Standards as a theme vocab for modules covering formal specifications and recommendations."
+      },
+      "labels" : {
+        "IRI-based" : "Standards",
+        "en" : "Standards"
+      }
+    }, {
       "iri" : "https://kastle-lab.org/currkg/lod/ontology#Surveys",
       "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
       "labels" : {
@@ -786,34 +544,37 @@
         "IRI-based" : "Methodologies"
       }
     } ],
-    "id" : "41"
+    "comment" : {
+      "en" : "Represents a broad thematic category used to organize modules within a curriculum."
+    },
+    "id" : "54"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Media",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event",
-        "type" : "iri"
-      } ],
       "entityPosition" : [ {
         "identifier" : "entityPosition",
         "language" : "undefined",
         "value" : "_:genid2147483660",
         "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event",
+        "type" : "iri"
       } ]
     },
     "label" : {
       "IRI-based" : "Media",
       "en" : "Media"
     },
-    "subClasses" : [ "14", "67", "72", "19", "75", "59", "65", "63", "109", "53", "112" ],
+    "subClasses" : [ "12", "29", "31", "1", "4", "9", "11", "16", "18", "21", "23", "72" ],
     "comment" : {
       "en" : "Represents a Media that is a learning resource (e.g., article, video, podcast, transcript) and can be referenced by modules or provided by events."
     },
-    "id" : "15"
+    "id" : "2"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Presentation",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
@@ -833,24 +594,21 @@
     "comment" : {
       "en" : "Represents a Presentationas an event type focused on delivering content to an audience, typed as a sub-class."
     },
-    "id" : "103",
-    "superClasses" : [ "13" ]
+    "id" : "73",
+    "superClasses" : [ "14" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Table",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Table"
+      "IRI-based" : "Table",
+      "en" : "Table"
     },
-    "id" : "65",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "117",
-    "label" : {
-      "IRI-based" : "string"
-    }
+    "comment" : {
+      "en" : "Represents a table as a tabular media resource organizing information into rows and columns."
+    },
+    "id" : "16",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#LastLearningStep",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
@@ -870,45 +628,21 @@
     "comment" : {
       "en" : "Represents a Last Learning Step that marks the ending step of a learning path."
     },
-    "id" : "56",
-    "superClasses" : [ "55" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "124",
-    "label" : {
-      "IRI-based" : "string"
-    }
+    "id" : "76",
+    "superClasses" : [ "40" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#GlossaryItem",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "GlossaryItem"
-    },
-    "id" : "59",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Video",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483664",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Video",
-      "en" : "Video"
+      "IRI-based" : "GlossaryItem",
+      "en" : "Glossary Item"
     },
     "comment" : {
-      "en" : "Represents Video as an audiovisual media resource., typed as a sub-class."
+      "en" : "Represents a glossary item as a media resource defining a term or concept."
     },
-    "id" : "109",
-    "superClasses" : [ "15" ]
+    "id" : "9",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Event",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
@@ -931,27 +665,27 @@
       "IRI-based" : "Event",
       "en" : "Event"
     },
-    "subClasses" : [ "101", "12", "103" ],
+    "subClasses" : [ "83", "13", "73" ],
     "comment" : {
       "en" : "Represents an event as a structured learning activity (e.g., workshop, tutorial, presentation) that can provide media and have sub-events."
     },
-    "id" : "13"
+    "id" : "14"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Curriculum",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
     "instances" : 0,
     "annotations" : {
-      "isNativeTo" : [ {
-        "identifier" : "isNativeTo",
-        "language" : "undefined",
-        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/namestub",
-        "type" : "iri"
-      } ],
       "entityPosition" : [ {
         "identifier" : "entityPosition",
         "language" : "undefined",
         "value" : "_:genid2147483667",
         "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/namestub",
+        "type" : "iri"
       } ]
     },
     "label" : {
@@ -961,7 +695,7 @@
     "comment" : {
       "en" : "Represents a Curriculum as a curated course of study that groups modules into a coherent educational offering."
     },
-    "id" : "22"
+    "id" : "26"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Persona",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
@@ -1021,15 +755,6 @@
         "IRI-based" : "Persona.Chris"
       }
     }, {
-      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Edward",
-      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
-      "comment" : {
-        "en" : "Represents an example Persona instance used in the ontology."
-      },
-      "labels" : {
-        "IRI-based" : "Persona.Edward"
-      }
-    }, {
       "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Stella",
       "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
       "comment" : {
@@ -1037,6 +762,15 @@
       },
       "labels" : {
         "IRI-based" : "Persona.Stella"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Edward",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "comment" : {
+        "en" : "Represents an example Persona instance used in the ontology."
+      },
+      "labels" : {
+        "IRI-based" : "Persona.Edward"
       }
     }, {
       "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Elias",
@@ -1149,28 +883,8 @@
     "comment" : {
       "en" : "Represents Persona as an audience profile (role/background) used to tailor a learning path.e"
     },
-    "id" : "28",
+    "id" : "39",
     "superClasses" : [ "82" ]
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Foundations",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "instances" : 0,
-    "annotations" : {
-      "entityPosition" : [ {
-        "identifier" : "entityPosition",
-        "language" : "undefined",
-        "value" : "_:genid2147483669",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Foundations",
-      "en" : "Foundations"
-    },
-    "comment" : {
-      "en" : "Represents Foundations as a category subclass for modules covering fundamental concepts and principles."
-    },
-    "id" : "94"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#Article",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
@@ -1190,120 +904,434 @@
     "comment" : {
       "en" : "Represents an Article is a written media resource, typed as a sub-class."
     },
-    "id" : "112",
-    "superClasses" : [ "15" ]
+    "id" : "72",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Person",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483651",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person",
+      "en" : "Person"
+    },
+    "comment" : {
+      "en" : "Represents Person is an Agent (from Agent Role pattern) who may assume roles such as persona or author."
+    },
+    "id" : "61"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Level",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping",
+        "type" : "iri"
+      } ],
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483653",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Level",
+      "en" : "Level"
+    },
+    "comment" : {
+      "en" : "Represents Level as a controlled vocabulary indicating the difficulty of a module."
+    },
+    "id" : "85"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#WorkedExample",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkedExample",
+      "en" : "Worked Example"
+    },
+    "comment" : {
+      "en" : "Represents a worked example as a media resource demonstrating how to solve a problem step by step."
+    },
+    "id" : "23",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#LearningStep",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483657",
+        "type" : "label"
+      } ],
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/recurrentevent",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LearningStep",
+      "en" : "Learning Step"
+    },
+    "subClasses" : [ "76", "67" ],
+    "comment" : {
+      "en" : "Represents a Learning Step as an ordered step within a Learning Path that refers to exactly one module."
+    },
+    "id" : "40"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#PersonaType",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "isNativeTo" : [ {
+        "identifier" : "isNativeTo",
+        "language" : "undefined",
+        "value" : "https://archive.org/services/purl/domain/modular_ontology_design_library/explicittyping",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PersonaType",
+      "en" : "Persona Type"
+    },
+    "individuals" : [ {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.EducationalFacilitator",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.EducationalFacilitator"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Consultant",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.Consultant"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Ontology/VocabularyExpert",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Ontology/VocabularyExpert"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.ExecutiveEngagementSpecialist",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.ExecutiveEngagementSpecialist"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.ResourceDeveloper",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.ResourceDeveloper"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#SecurityAnalyst/DeveloperTrainer",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "SecurityAnalyst/DeveloperTrainer"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.CurriculumDeveloper",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.CurriculumDeveloper"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Collaborator",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.Collaborator"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Enthusiast",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.Enthusiast"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Contributor",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.Contributor"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Developer",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.Developer"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.UserEngagementFacilitator",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.UserEngagementFacilitator"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.SupplyChainManagementSpecialist",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.SupplyChainManagementSpecialist"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.Executive",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.Executive"
+      }
+    }, {
+      "iri" : "https://kastle-lab.org/currkg/lod/resource#Persona.KGResearcher",
+      "baseIri" : "https://kastle-lab.org/currkg/lod/resource",
+      "labels" : {
+        "IRI-based" : "Persona.KGResearcher"
+      }
+    } ],
+    "comment" : {
+      "en" : "Represents Persona Type as a controlled vocabulary used to classify personas (e.g., developer, executive)."
+    },
+    "id" : "38"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#ParticipantRole",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ParticipantRole",
+      "en" : "Participant Role"
+    },
+    "subClasses" : [ "39" ],
+    "comment" : {
+      "en" : "Represents a role that a person may assume while participating in a curriculum context."
+    },
+    "id" : "82"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "156",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "165",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Workshop",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483655",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Workshop",
+      "en" : "Workshop"
+    },
+    "comment" : {
+      "en" : "Represents a Workshop as an event type (through sub-class) focused on hands-on learning."
+    },
+    "id" : "83",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Language",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483656",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Language",
+      "en" : "Language"
+    },
+    "comment" : {
+      "en" : "Represents a Language indicating the language of a media resource."
+    },
+    "id" : "100"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#CaseStudy",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CaseStudy",
+      "en" : "Case Study"
+    },
+    "comment" : {
+      "en" : "Represents a case study as a media resource presenting an in-depth examination of a situation or example."
+    },
+    "id" : "18",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#Video",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "entityPosition" : [ {
+        "identifier" : "entityPosition",
+        "language" : "undefined",
+        "value" : "_:genid2147483664",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Video",
+      "en" : "Video"
+    },
+    "comment" : {
+      "en" : "Represents Video as an audiovisual media resource., typed as a sub-class."
+    },
+    "id" : "21",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "199",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "208",
+    "label" : {
+      "IRI-based" : "string"
+    }
   } ],
   "property" : [ {
     "id" : "0",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "3",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "17",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "20",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "24",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "26",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "27",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "29",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "31",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "34",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "36",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "37",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "38",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "39",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "40",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "42",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "43",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "45",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "47",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "48",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "49",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "51",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "54",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "58",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "62",
+    "id" : "28",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "64",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "66",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "69",
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
     "type" : "owl:objectProperty"
   }, {
     "id" : "70",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "71",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "73",
-    "type" : "rdfs:SubClassOf"
+    "id" : "59",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "74",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "76",
-    "type" : "rdfs:SubClassOf"
+    "id" : "27",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "77",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "78",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "79",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "80",
     "type" : "rdfs:SubClassOf"
@@ -1311,988 +1339,1910 @@
     "id" : "81",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "83",
-    "type" : "owl:objectProperty"
-  }, {
     "id" : "84",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "86",
-    "type" : "owl:datatypeProperty"
+    "id" : "87",
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "88",
-    "type" : "owl:datatypeProperty"
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "91",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "92",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "93",
-    "type" : "rdf:Property"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "95",
-    "type" : "rdf:Property"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "97",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "10",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "6",
-    "type" : "owl:objectProperty"
+    "id" : "98",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "99",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "11",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "100",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "9",
-    "type" : "owl:objectProperty"
+    "id" : "101",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "102",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "103",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "104",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "105",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "106",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "107",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "108",
-    "type" : "rdfs:SubClassOf"
+    "id" : "109",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "110",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "116",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "117",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "118",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "119",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "120",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "121",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "122",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "123",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "125",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "111",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "132",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "133",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "134",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "138",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "139",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "140",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "141",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "145",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "146",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "147",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "148",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "149",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "150",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "154",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "157",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "158",
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "113",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "159",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "162",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "163",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "164",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "166",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "167",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "168",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "170",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "171",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "114",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "115",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "116",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "118",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "119",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "120",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "121",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "122",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "123",
+    "id" : "172",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "173",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "174",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "175",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "176",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "178",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "180",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "181",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "125",
+    "id" : "182",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "183",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "86",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "7",
+    "id" : "184",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "88",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "126",
+    "id" : "185",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "186",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "187",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "188",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "189",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "190",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "191",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "192",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "193",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "194",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "195",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "127",
+    "id" : "152",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "197",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "198",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "200",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "201",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "202",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "204",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "205",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "206",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "207",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "210",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "211",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "212",
+    "type" : "owl:someValuesFrom"
   } ],
   "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTitle",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "2",
+    "range" : "7",
     "label" : {
       "IRI-based" : "hasTitle",
       "en" : "has title"
     },
-    "domain" : "1",
+    "domain" : "6",
     "comment" : {
       "en" : "Provides a title string for a resource."
     },
     "attributes" : [ "datatype" ],
-    "id" : "0"
+    "id" : "5"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#related",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "related"
-    },
-    "domain" : "4",
-    "subproperty" : [ "5", "6", "7", "8", "9", "10", "11" ],
-    "attributes" : [ "someValues", "object" ],
-    "id" : "3"
+    "range" : "2",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#assumesAuthorship",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "assumesAuthorship",
-      "en" : "assumes authorship"
-    },
+    "range" : "2",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "2",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "2",
     "domain" : "18",
-    "comment" : {
-      "en" : "Represents the relation of a person to an author role they assume."
-    },
-    "attributes" : [ "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "17"
   }, {
+    "range" : "2",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "2",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#scopedBy",
+    "inverse" : "27",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "22",
+    "range" : "26",
     "label" : {
       "IRI-based" : "scopedBy",
       "en" : "scoped by"
     },
-    "domain" : "21",
+    "domain" : "25",
     "comment" : {
       "en" : "Represents the relation of a learning path to the curriculum that scopes it."
     },
     "attributes" : [ "object" ],
-    "id" : "20"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#asString",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "23",
-    "label" : {
-      "IRI-based" : "asString",
-      "en" : "as string"
-    },
-    "domain" : "25",
-    "comment" : {
-      "en" : "Provides a string lexicalization or label for a resource."
-    },
-    "attributes" : [ "datatype", "someValues" ],
     "id" : "24"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#assumesAuthorship",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "assumesAuthorship",
-      "en" : "assumes authorship"
-    },
-    "domain" : "18",
-    "comment" : {
-      "en" : "Represents the relation of a person to an author role they assume."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "26"
+    "range" : "2",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#assumesPersona",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "28",
-    "label" : {
-      "IRI-based" : "assumesPersona",
-      "en" : "assumes persona"
-    },
-    "domain" : "18",
-    "comment" : {
-      "en" : "Represents the relation of a person to a persona role they assume."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "27"
+    "range" : "2",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#assumesPersona",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#references",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "18",
+    "range" : "2",
     "label" : {
-      "IRI-based" : "assumesPersona",
-      "en" : "assumes persona"
+      "IRI-based" : "references",
+      "en" : "references"
     },
-    "domain" : "28",
+    "domain" : "33",
     "comment" : {
-      "en" : "Represents the relation of a person to a persona role they assume."
+      "en" : "Represents the relation of a module (or other entity) to media resources that it references."
     },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "29"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasType",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "32",
-    "label" : {
-      "IRI-based" : "hasType",
-      "en" : "has type"
-    },
-    "domain" : "28",
-    "comment" : {
-      "en" : "Represents the relation of a persona to its persona type."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "31"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTitle",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "33",
-    "label" : {
-      "IRI-based" : "hasTitle",
-      "en" : "has title"
-    },
-    "domain" : "35",
-    "comment" : {
-      "en" : "Provides a title string for a resource."
-    },
-    "attributes" : [ "datatype", "someValues" ],
+    "attributes" : [ "object" ],
     "id" : "34"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#determines",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "21",
-    "label" : {
-      "IRI-based" : "determines",
-      "en" : "determines"
-    },
-    "domain" : "28",
-    "comment" : {
-      "en" : "Represents the relation of a persona to the learning path it determines."
-    },
-    "attributes" : [ "object" ],
-    "id" : "36"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasLevel",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "30",
-    "label" : {
-      "IRI-based" : "hasLevel",
-      "en" : "has level"
-    },
-    "domain" : "35",
-    "comment" : {
-      "en" : "Represents the relation of a module to its difficulty level."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "37"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#coversTopic",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "coversTopic",
-      "en" : "covers topic"
-    },
-    "domain" : "35",
-    "comment" : {
-      "en" : "Represents the relation of a module or media resource to a topic it covers."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "38"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#references",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "references",
-      "en" : "references"
-    },
-    "domain" : "35",
-    "comment" : {
-      "en" : "Represents the relation of a module (or other entity) to media resources that it references."
-    },
-    "attributes" : [ "object" ],
-    "id" : "39"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTheme",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "41",
-    "label" : {
-      "IRI-based" : "hasTheme"
-    },
-    "domain" : "35",
-    "attributes" : [ "someValues", "object" ],
-    "id" : "40"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#coversTopic",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "coversTopic",
-      "en" : "covers topic"
-    },
-    "domain" : "15",
-    "comment" : {
-      "en" : "Represents the relation of a module or media resource to a topic it covers."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "42"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#references",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "references",
-      "en" : "references"
-    },
-    "domain" : "35",
-    "comment" : {
-      "en" : "Represents the relation of a module (or other entity) to media resources that it references."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "43"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasAuthor",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "hasAuthor",
-      "en" : "has author"
-    },
-    "domain" : "15",
-    "comment" : {
-      "en" : "Represents the relation of a media resource to its author."
-    },
-    "attributes" : [ "someValues", "object" ],
+    "range" : "2",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "45"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasProfession",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isAuthorOf",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "25",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isAuthorOf",
+      "en" : "is author of"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "Relates an author role to media authored in that role."
+    },
+    "attributes" : [ "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasProfession",
+    "inverse" : "49",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "37",
     "label" : {
       "IRI-based" : "hasProfession",
       "en" : "has profession"
     },
-    "domain" : "28",
+    "domain" : "39",
     "comment" : {
       "en" : "Represents the relation of a persona to its profession."
     },
     "attributes" : [ "object" ],
-    "id" : "47"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasRecomended",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "44",
-    "label" : {
-      "IRI-based" : "hasRecomended",
-      "en" : "has recommended audience"
-    },
-    "domain" : "15",
-    "comment" : {
-      "en" : "Represents the relation of a media resource to an intended audience it is recommended for."
-    },
-    "attributes" : [ "someValues", "object" ],
     "id" : "48"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasLanguage",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isReferencedBy",
+    "inverse" : "34",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "50",
+    "range" : "33",
     "label" : {
-      "IRI-based" : "hasLanguage",
-      "en" : "has language"
+      "IRI-based" : "isReferencedBy",
+      "en" : "is referenced by"
     },
-    "domain" : "15",
+    "domain" : "2",
     "comment" : {
-      "en" : "Represents the relation of a media resource to the language it is in."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "49"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasMediaSourceLink",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "52",
-    "label" : {
-      "IRI-based" : "hasMediaSourceLink",
-      "en" : "has media source link"
-    },
-    "domain" : "15",
-    "comment" : {
-      "en" : "Provides the source link or URL string for a media resource."
-    },
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "51"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTitle",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "46",
-    "label" : {
-      "IRI-based" : "hasTitle",
-      "en" : "has title"
-    },
-    "domain" : "15",
-    "comment" : {
-      "en" : "Provides a title string for a resource."
-    },
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "54"
-  }, {
-    "range" : "15",
-    "domain" : "59",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "58"
-  }, {
-    "iri" : "https://id.cfainstitute.org/ns/contrastsWith",
-    "baseIri" : "https://id.cfainstitute.org/ns",
-    "range" : "60",
-    "label" : {
-      "IRI-based" : "contrastsWith"
-    },
-    "superproperty" : [ "61" ],
-    "domain" : "60",
-    "attributes" : [ "external", "object" ],
-    "id" : "5"
-  }, {
-    "range" : "15",
-    "domain" : "63",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "62"
-  }, {
-    "range" : "15",
-    "domain" : "65",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "64"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#refersTo",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "35",
-    "label" : {
-      "IRI-based" : "refersTo",
-      "en" : "refers to"
-    },
-    "domain" : "55",
-    "comment" : {
-      "en" : "Represents the relation of a learning step to the module it refers to."
+      "en" : "Relates media to a module that references it."
     },
     "attributes" : [ "object" ],
-    "id" : "66"
+    "id" : "50"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#provides",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#asString",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "15",
+    "range" : "51",
     "label" : {
-      "IRI-based" : "provides",
-      "en" : "provides"
+      "IRI-based" : "asString",
+      "en" : "as string"
     },
-    "domain" : "13",
+    "domain" : "37",
     "comment" : {
-      "en" : "Represents the relation of an event to media resources it provides."
+      "en" : "Provides a string lexicalization or label for a resource."
     },
-    "attributes" : [ "object" ],
-    "id" : "69"
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "52"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasRecomended",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "44",
-    "label" : {
-      "IRI-based" : "hasRecomended",
-      "en" : "has recommended audience"
-    },
-    "domain" : "15",
-    "comment" : {
-      "en" : "Represents the relation of a media resource to an intended audience it is recommended for."
-    },
-    "attributes" : [ "object" ],
-    "id" : "70"
-  }, {
-    "range" : "15",
-    "domain" : "72",
+    "range" : "36",
+    "domain" : "54",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "71"
-  }, {
-    "range" : "15",
-    "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "73"
-  }, {
-    "range" : "15",
-    "domain" : "75",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "74"
-  }, {
-    "range" : "15",
-    "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "76"
+    "id" : "53"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasLearningStep",
+    "inverse" : "57",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "55",
+    "range" : "40",
     "label" : {
       "IRI-based" : "hasLearningStep",
       "en" : "has learning step"
     },
-    "domain" : "21",
+    "domain" : "25",
     "comment" : {
       "en" : "Represents the relation of a learning path to a learning step that it contains."
     },
     "attributes" : [ "object" ],
-    "id" : "77"
-  }, {
-    "range" : "55",
-    "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "78"
-  }, {
-    "range" : "55",
-    "domain" : "56",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "79"
-  }, {
-    "range" : "15",
-    "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "80"
-  }, {
-    "range" : "82",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "81"
+    "id" : "56"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#broaderThan",
+    "inverse" : "59",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "4",
+    "range" : "36",
     "label" : {
       "IRI-based" : "broaderThan",
       "en" : "broader than"
     },
-    "domain" : "4",
+    "domain" : "36",
     "comment" : {
       "en" : "Represents the relation of a topic to a broader (more general) topic."
     },
     "attributes" : [ "object" ],
-    "id" : "83"
+    "id" : "58"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#assumesPersona",
+    "inverse" : "62",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "28",
+    "range" : "39",
     "label" : {
       "IRI-based" : "assumesPersona",
       "en" : "assumes persona"
     },
-    "domain" : "18",
+    "domain" : "61",
     "comment" : {
       "en" : "Represents the relation of a person to a persona role they assume."
     },
     "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isThemeOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "isThemeOf",
+      "en" : "is theme of"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "Relates a theme to a module organized under it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasAuthor",
+    "inverse" : "46",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasAuthor",
+      "en" : "has author"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to its author."
+    },
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasModule",
+    "inverse" : "66",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "hasModule",
+      "en" : "has module"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the relation of referring a curriculum to a module that is part of that curriculum."
+    },
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#coversTopic",
+    "inverse" : "69",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "coversTopic",
+      "en" : "covers topic"
+    },
+    "domain" : "55",
+    "comment" : {
+      "en" : "Represents the relation of a module or media resource to a topic it covers."
+    },
+    "attributes" : [ "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "https://id.cfainstitute.org/ns/setsRequirementsFor",
+    "baseIri" : "https://id.cfainstitute.org/ns",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "setsRequirementsFor"
+    },
+    "superproperty" : [ "71" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#narrowerThan",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "narrowerThan",
+      "en" : "narrower than"
+    },
+    "domain" : "36",
+    "comment" : {
+      "en" : "Represents the relation of a topic to a narrower (more specific) topic."
+    },
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasType",
+    "inverse" : "75",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasType",
+      "en" : "has type"
+    },
+    "domain" : "39",
+    "comment" : {
+      "en" : "Represents the relation of a persona to its persona type."
+    },
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#scopes",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "scopes",
+      "en" : "scopes"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Relates a curriculum to a learning path that it scopes."
+    },
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "range" : "14",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "40",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://id.cfainstitute.org/ns/measures",
+    "baseIri" : "https://id.cfainstitute.org/ns",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "measures"
+    },
+    "superproperty" : [ "71" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "40",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "82",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasLevel",
+    "inverse" : "86",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "hasLevel",
+      "en" : "has level"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Represents the relation of a module to its difficulty level."
+    },
+    "attributes" : [ "object" ],
     "id" : "84"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasNextLearningStep",
+    "inverse" : "88",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "hasNextLearningStep",
+      "en" : "has next learning step"
+    },
+    "domain" : "40",
+    "comment" : {
+      "en" : "Represents the relation of a learning step to the next learning step in the sequence."
+    },
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "range" : "2",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
+    "range" : "14",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "9",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#assumesAuthorship",
+    "inverse" : "94",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "assumesAuthorship",
+      "en" : "assumes authorship"
+    },
+    "domain" : "61",
+    "comment" : {
+      "en" : "Represents the relation of a person to an author role they assume."
+    },
+    "attributes" : [ "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isReferredToBy",
+    "inverse" : "96",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "isReferredToBy",
+      "en" : "is referred to by"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Relates a module to a learning step that refers to it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "95"
+  }, {
+    "range" : "23",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "21",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isLanguageOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isLanguageOf",
+      "en" : "is language of"
+    },
+    "domain" : "100",
+    "comment" : {
+      "en" : "Relates a language to media expressed in that language."
+    },
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "range" : "1",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "29",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "12",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "16",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "4",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "23",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#determines",
+    "inverse" : "108",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "determines",
+      "en" : "determines"
+    },
+    "domain" : "39",
+    "comment" : {
+      "en" : "Represents the relation of a persona to the learning path it determines."
+    },
+    "attributes" : [ "object" ],
+    "id" : "107"
+  }, {
+    "range" : "11",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "9",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isLearningStepOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "isLearningStepOf",
+      "en" : "is learning step of"
+    },
+    "domain" : "40",
+    "comment" : {
+      "en" : "Relates a learning step to the learning path that contains it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#related",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "related",
+      "en" : "related"
+    },
+    "domain" : "36",
+    "subproperty" : [ "111", "112", "79", "70", "113", "114" ],
+    "comment" : {
+      "en" : "Relates two topics that are associated without asserting a hierarchical relationship."
+    },
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isAuthorshipOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "isAuthorshipOf",
+      "en" : "is authorship of"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "Relates an author role to the person who assumes it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "94"
+  }, {
+    "range" : "12",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "16",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "21",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "11",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "range" : "9",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "29",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "23",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "4",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "31",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "23",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "iri" : "https://id.cfainstitute.org/ns/contrastsWith",
+    "baseIri" : "https://id.cfainstitute.org/ns",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "contrastsWith"
+    },
+    "superproperty" : [ "71" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "16",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "1",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#refersTo",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "refersTo",
+      "en" : "refers to"
+    },
+    "domain" : "40",
+    "comment" : {
+      "en" : "Represents the relation of a learning step to the module it refers to."
+    },
+    "attributes" : [ "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#provides",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "provides",
+      "en" : "provides"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "Represents the relation of an event to media resources it provides."
+    },
+    "attributes" : [ "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasRecomended",
+    "inverse" : "130",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "hasRecomended",
+      "en" : "has recommended audience"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to an intended audience it is recommended for."
+    },
+    "attributes" : [ "object" ],
+    "id" : "129"
+  }, {
+    "range" : "16",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "1",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "21",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isProvidedBy",
+    "inverse" : "128",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isProvidedBy",
+      "en" : "is provided by"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Relates media to an event that provides it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "135"
+  }, {
+    "range" : "21",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isProfessionOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "isProfessionOf",
+      "en" : "is profession of"
+    },
+    "domain" : "37",
+    "comment" : {
+      "en" : "Relates a profession to a persona associated with it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isCoveredBy",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "isCoveredBy",
+      "en" : "is covered by"
+    },
+    "domain" : "36",
+    "comment" : {
+      "en" : "Relates a topic to media or modules that cover it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "69"
+  }, {
+    "range" : "12",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "29",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "23",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "16",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasName",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "87",
+    "range" : "43",
     "label" : {
       "IRI-based" : "hasName",
       "en" : "has name"
     },
-    "domain" : "16",
+    "domain" : "19",
     "comment" : {
       "en" : "Provides a human-readable name string for a resource."
     },
     "attributes" : [ "datatype" ],
-    "id" : "86"
+    "id" : "142"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#asString",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "90",
+    "range" : "41",
     "label" : {
       "IRI-based" : "asString",
       "en" : "as string"
     },
     "cardinality" : "1",
-    "domain" : "89",
+    "domain" : "35",
     "comment" : {
       "en" : "Provides a string lexicalization or label for a resource."
     },
     "attributes" : [ "datatype" ],
-    "id" : "88"
+    "id" : "143"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasAuthor",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "hasAuthor",
-      "en" : "has author"
-    },
-    "domain" : "15",
-    "comment" : {
-      "en" : "Represents the relation of a media resource to its author."
-    },
-    "attributes" : [ "object" ],
-    "id" : "91"
+    "range" : "29",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasModule",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "35",
-    "label" : {
-      "IRI-based" : "hasModule",
-      "en" : "has module"
-    },
-    "domain" : "22",
-    "comment" : {
-      "en" : "Represents the relation of referring a curriculum to a module that is part of that curriculum."
-    },
-    "attributes" : [ "object" ],
-    "id" : "92"
+    "range" : "21",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
   }, {
-    "domain" : "41",
-    "range" : "94",
-    "id" : "93",
-    "label" : {
-      "IRI-based" : "39",
-      "undefined" : "is a"
-    }
+    "range" : "12",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
   }, {
-    "domain" : "41",
-    "range" : "68",
-    "id" : "95",
-    "label" : {
-      "IRI-based" : "38",
-      "undefined" : "is a"
-    }
+    "range" : "11",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "23",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "29",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "11",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasSubEvent",
+    "inverse" : "152",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "13",
+    "range" : "14",
     "label" : {
       "IRI-based" : "hasSubEvent",
       "en" : "has sub-event"
     },
-    "domain" : "13",
+    "domain" : "14",
     "comment" : {
       "en" : "Represents the relation of an event to a sub-event that is part of it."
     },
     "attributes" : [ "object" ],
-    "id" : "97"
+    "id" : "151"
   }, {
-    "iri" : "https://id.cfainstitute.org/ns/isDisclosedIn",
-    "baseIri" : "https://id.cfainstitute.org/ns",
-    "range" : "60",
-    "label" : {
-      "IRI-based" : "isDisclosedIn"
-    },
-    "superproperty" : [ "61" ],
-    "domain" : "60",
-    "attributes" : [ "external", "object" ],
-    "id" : "10"
-  }, {
-    "iri" : "https://id.cfainstitute.org/ns/isbasisFor",
-    "baseIri" : "https://id.cfainstitute.org/ns",
-    "range" : "60",
-    "label" : {
-      "IRI-based" : "isbasisFor"
-    },
-    "superproperty" : [ "61" ],
-    "domain" : "60",
-    "attributes" : [ "external", "object" ],
-    "id" : "6"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#belongTo",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "85",
-    "label" : {
-      "IRI-based" : "belongTo",
-      "en" : "belongs to"
-    },
-    "domain" : "35",
-    "comment" : {
-      "en" : "Represents the relation of a module to the category it belongs to."
-    },
-    "attributes" : [ "object" ],
-    "id" : "99"
-  }, {
-    "iri" : "https://id.cfainstitute.org/ns/influences",
-    "baseIri" : "https://id.cfainstitute.org/ns",
-    "range" : "60",
-    "label" : {
-      "IRI-based" : "influences"
-    },
-    "superproperty" : [ "61" ],
-    "domain" : "60",
-    "attributes" : [ "external", "object" ],
-    "id" : "11"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#coversTopic",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "coversTopic",
-      "en" : "covers topic"
-    },
-    "domain" : "96",
-    "comment" : {
-      "en" : "Represents the relation of a module or media resource to a topic it covers."
-    },
-    "attributes" : [ "object" ],
-    "id" : "100"
-  }, {
-    "iri" : "https://id.cfainstitute.org/ns/setsRequirementsFor",
-    "baseIri" : "https://id.cfainstitute.org/ns",
-    "range" : "60",
-    "label" : {
-      "IRI-based" : "setsRequirementsFor"
-    },
-    "superproperty" : [ "61" ],
-    "domain" : "60",
-    "attributes" : [ "external", "object" ],
-    "id" : "9"
-  }, {
-    "range" : "13",
-    "domain" : "103",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "102"
-  }, {
-    "range" : "13",
-    "domain" : "12",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "104"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#narrowerThan",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "narrowerThan",
-      "en" : "narrower than"
-    },
+    "range" : "16",
     "domain" : "4",
-    "comment" : {
-      "en" : "Represents the relation of a topic to a narrower (more specific) topic."
-    },
-    "attributes" : [ "object" ],
-    "id" : "105"
-  }, {
-    "range" : "15",
-    "domain" : "53",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "106"
+    "id" : "153"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasMediaSourceLink",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "98",
-    "label" : {
-      "IRI-based" : "hasMediaSourceLink",
-      "en" : "has media source link"
-    },
-    "domain" : "15",
-    "comment" : {
-      "en" : "Provides the source link or URL string for a media resource."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "107"
-  }, {
-    "range" : "15",
-    "domain" : "109",
+    "range" : "1",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "108"
-  }, {
-    "range" : "13",
-    "domain" : "101",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "110"
-  }, {
-    "range" : "15",
-    "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "111"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasPreviousLearningStep",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "55",
-    "label" : {
-      "IRI-based" : "hasPreviousLearningStep",
-      "en" : "has previous learning step"
-    },
-    "domain" : "55",
-    "comment" : {
-      "en" : "Represents the relation of a learning step to the previous learning step in the sequence."
-    },
-    "attributes" : [ "object" ],
-    "id" : "113"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasModule",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "35",
-    "label" : {
-      "IRI-based" : "hasModule",
-      "en" : "has module"
-    },
-    "domain" : "22",
-    "comment" : {
-      "en" : "Represents the relation of referring a curriculum to a module that is part of that curriculum."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "114"
-  }, {
-    "iri" : "https://id.cfainstitute.org/ns/addresses",
-    "baseIri" : "https://id.cfainstitute.org/ns",
-    "range" : "41",
-    "label" : {
-      "IRI-based" : "addresses"
-    },
-    "superproperty" : [ "61" ],
-    "domain" : "22",
-    "attributes" : [ "external", "someValues", "object" ],
-    "id" : "115"
-  }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTitle",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "117",
-    "label" : {
-      "IRI-based" : "hasTitle",
-      "en" : "has title"
-    },
-    "domain" : "22",
-    "comment" : {
-      "en" : "Provides a title string for a resource."
-    },
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "116"
+    "id" : "154"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#provides",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "15",
+    "range" : "2",
     "label" : {
       "IRI-based" : "provides",
       "en" : "provides"
     },
-    "domain" : "13",
+    "domain" : "14",
     "comment" : {
       "en" : "Represents the relation of an event to media resources it provides."
     },
     "attributes" : [ "someValues", "object" ],
-    "id" : "118"
+    "id" : "155"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#scopedBy",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isDeterminedBy",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "22",
+    "range" : "39",
     "label" : {
-      "IRI-based" : "scopedBy",
-      "en" : "scoped by"
+      "IRI-based" : "isDeterminedBy",
+      "en" : "is determined by"
     },
-    "domain" : "21",
+    "domain" : "25",
     "comment" : {
-      "en" : "Represents the relation of a learning path to the curriculum that scopes it."
+      "en" : "Relates a learning path to the persona that determines it."
     },
     "attributes" : [ "someValues", "object" ],
-    "id" : "119"
+    "id" : "157"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasLearningStep",
+    "inverse" : "57",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "55",
+    "range" : "40",
     "label" : {
       "IRI-based" : "hasLearningStep",
       "en" : "has learning step"
     },
-    "domain" : "21",
+    "domain" : "25",
     "comment" : {
       "en" : "Represents the relation of a learning path to a learning step that it contains."
     },
     "attributes" : [ "someValues", "object" ],
-    "id" : "120"
+    "id" : "158"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#determines",
-    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "28",
+    "iri" : "https://id.cfainstitute.org/ns/isDisclosedIn",
+    "baseIri" : "https://id.cfainstitute.org/ns",
+    "range" : "44",
     "label" : {
-      "IRI-based" : "determines",
-      "en" : "determines"
+      "IRI-based" : "isDisclosedIn"
     },
-    "domain" : "21",
-    "comment" : {
-      "en" : "Represents the relation of a persona to the learning path it determines."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "121"
+    "superproperty" : [ "71" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "113"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasLanguage",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTitle",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "50",
+    "range" : "156",
     "label" : {
-      "IRI-based" : "hasLanguage",
-      "en" : "has language"
+      "IRI-based" : "hasTitle",
+      "en" : "has title"
     },
-    "domain" : "15",
+    "domain" : "26",
     "comment" : {
-      "en" : "Represents the relation of a media resource to the language it is in."
+      "en" : "Provides a title string for a resource."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "159"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTheme",
+    "inverse" : "63",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasTheme",
+      "en" : "has theme"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Relates a module to a theme that organizes its content."
     },
     "attributes" : [ "object" ],
-    "id" : "122"
+    "id" : "160"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isRecommendedFor",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isRecommendedFor",
+      "en" : "is recommended for"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Relates an audience to media recommended for it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasModule",
+    "inverse" : "66",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "hasModule",
+      "en" : "has module"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the relation of referring a curriculum to a module that is part of that curriculum."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "161"
+  }, {
+    "iri" : "https://id.cfainstitute.org/ns/addresses",
+    "baseIri" : "https://id.cfainstitute.org/ns",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "addresses",
+      "en" : "addresses"
+    },
+    "domain" : "26",
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "23",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "23",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasName",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "124",
+    "range" : "165",
     "label" : {
       "IRI-based" : "hasName",
       "en" : "has name"
     },
-    "domain" : "16",
+    "domain" : "19",
     "comment" : {
       "en" : "Provides a human-readable name string for a resource."
     },
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "123"
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "166"
+  }, {
+    "range" : "21",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "12",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://id.cfainstitute.org/ns/isbasisFor",
+    "baseIri" : "https://id.cfainstitute.org/ns",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "isbasisFor"
+    },
+    "superproperty" : [ "71" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "112"
+  }, {
+    "range" : "21",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "23",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#belongTo",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "belongTo",
+      "en" : "belongs to"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Represents the relation of a module to the category it belongs to."
+    },
+    "attributes" : [ "object" ],
+    "id" : "171"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isDeterminedBy",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "isDeterminedBy",
+      "en" : "is determined by"
+    },
+    "domain" : "25",
+    "comment" : {
+      "en" : "Relates a learning path to the persona that determines it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isPersonaOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "isPersonaOf",
+      "en" : "is persona of"
+    },
+    "domain" : "39",
+    "comment" : {
+      "en" : "Relates a persona role to the person who assumes it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "https://id.cfainstitute.org/ns/influences",
+    "baseIri" : "https://id.cfainstitute.org/ns",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "influences"
+    },
+    "superproperty" : [ "71" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "21",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "12",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "23",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "21",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasMediaSourceLink",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "hasMediaSourceLink",
+      "en" : "has media source link"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Provides the source link or URL string for a media resource."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "176"
+  }, {
+    "range" : "12",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "16",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "23",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "13",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasType",
+    "inverse" : "75",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "32",
+    "range" : "38",
     "label" : {
       "IRI-based" : "hasType",
       "en" : "has type"
     },
-    "domain" : "28",
+    "domain" : "39",
     "comment" : {
       "en" : "Represents the relation of a persona to its persona type."
     },
-    "attributes" : [ "object" ],
-    "id" : "125"
+    "attributes" : [ "someValues", "object" ],
+    "id" : "181"
   }, {
-    "iri" : "https://id.cfainstitute.org/ns/measures",
-    "baseIri" : "https://id.cfainstitute.org/ns",
-    "range" : "60",
+    "range" : "83",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "83",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isLevelOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "33",
     "label" : {
-      "IRI-based" : "measures"
+      "IRI-based" : "isLevelOf",
+      "en" : "is level of"
     },
-    "superproperty" : [ "61" ],
-    "domain" : "60",
-    "attributes" : [ "external", "object" ],
-    "id" : "7"
+    "domain" : "85",
+    "comment" : {
+      "en" : "Relates a difficulty level to a module assigned that level."
+    },
+    "attributes" : [ "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#assumesPersona",
+    "inverse" : "62",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "assumesPersona",
+      "en" : "assumes persona"
+    },
+    "domain" : "61",
+    "comment" : {
+      "en" : "Represents the relation of a person to a persona role they assume."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "184"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasPreviousLearningStep",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "hasPreviousLearningStep",
+      "en" : "has previous learning step"
+    },
+    "domain" : "40",
+    "comment" : {
+      "en" : "Represents the relation of a learning step to the previous learning step in the sequence."
+    },
+    "attributes" : [ "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isPersonaOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "isPersonaOf",
+      "en" : "is persona of"
+    },
+    "domain" : "39",
+    "comment" : {
+      "en" : "Relates a persona role to the person who assumes it."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "185"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#assumesAuthorship",
+    "inverse" : "94",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "assumesAuthorship",
+      "en" : "assumes authorship"
+    },
+    "domain" : "61",
+    "comment" : {
+      "en" : "Represents the relation of a person to an author role they assume."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "186"
+  }, {
+    "range" : "4",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "9",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "11",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "29",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "1",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "16",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "12",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "21",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasLanguage",
+    "inverse" : "99",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "hasLanguage",
+      "en" : "has language"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to the language it is in."
+    },
+    "attributes" : [ "object" ],
+    "id" : "195"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isSubEventOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "isSubEventOf",
+      "en" : "is sub-event of"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "Relates a sub-event to the event of which it is a part."
+    },
+    "attributes" : [ "object" ],
+    "id" : "152"
+  }, {
+    "range" : "18",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "31",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTheme",
+    "inverse" : "63",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasTheme",
+      "en" : "has theme"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Relates a module to a theme that organizes its content."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "198"
   }, {
     "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasLevel",
+    "inverse" : "86",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "30",
+    "range" : "85",
     "label" : {
       "IRI-based" : "hasLevel",
       "en" : "has level"
     },
-    "domain" : "35",
+    "domain" : "33",
     "comment" : {
       "en" : "Represents the relation of a module to its difficulty level."
     },
-    "attributes" : [ "object" ],
-    "id" : "126"
+    "attributes" : [ "someValues", "object" ],
+    "id" : "200"
   }, {
-    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasNextLearningStep",
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#coversTopic",
+    "inverse" : "69",
     "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
-    "range" : "55",
+    "range" : "36",
     "label" : {
-      "IRI-based" : "hasNextLearningStep",
-      "en" : "has next learning step"
+      "IRI-based" : "coversTopic",
+      "en" : "covers topic"
     },
-    "domain" : "55",
+    "domain" : "33",
     "comment" : {
-      "en" : "Represents the relation of a learning step to the next learning step in the sequence."
+      "en" : "Represents the relation of a module or media resource to a topic it covers."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "201"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasLanguage",
+    "inverse" : "99",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "hasLanguage",
+      "en" : "has language"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to the language it is in."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "202"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isModuleOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "isModuleOf",
+      "en" : "is module of"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Relates a module to the curriculum that contains it."
     },
     "attributes" : [ "object" ],
-    "id" : "127"
+    "id" : "66"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTitle",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "199",
+    "label" : {
+      "IRI-based" : "hasTitle",
+      "en" : "has title"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Provides a title string for a resource."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "204"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#references",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "references",
+      "en" : "references"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Represents the relation of a module (or other entity) to media resources that it references."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "205"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasTitle",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "hasTitle",
+      "en" : "has title"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Provides a title string for a resource."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "206"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasRecomended",
+    "inverse" : "130",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "hasRecomended",
+      "en" : "has recommended audience"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to an intended audience it is recommended for."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "207"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#isTypeOf",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "isTypeOf",
+      "en" : "is type of"
+    },
+    "domain" : "38",
+    "comment" : {
+      "en" : "Relates a persona type to a persona classified by it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#coversTopic",
+    "inverse" : "69",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "coversTopic",
+      "en" : "covers topic"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Represents the relation of a module or media resource to a topic it covers."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "209"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#scopedBy",
+    "inverse" : "27",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "scopedBy",
+      "en" : "scoped by"
+    },
+    "domain" : "25",
+    "comment" : {
+      "en" : "Represents the relation of a learning path to the curriculum that scopes it."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "210"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasMediaSourceLink",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "208",
+    "label" : {
+      "IRI-based" : "hasMediaSourceLink",
+      "en" : "has media source link"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Provides the source link or URL string for a media resource."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "211"
+  }, {
+    "iri" : "https://kastle-lab.org/currkg/lod/ontology#hasAuthor",
+    "inverse" : "46",
+    "baseIri" : "https://kastle-lab.org/currkg/lod/ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasAuthor",
+      "en" : "has author"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Represents the relation of a media resource to its author."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "212"
   } ]
 }
