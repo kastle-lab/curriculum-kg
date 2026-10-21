@@ -402,21 +402,25 @@ WHERE {
 
 ## Question 19
 
-**Competency Question:** How many modules belong to each category?
+**Competency Question:** What themes are addressed by each module?
+
 **SPARQL Query:**
 
 ```sparql
 PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
 PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?categoryName (COUNT(?module) AS ?moduleCount)
+```sparql
+SELECT ?module ?moduleTitle ?theme ?themeName
 WHERE {
-  ?module a currkg:Module ;
-          currkg:belongsToCategory ?category .
-  ?category currkg:asString ?categoryName .
+    ?module a currkg:Module ;
+            currkg:hasTitle ?moduleTitle ;
+            currkg:hasTheme ?theme .
+    ?theme currkg:asString ?themeName .
 }
-GROUP BY ?categoryName
+GROUP BY ?themeName
 ORDER BY DESC(?moduleCount)
 ```
 
@@ -436,5 +440,52 @@ WHERE {
             currkg:hasLevel ?level .
     
     ?level currkg:asString ?levelName .
+}
+```
+
+## Question 21 
+
+**Competency Question:** What are the preferred labels, alternative labels, and definitions of topics in the lower-level ontology?
+
+**SPARQL Query:**
+
+```sparql
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?topic ?prefLabel ?altLabel ?definition
+WHERE {
+    ?topic a currkg:Topic .
+    OPTIONAL { ?topic skos:prefLabel ?prefLabel . }
+    OPTIONAL { ?topic skos:altLabel ?altLabel . }
+    OPTIONAL { ?topic skos:definition ?definition . }
+}
+```
+
+## Question 22
+
+**Competency Question:**: Which media resources (such as videos) are recommended or by specific presentations?
+
+**SPARQL Query:**
+
+```sparql
+PREFIX currkg-r: <https://kastle-lab.org/currkg/lod/resource#>
+PREFIX currkg: <https://kastle-lab.org/currkg/lod/ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?presentation ?presentationTitle ?media ?mediaTitle ?mediaType
+WHERE {
+    
+    ?presentation a currkg:Presentation ;
+                  currkg:hasTitle ?presentationTitle ;
+                  currkg:hasRecomended ?media . 
+                  
+    ?media a currkg:Video ;
+           currkg:hasTitle ?mediaTitle ;
+           rdf:type ?mediaType .
+           
+    FILTER (?mediaType != currkg:Media)
 }
 ```
