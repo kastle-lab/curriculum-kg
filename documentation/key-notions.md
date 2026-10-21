@@ -14,10 +14,10 @@
     * Source Dataset(s): To be documented.
 
 * Theme
-    * Rationale: Represents a set of themes addressed by a curriculum and associated with a module.. 
+    * Rationale: Represents a set of themes addressed by a curriculum and associated with a module.
     * Connected Pattern: Part Whole (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
-    * Source Dataset(s): dssr
+    * Source Dataset(s): To be documented.
 
 * Curriculum
     * Rationale: Represents the set of modules that is scoped by the LearningPath of each Persona and is tied to a title that indicates the source of that curriculum.
