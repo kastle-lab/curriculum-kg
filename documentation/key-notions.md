@@ -7,11 +7,17 @@
         * https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name
     * Source Dataset(s): dssr, The KGC Open Knowledge Graph Curriculum
 
-* Category
-    * Rationale: Represents the different categories of the modules in the curriculum. 
+* Audience
+    * Rationale: Represents an audience that can be recommended by media.
+    * Connected Pattern: Agent Role (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/agentrole
+    * Source Dataset(s): To be documented.
+
+* Theme
+    * Rationale: Represents a set of themes addressed by a curriculum and associated with a module.
     * Connected Pattern: Part Whole (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
-    * Source Dataset(s): dssr
+    * Source Dataset(s): To be documented.
 
 * Curriculum
     * Rationale: Represents the set of modules that is scoped by the LearningPath of each Persona and is tied to a title that indicates the source of that curriculum.
@@ -45,11 +51,72 @@
         * https://archive.org/services/purl/domain/modular_ontology_design_library/reporting-event
     * Source Dataset(s): dssr, The KGC Open Knowledge Graph Curriculum
 
-* Module
-    * Rationale: Represents the different modules the curriculum is divided into.
+* WorkedExample
+    * Rationale: Represents a form of media.
     * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
-    * Source Dataset(s): dssr, The KGC Open Knowledge Graph Curriculum
+    * Source Dataset(s): To be documented.
+
+* Figure
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
+* Section
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
+* Formula
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
+* GlossaryItem
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
+* Table
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
+* CaseStudy
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
+* Transcript
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
+* Article
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
+* Video
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
+* Podcast
+    * Rationale: Represents a form of media.
+    * Connected Pattern: PartWhole (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/PartWhole
+    * Source Dataset(s): To be documented.
+
 
 * Person
     * Rationale: Represents the individual that is intenting to learn through the curriculum and that will be assuming a persona or an author in order to get a relevant learning path depending on the context. Person serves as an "Agent" assuming a role in this case.
@@ -61,6 +128,12 @@
 
 * Persona
     * Rationale: Represents the "category" the individual "falls in" in terms of end goal in their learning journey and relative background.
+    * Connected Pattern: Role-Dependent-Name (Modular Ontology Design Library (MODL))
+        * https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name
+    * Source Dataset(s): customized-curated
+
+* PersonaType
+    * Rationale: Represents the set of different persona types that are represented as strings.
     * Connected Pattern: Role-Dependent-Name (Modular Ontology Design Library (MODL))
         * https://archive.org/services/purl/domain/modular_ontology_design_library/role-dependent-name
     * Source Dataset(s): customized-curated

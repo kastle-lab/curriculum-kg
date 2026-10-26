@@ -2,7 +2,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<null> a prov:Entity;
+<https://kastle-lab.org/currkg/lod/ontology#> a prov:Entity;
 	 dc:title "CurriculumKG Ontology";
 	 prov:wasAttributedTo :agent0;
 	 prov:wasAttributedTo :agent1;
@@ -18,7 +18,7 @@
 	 prov:wasAttributedTo :agent11;
 	 prov:wasAttributedTo :agent12;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:specializationOf <https://edugate.cs.wright.edu/lod/ontology>;
+	 prov:specializationOf <https://kastle-lab.org/currkg/lod/ontology#>;
 	 prov:wasGeneratedAt "2025-06-06";
 .
 :agent0 a prov:Agent; foaf:name "Antrea Christou".

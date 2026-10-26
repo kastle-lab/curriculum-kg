@@ -6,17 +6,17 @@ The primary classes from CurrKG have direct equivalent classes in [PRO](https://
 
 | Curriculum KG Class | Alignment Relation | foaf |
 |--------------------|-----------------|-------------|
-| edu-ont:Author | subclass of | foaf:Agent |
-| edu-ont:Person | equivalent class | foaf:Person|
-|edu-ont:Category| sub-property of| foaf:Group |
-|edu-ont:Curriculum| sub-property of | foaf:Group |
-|edu-ont:Event| sub-property of | foaf:Group |
-|edu-ont:Media| sub-property of | foaf:Group |
-|edu-ont:Module| sub-property of | foaf:Group|
-|edu-ont:Persona| sub-property of | foaf:Group |
-|edu-ont:Topic| sub-property of | foaf:Group |
-| edu-ont:hasTitle | sub-property of | foaf:hasName|
-| edu-ont:hasName| equivalent class | foaf:hasName |
+| currkg:Author | subclass of | foaf:Agent |
+| currkg:Person | equivalent class | foaf:Person|
+|currkg:Category| sub-property of| foaf:Group |
+|currkg:Curriculum| sub-property of | foaf:Group |
+|currkg:Event| sub-property of | foaf:Group |
+|currkg:Media| sub-property of | foaf:Group |
+|currkg:Module| sub-property of | foaf:Group|
+|currkg:Persona| sub-property of | foaf:Group |
+|currkg:Topic| sub-property of | foaf:Group |
+| currkg:hasTitle | sub-property of | foaf:hasName|
+| currkg:hasName| equivalent class | foaf:hasName |
 
 -----
 
@@ -24,14 +24,14 @@ The primary classes from CurrKG have direct equivalent classes in [PRO](https://
 
 | Curriculum KG Class | Alignment Relation | datacite |
 |--------------------|-----------------|-------------|
-|edu-ont:Category| sub-property of| datacite:ResourceIdentifier |
-|edu-ont:Curriculum| sub-property of | datacite:ResourceIdentifier |
-|edu-ont:Event| sub-property of | datacite:ResourceIdentifier |
-|edu-ont:Media| sub-property of | datacite:ResourceIdentifier|
-|edu-ont:Module| sub-property of | datacite:ResourceIdentifier |
-|edu-ont:Persona| sub-property of | datacite:ResourceIdentifier |
-|edu-ont:Topic| sub-property of | datacite:ResourceIdentifier |
-| edu-ont:hasType| sub-property of | datacite:hasDescriptionType |
+|currkg:Category| sub-property of| datacite:ResourceIdentifier |
+|currkg:Curriculum| sub-property of | datacite:ResourceIdentifier |
+|currkg:Event| sub-property of | datacite:ResourceIdentifier |
+|currkg:Media| sub-property of | datacite:ResourceIdentifier|
+|currkg:Module| sub-property of | datacite:ResourceIdentifier |
+|currkg:Persona| sub-property of | datacite:ResourceIdentifier |
+|currkg:Topic| sub-property of | datacite:ResourceIdentifier |
+| currkg:hasType| sub-property of | datacite:hasDescriptionType |
 
 ---------
 
@@ -39,8 +39,8 @@ The primary classes from CurrKG have direct equivalent classes in [PRO](https://
 
 | Curriculum KG Class | Alignment Relation | fabio |
 |--------------------|-----------------|-------------|
-|edu-ont:Curriculum| sub-property of | fabio:subjectTerm |
-|edu-ont:Topic| sub-property of | fabio:subjectTerm, co:listItem |
+|currkg:Curriculum| sub-property of | fabio:subjectTerm |
+|currkg:Topic| sub-property of | fabio:subjectTerm, co:listItem |
 
 -----------
 
@@ -48,9 +48,9 @@ The primary classes from CurrKG have direct equivalent classes in [PRO](https://
 
 | Curriculum KG Class | Alignment Relation | co |
 |--------------------|-----------------|-------------|
-|edu-ont:LearningStep| sub-property of | co:listItem |
-|edu-ont:Level| sub-property of | co:listItem |
-|edu-ont:Topic| sub-property of | co:listItem |
+|currkg:LearningStep| sub-property of | co:listItem |
+|currkg:Level| sub-property of | co:listItem |
+|currkg:Topic| sub-property of | co:listItem |
 
 ------------
 
@@ -58,10 +58,10 @@ The primary classes from CurrKG have direct equivalent classes in [PRO](https://
 
 | Curriculum KG Class | Alignment Relation | mito |
 |--------------------|-----------------|-------------|
-| edu-ont:refersTo| sub-property of | mito:mentions |
-| edu-ont:refersTo| sub-property of | mito:mentions |
-| edu-ont:coversTopic| sub-property of | mito:hasMentionedEntity |
-| edu-ont:references| sub-property of | mito:mentions |
+| currkg:refersTo| sub-property of | mito:mentions |
+| currkg:refersTo| sub-property of | mito:mentions |
+| currkg:coversTopic| sub-property of | mito:hasMentionedEntity |
+| currkg:references| sub-property of | mito:mentions |
 
 ----------
 
@@ -69,7 +69,7 @@ The primary classes from CurrKG have direct equivalent classes in [PRO](https://
 
 | Curriculum KG Class | Alignment Relation | c4o |
 |--------------------|-----------------|-------------|
-| edu-ont:hasModule| sub-property of | c4o:hasContent |
+| currkg:hasModule| sub-property of | c4o:hasContent |
 
 ---------
 
@@ -77,8 +77,8 @@ The primary classes from CurrKG have direct equivalent classes in [PRO](https://
 
 | Curriculum KG Class | Alignment Relation | oa |
 |--------------------|-----------------|-------------|
-| edu-ont:hasAuthor| sub-property of | oa:annotatedBy |
-| edu-ont:scopedBy| sub-property of | oa:hasTarget |
+| currkg:hasAuthor| sub-property of | oa:annotatedBy |
+| currkg:scopedBy| sub-property of | oa:hasTarget |
 
 ----------
 
@@ -86,8 +86,8 @@ The primary classes from CurrKG have direct equivalent classes in [PRO](https://
 
 | Curriculum KG Class | Alignment Relation | pro |
 |--------------------|-----------------|-------------|
-| edu-ont:assumesAuthorship| sub-property of | pro:withRole |
-| edu-ont:assumesPersona| sub-property of | pro:withRole |
+| currkg:assumesAuthorship| sub-property of | pro:withRole |
+| currkg:assumesPersona| sub-property of | pro:withRole |
 
 
 
