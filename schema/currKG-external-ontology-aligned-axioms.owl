@@ -38,6 +38,10 @@ currkg:isNativeTo rdf:type owl:AnnotationProperty .
 <http://www.w3.org/2004/02/skos/core#broader> rdf:type owl:ObjectProperty .
 
 
+###  http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> rdf:type owl:ObjectProperty .
+
+
 ###  http://www.w3.org/2004/02/skos/core#inScheme
 <http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:ObjectProperty .
 
@@ -49,10 +53,6 @@ currkg:isNativeTo rdf:type owl:AnnotationProperty .
 ###  http://www.w3.org/2004/02/skos/core#related
 <http://www.w3.org/2004/02/skos/core#related> rdf:type owl:ObjectProperty ,
                                                        owl:SymmetricProperty .
-
-
-###  http://www.w3.org/2004/02/skos/core#topConcept
-<http://www.w3.org/2004/02/skos/core#topConcept> rdf:type owl:ObjectProperty .
 
 
 ###  https://id.cfainstitute.org/ns/addresses
@@ -124,6 +124,10 @@ currkg:broaderThan rdf:type owl:ObjectProperty ;
                    rdfs:range currkg:Topic ;
                    rdfs:comment "Represents the relation of a topic to a broader (more general) topic."@en ;
                    rdfs:label "broader than"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#contains
+currkg:contains rdf:type owl:ObjectProperty .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#coversTopic
@@ -236,6 +240,10 @@ currkg:hasType rdf:type owl:ObjectProperty ;
                rdfs:range currkg:PersonaType ;
                rdfs:comment "Represents the relation of a persona to its persona type."@en ;
                rdfs:label "has type"@en .
+
+
+###  https://kastle-lab.org/currkg/lod/ontology#isThemeOf
+currkg:isThemeOf rdf:type owl:ObjectProperty .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#narrowerThan
@@ -384,7 +392,7 @@ currkg:hasTitle rdf:type owl:DatatypeProperty ;
 ###  http://www.w3.org/2004/02/skos/core#ConceptScheme
 <http://www.w3.org/2004/02/skos/core#ConceptScheme> rdf:type owl:Class ;
                                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.w3.org/2004/02/skos/core#topConcept> ;
+                                                                      owl:onProperty <http://www.w3.org/2004/02/skos/core#hasTopConcept> ;
                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                       owl:onClass <http://www.w3.org/2004/02/skos/core#Concept>
                                                                     ] ,
@@ -396,6 +404,14 @@ currkg:hasTitle rdf:type owl:DatatypeProperty ;
                                                                       owl:onProperty <http://www.w3.org/2004/02/skos/core#prefLabel> ;
                                                                       owl:someValuesFrom xsd:string
                                                                     ] .
+
+
+###  https://kastle-lab.org/aplo/lod/ontology#aplo:EvaluationAsessmentExcercise
+<https://kastle-lab.org/aplo/lod/ontology#aplo:EvaluationAsessmentExcercise> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty currkg:contains ;
+                                                                                               owl:someValuesFrom currkg:Media
+                                                                                             ] .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Article
@@ -623,6 +639,10 @@ currkg:Level rdf:type owl:Class ;
 ###  https://kastle-lab.org/currkg/lod/ontology#Media
 currkg:Media rdf:type owl:Class ;
              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty currkg:contains ;
+                               owl:someValuesFrom currkg:Media
+                             ] ,
+                             [ rdf:type owl:Restriction ;
                                owl:onProperty currkg:coversTopic ;
                                owl:someValuesFrom currkg:Topic
                              ] ,
@@ -795,7 +815,11 @@ currkg:Table rdf:type owl:Class ;
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Theme
-currkg:Theme rdf:type owl:Class .
+currkg:Theme rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty currkg:isThemeOf ;
+                               owl:someValuesFrom currkg:Module
+                             ] .
 
 
 ###  https://kastle-lab.org/currkg/lod/ontology#Topic
